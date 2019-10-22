@@ -713,7 +713,7 @@ In this situation, there exist no 3D models, an the 6-DoF grasps are estimated f
 
 [Sergey Levine](https://people.eecs.berkeley.edu/~svlevine/)(UC Berkeley): Reinforcement Learning
 
-[Shuran Song]([https://shurans.github.io](https://shurans.github.io/))(Columbia University), 3D Deep Learning, Robotics
+[Shuran Song](https://shurans.github.io/)(Columbia University), 3D Deep Learning, Robotics
 
 [Silvio Savarese](http://cvgl.stanford.edu/silvio/)(Stanford University): Computer Vision
 
@@ -725,7 +725,7 @@ In this situation, there exist no 3D models, an the 6-DoF grasps are estimated f
 
 [Xiaogang Wang](http://www.ee.cuhk.edu.hk/~xgwang/)(Chinese University of Hong Kong): Deep Learning, Computer Vision 
 
-[Xiaozhi Chen]([https://xiaozhichen.github.io](https://xiaozhichen.github.io/))(DJI): Deep learning
+[Xiaozhi Chen](https://xiaozhichen.github.io/)(DJI): Deep learning
 
 [Yan Xinchen](https://sites.google.com/site/skywalkeryxc/)(Uber ATG): Deep Representation Learning, Generative Modeling
 
