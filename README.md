@@ -296,7 +296,7 @@ This kind of methods can be divided into four kinds, which are corresponding-bas
 
 ***2014:***
 
-**[ECCV]** Learning 6d object pose estimation using 3d object coordinate, [[paper](Learning 6d object pose estimation using 3d object coordinate)]
+**[ECCV]** Learning 6d object pose estimation using 3d object coordinate, [[paper](http://wwwpub.zih.tu-dresden.de/~cvweb/publications/papers/2014/PoseEstimationECCV2014.pdf)]
 
 **[ECCV]** Latent-class hough forests for 3d object detection and pose estimation, [[paper](https://labicvl.github.io/docs/pubs/Aly_ECCV_2014.pdf)]
 
@@ -312,13 +312,13 @@ This kind of methods can be divided into four kinds, which are corresponding-bas
 
 **[CVPR]** Normalized Object Coordinate Space for Category-Level 6D Object Pose and Size Estimation, [[paper](https://arxiv.org/abs/1901.02970)] [[code](https://github.com/hughw19/NOCS_CVPR2019)] 
 
-**[CVPR]** Densefusion: 6d object pose estimation by iterative dense fusion, [[paper](https://arxiv.org/abs/1901.04780)] [[code](Implicit 3D Orientation Learning for 6D Object Detection From RGB Images)]
+**[CVPR]** Densefusion: 6d object pose estimation by iterative dense fusion, [[paper](https://arxiv.org/abs/1901.04780)] [[code](https://github.com/j96w/DenseFusion)]
 
 **[arXiv]** Deep-6dpose: recovering 6d object pose from a single rgb image, [[paper](https://arxiv.org/abs/1901.04780)]
 
 ***2018:***
 
-**[ECCV]** Implicit 3D Orientation Learning for 6D Object Detection From RGB Images, [[paper](Implicit 3D Orientation Learning for 6D Object Detection From RGB Images)] [[code](Implicit 3D Orientation Learning for 6D Object Detection From RGB Images)]
+**[ECCV]** Implicit 3D Orientation Learning for 6D Object Detection From RGB Images, [[paper](https://arxiv.org/abs/1902.01275)] [[code](https://github.com/DLR-RM/AugmentedAutoencoder)]
 
 **[ECCV]** DeepIM:Deep Iterative Matching for 6D Pose Estimation
 [[paper](https://arxiv.org/abs/1804.00175)] [[code](https://github.com/liyi14/mx-DeepIM)]
