@@ -157,7 +157,7 @@ Most of this kind of methods estimate depth images from RGB images, and then con
 
 **[arXiv]** Task-Aware Monocular Depth Estimation for 3D Object Detection, [[paper](https://arxiv.org/abs/1909.07701)]
 
-**[CVPR]** Pseudo-LiDAR from Visual Depth Estimation: Bridging the Gap in 3D Object Detection for Autonomous Driving, [[paper](Pseudo-LiDAR from Visual Depth Estimation: Bridging the Gap in 3D Object Detection for Autonomous Driving)] [[code](Pseudo-LiDAR from Visual Depth Estimation: Bridging the Gap in 3D Object Detection for Autonomous Driving)] 
+**[CVPR]** Pseudo-LiDAR from Visual Depth Estimation: Bridging the Gap in 3D Object Detection for Autonomous Driving, [[paper](https://arxiv.org/abs/1812.07179)] [[code](https://github.com/mileyan/pseudo_lidar)] 
 
 **[AAAI]** MonoGRNet: A Geometric Reasoning Network for 3D Object Localization, [[paper](https://arxiv.org/abs/1811.10247)] [[code](https://github.com/Zengyi-Qin/MonoGRNet)]
 
