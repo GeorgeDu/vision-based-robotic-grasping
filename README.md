@@ -234,6 +234,8 @@ This kind of methods utilize both rgb images and depth images/point clouds. Ther
 
 ***2019:***
 
+**[arXiv]** GSPN: Generative Shape Proposal Network for 3D Instance Segmentation in Point Cloud, [[paper](https://arxiv.org/abs/1812.03320)]
+
 **[arXiv]** A survey on Deep Learning Advances on Different 3D Data Representations, [[paper](https://arxiv.org/abs/1808.01462)]
 
 **[CoRL]** The Best of Both Modes: Separately Leveraging RGB and Depth for Unseen Object Instance Segmentation, [[paper](https://arxiv.org/abs/1907.13236)] [[code](https://arxiv.org/abs/1907.13236)]
@@ -305,6 +307,12 @@ This kind of methods can be divided into four kinds, which are corresponding-bas
 ###### 1) Directly way
 
 ***2019:***
+
+**[arXiv]** Active 6D Multi-Object Pose Estimation in Cluttered Scenarios with Deep Reinforcement Learning, [[paper](https://arxiv.org/abs/1910.08811)]
+
+**[arXiv]** 6-PACK: Category-level 6D Pose Tracker with Anchor-Based Keypoints, [[paper](https://arxiv.org/abs/1910.10750)] [[code](https://github.com/j96w/6-PACK)]
+
+**[arXiv]** Accurate 6D Object Pose Estimation by Pose Conditioned Mesh Reconstruction, [[paper](https://arxiv.org/abs/1910.10653)]
 
 **[arXiv]** Learning Object Localization and 6D Pose Estimation from Simulation and Weakly Labeled Real Images, [[paper](https://arxiv.org/abs/1806.06888)]
 
@@ -380,6 +388,8 @@ The partial-view point cloud will be aligned to the complete shape in order to o
 ##### c. Deep learning-based methods
 
 ***2019:***
+
+**[arXiv]** Iterative Matching Point, [[paper](https://arxiv.org/abs/1910.10328)]
 
 **[arXiv]** Deep Closest Point: Learning Representations for Point Cloud Registration, [[paper](https://arxiv.org/abs/1905.03304)] [[code](https://github.com/WangYueFt/dcp)]
 
@@ -461,6 +471,8 @@ In this situation, there exist no 3D models, an the 6-DoF grasps are estimated f
 
 ***2019:***
 
+**[arXiv]** Deep Classification Network for Monocular Depth Estimation, [[paper](https://arxiv.org/abs/1910.10369)]
+
 **[ICCV]** Depth Completion from Sparse LiDAR Data with Depth-Normal Constraints, [[paper](https://arxiv.org/abs/1910.06727)]
 
 **[arXiv]** Image-based 3D Object Reconstruction: State-of-the-Art and Trends in the Deep Learning Era, [[paper](https://arxiv.org/abs/1906.06543)]
@@ -539,6 +551,8 @@ In this situation, there exist no 3D models, an the 6-DoF grasps are estimated f
 
 ***2019:***
 
+**[arXiv]** UniGrasp: Learning a Unified Model to Grasp with N-Fingered Robotic Hands, [[paper](https://arxiv.org/abs/1910.10900)]
+
 **[ScienceRobotics]** On the choice of grasp type and location when handing over an object, [[paper](https://robotics.sciencemag.org/content/4/27/eaau9757)]
 
 **[arXiv]** Solving Rubik's Cube with a Robot Hand, [[paper](https://arxiv.org/abs/1910.07113)]
@@ -607,6 +621,10 @@ In this situation, there exist no 3D models, an the 6-DoF grasps are estimated f
 
 ***2019:***
 
+**[arXiv]** Learning Deep Parameterized Skills from Demonstration for Re-targetable Visuomotor Control, [[paper](https://arxiv.org/abs/1910.10628)]
+
+**[arXiv]** Adversarial Skill Networks: Unsupervised Robot Skill Learning from Video, [[paper](https://arxiv.org/abs/1910.09430)]
+
 **[IROS]** Learning Actions from Human Demonstration Video for Robotic Manipulation, [[paper](https://arxiv.org/abs/1909.04312)]
 
 **[RSSW]** Generative grasp synthesis from demonstration using parametric mixtures, [[paper](https://arxiv.org/abs/1906.11548)]
@@ -671,7 +689,7 @@ In this situation, there exist no 3D models, an the 6-DoF grasps are estimated f
 
 
 
-## 6. Experts:
+## 9. Experts:
 
 [Andy Zeng](http://andyzeng.github.io/)(Princeton University & Google Brain Robotics): 3D Deep Learning, Robotic Grasping
 
@@ -679,7 +697,7 @@ In this situation, there exist no 3D models, an the 6-DoF grasps are estimated f
 
 [Cewu Lu](http://mvig.sjtu.edu.cn/)(SJTU): Machine Vision
 
-[Charles Ruizhongtai Qi](https://web.stanford.edu/~rqi/)(Facebook Artificial Intelligence Research (FAIR)): 3D Deep Learning
+[Charles Ruizhongtai Qi](https://web.stanford.edu/~rqi/)(Waymo(Google)): 3D Deep Learning
 
 [Danfei Xu](https://cs.stanford.edu/~danfei/)(Stanford University): Robotics, Computer Vision
 
