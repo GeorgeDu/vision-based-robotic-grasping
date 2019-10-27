@@ -9,7 +9,7 @@ According to the kinds of grasp, the methods of vision-based robotic grasping ca
 
 **[MTI]** 2018-Review of Deep Learning Methods in Robotic Grasp Detection, [[paper](https://www.mdpi.com/2414-4088/2/3/57)]
 
-**[ToR]** 2016-Data-Driven Grasp Synthesis - A Survey, [[paper](Data-Driven Grasp Synthesis - A Survey)]
+**[ToR]** 2016-Data-Driven Grasp Synthesis - A Survey, [[paper](https://arxiv.org/abs/1309.2660)]
 
 **[RAS]** 2012-An overview of 3D object grasp synthesis algorithms - A Survey, [[paper](https://www.sciencedirect.com/science/article/abs/pii/S0921889011001485)]
 
@@ -94,7 +94,7 @@ This kind of methods utilized an indirectly way to obtain the grasp pose, which 
 
 [Dex-Net](https://berkeleyautomation.github.io/dex-net/#dexnet_2), a synthetic dataset of 6.7 million point clouds, grasps, and robust analytic grasp metrics generated from thousands of 3D models.
 
-[Jacquard Dataset]([https://jacquard.liris.cnrs.fr](https://jacquard.liris.cnrs.fr/)), Jacquard: A Large Scale Dataset for Robotic Grasp Detection” in *IEEE International Conference on Intelligent Robots and Systems*, 2018, [[paper](https://arxiv.org/abs/1803.11469)]
+[Jacquard Dataset](https://jacquard.liris.cnrs.fr), Jacquard: A Large Scale Dataset for Robotic Grasp Detection” in *IEEE International Conference on Intelligent Robots and Systems*, 2018, [[paper](https://arxiv.org/abs/1803.11469)]
 
 
 
