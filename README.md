@@ -106,6 +106,8 @@ In order to provide a better input to compute the oriented 2D box, or generate t
 
 ***2019:***
 
+**[ICCVW]** An Annotation Saved is an Annotation Earned: Using Fully Synthetic Training for Object Detection, [[paper](http://openaccess.thecvf.com/content_ICCVW_2019/papers/R6D/Hinterstoisser_An_Annotation_Saved_is_an_Annotation_Earned_Using_Fully_Synthetic_ICCVW_2019_paper.pdf)]
+
 **[arXiv]** Object Detection in 20 Years A Survey, [[paper](https://arxiv.org/abs/1905.05055)]
 
 ***2018:***
@@ -207,6 +209,8 @@ This kind of methods utilize both rgb images and depth images/point clouds. Ther
 
 ***2019:***
 
+**[ICCV]** Transferable Semi-Supervised 3D Object Detection From RGB-D Data, [[paper](http://openaccess.thecvf.com/content_ICCV_2019/papers/Tang_Transferable_Semi-Supervised_3D_Object_Detection_From_RGB-D_Data_ICCV_2019_paper.pdf)]
+
 **[arXiv]** Adaptive and Azimuth-Aware Fusion Network of Multimodal Local Features for 3D Object Detection, [[paper](https://arxiv.org/abs/1910.04392)]
 
 **[arXiv]** Frustum VoxNet for 3D object detection from RGB-D or Depth images, [[paper](https://arxiv.org/abs/1910.05483)]
@@ -233,6 +237,8 @@ This kind of methods utilize both rgb images and depth images/point clouds. Ther
 #### 2.1.2 3D instance segmentation
 
 ***2019:***
+
+**[ICCV]** Interpolated Convolutional Networks for 3D Point Cloud Understanding, [[paper](http://openaccess.thecvf.com/content_ICCV_2019/papers/Mao_Interpolated_Convolutional_Networks_for_3D_Point_Cloud_Understanding_ICCV_2019_paper.pdf)]
 
 **[arXiv]** GSPN: Generative Shape Proposal Network for 3D Instance Segmentation in Point Cloud, [[paper](https://arxiv.org/abs/1812.03320)]
 
@@ -308,6 +314,12 @@ This kind of methods can be divided into four kinds, which are corresponding-bas
 
 ***2019:***
 
+**[ICCV]** DPOD: 6D Pose Object Detector and Refiner, [[paper](http://openaccess.thecvf.com/content_ICCV_2019/html/Zakharov_DPOD_6D_Pose_Object_Detector_and_Refiner_ICCV_2019_paper.html)]
+
+**[ICCV]** Pix2Pose: Pixel-Wise Coordinate Regression of Objects for 6D Pose Estimation, [[paper](http://openaccess.thecvf.com/content_ICCV_2019/papers/Park_Pix2Pose_Pixel-Wise_Coordinate_Regression_of_Objects_for_6D_Pose_Estimation_ICCV_2019_paper.pdf)]
+
+**[ICCV]** Explaining the Ambiguity of Object Detection and 6D Pose From Visual Data, [[paper](http://openaccess.thecvf.com/content_ICCV_2019/papers/Manhardt_Explaining_the_Ambiguity_of_Object_Detection_and_6D_Pose_From_ICCV_2019_paper.pdf)]
+
 **[arXiv]** Active 6D Multi-Object Pose Estimation in Cluttered Scenarios with Deep Reinforcement Learning, [[paper](https://arxiv.org/abs/1910.08811)]
 
 **[arXiv]** 6-PACK: Category-level 6D Pose Tracker with Anchor-Based Keypoints, [[paper](https://arxiv.org/abs/1910.10750)] [[code](https://github.com/j96w/6-PACK)]
@@ -343,6 +355,8 @@ This kind of methods can be divided into four kinds, which are corresponding-bas
 
 ***2019:***
 
+**[ICCV]** CDPN: Coordinates-Based Disentangled Pose Network for Real-Time RGB-Based 6-DoF Object Pose Estimation, [[paper](http://openaccess.thecvf.com/content_ICCV_2019/html/Li_CDPN_Coordinates-Based_Disentangled_Pose_Network_for_Real-Time_RGB-Based_6-DoF_Object_ICCV_2019_paper.html)]
+
 **[CVPR]** PVNet: Pixel-wise Voting Network for 6DoF Pose Estimation, [[paper](https://arxiv.org/abs/1812.11788)] [[code](https://github.com/zju3dv/pvnet)]
 
 ***2018:***
@@ -356,6 +370,8 @@ This kind of methods can be divided into four kinds, which are corresponding-bas
 ___
 
 ***Datasets:***
+
+HomebrewedDB: RGB-D Dataset for 6D Pose Estimation of 3D Objects, ICCVW, 2019 [[paper](http://openaccess.thecvf.com/content_ICCVW_2019/papers/R6D/Kaskman_HomebrewedDB_RGB-D_Dataset_for_6D_Pose_Estimation_of_3D_Objects_ICCVW_2019_paper.pdf)]
 
 [YCB Datasets](http://www.ycbbenchmarks.com): The YCB Object and Model Set: Towards Common Benchmarks for Manipulation Research, IEEE International Conference on Advanced Robotics (ICAR), 2015 [[paper](http://dx.doi.org/10.1109/ICAR.2015.7251504)]
 
@@ -388,6 +404,8 @@ The partial-view point cloud will be aligned to the complete shape in order to o
 ##### c. Deep learning-based methods
 
 ***2019:***
+
+**[ICCV]** End-to-End CAD Model Retrieval and 9DoF Alignment in 3D Scans, [[paper](http://openaccess.thecvf.com/content_ICCV_2019/papers/Avetisyan_End-to-End_CAD_Model_Retrieval_and_9DoF_Alignment_in_3D_Scans_ICCV_2019_paper.pdf)]
 
 **[arXiv]** Iterative Matching Point, [[paper](https://arxiv.org/abs/1910.10328)]
 
@@ -471,6 +489,10 @@ In this situation, there exist no 3D models, an the 6-DoF grasps are estimated f
 
 ***2019:***
 
+**[ICCV]** Learning Joint 2D-3D Representations for Depth Completion, [[paper](http://openaccess.thecvf.com/content_ICCV_2019/papers/Chen_Learning_Joint_2D-3D_Representations_for_Depth_Completion_ICCV_2019_paper.pdf)]
+
+**[ICCV]** Deep Optics for Monocular Depth Estimation and 3D Object Detection, [[paper](http://openaccess.thecvf.com/content_ICCV_2019/papers/Chang_Deep_Optics_for_Monocular_Depth_Estimation_and_3D_Object_Detection_ICCV_2019_paper.pdf)]
+
 **[arXiv]** Deep Classification Network for Monocular Depth Estimation, [[paper](https://arxiv.org/abs/1910.10369)]
 
 **[ICCV]** Depth Completion from Sparse LiDAR Data with Depth-Normal Constraints, [[paper](https://arxiv.org/abs/1910.06727)]
@@ -544,6 +566,10 @@ In this situation, there exist no 3D models, an the 6-DoF grasps are estimated f
 **[CVPR]** PartNet: A Recursive Part Decomposition Network for Fine-grained and Hierarchical Shape Segmentation, [[paper](https://arxiv.org/abs/1903.00709)] [[code](https://github.com/FoggYu/PartNet)]
 
 **[C&G]** Autoencoder-based part clustering for part-in-whole retrieval of CAD models, [[paper](https://www.sciencedirect.com/science/article/abs/pii/S0097849319300391)]
+
+***2016:***
+
+**[SiggraphAsia]** A Scalable Active Framework for Region Annotation in 3D Shape Collections, [[paper](https://cs.stanford.edu/~ericyi/project_page/part_annotation/)]
 
 
 
