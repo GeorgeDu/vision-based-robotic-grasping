@@ -26,6 +26,8 @@ This kind of methods directly regress the oriented 2D box from RGB or RGB-D imag
 
 ***2019:***
 
+**[arXiv]** Form2Fit: Learning Shape Priors for Generalizable Assembly from Disassembly, [[paper](https://arxiv.org/abs/1910.13675)] [[code](https://form2fit.github.io/)]
+
 **[arXiv]** Efficient Fully Convolution Neural Network for Generating Pixel Wise Robotic Grasps With High Resolution Images, [[paper](https://arxiv.org/abs/1902.08950)]
 
 **[arXiv]** A Single Multi-Task Deep Neural Network with Post-Processing for Object Detection with Reasoning and Robotic Grasp Detection, [[paper](https://arxiv.org/abs/1909.07050)]
@@ -105,6 +107,8 @@ In order to provide a better input to compute the oriented 2D box, or generate t
 #### 1.3.1 2D detection:
 
 ***2019:***
+
+**[arXiv]** A Review of methods for Textureless Object Recognition, [[paper](https://arxiv.org/abs/1910.14255)]
 
 **[ICCVW]** An Annotation Saved is an Annotation Earned: Using Fully Synthetic Training for Object Detection, [[paper](http://openaccess.thecvf.com/content_ICCVW_2019/papers/R6D/Hinterstoisser_An_Annotation_Saved_is_an_Annotation_Earned_Using_Fully_Synthetic_ICCVW_2019_paper.pdf)]
 
@@ -238,6 +242,10 @@ This kind of methods utilize both rgb images and depth images/point clouds. Ther
 
 ***2019:***
 
+**[arXiv]** Addressing the Sim2Real Gap in Robotic 3D Object Classification, [[paper](https://arxiv.org/abs/1910.12585)]
+
+**[IROS]** LDLS: 3-D Object Segmentation Through Label Diffusion From 2-D Images, [[paper](https://arxiv.org/abs/1910.13955)]
+
 **[ICCV]** Interpolated Convolutional Networks for 3D Point Cloud Understanding, [[paper](http://openaccess.thecvf.com/content_ICCV_2019/papers/Mao_Interpolated_Convolutional_Networks_for_3D_Point_Cloud_Understanding_ICCV_2019_paper.pdf)]
 
 **[arXiv]** GSPN: Generative Shape Proposal Network for 3D Instance Segmentation in Point Cloud, [[paper](https://arxiv.org/abs/1812.03320)]
@@ -313,6 +321,8 @@ This kind of methods can be divided into four kinds, which are corresponding-bas
 ###### 1) Directly way
 
 ***2019:***
+
+**[IROSW]** Motion-Nets: 6D Tracking of Unknown Objects in Unseen Environments using RGB, [[paper](https://arxiv.org/abs/1910.13942)]
 
 **[ICCV]** DPOD: 6D Pose Object Detector and Refiner, [[paper](http://openaccess.thecvf.com/content_ICCV_2019/html/Zakharov_DPOD_6D_Pose_Object_Detector_and_Refiner_ICCV_2019_paper.html)]
 
@@ -429,7 +439,7 @@ In this situation, there exist no 3D models, an the 6-DoF grasps are estimated f
 
 **[arXiv]** Learning to Generate 6-DoF Grasp Poses with Reachability Awareness, [[paper](https://arxiv.org/abs/1910.06404)]
 
-**[CoRL]** S4G: Amodal Single-view Single-Shot SE(3) Grasp Detection in Cluttered Scenes, [[paper](http://cseweb.ucsd.edu/~haosu/papers/Grasp_Proposal.pdf)]
+**[CoRL]** S4G: Amodal Single-view Single-Shot SE(3) Grasp Detection in Cluttered Scenes, [[paper](https://arxiv.org/abs/1910.14218)]
 
 **[ICCV]** 6-DoF GraspNet: Variational Grasp Generation for Object Manipulation, [[paper](https://arxiv.org/abs/1905.10520)]
 
@@ -489,6 +499,8 @@ In this situation, there exist no 3D models, an the 6-DoF grasps are estimated f
 
 ***2019:***
 
+**[CVIU]** On the Benefit of Adversarial Training for Monocular Depth Estimation, [[paper](https://arxiv.org/abs/1910.13340)]
+
 **[ICCV]** Learning Joint 2D-3D Representations for Depth Completion, [[paper](http://openaccess.thecvf.com/content_ICCV_2019/papers/Chen_Learning_Joint_2D-3D_Representations_for_Depth_Completion_ICCV_2019_paper.pdf)]
 
 **[ICCV]** Deep Optics for Monocular Depth Estimation and 3D Object Detection, [[paper](http://openaccess.thecvf.com/content_ICCV_2019/papers/Chang_Deep_Optics_for_Monocular_Depth_Estimation_and_3D_Object_Detection_ICCV_2019_paper.pdf)]
@@ -517,7 +529,17 @@ In this situation, there exist no 3D models, an the 6-DoF grasps are estimated f
 
 ## 3. Grasp Transfer
 
-### 3.1 Grasp transfer between shape parts
+### 3.1 Task-oriented manipulation
+
+***2019:***
+
+**[arXiv]** KETO: Learning Keypoint Representations for Tool Manipulation, [[paper](https://arxiv.org/abs/1910.11977)]
+
+**[arXiv]** Learning Task-Oriented Grasping from Human Activity Datasets, [[paper](https://arxiv.org/abs/1910.11669)]
+
+
+
+### 3.2 Grasp transfer between shape parts
 
 ***2019:***
 
@@ -535,9 +557,9 @@ In this situation, there exist no 3D models, an the 6-DoF grasps are estimated f
 
 
 
-### 3.2 Non-rigid shape matching
+### 3.3 Non-rigid shape matching
 
-#### 3.2.1 Non-rigid registration
+#### 3.3.1 Non-rigid registration
 
 ***2018:***
 
@@ -549,7 +571,7 @@ In this situation, there exist no 3D models, an the 6-DoF grasps are estimated f
 
 
 
-#### 3.2.2 Shape correspondence
+#### 3.3.2 Shape correspondence
 
 ***2019:***
 
@@ -559,7 +581,7 @@ In this situation, there exist no 3D models, an the 6-DoF grasps are estimated f
 
 
 
-### 3.3 3D part segmentation
+### 3.4 3D part segmentation
 
 ***2019:***
 
@@ -659,15 +681,25 @@ In this situation, there exist no 3D models, an the 6-DoF grasps are estimated f
 
 **[arXiv]** Deep Imitation Learning for Complex Manipulation Tasks from Virtual Reality Teleoperation, [[paper](https://arxiv.org/abs/1710.04615)]
 
-***2017:***
-
-
-
 
 
 ## 8. Reinforcement Learning
 
 ***2019:***
+
+**[arXiv]** Dynamic Cloth Manipulation with Deep Reinforcement Learning, [[paper](https://arxiv.org/abs/1910.14475)]
+
+**[CoRL]** Relay Policy Learning: Solving Long-Horizon Tasks via Imitation and Reinforcement Learning, [[paper](https://arxiv.org/abs/1910.11956)] [[project](https://relay-policy-learning.github.io/)]
+
+**[CoRL]** Asynchronous Methods for Model-Based Reinforcement Learning, [[paper](https://arxiv.org/abs/1910.12453)]
+
+**[CoRL]** Entity Abstraction in Visual Model-Based Reinforcement Learning, [[paper](https://arxiv.org/abs/1910.12827)]
+
+**[CoRL]** Dynamics Learning with Cascaded Variational Inference for Multi-Step Manipulation, [[paper](https://arxiv.org/abs/1910.13395)] [[project](http://pair.stanford.edu/cavin/)]
+
+**[arXiv]** Contextual Imagined Goals for Self-Supervised Robotic Learning, [[paper](https://arxiv.org/abs/1910.11670)]
+
+**[arXiv]** Learning to Manipulate Deformable Objects without Demonstrations, [[paper](https://arxiv.org/abs/1910.13439)] [[project](https://sites.google.com/view/alternating-pick-and-place)]
 
 **[arXiv]** A Deep Learning Approach to Grasping the Invisible, [[paper](https://arxiv.org/abs/1909.04840)]
 
@@ -721,9 +753,13 @@ In this situation, there exist no 3D models, an the 6-DoF grasps are estimated f
 
 ## 9. Experts:
 
-[Andy Zeng](http://andyzeng.github.io/)(Princeton University & Google Brain Robotics): 3D Deep Learning, Robotic Grasping
+[Abhinav Gupta](http://www.cs.cmu.edu/~abhinavg/)(CMU & FAIR): Robotics
 
 [Andreas ten Pas](http://www.ccs.neu.edu/home/atp/)(Northeastern University): Robotic Grasping, Deep Learning, Simulation-based Planning
+
+[Andy Zeng](http://andyzeng.github.io/)(Princeton University & Google Brain Robotics): 3D Deep Learning, Robotic Grasping
+
+[Animesh Garg](https://www.cs.toronto.edu/~garg/)(University of Toronto): Robotics, Reinforcement Learning
 
 [Cewu Lu](http://mvig.sjtu.edu.cn/)(SJTU): Machine Vision
 
@@ -743,6 +779,8 @@ In this situation, there exist no 3D models, an the 6-DoF grasps are estimated f
 
 [Jianping Shi](https://shijianping.me/)(SenseTime): Computer Vision
 
+[Lerrel Pinto](https://cs.nyu.edu/~lp91/)(UC Berkeley): Robotics
+
 [Kaiming He](http://kaiminghe.com/)(Facebook AI Research (FAIR)): Deep Learning
 
 [Kai Xu](https://kevinkaixu.net/)(NUDT): Graphics, Geometry
@@ -754,6 +792,8 @@ In this situation, there exist no 3D models, an the 6-DoF grasps are estimated f
 [Pascal Fua](https://icwww.epfl.ch/~fua/)(INRIA): Computer Vision
 
 [Peter K. Allen.](http://www.cs.columbia.edu/~allen/)(Columbia University): Robotic Grasping, 3-D vision, Modeling, Medical robotics
+
+[Pieter Abbeel](https://people.eecs.berkeley.edu/~pabbeel/)(UC Berkeley): Artificial Intelligence, Advanced Robotics
 
 [Raquel Urtasun](http://www.cs.toronto.edu/~urtasun/)(Uber ATG & University of Toronto): AI for self-driving cars, Computer Vision, Robotics
 
