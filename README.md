@@ -659,6 +659,10 @@ In this situation, there exist no 3D models, an the 6-DoF grasps are estimated f
 
 **[arXiv]** Deep Imitation Learning for Complex Manipulation Tasks from Virtual Reality Teleoperation, [[paper](https://arxiv.org/abs/1710.04615)]
 
+***2017:***
+
+
+
 
 
 ## 8. Reinforcement Learning
