@@ -777,7 +777,31 @@ In this situation, there exist no 3D models, an the 6-DoF grasps are estimated f
 
 
 
-## 9. Experts:
+## 9. Control
+
+
+
+
+
+## 10. Visual servoing
+
+***2019:***
+
+**[ICRA]** Learning Driven Coarse-to-Fine Articulated Robot Tracking, [[paper](http://www.robots.ox.ac.uk/~mobile/drs/Papers/2019ICRA_rauch.pdf)]
+
+***2016:***
+
+**[ICRA]** Robot Arm Pose Estimation by Pixel-wise Regression of Joint Angles, [[paper](https://www.is.mpg.de/uploads_file/attachment/attachment/311/ICRA16_felix_small.pdf)]
+
+***2014:***
+
+**[ICRA]** Robot Arm Pose Estimation through Pixel-Wise Part Classification, [[paper](https://www.is.mpg.de/uploads_file/attachment/attachment/176/2014_ICRA_brhs_small.pdf)]
+
+
+
+
+
+## 11. Experts:
 
 [Abhinav Gupta](http://www.cs.cmu.edu/~abhinavg/)(CMU & FAIR): Robotics, machine learning
 
