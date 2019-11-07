@@ -256,27 +256,59 @@ This kind of methods utilize both rgb images and depth images/point clouds. Ther
 
 **[arXiv]** Addressing the Sim2Real Gap in Robotic 3D Object Classification, [[paper](https://arxiv.org/abs/1910.12585)]
 
+**[arXiv]** Learning Object Bounding Boxes for 3D Instance Segmentation on Point Clouds, [[paper](https://arxiv.org/pdf/1906.01140.pdf)]
+
 **[IROS]** LDLS: 3-D Object Segmentation Through Label Diffusion From 2-D Images, [[paper](https://arxiv.org/abs/1910.13955)]
 
-**[ICCV]** Interpolated Convolutional Networks for 3D Point Cloud Understanding, [[paper](http://openaccess.thecvf.com/content_ICCV_2019/papers/Mao_Interpolated_Convolutional_Networks_for_3D_Point_Cloud_Understanding_ICCV_2019_paper.pdf)]
-
 **[arXiv]** GSPN: Generative Shape Proposal Network for 3D Instance Segmentation in Point Cloud, [[paper](https://arxiv.org/abs/1812.03320)]
-
-**[arXiv]** A survey on Deep Learning Advances on Different 3D Data Representations, [[paper](https://arxiv.org/abs/1808.01462)]
 
 **[CoRL]** The Best of Both Modes: Separately Leveraging RGB and Depth for Unseen Object Instance Segmentation, [[paper](https://arxiv.org/abs/1907.13236)] [[code](https://arxiv.org/abs/1907.13236)]
 
 ***2018:***
 
-**[CVPR]** SPLATNet: Sparse Lattice Networks for Point Cloud Processing, [[paper](https://arxiv.org/abs/1802.08275)] [[code](https://github.com/NVlabs/splatnet)]
-
 **[arXiv]** PointSIFT: A SIFT-like Network Module for 3D Point Cloud Semantic Segmentation, [[paper](https://arxiv.org/abs/1807.00652)]
 
+
+
+#### 2.1.3 3D deep learning networks
+
+***2019:***
+
+**[ICCV]** DensePoint: Learning Densely Contextual Representation for Efficient Point Cloud Processing, [[paper](https://arxiv.org/pdf/1909.03669.pdf)] [[code](https://github.com/Yochengliu/DensePoint)]
+
+**[TOG]** Dynamic Graph CNN for Learning on Point Clouds, [[paper](https://arxiv.org/pdf/1801.07829.pdf)] [[code](https://github.com/WangYueFt/dgcnn)]
+
+**[MM]** SRINet: Learning Strictly Rotation-Invariant Representations for Point Cloud Classification and Segmentation, [[paper]([http://delivery.acm.org/10.1145/3360000/3351042/p980-sun.pdf?ip=43.230.89.66&id=3351042&acc=OPEN&key=4D4702B0C3E38B35%2E4D4702B0C3E38B35%2E4D4702B0C3E38B35%2E6D218144511F3437&__acm__=1573108095_aad4fea64ce1fa213d1708c51425046b](http://delivery.acm.org/10.1145/3360000/3351042/p980-sun.pdf?ip=43.230.89.66&id=3351042&acc=OPEN&key=4D4702B0C3E38B35.4D4702B0C3E38B35.4D4702B0C3E38B35.6D218144511F3437&__acm__=1573108095_aad4fea64ce1fa213d1708c51425046b))]
+
+**[CVPR]** PointConv: Deep Convolutional Networks on 3D Point Clouds, [[paper](https://arxiv.org/pdf/1811.07246.pdf)] [[code](https://github.com/DylanWusee/pointconv)]
+
+**[arXiv]** SAWNet: A Spatially Aware Deep Neural Network for 3D Point Cloud Processing, [[paper](https://arxiv.org/pdf/1905.07650v1.pdf)]
+
+**[arXiv]** PyramNet: Point Cloud Pyramid Attention Network and Graph Embedding Module for Classification and Segmentation, [[paper](https://arxiv.org/pdf/1906.03299.pdf)]
+
+**[ICCV]** Interpolated Convolutional Networks for 3D Point Cloud Understanding, [[paper](http://openaccess.thecvf.com/content_ICCV_2019/papers/Mao_Interpolated_Convolutional_Networks_for_3D_Point_Cloud_Understanding_ICCV_2019_paper.pdf)]
+
+**[arXiv]** A survey on Deep Learning Advances on Different 3D Data Representations, [[paper](https://arxiv.org/abs/1808.01462)]
+
+***2018:***
+
+**[NeurIPS]** PointCNN: Convolution On X-Transformed Points, [[paper](https://arxiv.org/abs/1801.07791)] [[code](https://github.com/yangyanli/PointCNN)]
+
+**[CVPR]** SO-Net: Self-Organizing Network for Point Cloud Analysis, [[paper](https://arxiv.org/abs/1803.04249)] [[code](https://github.com/lijx10/SO-Net)]
+
+**[CVPR]** SPLATNet: Sparse Lattice Networks for Point Cloud Processing, [[paper](https://arxiv.org/abs/1802.08275)] [[code](https://github.com/NVlabs/splatnet)]
+
+**[arXiv]** Point Convolutional Neural Networks by Extension Operators, [[paper](https://arxiv.org/abs/1803.10091)]
+
 ***2017:***
+
+**[ICCV]** Escape from Cells: Deep Kd-Networks for the Recognition of 3D Point Cloud Models, [[paper](https://arxiv.org/abs/1704.01222)]
 
 **[CVPR]** PointNet: Deep Learning on Point Sets for 3D Classification and Segmentation, [[paper](https://arxiv.org/abs/1612.00593)] [[code](https://github.com/charlesq34/pointnet)]
 
 **[NeurIPS]** PointNet++: Deep Hierarchical Feature Learning on Point Sets in a Metric Space, [[paper](https://github.com/charlesq34/pointnet2)] [[code](https://github.com/charlesq34/pointnet2)]
+
+**[CVPR]** SyncSpecCNN: Synchronized Spectral CNN for 3D Shape Segmentation, [[paper](https://arxiv.org/abs/1612.00606)]
 
 
 
@@ -333,6 +365,8 @@ This kind of methods can be divided into four kinds, which are corresponding-bas
 ###### 1) Directly way
 
 ***2019:***
+
+**[CoRL]** Scene-level Pose Estimation for Multiple Instances of Densely Packed Objects, [[paper](https://arxiv.org/abs/1910.04953)]
 
 **[IROS]** Learning to Estimate Pose and Shape of Hand-Held Objects from RGB Images, [[paper](https://arxiv.org/abs/1903.03340)]
 
@@ -428,6 +462,12 @@ The partial-view point cloud will be aligned to the complete shape in order to o
 ##### c. Deep learning-based methods
 
 ***2019:***
+
+**[arXiv]** DeepICP: An End-to-End Deep Neural Network for 3D Point Cloud Registration, [[paper](https://arxiv.org/pdf/1905.04153v2.pdf)]
+
+**[NeurIPS]** PRNet: Self-Supervised Learning for Partial-to-Partial Registration, [[paper](https://arxiv.org/abs/1910.12240)]
+
+**[CVPR]** PointNetLK: Robust & Efficient Point Cloud Registration using PointNet, [[paper](https://arxiv.org/abs/1903.05711)] [[code](https://github.com/hmgoforth/PointNetLK)]
 
 **[ICCV]** End-to-End CAD Model Retrieval and 9DoF Alignment in 3D Scans, [[paper](http://openaccess.thecvf.com/content_ICCV_2019/papers/Avetisyan_End-to-End_CAD_Model_Retrieval_and_9DoF_Alignment_in_3D_Scans_ICCV_2019_paper.pdf)]
 
@@ -777,17 +817,17 @@ In this situation, there exist no 3D models, an the 6-DoF grasps are estimated f
 
 
 
-## 9. Control
-
-
-
-
-
-## 10. Visual servoing
+## 9. Visual servoing
 
 ***2019:***
 
 **[ICRA]** Learning Driven Coarse-to-Fine Articulated Robot Tracking, [[paper](http://www.robots.ox.ac.uk/~mobile/drs/Papers/2019ICRA_rauch.pdf)]
+
+**[CVPR]** Craves: controlling robotic arm with a vision-based, economic system, [[paper](http://openaccess.thecvf.com/content_CVPR_2019/papers/Zuo_CRAVES_Controlling_Robotic_Arm_With_a_Vision-Based_Economic_System_CVPR_2019_paper.pdf)] [[code](https://github.com/zuoym15/craves.ai)]
+
+***2018:***
+
+**[arXiv]** Point-to-Pose Voting based Hand Pose Estimation using Residual Permutation Equivariant Layer, [[paper](https://arxiv.org/pdf/1812.02050.pdf)]
 
 ***2016:***
 
@@ -801,7 +841,7 @@ In this situation, there exist no 3D models, an the 6-DoF grasps are estimated f
 
 
 
-## 11. Experts:
+## 10. Experts:
 
 [Abhinav Gupta](http://www.cs.cmu.edu/~abhinavg/)(CMU & FAIR): Robotics, machine learning
 
@@ -886,3 +926,5 @@ In this situation, there exist no 3D models, an the 6-DoF grasps are estimated f
 [Yan Xinchen](https://sites.google.com/site/skywalkeryxc/)(Uber ATG): Deep Representation Learning, Generative Modeling
 
 [Yu Xiang](https://yuxng.github.io/)(Nvidia): Robotics, Computer Vision
+
+[Yue Wang](https://people.csail.mit.edu/yuewang/)(MIT): 3D Deep Learning
