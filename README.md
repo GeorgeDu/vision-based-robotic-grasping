@@ -272,15 +272,25 @@ This kind of methods utilize both rgb images and depth images/point clouds. Ther
 
 #### 2.1.3 3D deep learning networks
 
+Some of these works are cited from [awesome-point-cloud-analysis](https://github.com/Yochengliu/awesome-point-cloud-analysis) by [Yongcheng Liu](https://yochengliu.github.io/), thank him.
+
 ***2019:***
 
 **[ICCV]** DensePoint: Learning Densely Contextual Representation for Efficient Point Cloud Processing, [[paper](https://arxiv.org/pdf/1909.03669.pdf)] [[code](https://github.com/Yochengliu/DensePoint)]
 
 **[TOG]** Dynamic Graph CNN for Learning on Point Clouds, [[paper](https://arxiv.org/pdf/1801.07829.pdf)] [[code](https://github.com/WangYueFt/dgcnn)]
 
+**[ICCV]** DeepGCNs: Can GCNs Go as Deep as CNNs?, [[paper](https://arxiv.org/pdf/1904.03751.pdf)] [[code](https://github.com/lightaime/deep_gcns)]
+
+**[ICCV]** KPConv: Flexible and Deformable Convolution for Point Clouds, [[paper](https://arxiv.org/abs/1904.08889)] [[code](https://github.com/HuguesTHOMAS/KPConv)]
+
 **[MM]** SRINet: Learning Strictly Rotation-Invariant Representations for Point Cloud Classification and Segmentation, [[paper]([http://delivery.acm.org/10.1145/3360000/3351042/p980-sun.pdf?ip=43.230.89.66&id=3351042&acc=OPEN&key=4D4702B0C3E38B35%2E4D4702B0C3E38B35%2E4D4702B0C3E38B35%2E6D218144511F3437&__acm__=1573108095_aad4fea64ce1fa213d1708c51425046b](http://delivery.acm.org/10.1145/3360000/3351042/p980-sun.pdf?ip=43.230.89.66&id=3351042&acc=OPEN&key=4D4702B0C3E38B35.4D4702B0C3E38B35.4D4702B0C3E38B35.6D218144511F3437&__acm__=1573108095_aad4fea64ce1fa213d1708c51425046b))]
 
 **[CVPR]** PointConv: Deep Convolutional Networks on 3D Point Clouds, [[paper](https://arxiv.org/pdf/1811.07246.pdf)] [[code](https://github.com/DylanWusee/pointconv)]
+
+**[CVPR]** PointWeb: Enhancing Local Neighborhood Features for Point Cloud Processing, [[paper](http://jiaya.me/papers/pointweb_cvpr19.pdf)] [[code](https://github.com/hszhao/PointWeb)]
+
+**[CVPR]** Modeling Local Geometric Structure of 3D Point Clouds using Geo-CNN, [[paper](https://arxiv.org/pdf/1811.07782.pdf)] [[code](https://github.com/voidrank/Geo-CNN)]
 
 **[arXiv]** SAWNet: A Spatially Aware Deep Neural Network for 3D Point Cloud Processing, [[paper](https://arxiv.org/pdf/1905.07650v1.pdf)]
 
@@ -292,7 +302,11 @@ This kind of methods utilize both rgb images and depth images/point clouds. Ther
 
 ***2018:***
 
+**[TOG]** MCCNN: Monte Carlo Convolution for Learning on Non-Uniformly Sampled Point Clouds, [[paper](https://arxiv.org/abs/1806.01759)] [[code](https://github.com/viscom-ulm/MCCNN)]
+
 **[NeurIPS]** PointCNN: Convolution On X-Transformed Points, [[paper](https://arxiv.org/abs/1801.07791)] [[code](https://github.com/yangyanli/PointCNN)]
+
+**[CVPR]** Mining Point Cloud Local Structures by Kernel Correlation and Graph Pooling, [[paper](http://openaccess.thecvf.com/content_cvpr_2018/papers/Shen_Mining_Point_Cloud_CVPR_2018_paper.pdf)] [[code](http://www.merl.com/research/license#KCNet)]
 
 **[CVPR]** SO-Net: Self-Organizing Network for Point Cloud Analysis, [[paper](https://arxiv.org/abs/1803.04249)] [[code](https://github.com/lijx10/SO-Net)]
 
@@ -302,7 +316,7 @@ This kind of methods utilize both rgb images and depth images/point clouds. Ther
 
 ***2017:***
 
-**[ICCV]** Escape from Cells: Deep Kd-Networks for the Recognition of 3D Point Cloud Models, [[paper](https://arxiv.org/abs/1704.01222)]
+**[ICCV]** Escape from Cells: Deep Kd-Networks for the Recognition of 3D Point Cloud Models, [[paper](https://arxiv.org/abs/1704.01222)] [[code](https://github.com/fxia22/kdnet.pytorch)]
 
 **[CVPR]** PointNet: Deep Learning on Point Sets for 3D Classification and Segmentation, [[paper](https://arxiv.org/abs/1612.00593)] [[code](https://github.com/charlesq34/pointnet)]
 
