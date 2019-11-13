@@ -284,7 +284,7 @@ Some of these works are cited from [awesome-point-cloud-analysis](https://github
 
 **[ICCV]** KPConv: Flexible and Deformable Convolution for Point Clouds, [[paper](https://arxiv.org/abs/1904.08889)] [[code](https://github.com/HuguesTHOMAS/KPConv)]
 
-**[MM]** SRINet: Learning Strictly Rotation-Invariant Representations for Point Cloud Classification and Segmentation, [[paper]([http://delivery.acm.org/10.1145/3360000/3351042/p980-sun.pdf?ip=43.230.89.66&id=3351042&acc=OPEN&key=4D4702B0C3E38B35%2E4D4702B0C3E38B35%2E4D4702B0C3E38B35%2E6D218144511F3437&__acm__=1573108095_aad4fea64ce1fa213d1708c51425046b](http://delivery.acm.org/10.1145/3360000/3351042/p980-sun.pdf?ip=43.230.89.66&id=3351042&acc=OPEN&key=4D4702B0C3E38B35.4D4702B0C3E38B35.4D4702B0C3E38B35.6D218144511F3437&__acm__=1573108095_aad4fea64ce1fa213d1708c51425046b))]
+**[MM]** SRINet: Learning Strictly Rotation-Invariant Representations for Point Cloud Classification and Segmentation, [[paper](https://arxiv.org/abs/1911.02163)]
 
 **[CVPR]** PointConv: Deep Convolutional Networks on 3D Point Clouds, [[paper](https://arxiv.org/pdf/1811.07246.pdf)] [[code](https://github.com/DylanWusee/pointconv)]
 
@@ -489,7 +489,7 @@ The partial-view point cloud will be aligned to the complete shape in order to o
 
 **[arXiv]** Deep Closest Point: Learning Representations for Point Cloud Registration, [[paper](https://arxiv.org/abs/1905.03304)] [[code](https://github.com/WangYueFt/dcp)]
 
-**[arXiv]** PCRNet: Point Cloud Registration Network using PointNet Encoding, [[paper](https://arxiv.org/abs/1908.07906)]
+**[arXiv]** PCRNet: Point Cloud Registration Network using PointNet Encoding, [[paper](https://arxiv.org/abs/1908.07906)] [[code](https://github.com/vinits5/pcrnet)]
 
 ***2017:***
 
@@ -633,6 +633,10 @@ In this situation, there exist no 3D models, an the 6-DoF grasps are estimated f
 
 #### 3.3.1 Non-rigid registration
 
+***2019:***
+
+**[arXiv]** Non-Rigid Point Set Registration Networks, [[paper](https://arxiv.org/abs/1904.01428)] [[code](https://github.com/Lingjing324/PR-Net)]
+
 ***2018:***
 
 **[RAL]** Transferring Category-based Functional Grasping Skills by Latent Space Non-Rigid Registration, [[paper](https://arxiv.org/abs/1809.05390)]
@@ -652,6 +656,8 @@ In this situation, there exist no 3D models, an the 6-DoF grasps are estimated f
 **[arXiv]** Unsupervised cycle-consistent deformation for shape matching, [[paper](https://arxiv.org/abs/1907.03165)]
 
 **[arXiv]** ZoomOut: Spectral Upsampling for Efficient Shape Correspondence, [[paper](https://arxiv.org/abs/1904.07865)]
+
+**[C&G]** Partial correspondence of 3D shapes using properties of the nearest-neighbor field, [[paper](http://webee.technion.ac.il/~ayellet/Ps/19-ATZ.pdf)]
 
 
 
