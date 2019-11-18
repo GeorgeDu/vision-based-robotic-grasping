@@ -114,6 +114,8 @@ In order to provide a better input to compute the oriented 2D box, or generate t
 
 ***2019:***
 
+**[arXiv]** OpenLORIS-Object: A Dataset and Benchmark towards Lifelong Object Recognition, [[paper](https://arxiv.org/abs/1911.06487)] [[project](https://lifelong-robotic-vision.github.io/dataset/Data_Object-Recognition.html)]
+
 **[IROS]** Look Further to Recognize Better: Learning Shared Topics and Category-Specific Dictionaries for Open-Ended 3D Object Recognition, [[paper](https://arxiv.org/abs/1907.12924)]
 
 **[IROS]** Recurrent Convolutional Fusion for RGB-D Object Recognition, [[paper](https://arxiv.org/pdf/1806.01673.pdf)] [[code](https://github.com/MRLoghmani/rcfusion)]
@@ -221,6 +223,10 @@ This kind of methods purely utilize the 3D point cloud data.
 
 This kind of methods utilize both rgb images and depth images/point clouds. There exist early fusion methods, late fusion methods, and dense fusion methods.
 
+***2020:***
+
+**[AAAI]*** PI-RCNN: An Efficient Multi-sensor 3D Object Detector with Point-based Attentive Cont-conv Fusion Module, [[paper](https://arxiv.org/abs/1911.06084)]
+
 ***2019:***
 
 **[ICCV]** Transferable Semi-Supervised 3D Object Detection From RGB-D Data, [[paper](http://openaccess.thecvf.com/content_ICCV_2019/papers/Tang_Transferable_Semi-Supervised_3D_Object_Detection_From_RGB-D_Data_ICCV_2019_paper.pdf)]
@@ -250,9 +256,11 @@ This kind of methods utilize both rgb images and depth images/point clouds. Ther
 
 
 
-#### 2.1.2 3D instance segmentation
+#### 2.1.2 3D segmentation
 
 ***2019:***
+
+**[NeurIPS]** Exploiting Local and Global Structure for Point Cloud Semantic Segmentation with Contextual Point Representations, [[paper](https://arxiv.org/abs/1911.05277)]
 
 **[arXiv]** Addressing the Sim2Real Gap in Robotic 3D Object Classification, [[paper](https://arxiv.org/abs/1910.12585)]
 
@@ -275,6 +283,8 @@ This kind of methods utilize both rgb images and depth images/point clouds. Ther
 Some of these works are cited from [awesome-point-cloud-analysis](https://github.com/Yochengliu/awesome-point-cloud-analysis) by [Yongcheng Liu](https://yochengliu.github.io/), thank him.
 
 ***2019:***
+
+**[arXiv]** Kaolin: A PyTorch Library for Accelerating 3D Deep Learning Research, [[paper](https://arxiv.org/abs/1911.05063)] [[code](https://github.com/NVIDIAGameWorks/kaolin/)]
 
 **[ICCV]** DensePoint: Learning Densely Contextual Representation for Efficient Point Cloud Processing, [[paper](https://arxiv.org/pdf/1909.03669.pdf)] [[code](https://github.com/Yochengliu/DensePoint)]
 
@@ -427,6 +437,8 @@ This kind of methods can be divided into four kinds, which are corresponding-bas
 
 ***2019:***
 
+**[arXiv]** PVN3D: A Deep Point-wise 3D Keypoints Voting Network for 6DoF Pose Estimation, [[paper](https://arxiv.org/abs/1911.04231)]
+
 **[ICCV]** CDPN: Coordinates-Based Disentangled Pose Network for Real-Time RGB-Based 6-DoF Object Pose Estimation, [[paper](http://openaccess.thecvf.com/content_ICCV_2019/html/Li_CDPN_Coordinates-Based_Disentangled_Pose_Network_for_Real-Time_RGB-Based_6-DoF_Object_ICCV_2019_paper.html)]
 
 **[CVPR]** PVNet: Pixel-wise Voting Network for 6DoF Pose Estimation, [[paper](https://arxiv.org/abs/1812.11788)] [[code](https://github.com/zju3dv/pvnet)]
@@ -569,6 +581,10 @@ In this situation, there exist no 3D models, an the 6-DoF grasps are estimated f
 
 #### 2.3.4 Depth completion
 
+***2020:***
+
+**[AAAI]** CSPN++: Learning Context and Resource Aware Convolutional Spatial Propagation Networks for Depth Completion, [[paper](https://arxiv.org/abs/1911.05377)]
+
 ***2019:***
 
 **[CVIU]** On the Benefit of Adversarial Training for Monocular Depth Estimation, [[paper](https://arxiv.org/abs/1910.13340)]
@@ -679,6 +695,8 @@ In this situation, there exist no 3D models, an the 6-DoF grasps are estimated f
 
 ***2019:***
 
+**[arXiv]** HMTNet:3D Hand Pose Estimation from Single Depth Image Based on Hand Morphological Topology, [[paper](https://arxiv.org/abs/1911.04930)]
+
 **[arXiv]** UniGrasp: Learning a Unified Model to Grasp with N-Fingered Robotic Hands, [[paper](https://arxiv.org/abs/1910.10900)]
 
 **[ScienceRobotics]** On the choice of grasp type and location when handing over an object, [[paper](https://robotics.sciencemag.org/content/4/27/eaau9757)]
@@ -751,6 +769,8 @@ In this situation, there exist no 3D models, an the 6-DoF grasps are estimated f
 
 ***2019:***
 
+**[arXiv]** Motion Reasoning for Goal-Based Imitation Learning, [[paper](https://arxiv.org/abs/1911.05864)]
+
 **[IROS]** Robot Learning of Shifting Objects for Grasping in Cluttered Environments, [[paper](https://arxiv.org/abs/1907.11035)] [[code](https://github.com/pantor/learning-shifting-for-grasping)]
 
 **[arXiv]** Learning Deep Parameterized Skills from Demonstration for Re-targetable Visuomotor Control, [[paper](https://arxiv.org/abs/1910.10628)]
@@ -770,6 +790,10 @@ In this situation, there exist no 3D models, an the 6-DoF grasps are estimated f
 ## 8. Reinforcement Learning
 
 ***2019:***
+
+**[IROS]** Scaling Robot Supervision to Hundreds of Hours with RoboTurk: Robotic Manipulation Dataset through Human Reasoning and Dexterity, [[paper](https://arxiv.org/abs/1911.04052)]
+
+**[arXiv]** IRIS: Implicit Reinforcement without Interaction at Scale for Learning Control from Offline Robot Manipulation Data, [[paper](https://arxiv.org/abs/1911.05321)]
 
 **[arXiv]** Dynamic Cloth Manipulation with Deep Reinforcement Learning, [[paper](https://arxiv.org/abs/1910.14475)]
 
