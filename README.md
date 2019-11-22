@@ -225,7 +225,7 @@ This kind of methods utilize both rgb images and depth images/point clouds. Ther
 
 ***2020:***
 
-**[AAAI]*** PI-RCNN: An Efficient Multi-sensor 3D Object Detector with Point-based Attentive Cont-conv Fusion Module, [[paper](https://arxiv.org/abs/1911.06084)]
+**[AAAI]** PI-RCNN: An Efficient Multi-sensor 3D Object Detector with Point-based Attentive Cont-conv Fusion Module, [[paper](https://arxiv.org/abs/1911.06084)]
 
 ***2019:***
 
@@ -283,6 +283,8 @@ This kind of methods utilize both rgb images and depth images/point clouds. Ther
 Some of these works are cited from [awesome-point-cloud-analysis](https://github.com/Yochengliu/awesome-point-cloud-analysis) by [Yongcheng Liu](https://yochengliu.github.io/), thank him.
 
 ***2019:***
+
+**[arXiv]** Utility Analysis of Network Architectures for 3D Point Cloud Processing, [[paper](https://arxiv.org/abs/1911.09053)]
 
 **[arXiv]** Kaolin: A PyTorch Library for Accelerating 3D Deep Learning Research, [[paper](https://arxiv.org/abs/1911.05063)] [[code](https://github.com/NVIDIAGameWorks/kaolin/)]
 
@@ -389,6 +391,12 @@ This kind of methods can be divided into four kinds, which are corresponding-bas
 ###### 1) Directly way
 
 ***2019:***
+
+**[arXiv]** Single-Stage 6D Object Pose Estimation, [[paper](https://arxiv.org/abs/1911.08324)]
+
+**[arXiv]** Fast 3D Pose Refinement with RGB Images, [[paper](https://arxiv.org/pdf/1911.07347.pdf)]
+
+**[arXiv]** MaskedFusion: Mask-based 6D Object Pose Detection, [[paper](https://arxiv.org/abs/1911.07771)]
 
 **[CoRL]** Scene-level Pose Estimation for Multiple Instances of Densely Packed Objects, [[paper](https://arxiv.org/abs/1910.04953)]
 
@@ -612,6 +620,20 @@ In this situation, there exist no 3D models, an the 6-DoF grasps are estimated f
 **[ECCV]** Learning Shape Priors for Single-View 3D Completion and Reconstruction, [[paper](https://arxiv.org/abs/1809.05068)] [[code](https://github.com/xiumingzhang/GenRe-ShapeHD)]
 
 **[CVPR]** Deep Depth Completion of a Single RGB-D Image, [[paper](https://arxiv.org/abs/1803.09326)] [[code](https://github.com/yindaz/DeepCompletionRelease)]
+
+
+
+#### 2.3.5 Point cloud upsamping
+
+***2019:***
+
+**[ICCV]** PU-GAN: a Point Cloud Upsampling Adversarial Network, [[paper](https://arxiv.org/pdf/1907.10844.pdf)] [[code](https://github.com/liruihui/PU-GAN)]
+
+**[CVPR]** Patch-based Progressive 3D Point Set Upsampling, [[paper](https://arxiv.org/abs/1811.11286)] [[code](https://github.com/yifita/3PU)]
+
+***2018:***
+
+**[CVPR]** PU-Net: Point Cloud Upsampling Network, [[paper](https://arxiv.org/abs/1801.06761)] [[code](https://github.com/yulequan/PU-Net)]
 
 
 
