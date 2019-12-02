@@ -171,6 +171,8 @@ Most of this kind of methods estimate depth images from RGB images, and then con
 
 ***2019:***
 
+**[arXiv]** RefinedMPL: Refined Monocular PseudoLiDAR for 3D Object Detection in Autonomous Driving, [[paper](https://arxiv.org/abs/1911.09712)]
+
 **[IROS]** Look Further to Recognize Better: Learning Shared Topics and Category-Specific Dictionaries for Open-Ended 3D Object Recognition, [[paper](https://arxiv.org/abs/1907.12924)]
 
 **[arXiv]** Task-Aware Monocular Depth Estimation for 3D Object Detection, [[paper](https://arxiv.org/abs/1909.07701)]
@@ -228,6 +230,8 @@ This kind of methods utilize both rgb images and depth images/point clouds. Ther
 **[AAAI]** PI-RCNN: An Efficient Multi-sensor 3D Object Detector with Point-based Attentive Cont-conv Fusion Module, [[paper](https://arxiv.org/abs/1911.06084)]
 
 ***2019:***
+
+**[arXiv]** PointPainting: Sequential Fusion for 3D Object Detection, [[paper](https://arxiv.org/abs/1911.10150)]
 
 **[ICCV]** Transferable Semi-Supervised 3D Object Detection From RGB-D Data, [[paper](http://openaccess.thecvf.com/content_ICCV_2019/papers/Tang_Transferable_Semi-Supervised_3D_Object_Detection_From_RGB-D_Data_ICCV_2019_paper.pdf)]
 
@@ -348,6 +352,10 @@ This kind of methods can be divided into four kinds, which are corresponding-bas
 
 ##### a. Corresponding-based methods
 
+***2020:***
+
+[AAAI] LCD: Learned Cross-Domain Descriptors for 2D-3D Matching, [[paper](https://arxiv.org/abs/1911.09326)] [[project](https://hkust-vgd.github.io/lcd/)]
+
 ***2019:***
 
 **[CVPR]** Segmentation-driven 6D Object Pose Estimation, [[paper](https://arxiv.org/abs/1812.02541)]
@@ -391,6 +399,8 @@ This kind of methods can be divided into four kinds, which are corresponding-bas
 ###### 1) Directly way
 
 ***2019:***
+
+**[arXiv]** Multi-View Matching Network for 6D Pose Estimation, [[paper](https://arxiv.org/abs/1911.12330)]
 
 **[arXiv]** Single-Stage 6D Object Pose Estimation, [[paper](https://arxiv.org/abs/1911.08324)]
 
@@ -703,6 +713,8 @@ In this situation, there exist no 3D models, an the 6-DoF grasps are estimated f
 
 ***2019:***
 
+**[arXiv]** PQ-NET: A Generative Part Seq2Seq Network for 3D Shapes, [[paper](https://arxiv.org/abs/1911.10949)]
+
 **[CVPR]** PartNet: A Recursive Part Decomposition Network for Fine-grained and Hierarchical Shape Segmentation, [[paper](https://arxiv.org/abs/1903.00709)] [[code](https://github.com/FoggYu/PartNet)]
 
 **[C&G]** Autoencoder-based part clustering for part-in-whole retrieval of CAD models, [[paper](https://www.sciencedirect.com/science/article/abs/pii/S0097849319300391)]
@@ -777,6 +789,8 @@ In this situation, there exist no 3D models, an the 6-DoF grasps are estimated f
 
 ***2019:***
 
+**[arXiv]** RoboSherlock: Cognition-enabled Robot Perception for Everyday Manipulation Tasks, [[paper](https://arxiv.org/abs/1911.10079)]
+
 **[ICRA]** Making Sense of Vision and Touch: Self-Supervised Learning of Multimodal Representations for Contact-Rich Tasks, [[paper](https://arxiv.org/abs/1907.13098)]
 
 **[CVPR]**  ContactDB: Analyzing and Predicting Grasp Contact via Thermal Imaging, [[paper](https://arxiv.org/abs/1904.06830)] [[code](https://github.com/samarth-robo/contactdb_utils)]
@@ -812,6 +826,8 @@ In this situation, there exist no 3D models, an the 6-DoF grasps are estimated f
 ## 8. Reinforcement Learning
 
 ***2019:***
+
+**[arXiv]** Contextual Reinforcement Learning of Visuo-tactile Multi-fingered Grasping Policies, [[paper](https://arxiv.org/abs/1911.09233)]
 
 **[IROS]** Scaling Robot Supervision to Hundreds of Hours with RoboTurk: Robotic Manipulation Dataset through Human Reasoning and Dexterity, [[paper](https://arxiv.org/abs/1911.04052)]
 
@@ -887,6 +903,8 @@ In this situation, there exist no 3D models, an the 6-DoF grasps are estimated f
 
 ***2019:***
 
+**[arXiv]** Camera-to-Robot Pose Estimation from a Single Image, [[paper](https://arxiv.org/abs/1911.09231)]
+
 **[ICRA]** Learning Driven Coarse-to-Fine Articulated Robot Tracking, [[paper](http://www.robots.ox.ac.uk/~mobile/drs/Papers/2019ICRA_rauch.pdf)]
 
 **[CVPR]** Craves: controlling robotic arm with a vision-based, economic system, [[paper](http://openaccess.thecvf.com/content_CVPR_2019/papers/Zuo_CRAVES_Controlling_Robotic_Arm_With_a_Vision-Based_Economic_System_CVPR_2019_paper.pdf)] [[code](https://github.com/zuoym15/craves.ai)]
@@ -905,9 +923,15 @@ In this situation, there exist no 3D models, an the 6-DoF grasps are estimated f
 
 
 
+## 10. Path Planning
+
+***2019:***
+
+**[arXiv]** Manipulation Trajectory Optimization with Online Grasp Synthesis and Selection, [[paper](https://arxiv.org/abs/1911.10280)]
 
 
-## 10. Experts:
+
+## 11. Experts:
 
 [Abhinav Gupta](http://www.cs.cmu.edu/~abhinavg/)(CMU & FAIR): Robotics, machine learning
 
