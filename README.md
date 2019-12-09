@@ -231,6 +231,8 @@ This kind of methods utilize both rgb images and depth images/point clouds. Ther
 
 ***2019:***
 
+**[arXiv]** Relation Graph Network for 3D Object Detection in Point Clouds, [[paper](https://arxiv.org/abs/1912.00202)]
+
 **[arXiv]** PointPainting: Sequential Fusion for 3D Object Detection, [[paper](https://arxiv.org/abs/1911.10150)]
 
 **[ICCV]** Transferable Semi-Supervised 3D Object Detection From RGB-D Data, [[paper](http://openaccess.thecvf.com/content_ICCV_2019/papers/Tang_Transferable_Semi-Supervised_3D_Object_Detection_From_RGB-D_Data_ICCV_2019_paper.pdf)]
@@ -263,6 +265,8 @@ This kind of methods utilize both rgb images and depth images/point clouds. Ther
 #### 2.1.2 3D segmentation
 
 ***2019:***
+
+**[arXiv]** Point Cloud Instance Segmentation using Probabilistic Embeddings, [[paper](https://arxiv.org/abs/1912.00145)]
 
 **[NeurIPS]** Exploiting Local and Global Structure for Point Cloud Semantic Segmentation with Contextual Point Representations, [[paper](https://arxiv.org/abs/1911.05277)]
 
@@ -400,6 +404,8 @@ This kind of methods can be divided into four kinds, which are corresponding-bas
 
 ***2019:***
 
+**[arXiv]** LatentFusion: End-to-End Differentiable Reconstruction and Rendering for Unseen Object Pose Estimation, [[paper](https://arxiv.org/abs/1912.00416)]
+
 **[arXiv]** Multi-View Matching Network for 6D Pose Estimation, [[paper](https://arxiv.org/abs/1911.12330)]
 
 **[arXiv]** Single-Stage 6D Object Pose Estimation, [[paper](https://arxiv.org/abs/1911.08324)]
@@ -454,6 +460,8 @@ This kind of methods can be divided into four kinds, which are corresponding-bas
 ###### 2) Indirectly way (Firstly regress feature points and use PnP methods)
 
 ***2019:***
+
+**[arXiv]** KeyPose: Multi-view 3D Labeling and Keypoint Estimation for Transparent Objects, [[paper](https://arxiv.org/abs/1912.02805)]
 
 **[arXiv]** PVN3D: A Deep Point-wise 3D Keypoints Voting Network for 6DoF Pose Estimation, [[paper](https://arxiv.org/abs/1911.04231)]
 
@@ -601,6 +609,8 @@ In this situation, there exist no 3D models, an the 6-DoF grasps are estimated f
 
 ***2020:***
 
+**[AAAI]** Morphing and Sampling Network for Dense Point Cloud Completion, [[paper](https://arxiv.org/abs/1912.00280)]
+
 **[AAAI]** CSPN++: Learning Context and Resource Aware Convolutional Spatial Propagation Networks for Depth Completion, [[paper](https://arxiv.org/abs/1911.05377)]
 
 ***2019:***
@@ -636,6 +646,8 @@ In this situation, there exist no 3D models, an the 6-DoF grasps are estimated f
 #### 2.3.5 Point cloud upsamping
 
 ***2019:***
+
+**[arXiv]** PU-GCN: Point Cloud Upsampling using Graph Convolutional Networks, [[paper](https://arxiv.org/abs/1912.03264)] [[code](https://github.com/guochengqian/PU-GCN)]
 
 **[ICCV]** PU-GAN: a Point Cloud Upsampling Adversarial Network, [[paper](https://arxiv.org/pdf/1907.10844.pdf)] [[code](https://github.com/liruihui/PU-GAN)]
 
@@ -728,6 +740,8 @@ In this situation, there exist no 3D models, an the 6-DoF grasps are estimated f
 ## 4. Deterous Grippers
 
 ***2019:***
+
+**[arXiv]** GraphPoseGAN: 3D Hand Pose Estimation from a Monocular RGB Image via Adversarial Learning on Graphs, [[paper](https://arxiv.org/abs/1912.01875)]
 
 **[arXiv]** HMTNet:3D Hand Pose Estimation from Single Depth Image Based on Hand Morphological Topology, [[paper](https://arxiv.org/abs/1911.04930)]
 
