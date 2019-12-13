@@ -171,6 +171,10 @@ Most of this kind of methods estimate depth images from RGB images, and then con
 
 ***2019:***
 
+**[arXiv]** Environment reconstruction on depth images using Generative Adversarial Networks, [[paper](https://arxiv.org/abs/1912.03992)] [[code](https://github.com/nuneslu/VeIGAN)]
+
+**[arXiv]** Learning Depth-Guided Convolutions for Monocular 3D Object Detection, [[paper](https://arxiv.org/abs/1912.04799)]
+
 **[arXiv]** RefinedMPL: Refined Monocular PseudoLiDAR for 3D Object Detection in Autonomous Driving, [[paper](https://arxiv.org/abs/1911.09712)]
 
 **[IROS]** Look Further to Recognize Better: Learning Shared Topics and Category-Specific Dictionaries for Open-Ended 3D Object Recognition, [[paper](https://arxiv.org/abs/1907.12924)]
@@ -195,7 +199,15 @@ Most of this kind of methods estimate depth images from RGB images, and then con
 
 This kind of methods purely utilize the 3D point cloud data.
 
+***2020:***
+
+**[AAAI]** TANet: Robust 3D Object Detection from Point Clouds with Triple Attention, [[paper](https://arxiv.org/abs/1912.05163)]
+
 ***2019:***
+
+**[arXiv]** Pillar in Pillar: Multi-Scale and Dynamic Feature Extraction for 3D Object Detection in Point Clouds, [[paper](https://arxiv.org/abs/1912.04775)]
+
+**[arXiv]** What You See is What You Get: Exploiting Visibility for 3D Object Detection, [[paper](https://arxiv.org/abs/1912.04986)]
 
 **[NeurIPSW]** Patch Refinement -- Localized 3D Object Detection, [[paper](https://arxiv.org/abs/1910.04093)]
 
@@ -266,6 +278,10 @@ This kind of methods utilize both rgb images and depth images/point clouds. Ther
 
 ***2019:***
 
+**[arXiv]** LatticeNet: Fast Point Cloud Segmentation Using Permutohedral Lattices, [[paper](https://arxiv.org/abs/1912.05905)]
+
+**[arXiv]** Learning to Optimally Segment Point Clouds, [[paper](https://arxiv.org/abs/1912.04976)]
+
 **[arXiv]** Point Cloud Instance Segmentation using Probabilistic Embeddings, [[paper](https://arxiv.org/abs/1912.00145)]
 
 **[NeurIPS]** Exploiting Local and Global Structure for Point Cloud Semantic Segmentation with Contextual Point Representations, [[paper](https://arxiv.org/abs/1911.05277)]
@@ -291,6 +307,8 @@ This kind of methods utilize both rgb images and depth images/point clouds. Ther
 Some of these works are cited from [awesome-point-cloud-analysis](https://github.com/Yochengliu/awesome-point-cloud-analysis) by [Yongcheng Liu](https://yochengliu.github.io/), thank him.
 
 ***2019:***
+
+**[arXiv]** Geometric Capsule Autoencoders for 3D Point Clouds, [[paper](https://arxiv.org/abs/1912.03310)]
 
 **[arXiv]** Utility Analysis of Network Architectures for 3D Point Cloud Processing, [[paper](https://arxiv.org/abs/1911.09053)]
 
@@ -473,6 +491,8 @@ This kind of methods can be divided into four kinds, which are corresponding-bas
 
 **[ICCV]** BB8: a scalable, accurate, robust to partial occlusion method for predicting the 3d poses of challenging objects without using depth, [[paper](https://arxiv.org/abs/1703.10896)]
 
+
+
 ##### e. Category-level 6D pose estimation methods
 
 ***2019:***
@@ -481,9 +501,29 @@ This kind of methods can be divided into four kinds, which are corresponding-bas
 
 **[arXiv]** 6-PACK: Category-level 6D Pose Tracker with Anchor-Based Keypoints, [[paper](https://arxiv.org/abs/1910.10750)] [[code](https://github.com/j96w/6-PACK)]
 
+**[arXiv]** Self-Supervised 3D Keypoint Learning for Ego-motion Estimation, [[paper](https://arxiv.org/abs/1912.03426)]
+
 **[CVPR]** Normalized Object Coordinate Space for Category-Level 6D Object Pose and Size Estimation, [[paper](https://arxiv.org/abs/1901.02970)] [[code](https://github.com/hughw19/NOCS_CVPR2019)] 
 
 **[arXiv]** kPAM: KeyPoint Affordances for Category-Level Robotic Manipulation, [[paper](https://arxiv.org/abs/1903.06684)]
+
+
+
+##### f. 3D shape reconstruction from images
+
+***2019:***
+
+**[arXiv]** 3D-GMNet: Learning to Estimate 3D Shape from A Single Image As A Gaussian Mixture, [[paper](https://arxiv.org/abs/1912.04663)]
+
+**[arXiv]** Deep-Learning Assisted High-Resolution Binocular Stereo Depth Reconstruction, [[paper](https://arxiv.org/abs/1912.05012)]
+
+##### g. 3D shape rendering
+
+***2019:***
+
+**[arXiv]** Neural Point Cloud Rendering via Multi-Plane Projection, [[paper](https://arxiv.org/abs/1912.04645)]
+
+**[arXiv]** Neural Voxel Renderer: Learning an Accurate and Controllable Rendering Tool, [[paper](https://arxiv.org/abs/1912.04591)]
 
 ___
 
@@ -523,6 +563,8 @@ The partial-view point cloud will be aligned to the complete shape in order to o
 
 ***2019:***
 
+**[arXiv]** One Framework to Register Them All: PointNet Encoding for Point Cloud Alignment, [[paper](https://arxiv.org/abs/1912.05766)]
+
 **[arXiv]** DeepICP: An End-to-End Deep Neural Network for 3D Point Cloud Registration, [[paper](https://arxiv.org/pdf/1905.04153v2.pdf)]
 
 **[NeurIPS]** PRNet: Self-Supervised Learning for Partial-to-Partial Registration, [[paper](https://arxiv.org/abs/1910.12240)]
@@ -543,6 +585,20 @@ The partial-view point cloud will be aligned to the complete shape in order to o
 
 
 
+##### d. Point cloud de-noising
+
+***2019:***
+
+**[arXiv]** CNN-based Lidar Point Cloud De-Noising in Adverse Weather, [[paper](https://arxiv.org/abs/1912.03874)]
+
+
+
+##### e. Point cloud sampling
+
+***2019:***
+
+**[arXiv]** SampleNet: Differentiable Point Cloud Sampling, [[paper](https://arxiv.org/abs/1912.03663)] [[code](https://github.com/itailang/SampleNet)]
+
 ### 2.3 Deep learning-based methods (No existing 3D models)
 
 In this situation, there exist no 3D models, an the 6-DoF grasps are estimated from available partial data. This can be implemented by directly estimating from partial view point cloud, or indirectly estimating after shape completion.
@@ -550,6 +606,10 @@ In this situation, there exist no 3D models, an the 6-DoF grasps are estimated f
 #### 2.3.1 Estimating 6-DoF grasps from partial view point cloud
 
 ***2019:***
+
+**[ISRR]** A Billion Ways to Grasp: An Evaluation of Grasp Sampling Schemes on a Dense, Physics-based Grasp Data Set, [[paper](https://arxiv.org/abs/1912.05604)] [[project](https://sites.google.com/view/abillionwaystograsp)]
+
+**[arXiv]** 6-DOF Grasping for Target-driven Object Manipulation in Clutter, [[paper](https://arxiv.org/abs/1912.03628)]
 
 **[IROS]** Grasping Unknown Objects Based on Gripper Workspace Spheres, [[paper](http://eprints.lincoln.ac.uk/36370/1/IROS19_1656_MS.pdf)]
 
@@ -827,6 +887,8 @@ In this situation, there exist no 3D models, an the 6-DoF grasps are estimated f
 
 ***2019:***
 
+**[arXiv]** Grasping in the Wild: Learning 6DoF Closed-Loop Grasping from Low-Cost Demonstrations, [[paper](https://arxiv.org/abs/1912.04344)] [[project](https://graspinwild.cs.columbia.edu/)]
+
 **[arXiv]** Motion Reasoning for Goal-Based Imitation Learning, [[paper](https://arxiv.org/abs/1911.05864)]
 
 **[IROS]** Robot Learning of Shifting Objects for Grasping in Cluttered Environments, [[paper](https://arxiv.org/abs/1907.11035)] [[code](https://github.com/pantor/learning-shifting-for-grasping)]
@@ -848,6 +910,8 @@ In this situation, there exist no 3D models, an the 6-DoF grasps are estimated f
 ## 8. Reinforcement Learning
 
 ***2019:***
+
+**[ROBIO]** Efficient Robotic Task Generalization Using Deep Model Fusion Reinforcement Learning, [[paper](https://arxiv.org/abs/1912.05205)]
 
 **[arXiv]** Contextual Reinforcement Learning of Visuo-tactile Multi-fingered Grasping Policies, [[paper](https://arxiv.org/abs/1911.09233)]
 
@@ -950,6 +1014,8 @@ In this situation, there exist no 3D models, an the 6-DoF grasps are estimated f
 ***2019:***
 
 **[arXiv]** Manipulation Trajectory Optimization with Online Grasp Synthesis and Selection, [[paper](https://arxiv.org/abs/1911.10280)]
+
+**[arXiv]** Parareal with a Learned Coarse Model for Robotic Manipulation, [[paper](https://arxiv.org/abs/1912.05958)]
 
 
 
