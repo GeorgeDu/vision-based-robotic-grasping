@@ -114,6 +114,8 @@ In order to provide a better input to compute the oriented 2D box, or generate t
 
 ***2019:***
 
+**[arXiv]** PointRend: Image Segmentation as Rendering, [[paper](https://arxiv.org/abs/1912.08193)]
+
 **[arXiv]** OpenLORIS-Object: A Dataset and Benchmark towards Lifelong Object Recognition, [[paper](https://arxiv.org/abs/1911.06487)] [[project](https://lifelong-robotic-vision.github.io/dataset/Data_Object-Recognition.html)]
 
 **[IROS]** Look Further to Recognize Better: Learning Shared Topics and Category-Specific Dictionaries for Open-Ended 3D Object Recognition, [[paper](https://arxiv.org/abs/1907.12924)]
@@ -171,6 +173,10 @@ Most of this kind of methods estimate depth images from RGB images, and then con
 
 ***2019:***
 
+**[NeurIPS]** PerspectiveNet: 3D Object Detection from a Single RGB Image via Perspective Points, [[paper](https://arxiv.org/abs/1912.07744)]
+
+**[arXiv]** Single-Stage Monocular 3D Object Detection with Virtual Cameras, [[paper](https://arxiv.org/abs/1912.08035)]
+
 **[arXiv]** Environment reconstruction on depth images using Generative Adversarial Networks, [[paper](https://arxiv.org/abs/1912.03992)] [[code](https://github.com/nuneslu/VeIGAN)]
 
 **[arXiv]** Learning Depth-Guided Convolutions for Monocular 3D Object Detection, [[paper](https://arxiv.org/abs/1912.04799)]
@@ -204,6 +210,8 @@ This kind of methods purely utilize the 3D point cloud data.
 **[AAAI]** TANet: Robust 3D Object Detection from Point Clouds with Triple Attention, [[paper](https://arxiv.org/abs/1912.05163)]
 
 ***2019:***
+
+**[arXiv]** Deep SCNN-based Real-time Object Detection for Self-driving Vehicles Using LiDAR Temporal Data, [[paper](https://arxiv.org/abs/1912.07906)]
 
 **[arXiv]** Pillar in Pillar: Multi-Scale and Dynamic Feature Extraction for 3D Object Detection in Point Clouds, [[paper](https://arxiv.org/abs/1912.04775)]
 
@@ -243,6 +251,8 @@ This kind of methods utilize both rgb images and depth images/point clouds. Ther
 
 ***2019:***
 
+**[arXiv]** ScanRefer: 3D Object Localization in RGB-D Scans using Natural Language, [[paper](https://arxiv.org/abs/1912.08830)]
+
 **[arXiv]** Relation Graph Network for 3D Object Detection in Point Clouds, [[paper](https://arxiv.org/abs/1912.00202)]
 
 **[arXiv]** PointPainting: Sequential Fusion for 3D Object Detection, [[paper](https://arxiv.org/abs/1911.10150)]
@@ -276,6 +286,12 @@ This kind of methods utilize both rgb images and depth images/point clouds. Ther
 
 #### 2.1.2 3D segmentation
 
+***2020:***
+
+**[AAAI]** JSNet: Joint Instance and Semantic Segmentation of 3D Point Clouds, [[paper](https://arxiv.org/abs/1912.09654)] [[code](https://github.com/dlinzhao/JSNet)]
+
+**[WACV]** FuseSeg: LiDAR Point Cloud Segmentation Fusing Multi-Modal Data, [[paper](https://arxiv.org/abs/1912.08487)]
+
 ***2019:***
 
 **[arXiv]** LatticeNet: Fast Point Cloud Segmentation Using Permutohedral Lattices, [[paper](https://arxiv.org/abs/1912.05905)]
@@ -288,7 +304,7 @@ This kind of methods utilize both rgb images and depth images/point clouds. Ther
 
 **[arXiv]** Addressing the Sim2Real Gap in Robotic 3D Object Classification, [[paper](https://arxiv.org/abs/1910.12585)]
 
-**[arXiv]** Learning Object Bounding Boxes for 3D Instance Segmentation on Point Clouds, [[paper](https://arxiv.org/pdf/1906.01140.pdf)]
+**[NeurIPS]** 3D-BoNet: Learning Object Bounding Boxes for 3D Instance Segmentation on Point Clouds, [[paper](https://arxiv.org/pdf/1906.01140.pdf)] [[code](https://github.com/Yang7879/3D-BoNet)]
 
 **[IROS]** LDLS: 3-D Object Segmentation Through Label Diffusion From 2-D Images, [[paper](https://arxiv.org/abs/1910.13955)]
 
@@ -422,6 +438,12 @@ This kind of methods can be divided into four kinds, which are corresponding-bas
 
 ***2019:***
 
+**[arXiv]** P<sup>2</sup>GNet: Pose-Guided Point Cloud Generating Networks for 6-DoF Object Pose Estimation, [[paper](https://arxiv.org/abs/1912.09316)]
+
+**[arXiv]** ConvPoseCNN: Dense Convolutional 6D Object Pose Estimation, [[paper](https://arxiv.org/abs/1912.07333)]
+
+**[arXiv]** PointPoseNet: Accurate Object Detection and 6 DoF Pose Estimation in Point Clouds, [[paper](https://arxiv.org/abs/1912.09057)]
+
 **[RSS]** PoseRBPF: A Rao-Blackwellized Particle Filter for 6D Object Pose Tracking, [[paper](https://arxiv.org/abs/1905.09304)]
 
 **[arXiv]** Multi-View Matching Network for 6D Pose Estimation, [[paper](https://arxiv.org/abs/1911.12330)]
@@ -513,13 +535,21 @@ This kind of methods can be divided into four kinds, which are corresponding-bas
 
 ***2019:***
 
+**[arXiv]** Differentiable Volumetric Rendering: Learning Implicit 3D Representations without 3D Supervision, [[paper](https://arxiv.org/abs/1912.07372)]
+
+**[arXiv]** SDFDiff: Differentiable Rendering of Signed Distance Fields for 3D Shape Optimization, [[paper](https://arxiv.org/abs/1912.07109)]
+
 **[arXiv]** 3D-GMNet: Learning to Estimate 3D Shape from A Single Image As A Gaussian Mixture, [[paper](https://arxiv.org/abs/1912.04663)]
 
 **[arXiv]** Deep-Learning Assisted High-Resolution Binocular Stereo Depth Reconstruction, [[paper](https://arxiv.org/abs/1912.05012)]
 
+
+
 ##### g. 3D shape rendering
 
 ***2019:***
+
+**[arXiv]** SynSin: End-to-end View Synthesis from a Single Image, [[paper](https://arxiv.org/abs/1912.08804)] [[project](http://www.robots.ox.ac.uk/~ow/synsin.html)]
 
 **[arXiv]** Neural Point Cloud Rendering via Multi-Plane Projection, [[paper](https://arxiv.org/abs/1912.04645)]
 
@@ -682,6 +712,8 @@ In this situation, there exist no 3D models, an the 6-DoF grasps are estimated f
 **[AAAI]** CSPN++: Learning Context and Resource Aware Convolutional Spatial Propagation Networks for Depth Completion, [[paper](https://arxiv.org/abs/1911.05377)]
 
 ***2019:***
+
+**[arXiv]** DeepSFM: Structure From Motion Via Deep Bundle Adjustment, [[paper](https://arxiv.org/abs/1912.09697)]
 
 **[CVIU]** On the Benefit of Adversarial Training for Monocular Depth Estimation, [[paper](https://arxiv.org/abs/1910.13340)]
 
@@ -986,6 +1018,10 @@ In this situation, there exist no 3D models, an the 6-DoF grasps are estimated f
 
 
 ## 9. Visual servoing
+
+***2020:***
+
+**[AAAI]** That and There: Judging the Intent of Pointing Actions with Robotic Arms, [[paper](https://arxiv.org/abs/1912.06602)]
 
 ***2019:***
 
