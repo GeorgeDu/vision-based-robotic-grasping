@@ -26,6 +26,8 @@ This kind of methods directly regress the oriented 2D box from RGB or RGB-D imag
 
 ***2019:***
 
+**[Sensors]** Vision for Robust Robot Manipulation, [[paper](https://www.mdpi.com/1424-8220/19/7/1648/htm)]
+
 **[arXiv]** Form2Fit: Learning Shape Priors for Generalizable Assembly from Disassembly, [[paper](https://arxiv.org/abs/1910.13675)] [[code](https://form2fit.github.io/)]
 
 **[IROS]** GRIP: Generative Robust Inference and Perception for Semantic Robot Manipulation in Adversarial Environments, [[paper](https://arxiv.org/abs/1903.08352)]
@@ -113,6 +115,8 @@ In order to provide a better input to compute the oriented 2D box, or generate t
 #### 1.3.1 2D detection:
 
 ***2019:***
+
+**[arXiv]** cmSalGAN: RGB-D Salient Object Detection with Cross-View Generative Adversarial Networks, [[paper](https://arxiv.org/pdf/1912.10280.pdf)]
 
 **[arXiv]** PointRend: Image Segmentation as Rendering, [[paper](https://arxiv.org/abs/1912.08193)]
 
@@ -294,6 +298,8 @@ This kind of methods utilize both rgb images and depth images/point clouds. Ther
 
 ***2019:***
 
+**[arXiv]** Point2Node: Correlation Learning of Dynamic-Node for Point Cloud Feature Modeling, [[paper](https://arxiv.org/pdf/1912.10775.pdf)]
+
 **[arXiv]** LatticeNet: Fast Point Cloud Segmentation Using Permutohedral Lattices, [[paper](https://arxiv.org/abs/1912.05905)]
 
 **[arXiv]** Learning to Optimally Segment Point Clouds, [[paper](https://arxiv.org/abs/1912.04976)]
@@ -323,6 +329,8 @@ This kind of methods utilize both rgb images and depth images/point clouds. Ther
 Some of these works are cited from [awesome-point-cloud-analysis](https://github.com/Yochengliu/awesome-point-cloud-analysis) by [Yongcheng Liu](https://yochengliu.github.io/), thank him.
 
 ***2019:***
+
+**[arXiv]** Geometry Sharing Network for 3D Point Cloud Classification and Segmentation, [[paper](https://arxiv.org/pdf/1912.10644.pdf)]
 
 **[arXiv]** Geometric Capsule Autoencoders for 3D Point Clouds, [[paper](https://arxiv.org/abs/1912.03310)]
 
@@ -535,6 +543,10 @@ This kind of methods can be divided into four kinds, which are corresponding-bas
 
 ***2019:***
 
+**[arXiv]** Learning to Generate Dense Point Clouds with Textures on Multiple Categories, [[paper](https://arxiv.org/pdf/1912.10545.pdf)]
+
+**[arXiv]** Front2Back: Single View 3D Shape Reconstruction via Front to Back Prediction, [[paper](https://arxiv.org/pdf/1912.10589.pdf)]
+
 **[arXiv]** Differentiable Volumetric Rendering: Learning Implicit 3D Representations without 3D Supervision, [[paper](https://arxiv.org/abs/1912.07372)]
 
 **[arXiv]** SDFDiff: Differentiable Rendering of Signed Distance Fields for 3D Shape Optimization, [[paper](https://arxiv.org/abs/1912.07109)]
@@ -573,11 +585,25 @@ The partial-view point cloud will be aligned to the complete shape in order to o
 
 ##### a. Ransac-based methods
 
+***2016:***
+
+**[TPAMI]** Go-ICP: A Globally Optimal Solution to 3D ICP Point-Set Registration, [[paper](https://arxiv.org/pdf/1605.03344.pdf)] [[code](https://github.com/yangjiaolong/Go-ICP)]
+
 ***2014:***
 
 **[SGP]** Super 4PCS Fast Global Pointcloud Registration via Smart Indexing, [[paper](https://geometry.cs.ucl.ac.uk/projects/2014/super4PCS/super4pcs.pdf)] [[code](https://github.com/nmellado/Super4PCS)]
 
 ##### b. 3D feature-based methods
+
+***2019:***
+
+**[arXiv]** 3DRegNet: A Deep Neural Network for 3D Point Registration, [[paper](https://arxiv.org/abs/1904.01701)] [[code](https://github.com/goncalo120/3DRegNet)]
+
+***2018:***
+
+**[arXiv]** Dense Object Nets: Learning Dense Visual Object Descriptors By and For Robotic Manipulation, [[paper](https://arxiv.org/abs/1806.08756)]
+
+**[ECCV]** 3DFeat-Net: Weakly Supervised Local 3D Features for Point Cloud Registration, [[paper](https://arxiv.org/abs/1807.09413)] [[code](https://github.com/yewzijian/3DFeatNet)]
 
 ***2017:***
 
@@ -713,6 +739,8 @@ In this situation, there exist no 3D models, an the 6-DoF grasps are estimated f
 
 ***2019:***
 
+**[arXiv]** GEOMETRY-AWARE GENERATION OF ADVERSARIAL AND COOPERATIVE POINT CLOUDS, [[paper](https://arxiv.org/pdf/1912.11171.pdf)]
+
 **[arXiv]** DeepSFM: Structure From Motion Via Deep Bundle Adjustment, [[paper](https://arxiv.org/abs/1912.09697)]
 
 **[CVIU]** On the Benefit of Adversarial Training for Monocular Depth Estimation, [[paper](https://arxiv.org/abs/1910.13340)]
@@ -734,6 +762,8 @@ In this situation, there exist no 3D models, an the 6-DoF grasps are estimated f
 **[arXiv]** Mesh R-CNN, [[paper](https://arxiv.org/abs/1906.02739)]
 
 ***2018:***
+
+**[3DV]** PCN: Point Completion Network, [[paper](https://arxiv.org/abs/1808.00671)] [[code](https://github.com/wentaoyuan/pcn)]
 
 **[NeurIPS]** Learning to Reconstruct Shapes from Unseen Classes, [[paper](http://genre.csail.mit.edu/papers/genre_nips.pdf)] [[code](https://github.com/xiumingzhang/GenRe-ShapeHD)]
 
@@ -825,6 +855,8 @@ In this situation, there exist no 3D models, an the 6-DoF grasps are estimated f
 
 ***2019:***
 
+**[arXiv]** Neural Shape Parsers for Constructive Solid Geometry, [[paper](https://arxiv.org/pdf/1912.11393.pdf)]
+
 **[arXiv]** PQ-NET: A Generative Part Seq2Seq Network for 3D Shapes, [[paper](https://arxiv.org/abs/1911.10949)]
 
 **[CVPR]** PartNet: A Recursive Part Decomposition Network for Fine-grained and Hierarchical Shape Segmentation, [[paper](https://arxiv.org/abs/1903.00709)] [[code](https://github.com/FoggYu/PartNet)]
@@ -901,6 +933,10 @@ In this situation, there exist no 3D models, an the 6-DoF grasps are estimated f
 
 ## 6. Multi-source
 
+***2020:***
+
+**[arXiv]** Accurate Vision-based Manipulation through Contact Reasoning,  [[paper](https://arxiv.org/abs/1911.03112)]
+
 ***2019:***
 
 **[arXiv]** RoboSherlock: Cognition-enabled Robot Perception for Everyday Manipulation Tasks, [[paper](https://arxiv.org/abs/1911.10079)]
@@ -942,6 +978,8 @@ In this situation, there exist no 3D models, an the 6-DoF grasps are estimated f
 ## 8. Reinforcement Learning
 
 ***2019:***
+
+**[arXiv]** Towards Practical Multi-Object Manipulation using Relational Reinforcement Learning, [[paper](https://arxiv.org/abs/1912.11032)] [[project](https://richardrl.github.io/relational-rl/)] [[code](https://github.com/richardrl/rlkit-relational)]
 
 **[ROBIO]** Efficient Robotic Task Generalization Using Deep Model Fusion Reinforcement Learning, [[paper](https://arxiv.org/abs/1912.05205)]
 
