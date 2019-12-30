@@ -3,6 +3,8 @@ According to the kinds of grasp, the methods of vision-based robotic grasping ca
 
 ## 0. Review Papers
 
+**[arXiv]** 2019-Deep Learning for 3D Point Clouds: A Survey, [[paper](https://arxiv.org/pdf/1912.12033.pdf)]
+
 **[arXiv]** 2019-A Review of Robot Learning for Manipulation- Challenges, Representations, and Algorithms, [[paper](https://arxiv.org/abs/1907.03146)]
 
 **[arXiv]** 2019-Vision-based Robotic Grasping from Object Localization, Pose Estimation, Grasp Detection to Motion Planning: A Review, [[paper](https://arxiv.org/abs/1905.06658)]
@@ -116,6 +118,8 @@ In order to provide a better input to compute the oriented 2D box, or generate t
 
 ***2019:***
 
+**[arXiv]** Combining Deep Learning and Verification for Precise Object Instance Detection, [[paper](https://arxiv.org/pdf/1912.12270.pdf)]
+
 **[arXiv]** cmSalGAN: RGB-D Salient Object Detection with Cross-View Generative Adversarial Networks, [[paper](https://arxiv.org/pdf/1912.10280.pdf)]
 
 **[arXiv]** PointRend: Image Segmentation as Rendering, [[paper](https://arxiv.org/abs/1912.08193)]
@@ -214,6 +218,8 @@ This kind of methods purely utilize the 3D point cloud data.
 **[AAAI]** TANet: Robust 3D Object Detection from Point Clouds with Triple Attention, [[paper](https://arxiv.org/abs/1912.05163)]
 
 ***2019:***
+
+**[arXiv]** SESS: Self-Ensembling Semi-Supervised 3D Object Detection, [[paper](https://arxiv.org/pdf/1912.11803.pdf)]
 
 **[arXiv]** Deep SCNN-based Real-time Object Detection for Self-driving Vehicles Using LiDAR Temporal Data, [[paper](https://arxiv.org/abs/1912.07906)]
 
@@ -329,6 +335,8 @@ This kind of methods utilize both rgb images and depth images/point clouds. Ther
 Some of these works are cited from [awesome-point-cloud-analysis](https://github.com/Yochengliu/awesome-point-cloud-analysis) by [Yongcheng Liu](https://yochengliu.github.io/), thank him.
 
 ***2019:***
+
+**[arXiv]** QUATERNION EQUIVARIANT CAPSULE NETWORKS FOR 3D POINT CLOUDS, [[paper](https://arxiv.org/pdf/1912.12098.pdf)]
 
 **[arXiv]** Geometry Sharing Network for 3D Point Cloud Classification and Segmentation, [[paper](https://arxiv.org/pdf/1912.10644.pdf)]
 
@@ -505,6 +513,8 @@ This kind of methods can be divided into four kinds, which are corresponding-bas
 
 ***2019:***
 
+**[arXiv]** W-PoseNet: Dense Correspondence Regularized Pixel Pair Pose Regression, [[paper](https://arxiv.org/pdf/1912.11888.pdf)]
+
 **[arXiv]** KeyPose: Multi-view 3D Labeling and Keypoint Estimation for Transparent Objects, [[paper](https://arxiv.org/abs/1912.02805)]
 
 **[arXiv]** PVN3D: A Deep Point-wise 3D Keypoints Voting Network for 6DoF Pose Estimation, [[paper](https://arxiv.org/abs/1911.04231)]
@@ -527,6 +537,8 @@ This kind of methods can be divided into four kinds, which are corresponding-bas
 
 ***2019:***
 
+**[arXiv]** Category-Level Articulated Object Pose Estimation, [[paper](https://arxiv.org/pdf/1912.11913.pdf)]
+
 **[arXiv]** LatentFusion: End-to-End Differentiable Reconstruction and Rendering for Unseen Object Pose Estimation, [[paper](https://arxiv.org/abs/1912.00416)]
 
 **[arXiv]** 6-PACK: Category-level 6D Pose Tracker with Anchor-Based Keypoints, [[paper](https://arxiv.org/abs/1910.10750)] [[code](https://github.com/j96w/6-PACK)]
@@ -542,6 +554,8 @@ This kind of methods can be divided into four kinds, which are corresponding-bas
 ##### f. 3D shape reconstruction from images
 
 ***2019:***
+
+**[arXiv]** Boundary Cues for 3D Object Shape Recovery, [[paper](https://arxiv.org/pdf/1912.11566.pdf)]
 
 **[arXiv]** Learning to Generate Dense Point Clouds with Textures on Multiple Categories, [[paper](https://arxiv.org/pdf/1912.10545.pdf)]
 
@@ -854,6 +868,8 @@ In this situation, there exist no 3D models, an the 6-DoF grasps are estimated f
 ### 3.4 3D part segmentation
 
 ***2019:***
+
+**[arXiv]** Skeleton Extraction from 3D Point Clouds by Decomposing the Object into Parts, [[paper](https://arxiv.org/pdf/1912.11932.pdf)]
 
 **[arXiv]** Neural Shape Parsers for Constructive Solid Geometry, [[paper](https://arxiv.org/pdf/1912.11393.pdf)]
 
