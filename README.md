@@ -261,6 +261,10 @@ This kind of methods utilize both rgb images and depth images/point clouds. Ther
 
 ***2019:***
 
+**[arXiv]** PV-RCNN: Point-Voxel Feature Set Abstraction for 3D Object Detection, [[paper](https://arxiv.org/pdf/1912.13192.pdf)]
+
+**[arXiv]** Object as Hotspots: An Anchor-Free 3D Object Detection Approach via Firing of Hotspots, [[paper](https://arxiv.org/pdf/1912.12791.pdf)]
+
 **[arXiv]** ScanRefer: 3D Object Localization in RGB-D Scans using Natural Language, [[paper](https://arxiv.org/abs/1912.08830)]
 
 **[arXiv]** Relation Graph Network for 3D Object Detection in Point Clouds, [[paper](https://arxiv.org/abs/1912.00202)]
@@ -675,6 +679,10 @@ In this situation, there exist no 3D models, an the 6-DoF grasps are estimated f
 
 #### 2.3.1 Estimating 6-DoF grasps from partial view point cloud
 
+***2020:***
+
+**[arXiv]** GraspNet: A Large-Scale Clustered and Densely Annotated Dataset for Object Grasping, [[paper](https://arxiv.org/pdf/1912.13470.pdf)]
+
 ***2019:***
 
 **[ISRR]** A Billion Ways to Grasp: An Evaluation of Grasp Sampling Schemes on a Dense, Physics-based Grasp Data Set, [[paper](https://arxiv.org/abs/1912.05604)] [[project](https://sites.google.com/view/abillionwaystograsp)]
@@ -854,6 +862,8 @@ In this situation, there exist no 3D models, an the 6-DoF grasps are estimated f
 #### 3.3.2 Shape correspondence
 
 ***2019:***
+
+**[arXiv]** Fine-grained Object Semantic Understanding from Correspondences, [[paper](https://arxiv.org/pdf/1912.12577.pdf)]
 
 **[IROS]** Multi-step Pick-and-Place Tasks Using Object-centric Dense Correspondences, [[code](https://github.com/cychai1995/mcdons)]
 
