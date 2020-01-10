@@ -26,6 +26,10 @@ The grasp is represented as an oriented 2D box, and the grasp is constrained fro
 
 This kind of methods directly regress the oriented 2D box from RGB or RGB-D images. When using RGB-D images, the depth image is regarded as an another channel, which is similar with RGB-based methods.
 
+***2020:***
+
+**[arXiv]** Real-time Grasp Pose Estimation for Novel Objects in Densely Cluttered Environment, [[paper](https://arxiv.org/pdf/2001.02076.pdf)]
+
 ***2019:***
 
 **[Sensors]** Vision for Robust Robot Manipulation, [[paper](https://www.mdpi.com/1424-8220/19/7/1648/htm)]
@@ -219,6 +223,8 @@ This kind of methods purely utilize the 3D point cloud data.
 
 ***2019:***
 
+**[arXiv]** Class-balanced grouping and sampling for point cloud 3d object detection, [[paper](https://arxiv.org/pdf/1908.09492.pdf)] [[code](https://github.com/poodarchu/Det3D)]
+
 **[arXiv]** SESS: Self-Ensembling Semi-Supervised 3D Object Detection, [[paper](https://arxiv.org/pdf/1912.11803.pdf)]
 
 **[arXiv]** Deep SCNN-based Real-time Object Detection for Self-driving Vehicles Using LiDAR Temporal Data, [[paper](https://arxiv.org/abs/1912.07906)]
@@ -301,6 +307,8 @@ This kind of methods utilize both rgb images and depth images/point clouds. Ther
 #### 2.1.2 3D segmentation
 
 ***2020:***
+
+**[arXiv]** Learning and Memorizing Representative Prototypes for 3D Point Cloud Semantic and Instance Segmentation, [[paper](https://arxiv.org/pdf/2001.01349.pdf)]
 
 **[AAAI]** JSNet: Joint Instance and Semantic Segmentation of 3D Point Clouds, [[paper](https://arxiv.org/abs/1912.09654)] [[code](https://github.com/dlinzhao/JSNet)]
 
@@ -456,6 +464,10 @@ This kind of methods can be divided into four kinds, which are corresponding-bas
 
 ###### 1) Directly way
 
+***2020:***
+
+**[arXiv]** HybridPose: 6D Object Pose Estimation under Hybrid Representations, [[paper](https://arxiv.org/pdf/2001.01869.pdf)]
+
 ***2019:***
 
 **[arXiv]** P<sup>2</sup>GNet: Pose-Guided Point Cloud Generating Networks for 6-DoF Object Pose Estimation, [[paper](https://arxiv.org/abs/1912.09316)]
@@ -516,6 +528,8 @@ This kind of methods can be divided into four kinds, which are corresponding-bas
 ###### 2) Indirectly way (Firstly regress feature points and use PnP methods)
 
 ***2019:***
+
+**[arXiv]** DPOD: 6D Pose Object Detector and Refiner, [[paper](https://arxiv.org/pdf/1902.11020.pdf)]
 
 **[arXiv]** W-PoseNet: Dense Correspondence Regularized Pixel Pair Pose Regression, [[paper](https://arxiv.org/pdf/1912.11888.pdf)]
 
@@ -755,6 +769,8 @@ In this situation, there exist no 3D models, an the 6-DoF grasps are estimated f
 
 ***2020:***
 
+**[arXiv]** Don't Forget The Past: Recurrent Depth Estimation from Monocular Video, [[paper](https://arxiv.org/pdf/2001.02613.pdf)]
+
 **[AAAI]** Morphing and Sampling Network for Dense Point Cloud Completion, [[paper](https://arxiv.org/abs/1912.00280)]
 
 **[AAAI]** CSPN++: Learning Context and Resource Aware Convolutional Spatial Propagation Networks for Depth Completion, [[paper](https://arxiv.org/abs/1911.05377)]
@@ -782,6 +798,8 @@ In this situation, there exist no 3D models, an the 6-DoF grasps are estimated f
 **[IROS]** Self-supervised 3D Shape and Viewpoint Estimation from Single Images for Robotics, [[paper](https://arxiv.org/abs/1910.07948)]
 
 **[arXiv]** Mesh R-CNN, [[paper](https://arxiv.org/abs/1906.02739)]
+
+**[arXiv]** Monocular depth estimation: a survey, [[paper](https://arxiv.org/pdf/1901.09402.pdf)]
 
 ***2018:***
 
@@ -895,7 +913,11 @@ In this situation, there exist no 3D models, an the 6-DoF grasps are estimated f
 
 
 
-## 4. Deterous Grippers
+## 4. Dexterous Grippers
+
+***2020:***
+
+**[RAL]** Benchmarking In-Hand Manipulation, [[paper](https://arxiv.org/pdf/2001.03070.pdf)]
 
 ***2019:***
 
