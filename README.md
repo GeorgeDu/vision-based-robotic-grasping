@@ -183,6 +183,12 @@ This kind of methods can be divided into three kinds: RGB-based methods, point c
 
 Most of this kind of methods estimate depth images from RGB images, and then conduct 3D detection.
 
+***2020:***
+
+**[arXiv]** DSGN: Deep Stereo Geometry Network for 3D Object Detection, [[paper](https://arxiv.org/pdf/2001.03398.pdf)]
+
+**[arXiv]** RTM3D: Real-time Monocular 3D Detection from Object Keypoints for Autonomous Driving, [[paper](https://arxiv.org/pdf/2001.03343.pdf)]
+
 ***2019:***
 
 **[NeurIPS]** PerspectiveNet: 3D Object Detection from a Single RGB Image via Perspective Points, [[paper](https://arxiv.org/abs/1912.07744)]
@@ -769,6 +775,8 @@ In this situation, there exist no 3D models, an the 6-DoF grasps are estimated f
 
 ***2020:***
 
+**[arXiv]** RoutedFusion: Learning Real-time Depth Map Fusion, [[paper](https://arxiv.org/pdf/2001.04388.pdf)]
+
 **[arXiv]** Don't Forget The Past: Recurrent Depth Estimation from Monocular Video, [[paper](https://arxiv.org/pdf/2001.02613.pdf)]
 
 **[AAAI]** Morphing and Sampling Network for Dense Point Cloud Completion, [[paper](https://arxiv.org/abs/1912.00280)]
@@ -776,6 +784,8 @@ In this situation, there exist no 3D models, an the 6-DoF grasps are estimated f
 **[AAAI]** CSPN++: Learning Context and Resource Aware Convolutional Spatial Propagation Networks for Depth Completion, [[paper](https://arxiv.org/abs/1911.05377)]
 
 ***2019:***
+
+**[arXiv]** Normal Assisted Stereo Depth Estimation, [[paper](https://arxiv.org/pdf/1911.10444.pdf)]
 
 **[arXiv]** GEOMETRY-AWARE GENERATION OF ADVERSARIAL AND COOPERATIVE POINT CLOUDS, [[paper](https://arxiv.org/pdf/1912.11171.pdf)]
 
@@ -894,6 +904,10 @@ In this situation, there exist no 3D models, an the 6-DoF grasps are estimated f
 
 
 ### 3.4 3D part segmentation
+
+***2020:***
+
+**[ICLR]** LEARNING TO GROUP: A BOTTOM-UP FRAMEWORK FOR 3D PART DISCOVERY IN UNSEEN CATEGORIES, [[paper](https://openreview.net/pdf?id=rkl8dlHYvB)]
 
 ***2019:***
 
@@ -1024,6 +1038,10 @@ In this situation, there exist no 3D models, an the 6-DoF grasps are estimated f
 
 
 ## 8. Reinforcement Learning
+
+***2020:***
+
+**[arXiv]** Reward Engineering for Object Pick and Place Training, [[paper](https://arxiv.org/pdf/2001.03792.pdf)]
 
 ***2019:***
 
