@@ -32,6 +32,8 @@ This kind of methods directly regress the oriented 2D box from RGB or RGB-D imag
 
 ***2019:***
 
+**[IROS]** Domain Independent Unsupervised Learning to grasp the Novel Objects, [[paper](https://arxiv.org/pdf/2001.05856.pdf)]
+
 **[Sensors]** Vision for Robust Robot Manipulation, [[paper](https://www.mdpi.com/1424-8220/19/7/1648/htm)]
 
 **[arXiv]** Form2Fit: Learning Shape Priors for Generalizable Assembly from Disassembly, [[paper](https://arxiv.org/abs/1910.13675)] [[code](https://form2fit.github.io/)]
@@ -154,6 +156,10 @@ In order to provide a better input to compute the oriented 2D box, or generate t
 
 #### 1.3.2 2D segmentation:
 
+***2020:***
+
+**[arXiv]** Image Segmentation Using Deep Learning: A Survey, [[paper](https://arxiv.org/pdf/2001.05566.pdf)]
+
 ***2019:***
 
 **[CASE]** Deep Workpiece Region Segmentation for Bin Picking, [[paper](https://arxiv.org/abs/1909.03462)]
@@ -224,6 +230,8 @@ Most of this kind of methods estimate depth images from RGB images, and then con
 This kind of methods purely utilize the 3D point cloud data.
 
 ***2020:***
+
+**[arXiv]** Probabilistic 3D Multi-Object Tracking for Autonomous Driving, [[paper](https://arxiv.org/pdf/2001.05673.pdf)]
 
 **[AAAI]** TANet: Robust 3D Object Detection from Point Clouds with Triple Attention, [[paper](https://arxiv.org/abs/1912.05163)]
 
@@ -351,6 +359,10 @@ This kind of methods utilize both rgb images and depth images/point clouds. Ther
 #### 2.1.3 3D deep learning networks
 
 Some of these works are cited from [awesome-point-cloud-analysis](https://github.com/Yochengliu/awesome-point-cloud-analysis) by [Yongcheng Liu](https://yochengliu.github.io/), thank him.
+
+***2020:***
+
+**[arXiv]** Improving Semantic Analysis on Point Clouds via Auxiliary Supervision of Local Geometric Priors, [[paper](https://arxiv.org/pdf/2001.04803.pdf)]
 
 ***2019:***
 
@@ -655,6 +667,10 @@ The partial-view point cloud will be aligned to the complete shape in order to o
 
 ##### c. Deep learning-based methods
 
+***2020:***
+
+**[arXiv]** Learning multiview 3D point cloud registration, [[paper](https://arxiv.org/pdf/2001.05119.pdf)]
+
 ***2019:***
 
 **[arXiv]** One Framework to Register Them All: PointNet Encoding for Point Cloud Alignment, [[paper](https://arxiv.org/abs/1912.05766)]
@@ -775,6 +791,8 @@ In this situation, there exist no 3D models, an the 6-DoF grasps are estimated f
 
 ***2020:***
 
+**[arXiv]** Single Image Depth Estimation Trained via Depth from Defocus Cues, [[paper](https://arxiv.org/pdf/2001.05036.pdf)]
+
 **[arXiv]** RoutedFusion: Learning Real-time Depth Map Fusion, [[paper](https://arxiv.org/pdf/2001.04388.pdf)]
 
 **[arXiv]** Don't Forget The Past: Recurrent Depth Estimation from Monocular Video, [[paper](https://arxiv.org/pdf/2001.02613.pdf)]
@@ -853,6 +871,10 @@ In this situation, there exist no 3D models, an the 6-DoF grasps are estimated f
 
 ### 3.2 Grasp transfer between shape parts
 
+***2020:***
+
+**[arXiv]** DGCM-Net: Dense Geometrical Correspondence Matching Network for Incremental Experience-based Robotic Grasping, [[paper](https://arxiv.org/pdf/2001.05279.pdf)]
+
 ***2019:***
 
 **[arXiv]** Using Synthetic Data and Deep Networks to Recognize Primitive Shapes for Object Grasping, [[paper](https://arxiv.org/abs/1909.08508)]
@@ -888,6 +910,10 @@ In this situation, there exist no 3D models, an the 6-DoF grasps are estimated f
 
 
 #### 3.3.2 Shape correspondence
+
+***2020:***
+
+**[arXiv]** SketchDesc: Learning Local Sketch Descriptors for Multi-view Correspondence, [[paper](https://arxiv.org/pdf/2001.05744.pdf)]
 
 ***2019:***
 
@@ -1124,6 +1150,8 @@ In this situation, there exist no 3D models, an the 6-DoF grasps are estimated f
 ## 9. Visual servoing
 
 ***2020:***
+
+**[arXiv]** Predicting Target Feature Configuration of Non-stationary Objects for Grasping with Image-Based Visual Servoing, [[paper](https://arxiv.org/pdf/2001.05650.pdf)]
 
 **[AAAI]** That and There: Judging the Intent of Pointing Actions with Robotic Arms, [[paper](https://arxiv.org/abs/1912.06602)]
 
