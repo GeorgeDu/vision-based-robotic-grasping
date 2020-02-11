@@ -131,6 +131,8 @@ In order to provide a better input to compute the oriented 2D box, or generate t
 
 ***2020:***
 
+**[arXiv]** Real-Time Object Detection and Recognition on Low-Compute Humanoid Robots using Deep Learning, [[paper](https://arxiv.org/pdf/2002.03735.pdf)]
+
 **[arXiv]** FedVision: An Online Visual Object Detection Platform Powered by Federated Learning, [[paper](https://arxiv.org/pdf/2001.06202.pdf)]
 
 ***2019:***
@@ -168,6 +170,10 @@ In order to provide a better input to compute the oriented 2D box, or generate t
 #### 1.3.2 2D segmentation:
 
 ***2020:***
+
+**[arXiv]** FourierNet: Compact mask representation for instance segmentation using differentiable shape decoders, [[paper](https://arxiv.org/pdf/2002.02709.pdf)]
+
+**[arXiv]** Segmenting unseen industrial components in a heavy clutter using rgb-d fusion and synthetic data, [[paper](https://arxiv.org/pdf/2002.03501.pdf)]
 
 **[arXiv]** Instance Segmentation of Visible and Occluded Regions for Finding and Picking Target from a Pile of Objects, [[paper](https://arxiv.org/pdf/2001.07475.pdf)]
 
@@ -249,6 +255,8 @@ Most of this kind of methods estimate depth images from RGB images, and then con
 This kind of methods purely utilize the 3D point cloud data.
 
 ***2020:***
+
+**[arXiv]** Investigating the Importance of Shape Features, Color Constancy, Color Spaces and Similarity Measures in Open-Ended 3D Object Recognition, [[paper](https://arxiv.org/pdf/2002.03779.pdf)]
 
 **[arXiv]** Probabilistic 3D Multi-Object Tracking for Autonomous Driving, [[paper](https://arxiv.org/pdf/2001.05673.pdf)]
 
@@ -374,6 +382,8 @@ This kind of methods utilize both rgb images and depth images/point clouds. Ther
 **[arXiv]** GSPN: Generative Shape Proposal Network for 3D Instance Segmentation in Point Cloud, [[paper](https://arxiv.org/abs/1812.03320)]
 
 **[CoRL]** The Best of Both Modes: Separately Leveraging RGB and Depth for Unseen Object Instance Segmentation, [[paper](https://arxiv.org/abs/1907.13236)] [[code](https://arxiv.org/abs/1907.13236)]
+
+**[IJARS]** Fast geometry-based computation of grasping points on three-dimensional point clouds, [[paper](https://journals.sagepub.com/doi/10.1177/1729881419831846)]
 
 ***2018:***
 
@@ -584,6 +594,8 @@ This kind of methods can be divided into four kinds, which are corresponding-bas
 
 ***2020:***
 
+**[arXiv]** 6DoF Object Pose Estimation via Differentiable Proxy Voting Loss, [[paper](https://arxiv.org/pdf/2002.03923.pdf)]
+
 **[arXiv]** YOLOff: You Only Learn Offsets for robust 6DoF object pose estimation, [[paper](https://arxiv.org/pdf/2002.00911.pdf)]
 
 ***2019:***
@@ -698,6 +710,8 @@ The partial-view point cloud will be aligned to the complete shape in order to o
 
 ***2019:***
 
+**[arXiv]** StickyPillars: Robust feature matching on point clouds using Graph Neural Networks, [[paper](https://arxiv.org/pdf/2002.03983.pdf)]
+
 **[arXiv]** 3DRegNet: A Deep Neural Network for 3D Point Registration, [[paper](https://arxiv.org/abs/1904.01701)] [[code](https://github.com/goncalo120/3DRegNet)]
 
 ***2018:***
@@ -799,6 +813,10 @@ In this situation, there exist no 3D models, an the 6-DoF grasps are estimated f
 
 
 #### 2.3.2 Grasp affordance
+
+***2020:***
+
+**[arXiv]** Learning to Grasp 3D Objects using Deep Residual U-Nets, [[paper](https://arxiv.org/pdf/2002.03892.pdf)]
 
 ***2019:***
 
@@ -932,6 +950,10 @@ In this situation, there exist no 3D models, an the 6-DoF grasps are estimated f
 
 ### 3.1 Task-oriented manipulation
 
+***2020:***
+
+**[arXiv]** Autonomous Industrial Assembly using Force, Torque, and RGB-D sensing, [[paper](Autonomous Industrial Assembly using Force, Torque, and RGB-D sensing)]
+
 ***2019:***
 
 **[arXiv]** KETO: Learning Keypoint Representations for Tool Manipulation, [[paper](https://arxiv.org/abs/1910.11977)]
@@ -984,6 +1006,8 @@ In this situation, there exist no 3D models, an the 6-DoF grasps are estimated f
 
 ***2020:***
 
+**[TVCG]** Voting for Distortion Points in Geometric Processing, [[paper](https://arxiv.org/pdf/1909.13066.pdf)]
+
 **[arXiv]** SketchDesc: Learning Local Sketch Descriptors for Multi-view Correspondence, [[paper](https://arxiv.org/pdf/2001.05744.pdf)]
 
 ***2019:***
@@ -1028,6 +1052,8 @@ In this situation, there exist no 3D models, an the 6-DoF grasps are estimated f
 
 ***2020:***
 
+**[arXiv]** Tactile Dexterity: Manipulation Primitives with Tactile Feedback, [[paper](https://arxiv.org/pdf/2002.03236.pdf)]
+
 **[arXiv]** Deep Differentiable Grasp Planner for High-DOF Grippers, [[paper](https://arxiv.org/pdf/2002.01530.pdf)]
 
 **[arXiv]** Multi-Fingered Grasp Planning via Inference in Deep Neural Networks, [[paper](https://arxiv.org/pdf/2001.09242.pdf)]
@@ -1071,6 +1097,10 @@ In this situation, there exist no 3D models, an the 6-DoF grasps are estimated f
 
 
 ## 5. Simulation to Reality
+
+***2020:***
+
+**[arXiv]** Sim2Real2Sim: Bridging the Gap Between Simulation and Real-World in Flexible Object Manipulation, [[paper](https://arxiv.org/pdf/2002.02538.pdf)]
 
 ***2019:***
 
