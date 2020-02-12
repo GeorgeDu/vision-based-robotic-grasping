@@ -39,6 +39,8 @@ This kind of methods directly regress the oriented 2D box from RGB or RGB-D imag
 
 ***2019:***
 
+**[arXiv]** Antipodal Robotic Grasping using Generative Residual Convolutional Neural Network, [[paper](https://arxiv.org/pdf/1909.04810.pdf)]
+
 **[IROS]** Domain Independent Unsupervised Learning to grasp the Novel Objects, [[paper](https://arxiv.org/pdf/2001.05856.pdf)]
 
 **[Sensors]** Vision for Robust Robot Manipulation, [[paper](https://www.mdpi.com/1424-8220/19/7/1648/htm)]
@@ -129,6 +131,26 @@ In order to provide a better input to compute the oriented 2D box, or generate t
 
 #### 1.3.1 2D detection:
 
+Detailed paper lists can refer to [hoya012](https://github.com/hoya012/deep_learning_object_detection) or [amusi](https://github.com/amusi/awesome-object-detection).
+
+##### Survey papers
+
+***2020:***
+
+**[IJCV]** Deep Learning for Generic Object Detection: A Survey, [[paper](https://link.springer.com/content/pdf/10.1007%2Fs11263-019-01247-4.pdf)]
+
+***2019:***
+
+**[arXiv]** Object Detection in 20 Years A Survey, [[paper](https://arxiv.org/pdf/1905.05055.pdf)]
+
+**[arXiv]** Object Detection with Deep Learning: A Review, [[paper](https://arxiv.org/pdf/1807.05511.pdf)]
+
+**[arXiv]** A Review of Object Detection Models based on Convolutional Neural Network, [[paper](https://arxiv.org/pdf/1905.01614.pdf)]
+
+**[arXiv]** A Review of methods for Textureless Object Recognition, [[paper](https://arxiv.org/abs/1910.14255)]\
+
+##### a. Two-stage methods
+
 ***2020:***
 
 **[arXiv]** Real-Time Object Detection and Recognition on Low-Compute Humanoid Robots using Deep Learning, [[paper](https://arxiv.org/pdf/2002.03735.pdf)]
@@ -141,35 +163,73 @@ In order to provide a better input to compute the oriented 2D box, or generate t
 
 **[arXiv]** cmSalGAN: RGB-D Salient Object Detection with Cross-View Generative Adversarial Networks, [[paper](https://arxiv.org/pdf/1912.10280.pdf)]
 
-**[arXiv]** PointRend: Image Segmentation as Rendering, [[paper](https://arxiv.org/abs/1912.08193)]
-
 **[arXiv]** OpenLORIS-Object: A Dataset and Benchmark towards Lifelong Object Recognition, [[paper](https://arxiv.org/abs/1911.06487)] [[project](https://lifelong-robotic-vision.github.io/dataset/Data_Object-Recognition.html)]
 
 **[IROS]** Look Further to Recognize Better: Learning Shared Topics and Category-Specific Dictionaries for Open-Ended 3D Object Recognition, [[paper](https://arxiv.org/abs/1907.12924)]
 
 **[IROS]** Recurrent Convolutional Fusion for RGB-D Object Recognition, [[paper](https://arxiv.org/pdf/1806.01673.pdf)] [[code](https://github.com/MRLoghmani/rcfusion)]
 
-**[arXiv]** A Review of methods for Textureless Object Recognition, [[paper](https://arxiv.org/abs/1910.14255)]
-
 **[ICCVW]** An Annotation Saved is an Annotation Earned: Using Fully Synthetic Training for Object Detection, [[paper](http://openaccess.thecvf.com/content_ICCVW_2019/papers/R6D/Hinterstoisser_An_Annotation_Saved_is_an_Annotation_Earned_Using_Fully_Synthetic_ICCVW_2019_paper.pdf)]
 
-**[arXiv]** Object Detection in 20 Years A Survey, [[paper](https://arxiv.org/abs/1905.05055)]
+***2017:***
+
+**[arXiv]** Light-Head R-CNN: In Defense of Two-Stage Object Detector, [[paper](https://arxiv.org/pdf/1711.07264.pdf)] [[code](https://github.com/zengarden/light_head_rcnn)]
+
+***2016:***
+
+**[NeurIPS]** R-FCN: Object Detection via Region-based Fully Convolutional Networks, [[paper](https://arxiv.org/pdf/1605.06409.pdf)] [[code](https://github.com/daijifeng001/R-FCN)]
+
+**[TPAMI]** Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks, [[paper](https://arxiv.org/abs/1506.01497)] [[code](https://github.com/rbgirshick/py-faster-rcnn)]
+
+**[ECCV]** Visual relationship detection with language priors, [[paper](https://arxiv.org/pdf/1608.00187.pdf)]
+
+***2015:***
+
+**[ICCV]** Fast R-CNN, [[paper](https://arxiv.org/pdf/1504.08083.pdf)] [[code](https://github.com/rbgirshick/fast-rcnn)]
+
+***2014:***
+
+**[ECCV]** SPPNet: Spatial Pyramid Pooling in Deep Convolutional Networks for Visual Recognition, [[paper](https://arxiv.org/pdf/1406.4729.pdf)] [[code](https://github.com/ShaoqingRen/SPP_net)]
+
+**[CVPR]** R-CNN: Rich feature hierarchies for accurate object detection and semantic segmentation, [[paper](https://arxiv.org/pdf/1311.2524.pdf)] [[code](https://github.com/rbgirshick/rcnn)]
+
+##### b. Single-stage methods
 
 ***2018:***
 
 **[arXiv]** YOLOv3: An Incremental Improvement, [[paper](https://pjreddie.com/media/files/papers/YOLOv3.pdf)] [[code](https://github.com/eriklindernoren/PyTorch-YOLOv3)]
 
+***2017:***
+
+**[CVPR]** YOLO9000: Better, Faster, Stronger, [[paper](https://arxiv.org/pdf/1612.08242.pdf)] [[code](https://github.com/longcw/yolo2-pytorch)]
+
 ***2016:***
 
-**[CVPR]** You only look once: Unified, real-time object detection, [[paper](https://arxiv.org/abs/1506.02640)] [[code](https://github.com/gliese581gg/YOLO_tensorflow)]
-
-**[TPAMI]** Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks, [[paper](https://arxiv.org/abs/1506.01497)] [[code](https://github.com/rbgirshick/py-faster-rcnn)]
+**[CVPR]** YOLO: You only look once: Unified, real-time object detection, [[paper](https://arxiv.org/abs/1506.02640)] [[code](https://github.com/gliese581gg/YOLO_tensorflow)]
 
 **[ECCV]** SSD: Single Shot MultiBox Detector, [[paper](https://arxiv.org/abs/1512.02325)] [[code](https://github.com/balancap/SSD-Tensorflow)]
 
-#### 1.3.2 2D segmentation:
+***2014:***
+
+**[ICLR]** OverFeat: Integrated Recognition, Localization and Detection using Convolutional Networks, [[paper](https://arxiv.org/pdf/1312.6229.pdf)] [[code](https://github.com/sermanet/OverFeat)]
+
+------
+
+***Dataset:***
+
+[PASCAL VOC](http://host.robots.ox.ac.uk/pascal/VOC/): The PASCAL Visual Object Classes (VOC) Challenge, [[paper](http://host.robots.ox.ac.uk/pascal/VOC/pubs/everingham10.pdf)]
+
+[ILSVRC](http://www.image-net.org/challenges/LSVRC/): ImageNet large scale visual recognition challenge, [[paper](https://arxiv.org/pdf/1409.0575.pdf)]
+
+[Microsoft COCO](http://cocodataset.org/): Common Objects in Context, is a large-scale object detection, segmentation, and captioning dataset, [[paper](https://arxiv.org/pdf/1405.0312.pdf)]
+
+[Open Images](https://storage.googleapis.com/openimages/web/index.html): a collaborative release of ~9 million images annotated with labels spanning thousands of object categories, [[paper](https://arxiv.org/pdf/1811.00982v1.pdf)]
+
+#### 1.3.2 2D instance segmentation:
 
 ***2020:***
+
+**[arXiv]** Evolution of Image Segmentation using Deep Convolutional Neural Network: A Survey, [[paper](https://arxiv.org/pdf/2001.04074.pdf)]
 
 **[arXiv]** FourierNet: Compact mask representation for instance segmentation using differentiable shape decoders, [[paper](https://arxiv.org/pdf/2002.02709.pdf)]
 
@@ -179,17 +239,67 @@ In order to provide a better input to compute the oriented 2D box, or generate t
 
 **[arXiv]** Joint Learning of Instance and Semantic Segmentation for Robotic Pick-and-Place with Heavy Occlusions in Clutter, [[paper](https://arxiv.org/pdf/2001.07481.pdf)]
 
+**[arXiv]** PointRend: Image Segmentation as Rendering, [[paper](https://arxiv.org/abs/1912.08193)]
+
 **[arXiv]** Image Segmentation Using Deep Learning: A Survey, [[paper](https://arxiv.org/pdf/2001.05566.pdf)]
 
 ***2019:***
 
+**[arXiv]** YOLACT++ Better Real-time Instance Segmentation, [[paper](https://arxiv.org/pdf/1912.06218.pdf)] [[code](https://github.com/dbolya/yolact)]
+
+**[ICCV]** YOLACT: Real-time Instance Segmentation, [[paper](https://arxiv.org/pdf/1904.02689.pdf)] [[code](https://github.com/dbolya/yolact)]
+
+**[ICCV]** TensorMask: A Foundation for Dense Object Segmentation, [[paper](https://arxiv.org/pdf/1903.12174.pdf)] [[code](https://github.com/facebookresearch/detectron2/tree/master/projects/TensorMask)]
+
 **[CASE]** Deep Workpiece Region Segmentation for Bin Picking, [[paper](https://arxiv.org/abs/1909.03462)]
+
+***2018:***
+
+**[CVPR]** PANet: Path Aggregation Network for Instance Segmentation, [[paper](https://arxiv.org/pdf/1803.01534.pdf)] [[code](https://github.com/ShuLiu1993/PANet)]
+
+**[CVPR]** MaskLab: Instance Segmentation by Refining Object Detection with Semantic and Direction Features, [[paper](https://arxiv.org/pdf/1712.04837.pdf)]
 
 ***2017:***
 
 **[ICCV]** Mask r-cnn, [[paper](https://arxiv.org/abs/1703.06870)] [[code](https://github.com/matterport/Mask_RCNN)]
 
 **[IROS]** SegICP: Integrated Deep Semantic Segmentation and Pose Estimation, [[paper](https://arxiv.org/abs/1703.01661)]
+
+**[CVPR]** Fully Convolutional Instance-aware Semantic Segmentation, [[paper](https://arxiv.org/pdf/1611.07709.pdf)]
+
+***2016:***
+
+**[ECCV]** SharpMask: Learning to Refine Object Segments, [[paper](https://arxiv.org/pdf/1603.08695.pdf)] [[code](https://github.com/facebookresearch/deepmask)]
+
+**[BMVC]** MultiPathNet: A MultiPath Network for Object Detection, [[paper](https://arxiv.org/pdf/1604.02135.pdf)] [[code](https://github.com/facebookresearch/multipathnet)]
+
+**[CVPR]** MNC: Instance-aware Semantic Segmentation via Multi-task Network Cascades, [[paper](https://arxiv.org/pdf/1512.04412.pdf)]
+
+***2015:***
+
+**[NeurIPS]** DeepMask: Learning to Segment Object Candidates, [[paper](https://arxiv.org/pdf/1506.06204.pdf)] [[code](https://github.com/facebookresearch/deepmask)]
+
+**[CVPR]** Hypercolumns for Object Segmentation and Fine-grained Localization, [[paper](https://arxiv.org/pdf/1411.5752.pdf)]
+
+***2014:***
+
+**[ECCV]** SDS: Simultaneous Detection and Segmentation, [[paper](https://arxiv.org/pdf/1407.1808.pdf)]
+
+#### 1.3.3 2D panoptic segmentation:
+
+***2019:***
+
+**[CVPR]** An End-to-End Network for Panoptic Segmentation, [[paper](https://arxiv.org/pdf/1903.05027.pdf)]
+
+**[CVPR]** Panoptic Segmentation, [[paper](https://arxiv.org/pdf/1801.00868.pdf)]
+
+**[CVPR]** Panoptic Feature Pyramid Networks, [[paper](https://arxiv.org/pdf/1901.02446.pdf)] 
+
+**[CVPR]** UPSNet: A Unified Panoptic Segmentation Network, [[paper](https://arxiv.org/pdf/1901.03784.pdf)]
+
+**[IV]** Single Network Panoptic Segmentation for Street Scene Understanding, [[paper](https://arxiv.org/pdf/1902.02678.pdf)] [[code](https://github.com/DdeGeus/single-network-panoptic-segmentation)]
+
+**[ITSC]** Multi-task Network for Panoptic Segmentation in Automated Driving, [[paper](https://ieeexplore.ieee.org/document/8917422)]
 
 
 
