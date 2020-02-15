@@ -153,6 +153,8 @@ Detailed paper lists can refer to [hoya012](https://github.com/hoya012/deep_lear
 
 ***2020:***
 
+**[arXiv]** SpotNet: Self-Attention Multi-Task Network for Object Detection, [[paper](https://arxiv.org/pdf/2002.05540.pdf)]
+
 **[arXiv]** Real-Time Object Detection and Recognition on Low-Compute Humanoid Robots using Deep Learning, [[paper](https://arxiv.org/pdf/2002.03735.pdf)]
 
 **[arXiv]** FedVision: An Online Visual Object Detection Platform Powered by Federated Learning, [[paper](https://arxiv.org/pdf/2001.06202.pdf)]
@@ -228,6 +230,10 @@ Detailed paper lists can refer to [hoya012](https://github.com/hoya012/deep_lear
 #### 1.3.2 2D instance segmentation:
 
 ***2020:***
+
+**[arXiv]** Self-Supervised Object-in-Gripper Segmentation from Robotic Motions, [[paper](https://arxiv.org/pdf/2002.04487.pdf)]
+
+**[arXiv]** Real-time Semantic Background Subtraction, [[paper](https://arxiv.org/pdf/2002.04993.pdf)]
 
 **[arXiv]** Evolution of Image Segmentation using Deep Convolutional Neural Network: A Survey, [[paper](https://arxiv.org/pdf/2001.04074.pdf)]
 
@@ -365,6 +371,8 @@ Most of this kind of methods estimate depth images from RGB images, and then con
 This kind of methods purely utilize the 3D point cloud data.
 
 ***2020:***
+
+**[ariv]** SegVoxelNet: Exploring Semantic Context and Depth-aware Features for 3D Vehicle Detection from Point Cloud, [[paper](https://arxiv.org/pdf/2002.05316.pdf)]
 
 **[arXiv]** Investigating the Importance of Shape Features, Color Constancy, Color Spaces and Similarity Measures in Open-Ended 3D Object Recognition, [[paper](https://arxiv.org/pdf/2002.03779.pdf)]
 
@@ -818,9 +826,11 @@ The partial-view point cloud will be aligned to the complete shape in order to o
 
 ##### b. 3D feature-based methods
 
-***2019:***
+***2020:***
 
 **[arXiv]** StickyPillars: Robust feature matching on point clouds using Graph Neural Networks, [[paper](https://arxiv.org/pdf/2002.03983.pdf)]
+
+***2019:***
 
 **[arXiv]** 3DRegNet: A Deep Neural Network for 3D Point Registration, [[paper](https://arxiv.org/abs/1904.01701)] [[code](https://github.com/goncalo120/3DRegNet)]
 
@@ -897,6 +907,8 @@ In this situation, there exist no 3D models, an the 6-DoF grasps are estimated f
 #### 2.3.1 Estimating 6-DoF grasps from partial view point cloud
 
 ***2020:***
+
+**[RAL]** GRASPA 1.0: GRASPA is a Robot Arm graSping Performance benchmArk, [[paper](https://arxiv.org/pdf/2002.05017.pdf)] [[code](https://github.com/robotology/GRASPA-benchmark)]
 
 **[arXiv]** GraspNet: A Large-Scale Clustered and Densely Annotated Dataset for Object Grasping, [[paper](https://arxiv.org/pdf/1912.13470.pdf)]
 
@@ -980,6 +992,8 @@ In this situation, there exist no 3D models, an the 6-DoF grasps are estimated f
 
 ***2020:***
 
+**[arXiv]** Fast Generation of High Fidelity RGB-D Images by Deep-Learning with Adaptive Convolution, [[paper](https://arxiv.org/pdf/2002.05067.pdf)]
+
 **[arXiv]** DiverseDepth: Affine-invariant Depth Prediction Using Diverse Data, [[paper](https://arxiv.org/pdf/2002.00569.pdf)]
 
 **[arXiv]** Depth Map Estimation of Dynamic Scenes Using Prior Depth Information, [[paper](https://arxiv.org/pdf/2002.00297.pdf)]
@@ -996,7 +1010,7 @@ In this situation, there exist no 3D models, an the 6-DoF grasps are estimated f
 
 **[arXiv]** Don't Forget The Past: Recurrent Depth Estimation from Monocular Video, [[paper](https://arxiv.org/pdf/2001.02613.pdf)]
 
-**[AAAI]** Morphing and Sampling Network for Dense Point Cloud Completion, [[paper](https://arxiv.org/abs/1912.00280)]
+**[AAAI]** Morphing and Sampling Network for Dense Point Cloud Completion, [[paper](https://arxiv.org/abs/1912.00280)] [[code](https://github.com/Colin97/MSN-Point-Cloud-Completion)]
 
 **[AAAI]** CSPN++: Learning Context and Resource Aware Convolutional Spatial Propagation Networks for Depth Completion, [[paper](https://arxiv.org/abs/1911.05377)]
 
@@ -1401,6 +1415,10 @@ In this situation, there exist no 3D models, an the 6-DoF grasps are estimated f
 
 
 ## 10. Path Planning
+
+***2020:***
+
+**[arXiv]** Reaching, Grasping and Re-grasping: Learning Fine Coordinated Motor Skills, [[paper](https://arxiv.org/pdf/2002.04498.pdf)]
 
 ***2019:***
 
