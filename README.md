@@ -137,6 +137,8 @@ Detailed paper lists can refer to [hoya012](https://github.com/hoya012/deep_lear
 
 ***2020:***
 
+**[arXiv]** Deep Domain Adaptive Object Detection: a Survey, [[paper](https://arxiv.org/pdf/2002.06797.pdf)]
+
 **[IJCV]** Deep Learning for Generic Object Detection: A Survey, [[paper](https://link.springer.com/content/pdf/10.1007%2Fs11263-019-01247-4.pdf)]
 
 ***2019:***
@@ -152,6 +154,12 @@ Detailed paper lists can refer to [hoya012](https://github.com/hoya012/deep_lear
 ##### a. Two-stage methods
 
 ***2020:***
+
+**[arXiv]** Universal-RCNN: Universal Object Detector via Transferable Graph R-CNN, [[paper](https://arxiv.org/pdf/2002.07417.pdf)]
+
+**[arXiv]** Unsupervised Image-generation Enhanced Adaptation for Object Detection in Thermal images, [[paper](https://arxiv.org/pdf/2002.06770.pdf)]
+
+**[arXiv]** PCSGAN: Perceptual Cyclic-Synthesized Generative Adversarial Networks for Thermal and NIR to Visible Image Transformation, [[paper](https://arxiv.org/pdf/2002.07082.pdf)]
 
 **[arXiv]** SpotNet: Self-Attention Multi-Task Network for Object Detection, [[paper](https://arxiv.org/pdf/2002.05540.pdf)]
 
@@ -230,6 +238,8 @@ Detailed paper lists can refer to [hoya012](https://github.com/hoya012/deep_lear
 #### 1.3.2 2D instance segmentation:
 
 ***2020:***
+
+**[arXiv]** Towards Bounding-Box Free Panoptic Segmentation, [[paper](https://arxiv.org/pdf/2002.07705.pdf)]
 
 **[arXiv]** Self-Supervised Object-in-Gripper Segmentation from Robotic Motions, [[paper](https://arxiv.org/pdf/2002.04487.pdf)]
 
@@ -312,7 +322,7 @@ Detailed paper lists can refer to [hoya012](https://github.com/hoya012/deep_lear
 ## 2. 6DoF Grasp
 
 **Grasp Representation:**
-The grasp is represented as 6DoF pose in 3D domain, and the gripper can grasp the object from various angles. The input to this task is 3D point cloud from RGB-D sensors, and this task contains two stages. In the first stage, the targe object should be extracted from the scene. In the second stage, if there exist an existing 3D model, the 6D pose of the object could be computed. If there exists no 3D models, the 6DoF grasp pose will be computed from some other methods.
+The grasp is represented as 6DoF pose in 3D domain, and the gripper can grasp the object from various angles. The input to this task is 3D point cloud from RGB-D sensors, and this task contains two stages. In the first stage, the target object should be extracted from the scene. In the second stage, if there exists an existing 3D model, the 6D pose of the object could be computed. If there exists no 3D models, the 6DoF grasp pose will be computed from some other methods.
 
 ### 2.1 Target object extraction in 3D
 
@@ -327,6 +337,8 @@ This kind of methods can be divided into three kinds: RGB-based methods, point c
 Most of this kind of methods estimate depth images from RGB images, and then conduct 3D detection.
 
 ***2020:***
+
+**[arXiv]** siaNMS: Non-Maximum Suppression with Siamese Networks for Multi-Camera 3D Object Detection, [[paper](https://arxiv.org/pdf/2002.08239.pdf)]
 
 **[AAAI]** Monocular 3D Object Detection with Decoupled Structured Polygon Estimation and Height-Guided Depth Estimation, [[paper](https://arxiv.org/pdf/2002.01619.pdf)]
 
@@ -423,6 +435,8 @@ This kind of methods utilize both rgb images and depth images/point clouds. Ther
 ***2020:***
 
 **[arXiv]** ImVoteNet: Boosting 3D Object Detection in Point Clouds with Image Votes, [[paper](https://arxiv.org/pdf/2001.10692.pdf)]
+
+**[arXiv]** JRMOT: A Real-Time 3D Multi-Object Tracker and a New Large-Scale Dataset, [[paper](https://arxiv.org/pdf/2002.08397.pdf)]
 
 **[AAAI]** PI-RCNN: An Efficient Multi-sensor 3D Object Detector with Point-based Attentive Cont-conv Fusion Module, [[paper](https://arxiv.org/abs/1911.06084)]
 
@@ -599,6 +613,8 @@ This kind of methods can be divided into four kinds, which are corresponding-bas
 
 ***2020:***
 
+**[arXiv]** Table-Top Scene Analysis Using Knowledge-Supervised MCMC, [[paper](https://arxiv.org/pdf/2002.08417.pdf)]
+
 **[arXiv]** AprilTags 3D: Dynamic Fiducial Markers for Robust Pose Estimation in Highly Reflective Environments and Indirect Communication in Swarm Robotics, [[paper](https://arxiv.org/pdf/2001.08622.pdf)]
 
 **[AAAI]** LCD: Learned Cross-Domain Descriptors for 2D-3D Matching, [[paper](https://arxiv.org/abs/1911.09326)] [[project](https://hkust-vgd.github.io/lcd/)]
@@ -631,7 +647,7 @@ This kind of methods can be divided into four kinds, which are corresponding-bas
 
 ##### c. Voting-based methods
 
-***2018:***
+***2017:***
 
 **[TPAMI]** Robust 3D Object Tracking from Monocular Images Using Stable Parts, [[paper](https://ieeexplore.ieee.org/document/7934426)]
 
@@ -711,6 +727,8 @@ This kind of methods can be divided into four kinds, which are corresponding-bas
 ###### 2) Indirectly way (Firstly regress feature points and use PnP methods)
 
 ***2020:***
+
+**[arXiv]** Object 6D Pose Estimation with Non-local Attention, [[paper](https://arxiv.org/pdf/2002.08749.pdf)]
 
 **[arXiv]** 6DoF Object Pose Estimation via Differentiable Proxy Voting Loss, [[paper](https://arxiv.org/pdf/2002.03923.pdf)]
 
@@ -992,6 +1010,10 @@ In this situation, there exist no 3D models, an the 6-DoF grasps are estimated f
 
 ***2020:***
 
+**[arXiv]** 3D Gated Recurrent Fusion for Semantic Scene Completion, [[paper](https://arxiv.org/pdf/2002.07269.pdf)]
+
+**[arXiv]** Applying Depth-Sensing to Automated Surgical Manipulation with a da Vinci Robot, [[paper](https://arxiv.org/pdf/2002.06302.pdf)]
+
 **[arXiv]** Fast Generation of High Fidelity RGB-D Images by Deep-Learning with Adaptive Convolution, [[paper](https://arxiv.org/pdf/2002.05067.pdf)]
 
 **[arXiv]** DiverseDepth: Affine-invariant Depth Prediction Using Diverse Data, [[paper](https://arxiv.org/pdf/2002.00569.pdf)]
@@ -1152,7 +1174,7 @@ In this situation, there exist no 3D models, an the 6-DoF grasps are estimated f
 
 ***2020:***
 
-**[ICLR]** LEARNING TO GROUP: A BOTTOM-UP FRAMEWORK FOR 3D PART DISCOVERY IN UNSEEN CATEGORIES, [[paper](https://openreview.net/pdf?id=rkl8dlHYvB)]
+**[ICLR]** Learning to Group: A Bottom-Up Framework for 3D Part Discovery in Unseen Categories, [[paper](https://arxiv.org/pdf/2002.06478.pdf)]
 
 ***2019:***
 
@@ -1297,6 +1319,8 @@ In this situation, there exist no 3D models, an the 6-DoF grasps are estimated f
 ## 8. Reinforcement Learning
 
 ***2020:***
+
+**[arXiv]** Learning Pregrasp Manipulation of Objects from Ungraspable Poses, [[paper](https://arxiv.org/pdf/2002.06344.pdf)]
 
 **[arXiv]** Deep Reinforcement Learning for Autonomous Driving: A Survey, [[paper](https://arxiv.org/pdf/2002.00444.pdf)]
 
