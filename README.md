@@ -205,6 +205,16 @@ Detailed paper lists can refer to [hoya012](https://github.com/hoya012/deep_lear
 
 ##### b. Single-stage methods
 
+***2019:***
+
+**[arXiv]** CenterNet: Objects as Points, [[paper](https://arxiv.org/pdf/1904.07850.pdf)]
+
+**[arXiv]** CenterNet: Keypoint Triplets for Object Detection, [[paper](https://arxiv.org/pdf/1904.08189.pdf)]
+
+**[arXiv]** FCOS: Fully Convolutional One-Stage Object Detection, [[paper](https://arxiv.org/pdf/1904.01355.pdf)]
+
+**[arXiv]** Bottom-up Object Detection by Grouping Extreme and Center Points, [[paper](https://arxiv.org/pdf/1901.08043.pdf)]
+
 ***2018:***
 
 **[arXiv]** YOLOv3: An Incremental Improvement, [[paper](https://pjreddie.com/media/files/papers/YOLOv3.pdf)] [[code](https://github.com/eriklindernoren/PyTorch-YOLOv3)]
@@ -218,6 +228,12 @@ Detailed paper lists can refer to [hoya012](https://github.com/hoya012/deep_lear
 **[CVPR]** YOLO: You only look once: Unified, real-time object detection, [[paper](https://arxiv.org/abs/1506.02640)] [[code](https://github.com/gliese581gg/YOLO_tensorflow)]
 
 **[ECCV]** SSD: Single Shot MultiBox Detector, [[paper](https://arxiv.org/abs/1512.02325)] [[code](https://github.com/balancap/SSD-Tensorflow)]
+
+**[ECCV]** LIFT: Learned Invariant Feature Transform, [[paper](https://arxiv.org/pdf/1603.09114.pdf)]
+
+***2015:***
+
+**[CVPR]** MatchNet: Unifying Feature and Metric Learning for Patch-Based Matching, [[paper](https://www.cv-foundation.org/openaccess/content_cvpr_2015/papers/Han_MatchNet_Unifying_Feature_2015_CVPR_paper.pdf)]
 
 ***2014:***
 
@@ -238,6 +254,8 @@ Detailed paper lists can refer to [hoya012](https://github.com/hoya012/deep_lear
 #### 1.3.2 2D instance segmentation:
 
 ***2020:***
+
+**[arXiv]** Cross-layer Feature Pyramid Network for Salient Object Detection, [[paper](https://arxiv.org/pdf/2002.10864.pdf)]
 
 **[arXiv]** Towards Bounding-Box Free Panoptic Segmentation, [[paper](https://arxiv.org/pdf/2002.07705.pdf)]
 
@@ -261,6 +279,10 @@ Detailed paper lists can refer to [hoya012](https://github.com/hoya012/deep_lear
 
 ***2019:***
 
+**[arXiv]** CenterMask:Real-Time Anchor-Free Instance Segmentation, [[paper](https://arxiv.org/pdf/1911.06667.pdf)] [[code](https://github.com/youngwanLEE/centermask2)]
+
+**[arXiv]** SAIS: Single-stage Anchor-free Instance Segmentation, [[paper](https://arxiv.org/pdf/1912.01176.pdf)]
+
 **[arXiv]** YOLACT++ Better Real-time Instance Segmentation, [[paper](https://arxiv.org/pdf/1912.06218.pdf)] [[code](https://github.com/dbolya/yolact)]
 
 **[ICCV]** YOLACT: Real-time Instance Segmentation, [[paper](https://arxiv.org/pdf/1904.02689.pdf)] [[code](https://github.com/dbolya/yolact)]
@@ -269,7 +291,11 @@ Detailed paper lists can refer to [hoya012](https://github.com/hoya012/deep_lear
 
 **[CASE]** Deep Workpiece Region Segmentation for Bin Picking, [[paper](https://arxiv.org/abs/1909.03462)]
 
+**[arXiv]** Bottom-up Object Detection by Grouping Extreme and Center Points, [[paper](https://arxiv.org/pdf/1901.08043.pdf)]
+
 ***2018:***
+
+**[ECCV]** CornerNet: Detecting Objects as Paired Keypoints, [[paper](https://arxiv.org/pdf/1808.01244.pdf)]
 
 **[CVPR]** PANet: Path Aggregation Network for Instance Segmentation, [[paper](https://arxiv.org/pdf/1803.01534.pdf)] [[code](https://github.com/ShuLiu1993/PANet)]
 
@@ -338,6 +364,8 @@ Most of this kind of methods estimate depth images from RGB images, and then con
 
 ***2020:***
 
+**[arXiv]** SMOKE: Single-Stage Monocular 3D Object Detection via Keypoint Estimation, [[paper](https://arxiv.org/pdf/2002.10111.pdf)]
+
 **[arXiv]** siaNMS: Non-Maximum Suppression with Siamese Networks for Multi-Camera 3D Object Detection, [[paper](https://arxiv.org/pdf/2002.08239.pdf)]
 
 **[AAAI]** Monocular 3D Object Detection with Decoupled Structured Polygon Estimation and Height-Guided Depth Estimation, [[paper](https://arxiv.org/pdf/2002.01619.pdf)]
@@ -383,6 +411,8 @@ Most of this kind of methods estimate depth images from RGB images, and then con
 This kind of methods purely utilize the 3D point cloud data.
 
 ***2020:***
+
+**[arXiv]** 3DSSD: Point-based 3D Single Stage Object Detector, [[paper](https://arxiv.org/pdf/2002.10187.pdf)]
 
 **[ariv]** SegVoxelNet: Exploring Semantic Context and Depth-aware Features for 3D Vehicle Detection from Point Cloud, [[paper](https://arxiv.org/pdf/2002.05316.pdf)]
 
@@ -641,6 +671,10 @@ This kind of methods can be divided into four kinds, which are corresponding-bas
 
 **[arXiv]** Real-time Background-aware 3D Textureless Object Pose Estimation, [[paper](https://arxiv.org/abs/1907.09128)]
 
+***2017:***
+
+**[arXiv]** End-to-end Learning of Deep Visual Representations for Image Retrieval, [[paper](https://arxiv.org/pdf/1610.07940.pdf)]
+
 ***2012:***
 
 **[ACCV]** Model based training, detection and pose estimation of texture-less 3d objects in heavily cluttered scenes, [[paper](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.250.6547&rep=rep1&type=pdf)]
@@ -832,6 +866,12 @@ HomebrewedDB: RGB-D Dataset for 6D Pose Estimation of 3D Objects, ICCVW, 2019 [[
 
 The partial-view point cloud will be aligned to the complete shape in order to obtain the 6D pose. Generally, coarse registration should be conduct firstly to provide an intial alignment, and dense registration methods like ICP (Iterative Closest Point) will be conducted to obtain the final 6D pose.
 
+***Survey***
+
+***2020:***
+
+**[arXiv]** Least Squares Optimization: from Theory to Practice, [[paper](https://arxiv.org/pdf/2002.11051.pdf)]
+
 ##### a. Ransac-based methods
 
 ***2016:***
@@ -851,6 +891,8 @@ The partial-view point cloud will be aligned to the complete shape in order to o
 ***2019:***
 
 **[arXiv]** 3DRegNet: A Deep Neural Network for 3D Point Registration, [[paper](https://arxiv.org/abs/1904.01701)] [[code](https://github.com/goncalo120/3DRegNet)]
+
+**[CVPR]** The Perfect Match: 3D Point Cloud Matching with Smoothed Densities, [[paper](http://openaccess.thecvf.com/content_CVPR_2019/papers/Gojcic_The_Perfect_Match_3D_Point_Cloud_Matching_With_Smoothed_Densities_CVPR_2019_paper.pdf)]
 
 ***2018:***
 
@@ -978,6 +1020,12 @@ In this situation, there exist no 3D models, an the 6-DoF grasps are estimated f
 
 ***2020:***
 
+**[arXiv]** PolyGen: An Autoregressive Generative Model of 3D Meshes, [[paper](https://arxiv.org/pdf/2002.10880.pdf)]
+
+**[arXiv]** BlockGAN Learning 3D Object-aware Scene Representations from Unlabelled Images, [[paper](https://arxiv.org/pdf/2002.08988.pdf)]
+
+**[arXiv]** Implicit Geometric Regularization for Learning Shapes, [[paper](https://arxiv.org/pdf/2002.10099.pdf)]
+
 **[arXiv]** The Whole Is Greater Than the Sum of Its Nonrigid Parts, [[paper](https://arxiv.org/pdf/2001.09650.pdf)]
 
 ***2019:***
@@ -1077,6 +1125,10 @@ In this situation, there exist no 3D models, an the 6-DoF grasps are estimated f
 
 
 #### 2.3.5 Point cloud upsamping
+
+***2020:***
+
+**[arXiv]** PUGeo-Net: A Geometry-centric Network for 3D Point Cloud Upsampling, [[paper](https://arxiv.org/pdf/2002.10277.pdf)]
 
 ***2019:***
 
@@ -1246,6 +1298,8 @@ In this situation, there exist no 3D models, an the 6-DoF grasps are estimated f
 
 ***2020:***
 
+**[arXiv]** Learning Machines from Simulation to Real World, [[paper](https://arxiv.org/pdf/2002.10853.pdf)]
+
 **[arXiv]** Sim2Real2Sim: Bridging the Gap Between Simulation and Real-World in Flexible Object Manipulation, [[paper](https://arxiv.org/pdf/2002.02538.pdf)]
 
 ***2019:***
@@ -1294,6 +1348,10 @@ In this situation, there exist no 3D models, an the 6-DoF grasps are estimated f
 
 ## 7. Learning from Demonstration
 
+***2020:***
+
+**[arXiv]** Gaussian-Process-based Robot Learning from Demonstration, [[paper](https://arxiv.org/pdf/2002.09979.pdf)]
+
 ***2019:***
 
 **[arXiv]** Grasping in the Wild: Learning 6DoF Closed-Loop Grasping from Low-Cost Demonstrations, [[paper](https://arxiv.org/abs/1912.04344)] [[project](https://graspinwild.cs.columbia.edu/)]
@@ -1319,6 +1377,10 @@ In this situation, there exist no 3D models, an the 6-DoF grasps are estimated f
 ## 8. Reinforcement Learning
 
 ***2020:***
+
+**[arXiv]** Learning Precise 3D Manipulation from Multiple Uncalibrated Cameras, [[paper](https://arxiv.org/pdf/2002.09107.pdf)]
+
+**[arXiv]** The Surprising Effectiveness of Linear Models for Visual Foresight in Object Pile Manipulation, [[paper](https://arxiv.org/pdf/2002.09093.pdf)]
 
 **[arXiv]** Learning Pregrasp Manipulation of Objects from Ungraspable Poses, [[paper](https://arxiv.org/pdf/2002.06344.pdf)]
 
