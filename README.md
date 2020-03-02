@@ -149,11 +149,13 @@ Detailed paper lists can refer to [hoya012](https://github.com/hoya012/deep_lear
 
 **[arXiv]** A Review of Object Detection Models based on Convolutional Neural Network, [[paper](https://arxiv.org/pdf/1905.01614.pdf)]
 
-**[arXiv]** A Review of methods for Textureless Object Recognition, [[paper](https://arxiv.org/abs/1910.14255)]\
+**[arXiv]** A Review of methods for Textureless Object Recognition, [[paper](https://arxiv.org/abs/1910.14255)]
 
 ##### a. Two-stage methods
 
 ***2020:***
+
+**[arXiv]** Rethinking the Route Towards Weakly Supervised Object Localization, [[paper](https://arxiv.org/pdf/2002.11359.pdf)]
 
 **[arXiv]** Universal-RCNN: Universal Object Detector via Transferable Graph R-CNN, [[paper](https://arxiv.org/pdf/2002.07417.pdf)]
 
@@ -364,6 +366,8 @@ Most of this kind of methods estimate depth images from RGB images, and then con
 
 ***2020:***
 
+**[arXiv]** Total3DUnderstanding: Joint Layout, Object Pose and Mesh Reconstruction for Indoor Scenes from a Single Image, [[paper](https://arxiv.org/pdf/2002.12212.pdf)]
+
 **[arXiv]** SMOKE: Single-Stage Monocular 3D Object Detection via Keypoint Estimation, [[paper](https://arxiv.org/pdf/2002.10111.pdf)]
 
 **[arXiv]** siaNMS: Non-Maximum Suppression with Siamese Networks for Multi-Camera 3D Object Detection, [[paper](https://arxiv.org/pdf/2002.08239.pdf)]
@@ -411,6 +415,8 @@ Most of this kind of methods estimate depth images from RGB images, and then con
 This kind of methods purely utilize the 3D point cloud data.
 
 ***2020:***
+
+**[arXiv]** PointTrackNet: An End-to-End Network for 3-D Object Detection and Tracking from Point Clouds, [[paper](https://arxiv.org/pdf/2002.11559.pdf)]
 
 **[arXiv]** 3DSSD: Point-based 3D Single Stage Object Detector, [[paper](https://arxiv.org/pdf/2002.10187.pdf)]
 
@@ -818,6 +824,8 @@ This kind of methods can be divided into four kinds, which are corresponding-bas
 
 ***2020:***
 
+**[arXiv]** Inverse Graphics GAN: Learning to Generate 3D Shapes from Unstructured 2D Data, [[paper](https://arxiv.org/pdf/2002.12674.pdf)]
+
 **[arXiv]** Deep NRSfM++: Towards 3D Reconstruction in the Wild, [[paper](https://arxiv.org/pdf/2001.10090.pdf)]
 
 **[arXiv]** Learning to Correct 3D Reconstructions from Multiple Views, [[paper](https://arxiv.org/pdf/2001.08098.pdf)]
@@ -968,6 +976,8 @@ In this situation, there exist no 3D models, an the 6-DoF grasps are estimated f
 
 ***2020:***
 
+**[ariXiv]** REGNet: REgion-based Grasp Network for Single-shot Grasp Detection in Point Clouds, [[paper](https://arxiv.org/pdf/2002.12647.pdf)]
+
 **[RAL]** GRASPA 1.0: GRASPA is a Robot Arm graSping Performance benchmArk, [[paper](https://arxiv.org/pdf/2002.05017.pdf)] [[code](https://github.com/robotology/GRASPA-benchmark)]
 
 **[arXiv]** GraspNet: A Large-Scale Clustered and Densely Annotated Dataset for Object Grasping, [[paper](https://arxiv.org/pdf/1912.13470.pdf)]
@@ -1012,6 +1022,8 @@ In this situation, there exist no 3D models, an the 6-DoF grasps are estimated f
 
 ***2018:***
 
+**[ICRA]** AffordanceNet: An End-to-End Deep Learning Approach for Object Affordance Detection, [[paper](https://arxiv.org/pdf/1709.07326.pdf)]
+
 **[arXiv]** Workspace Aware Online Grasp Planning, [[paper](https://arxiv.org/abs/1806.11402)]
 
 
@@ -1054,9 +1066,11 @@ In this situation, there exist no 3D models, an the 6-DoF grasps are estimated f
 
 
 
-#### 2.3.4 Depth completion
+#### 2.3.4 Depth completion and Estimation
 
 ***2020:***
+
+**[ICLR]** SEMANTICALLY-GUIDED REPRESENTATION LEARNING FOR SELF-SUPERVISED MONOCULAR DEPTH, [[paper](https://arxiv.org/pdf/2002.12319.pdf)]
 
 **[arXiv]** 3D Gated Recurrent Fusion for Semantic Scene Completion, [[paper](https://arxiv.org/pdf/2002.07269.pdf)]
 
@@ -1186,6 +1200,10 @@ In this situation, there exist no 3D models, an the 6-DoF grasps are estimated f
 
 #### 3.3.1 Non-rigid registration
 
+***2020:***
+
+**[arXiv]** MINA: Convex Mixed-Integer Programming for Non-Rigid Shape Alignment, [[paper](https://arxiv.org/pdf/2002.12623.pdf)]
+
 ***2019:***
 
 **[arXiv]** Non-Rigid Point Set Registration Networks, [[paper](https://arxiv.org/abs/1904.01428)] [[code](https://github.com/Lingjing324/PR-Net)]
@@ -1297,6 +1315,8 @@ In this situation, there exist no 3D models, an the 6-DoF grasps are estimated f
 ## 5. Simulation to Reality
 
 ***2020:***
+
+**[arXiv]** Multi-source Domain Adaptation in the Deep Learning Era: A Systematic Survey, [[paper](https://arxiv.org/pdf/2002.12169.pdf)]
 
 **[arXiv]** Learning Machines from Simulation to Real World, [[paper](https://arxiv.org/pdf/2002.10853.pdf)]
 
@@ -1503,6 +1523,8 @@ In this situation, there exist no 3D models, an the 6-DoF grasps are estimated f
 ## 10. Path Planning
 
 ***2020:***
+
+**[arXiv]** Describing Physics For Physical Reasoning: Force-based Sequential Manipulation Planning, [[paper](https://arxiv.org/pdf/2002.12780.pdf)]
 
 **[arXiv]** Reaching, Grasping and Re-grasping: Learning Fine Coordinated Motor Skills, [[paper](https://arxiv.org/pdf/2002.04498.pdf)]
 
