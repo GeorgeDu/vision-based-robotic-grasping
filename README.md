@@ -29,6 +29,8 @@ This kind of methods directly regress the oriented 2D box from RGB or RGB-D imag
 
 ***2020:***
 
+**[arXiv]** Rigid-Soft Interactive Learning for Robust Grasping*, [[paper](https://arxiv.org/pdf/2003.01584.pdf)]
+
 **[arXiv]** Optimizing Correlated Graspability Score and Grasp Regression for Better Grasp Prediction, [[paper](https://arxiv.org/pdf/2002.00872.pdf)]
 
 **[arXiv]** Domain Independent Unsupervised Learning to grasp the Novel Objects, [[paper](https://arxiv.org/pdf/2001.05856.pdf)]
@@ -257,6 +259,10 @@ Detailed paper lists can refer to [hoya012](https://github.com/hoya012/deep_lear
 
 ***2020:***
 
+**[arXiv]** Global Context-Aware Progressive Aggregation Network for Salient Object Detection, [[paper](https://arxiv.org/pdf/2003.00651.pdf)]
+
+**[arXiv]** Fully Convolutional Networks for Automatically Generating Image Masks to Train Mask R-CNN, [[paper](https://arxiv.org/pdf/2003.01383.pdf)]
+
 **[arXiv]** Cross-layer Feature Pyramid Network for Salient Object Detection, [[paper](https://arxiv.org/pdf/2002.10864.pdf)]
 
 **[arXiv]** Towards Bounding-Box Free Panoptic Segmentation, [[paper](https://arxiv.org/pdf/2002.07705.pdf)]
@@ -366,6 +372,10 @@ Most of this kind of methods estimate depth images from RGB images, and then con
 
 ***2020:***
 
+**[arXiv]** ZoomNet: Part-Aware Adaptive Zooming Neural Network for 3D Object Detection, [[paper](https://arxiv.org/pdf/2003.00529.pdf)]
+
+**[arXiv]** MonoPair: Monocular 3D Object Detection Using Pairwise Spatial Relationships, [[paper](https://arxiv.org/pdf/2003.00504.pdf)]
+
 **[arXiv]** Total3DUnderstanding: Joint Layout, Object Pose and Mesh Reconstruction for Indoor Scenes from a Single Image, [[paper](https://arxiv.org/pdf/2002.12212.pdf)]
 
 **[arXiv]** SMOKE: Single-Stage Monocular 3D Object Detection via Keypoint Estimation, [[paper](https://arxiv.org/pdf/2002.10111.pdf)]
@@ -415,6 +425,12 @@ Most of this kind of methods estimate depth images from RGB images, and then con
 This kind of methods purely utilize the 3D point cloud data.
 
 ***2020:***
+
+**[arXiv]** 3D Object Detection From LiDAR Data Using Distance Dependent Feature Extraction, [[paper](https://arxiv.org/pdf/2003.00888.pdf)]
+
+**[arXiv]** HVNet: Hybrid Voxel Network for LiDAR Based 3D Object Detection, [[paper](https://arxiv.org/pdf/2003.00186.pdf)]
+
+**[arXiv]** Point-GNN: Graph Neural Network for 3D Object Detection in a Point Cloud, [[paper](https://arxiv.org/pdf/2003.01251.pdf)]
 
 **[arXiv]** PointTrackNet: An End-to-End Network for 3-D Object Detection and Tracking from Point Clouds, [[paper](https://arxiv.org/pdf/2002.11559.pdf)]
 
@@ -518,6 +534,8 @@ This kind of methods utilize both rgb images and depth images/point clouds. Ther
 #### 2.1.2 3D segmentation
 
 ***2020:***
+
+**[arXiv]** 3DCFS: Fast and Robust Joint 3D Semantic-Instance Segmentation via Coupled Feature Selection, [[paper](https://arxiv.org/pdf/2003.00535.pdf)]
 
 **[arXiv]** SceneEncoder: Scene-Aware Semantic Segmentation of Point Clouds with A Learnable Scene Descriptor, [[paper](https://arxiv.org/pdf/2001.09087.pdf)]
 
@@ -703,6 +721,8 @@ This kind of methods can be divided into four kinds, which are corresponding-bas
 
 ***2020:***
 
+**[arXiv]** Robust 6D Object Pose Estimation by Learning RGB-D Features, [[paper](https://arxiv.org/pdf/2003.00188.pdf)]
+
 **[arXiv]** 6D Object Pose Regression via Supervised Learning on Point Clouds, [[paper](https://arxiv.org/pdf/2001.08942.pdf)]
 
 **[arXiv]** HybridPose: 6D Object Pose Estimation under Hybrid Representations, [[paper](https://arxiv.org/pdf/2001.01869.pdf)]
@@ -882,6 +902,10 @@ The partial-view point cloud will be aligned to the complete shape in order to o
 
 ##### a. Ransac-based methods
 
+***2020:***
+
+**[arXiv]** Non-iterative One-step Solution for Point Set Registration Problem on Pose Estimation without Correspondence, [[paper](https://arxiv.org/pdf/2003.00457.pdf)]
+
 ***2016:***
 
 **[TPAMI]** Go-ICP: A Globally Optimal Solution to 3D ICP Point-Set Registration, [[paper](https://arxiv.org/pdf/1605.03344.pdf)] [[code](https://github.com/yangjiaolong/Go-ICP)]
@@ -976,6 +1000,8 @@ In this situation, there exist no 3D models, an the 6-DoF grasps are estimated f
 
 ***2020:***
 
+**[arXiv]** EGAD! an Evolved Grasping Analysis Dataset for diversity and reproducibility in robotic manipulation, [[paper](https://arxiv.org/pdf/2003.01314.pdf)]
+
 **[ariXiv]** REGNet: REgion-based Grasp Network for Single-shot Grasp Detection in Point Clouds, [[paper](https://arxiv.org/pdf/2002.12647.pdf)]
 
 **[RAL]** GRASPA 1.0: GRASPA is a Robot Arm graSping Performance benchmArk, [[paper](https://arxiv.org/pdf/2002.05017.pdf)] [[code](https://github.com/robotology/GRASPA-benchmark)]
@@ -1032,6 +1058,14 @@ In this situation, there exist no 3D models, an the 6-DoF grasps are estimated f
 
 ***2020:***
 
+**[arXiv]** Robotic Grasping through Combined Image-Based Grasp Proposal and 3D Reconstruction, [[paper](https://arxiv.org/pdf/2003.01649.pdf)]
+
+**[arXiv]** PF-Net: Point Fractal Network for 3D Point Cloud Completion, [[paper](https://arxiv.org/pdf/2003.00410.pdf)]
+
+**[arXiv]** Hypernetwork approach to generating point clouds, [[paper](https://arxiv.org/pdf/2003.00802.pdf)]
+
+**[arXiv]** Implicit Functions in Feature Space for 3D Shape Reconstruction and Completion, [[paper](https://arxiv.org/pdf/2003.01456.pdf)]
+
 **[arXiv]** PolyGen: An Autoregressive Generative Model of 3D Meshes, [[paper](https://arxiv.org/pdf/2002.10880.pdf)]
 
 **[arXiv]** BlockGAN Learning 3D Object-aware Scene Representations from Unlabelled Images, [[paper](https://arxiv.org/pdf/2002.08988.pdf)]
@@ -1069,6 +1103,12 @@ In this situation, there exist no 3D models, an the 6-DoF grasps are estimated f
 #### 2.3.4 Depth completion and Estimation
 
 ***2020:***
+
+**[arXiv]** Unsupervised Learning of Depth, Optical Flow and Pose with Occlusion from 3D Geometry, [[paper](https://arxiv.org/pdf/2003.00766.pdf)]
+
+**[arXiv]** A-TVSNet: Aggregated Two-View Stereo Network for Multi-View Stereo Depth Estimation, [[paper](https://arxiv.org/pdf/2003.00711.pdf)]
+
+**[arXiv]** Predicting Sharp and Accurate Occlusion Boundaries in Monocular Depth Estimation Using Displacement Fields, [[paper](https://arxiv.org/pdf/2002.12730.pdf)]
 
 **[ICLR]** SEMANTICALLY-GUIDED REPRESENTATION LEARNING FOR SELF-SUPERVISED MONOCULAR DEPTH, [[paper](https://arxiv.org/pdf/2002.12319.pdf)]
 
@@ -1163,6 +1203,10 @@ In this situation, there exist no 3D models, an the 6-DoF grasps are estimated f
 ### 3.1 Task-oriented manipulation
 
 ***2020:***
+
+**[arXiv]** Team O2AS at the World Robot Summit 2018: An Approach to Robotic Kitting and Assembly Tasks using General Purpose Grippers and Tools, [[paper](https://arxiv.org/pdf/2003.02427.pdf)]
+
+**[arXiv]** Towards Mobile Multi-Task Manipulation in a Confined and Integrated Environment with Irregular Objects, [[paper](https://arxiv.org/pdf/2003.01776.pdf)]
 
 **[arXiv]** Autonomous Industrial Assembly using Force, Torque, and RGB-D sensing, [[paper](Autonomous Industrial Assembly using Force, Torque, and RGB-D sensing)]
 
@@ -1268,6 +1312,8 @@ In this situation, there exist no 3D models, an the 6-DoF grasps are estimated f
 
 ***2020:***
 
+**[arXiv]** Robust High-Transparency Haptic Exploration for Dexterous Telemanipulation, [[paper](https://arxiv.org/pdf/2003.01463.pdf)]
+
 **[arXiv]** Tactile Dexterity: Manipulation Primitives with Tactile Feedback, [[paper](https://arxiv.org/pdf/2002.03236.pdf)]
 
 **[arXiv]** Deep Differentiable Grasp Planner for High-DOF Grippers, [[paper](https://arxiv.org/pdf/2002.01530.pdf)]
@@ -1316,6 +1362,10 @@ In this situation, there exist no 3D models, an the 6-DoF grasps are estimated f
 
 ***2020:***
 
+**[arXiv]** On the Effectiveness of Virtual Reality-based Training for Robotic Setup, [[paper](https://arxiv.org/pdf/2003.01540.pdf)]
+
+**[arXiv]** LiDARNet: A Boundary-Aware Domain Adaptation Model for Lidar Point Cloud Semantic Segmentation, [[paper](https://arxiv.org/pdf/2003.01174.pdf)]
+
 **[arXiv]** Multi-source Domain Adaptation in the Deep Learning Era: A Systematic Survey, [[paper](https://arxiv.org/pdf/2002.12169.pdf)]
 
 **[arXiv]** Learning Machines from Simulation to Real World, [[paper](https://arxiv.org/pdf/2002.10853.pdf)]
@@ -1348,6 +1398,8 @@ In this situation, there exist no 3D models, an the 6-DoF grasps are estimated f
 
 ***2020:***
 
+**[arXiv]** Understanding Contexts Inside Robot and Human Manipulation Tasks through a Vision-Language Model and Ontology System in a Video Stream, [[paper](https://arxiv.org/pdf/2003.01163.pdf)]
+
 **[ToR]** A Transfer Learning Approach to Cross-modal Object Recognition: from Visual Observation to Robotic Haptic Exploration, [[paper](https://arxiv.org/pdf/2001.06673.pdf)]
 
 **[arXiv]** Accurate Vision-based Manipulation through Contact Reasoning,  [[paper](https://arxiv.org/abs/1911.03112)]
@@ -1369,6 +1421,10 @@ In this situation, there exist no 3D models, an the 6-DoF grasps are estimated f
 ## 7. Learning from Demonstration
 
 ***2020:***
+
+**[arXiv]** A Geometric Perspective on Visual Imitation Learning, [[paper](https://arxiv.org/pdf/2003.02768.pdf)]
+
+**[arXiv]** Vision-based Robot Manipulation Learning via Human Demonstrations, [[paper](https://arxiv.org/pdf/2003.00385.pdf)]
 
 **[arXiv]** Gaussian-Process-based Robot Learning from Demonstration, [[paper](https://arxiv.org/pdf/2002.09979.pdf)]
 
@@ -1523,6 +1579,8 @@ In this situation, there exist no 3D models, an the 6-DoF grasps are estimated f
 ## 10. Path Planning
 
 ***2020:***
+
+**[arXiv]** GOMP: Grasp-Optimized Motion Planning for Bin Picking, [[paper](https://arxiv.org/pdf/2003.02401.pdf)]
 
 **[arXiv]** Describing Physics For Physical Reasoning: Force-based Sequential Manipulation Planning, [[paper](https://arxiv.org/pdf/2002.12780.pdf)]
 
