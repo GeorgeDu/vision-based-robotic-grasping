@@ -29,6 +29,10 @@ This kind of methods directly regress the oriented 2D box from RGB or RGB-D imag
 
 ***2020:***
 
+**[arXiv]** Online Self-Supervised Learning for Object Picking: Detecting Optimum Grasping Position using a Metric Learning Approach, [[paper](https://arxiv.org/pdf/2003.03717.pdf)]
+
+**[arXiv]** A Multi-task Learning Framework for Grasping-Position Detection and Few-Shot Classification, [[paper](https://arxiv.org/pdf/2003.05624.pdf)]
+
 **[arXiv]** Rigid-Soft Interactive Learning for Robust Grasping*, [[paper](https://arxiv.org/pdf/2003.01584.pdf)]
 
 **[arXiv]** Optimizing Correlated Graspability Score and Grasp Regression for Better Grasp Prediction, [[paper](https://arxiv.org/pdf/2002.00872.pdf)]
@@ -372,6 +376,8 @@ Most of this kind of methods estimate depth images from RGB images, and then con
 
 ***2020:***
 
+**[arXiv]** Monocular 3D Object Detection in Cylindrical Images from Fisheye Cameras, [[paper](https://arxiv.org/pdf/2003.03759.pdf)]
+
 **[arXiv]** ZoomNet: Part-Aware Adaptive Zooming Neural Network for 3D Object Detection, [[paper](https://arxiv.org/pdf/2003.00529.pdf)]
 
 **[arXiv]** MonoPair: Monocular 3D Object Detection Using Pairwise Spatial Relationships, [[paper](https://arxiv.org/pdf/2003.00504.pdf)]
@@ -535,6 +541,8 @@ This kind of methods utilize both rgb images and depth images/point clouds. Ther
 
 ***2020:***
 
+**[arXiv]** Bi-Directional Attention for Joint Instance and Semantic Segmentation in Point Clouds, [[paper](https://arxiv.org/pdf/2003.05420.pdf)]
+
 **[arXiv]** 3DCFS: Fast and Robust Joint 3D Semantic-Instance Segmentation via Coupled Feature Selection, [[paper](https://arxiv.org/pdf/2003.00535.pdf)]
 
 **[arXiv]** SceneEncoder: Scene-Aware Semantic Segmentation of Point Clouds with A Learnable Scene Descriptor, [[paper](https://arxiv.org/pdf/2001.09087.pdf)]
@@ -548,6 +556,8 @@ This kind of methods utilize both rgb images and depth images/point clouds. Ther
 **[WACV]** FuseSeg: LiDAR Point Cloud Segmentation Fusing Multi-Modal Data, [[paper](https://arxiv.org/abs/1912.08487)]
 
 ***2019:***
+
+**[CVPR]** SGPN: Similarity Group Proposal Network for 3D Point Cloud Instance Segmentation, [[paper](https://www.zpascal.net/cvpr2018/Wang_SGPN_Similarity_Group_CVPR_2018_paper.pdf)]
 
 **[arXiv]** Point2Node: Correlation Learning of Dynamic-Node for Point Cloud Feature Modeling, [[paper](https://arxiv.org/pdf/1912.10775.pdf)]
 
@@ -721,6 +731,8 @@ This kind of methods can be divided into four kinds, which are corresponding-bas
 
 ***2020:***
 
+**[arXiv]** MobilePose: Real-Time Pose Estimation for Unseen Objects with Weak Shape Supervision, [[paper](https://arxiv.org/pdf/2003.03522.pdf)]
+
 **[arXiv]** Robust 6D Object Pose Estimation by Learning RGB-D Features, [[paper](https://arxiv.org/pdf/2003.00188.pdf)]
 
 **[arXiv]** 6D Object Pose Regression via Supervised Learning on Point Clouds, [[paper](https://arxiv.org/pdf/2001.08942.pdf)]
@@ -788,6 +800,8 @@ This kind of methods can be divided into four kinds, which are corresponding-bas
 
 ***2020:***
 
+**[arXiv]** PnP-Net: A hybrid Perspective-n-Point Network, [[paper](https://arxiv.org/pdf/2003.04626.pdf)]
+
 **[arXiv]** Object 6D Pose Estimation with Non-local Attention, [[paper](https://arxiv.org/pdf/2002.08749.pdf)]
 
 **[arXiv]** 6DoF Object Pose Estimation via Differentiable Proxy Voting Loss, [[paper](https://arxiv.org/pdf/2002.03923.pdf)]
@@ -844,6 +858,10 @@ This kind of methods can be divided into four kinds, which are corresponding-bas
 
 ***2020:***
 
+**[arXiv]** Meta3D: Single-View 3D Object Reconstruction from Shape Priors in Memory, [[paper](https://arxiv.org/pdf/2003.03711.pdf)]
+
+**[arXiv]** STD-Net: Structure-preserving and Topology-adaptive Deformation Network for 3D Reconstruction from a Single Image, [[paper](https://arxiv.org/pdf/2003.03551.pdf)]
+
 **[arXiv]** Inverse Graphics GAN: Learning to Generate 3D Shapes from Unstructured 2D Data, [[paper](https://arxiv.org/pdf/2002.12674.pdf)]
 
 **[arXiv]** Deep NRSfM++: Towards 3D Reconstruction in the Wild, [[paper](https://arxiv.org/pdf/2001.10090.pdf)]
@@ -898,11 +916,15 @@ The partial-view point cloud will be aligned to the complete shape in order to o
 
 ***2020:***
 
+**[arXiv]** When Deep Learning Meets Data Alignment: A Review on Deep Registration Networks (DRNs), [[paper](https://arxiv.org/pdf/2003.03167.pdf)]
+
 **[arXiv]** Least Squares Optimization: from Theory to Practice, [[paper](https://arxiv.org/pdf/2002.11051.pdf)]
 
 ##### a. Ransac-based methods
 
 ***2020:***
+
+**[arXiv]** Robust, Occlusion-aware Pose Estimation for Objects Grasped by Adaptive Hands, [[paper](https://arxiv.org/pdf/2003.03518.pdf)]
 
 **[arXiv]** Non-iterative One-step Solution for Point Set Registration Problem on Pose Estimation without Correspondence, [[paper](https://arxiv.org/pdf/2003.00457.pdf)]
 
@@ -917,6 +939,10 @@ The partial-view point cloud will be aligned to the complete shape in order to o
 ##### b. 3D feature-based methods
 
 ***2020:***
+
+**[arXiv]** D3Feat: Joint Learning of Dense Detection and Description of 3D Local Features, [[paper](https://arxiv.org/pdf/2003.03164.pdf)]
+
+**[arXiv]** Self-supervised Point Set Local Descriptors for Point Cloud Registration, [[paper](https://arxiv.org/pdf/2003.05199.pdf)]
 
 **[arXiv]** StickyPillars: Robust feature matching on point clouds using Graph Neural Networks, [[paper](https://arxiv.org/pdf/2002.03983.pdf)]
 
@@ -1104,6 +1130,8 @@ In this situation, there exist no 3D models, an the 6-DoF grasps are estimated f
 
 ***2020:***
 
+**[arXiv]** Uncertainty depth estimation with gated images for 3D reconstruction, [[paper](https://arxiv.org/pdf/2003.05122.pdf)]
+
 **[arXiv]** Unsupervised Learning of Depth, Optical Flow and Pose with Occlusion from 3D Geometry, [[paper](https://arxiv.org/pdf/2003.00766.pdf)]
 
 **[arXiv]** A-TVSNet: Aggregated Two-View Stereo Network for Multi-View Stereo Depth Estimation, [[paper](https://arxiv.org/pdf/2003.00711.pdf)]
@@ -1203,6 +1231,8 @@ In this situation, there exist no 3D models, an the 6-DoF grasps are estimated f
 ### 3.1 Task-oriented manipulation
 
 ***2020:***
+
+**[arXiv]** Development of a Robotic System for Automated Decaking of 3D-Printed Parts, [[paper](https://arxiv.org/pdf/2003.05115.pdf)]
 
 **[arXiv]** Team O2AS at the World Robot Summit 2018: An Approach to Robotic Kitting and Assembly Tasks using General Purpose Grippers and Tools, [[paper](https://arxiv.org/pdf/2003.02427.pdf)]
 
@@ -1311,6 +1341,10 @@ In this situation, there exist no 3D models, an the 6-DoF grasps are estimated f
 ## 4. Dexterous Grippers
 
 ***2020:***
+
+**[arXiv]** Selecting and Designing Grippers for an Assembly Task in a Structured Approach, [[paper](https://arxiv.org/pdf/2003.04087.pdf)]
+
+**[arXiv]** A Mobile Robot Hand-Arm Teleoperation System by Vision and IMU, [[paper](https://arxiv.org/pdf/2003.05212.pdf)]
 
 **[arXiv]** Robust High-Transparency Haptic Exploration for Dexterous Telemanipulation, [[paper](https://arxiv.org/pdf/2003.01463.pdf)]
 
@@ -1421,6 +1455,8 @@ In this situation, there exist no 3D models, an the 6-DoF grasps are estimated f
 ## 7. Learning from Demonstration
 
 ***2020:***
+
+**[arXiv]** SQUIRL: Robust and Efficient Learning from Video Demonstration of Long-Horizon Robotic Manipulation Tasks, [[paper](https://arxiv.org/pdf/2003.04956.pdf)]
 
 **[arXiv]** A Geometric Perspective on Visual Imitation Learning, [[paper](https://arxiv.org/pdf/2003.02768.pdf)]
 
