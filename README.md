@@ -161,6 +161,10 @@ Detailed paper lists can refer to [hoya012](https://github.com/hoya012/deep_lear
 
 ***2020:***
 
+**[arXiv]** Any-Shot Object Detection, [[paper](https://arxiv.org/pdf/2003.07003.pdf)]
+
+**[arXiv]** Frustratingly Simple Few-Shot Object Detection, [[paper](https://arxiv.org/pdf/2003.06957.pdf)]
+
 **[arXiv]** Rethinking the Route Towards Weakly Supervised Object Localization, [[paper](https://arxiv.org/pdf/2002.11359.pdf)]
 
 **[arXiv]** Universal-RCNN: Universal Object Detector via Transferable Graph R-CNN, [[paper](https://arxiv.org/pdf/2002.07417.pdf)]
@@ -213,11 +217,21 @@ Detailed paper lists can refer to [hoya012](https://github.com/hoya012/deep_lear
 
 ##### b. Single-stage methods
 
+***2020:***
+
+**[arXiv]** Extended Feature Pyramid Network for Small Object Detection, [[paper](https://arxiv.org/pdf/2003.07021.pdf)]
+
+**[arXiv]** Real Time Detection of Small Objects, [[paper](https://arxiv.org/pdf/2003.07442.pdf)]
+
+**[arXiv]** OS2D: One-Stage One-Shot Object Detection by Matching Anchor Features, [[paper](https://arxiv.org/pdf/2003.06800.pdf)]
+
 ***2019:***
 
 **[arXiv]** CenterNet: Objects as Points, [[paper](https://arxiv.org/pdf/1904.07850.pdf)]
 
 **[arXiv]** CenterNet: Keypoint Triplets for Object Detection, [[paper](https://arxiv.org/pdf/1904.08189.pdf)]
+
+**[ECCV]** CornerNet: Detecting Objects as Paired Keypoints, [[paper](https://arxiv.org/pdf/1808.01244.pdf)]
 
 **[arXiv]** FCOS: Fully Convolutional One-Stage Object Detection, [[paper](https://arxiv.org/pdf/1904.01355.pdf)]
 
@@ -263,6 +277,20 @@ Detailed paper lists can refer to [hoya012](https://github.com/hoya012/deep_lear
 
 ***2020:***
 
+**[arXiv]** Weakly-Supervised Salient Object Detection via Scribble Annotations, [[paper](https://arxiv.org/pdf/2003.07685.pdf)]
+
+**[arXiv]** 1st Place Solutions for OpenImage2019 - Object Detection and Instance Segmentation, [[paper](https://arxiv.org/pdf/2003.07557.pdf)]
+
+**[arXiv]** Deep Affinity Net: Instance Segmentation via Affinity, [[paper](https://arxiv.org/pdf/2003.06849.pdf)]
+
+**[arXiv]** PointINS: Point-based Instance Segmentation, [[paper](https://arxiv.org/pdf/2003.06148.pdf)]
+
+**[arXiv]** Adaptive Graph Convolutional Network with Attention Graph Clustering for Co-saliency Detection, [[paper](https://arxiv.org/pdf/2003.06167.pdf)]
+
+**[arXiv]** Highly Efficient Salient Object Detection with 100K Parameters, [[paper](https://arxiv.org/pdf/2003.05643.pdf)]
+
+**[arXiv]** Conditional Convolutions for Instance Segmentation, [[paper](https://arxiv.org/pdf/2003.05664.pdf)]
+
 **[arXiv]** Global Context-Aware Progressive Aggregation Network for Salient Object Detection, [[paper](https://arxiv.org/pdf/2003.00651.pdf)]
 
 **[arXiv]** Fully Convolutional Networks for Automatically Generating Image Masks to Train Mask R-CNN, [[paper](https://arxiv.org/pdf/2003.01383.pdf)]
@@ -303,11 +331,7 @@ Detailed paper lists can refer to [hoya012](https://github.com/hoya012/deep_lear
 
 **[CASE]** Deep Workpiece Region Segmentation for Bin Picking, [[paper](https://arxiv.org/abs/1909.03462)]
 
-**[arXiv]** Bottom-up Object Detection by Grouping Extreme and Center Points, [[paper](https://arxiv.org/pdf/1901.08043.pdf)]
-
 ***2018:***
-
-**[ECCV]** CornerNet: Detecting Objects as Paired Keypoints, [[paper](https://arxiv.org/pdf/1808.01244.pdf)]
 
 **[CVPR]** PANet: Path Aggregation Network for Instance Segmentation, [[paper](https://arxiv.org/pdf/1803.01534.pdf)] [[code](https://github.com/ShuLiu1993/PANet)]
 
@@ -340,6 +364,10 @@ Detailed paper lists can refer to [hoya012](https://github.com/hoya012/deep_lear
 **[ECCV]** SDS: Simultaneous Detection and Segmentation, [[paper](https://arxiv.org/pdf/1407.1808.pdf)]
 
 #### 1.3.3 2D panoptic segmentation:
+
+***2020:***
+
+**[arXiv]** Axial-DeepLab: Stand-Alone Axial-Attention for Panoptic Segmentation, [[paper](https://arxiv.org/pdf/2003.07853.pdf)]
 
 ***2019:***
 
@@ -375,6 +403,8 @@ This kind of methods can be divided into three kinds: RGB-based methods, point c
 Most of this kind of methods estimate depth images from RGB images, and then conduct 3D detection.
 
 ***2020:***
+
+**[arXiv]** Confidence Guided Stereo 3D Object Detection with Split Depth Estimation, [[paper](https://arxiv.org/pdf/2003.05505.pdf)]
 
 **[arXiv]** Monocular 3D Object Detection in Cylindrical Images from Fisheye Cameras, [[paper](https://arxiv.org/pdf/2003.03759.pdf)]
 
@@ -540,6 +570,10 @@ This kind of methods utilize both rgb images and depth images/point clouds. Ther
 #### 2.1.2 3D segmentation
 
 ***2020:***
+
+**[arXiv]** OccuSeg: Occupancy-aware 3D Instance Segmentation, [[paper](https://arxiv.org/pdf/2003.06537.pdf)]
+
+**[arXiv]** Learning to Segment 3D Point Clouds in 2D Image Space, [[paper](https://arxiv.org/pdf/2003.05593.pdf)]
 
 **[arXiv]** Bi-Directional Attention for Joint Instance and Semantic Segmentation in Point Clouds, [[paper](https://arxiv.org/pdf/2003.05420.pdf)]
 
@@ -731,6 +765,8 @@ This kind of methods can be divided into four kinds, which are corresponding-bas
 
 ***2020:***
 
+**[arXiv]** Neural Mesh Refiner for 6-DoF Pose Estimation, [[paper](https://arxiv.org/pdf/2003.07561.pdf)]
+
 **[arXiv]** MobilePose: Real-Time Pose Estimation for Unseen Objects with Weak Shape Supervision, [[paper](https://arxiv.org/pdf/2003.03522.pdf)]
 
 **[arXiv]** Robust 6D Object Pose Estimation by Learning RGB-D Features, [[paper](https://arxiv.org/pdf/2003.00188.pdf)]
@@ -800,6 +836,8 @@ This kind of methods can be divided into four kinds, which are corresponding-bas
 
 ***2020:***
 
+**[arXiv]** Learning 2D–3D Correspondences To Solve The Blind Perspective-n-Point Problem, [[paper](https://arxiv.org/pdf/2003.06752.pdf)]
+
 **[arXiv]** PnP-Net: A hybrid Perspective-n-Point Network, [[paper](https://arxiv.org/pdf/2003.04626.pdf)]
 
 **[arXiv]** Object 6D Pose Estimation with Non-local Attention, [[paper](https://arxiv.org/pdf/2002.08749.pdf)]
@@ -836,6 +874,8 @@ This kind of methods can be divided into four kinds, which are corresponding-bas
 
 ***2020:***
 
+**[arXiv]** CPS: Class-level 6D Pose and Shape Estimation From Monocular Images, [[paper](https://arxiv.org/pdf/2003.05848v1.pdf)]
+
 **[arXiv]** Learning Canonical Shape Space for Category-Level 6D Object Pose and Size Estimation, [[paper](https://arxiv.org/pdf/2001.09322.pdf)]
 
 ***2019:***
@@ -850,6 +890,8 @@ This kind of methods can be divided into four kinds, which are corresponding-bas
 
 **[CVPR]** Normalized Object Coordinate Space for Category-Level 6D Object Pose and Size Estimation, [[paper](https://arxiv.org/abs/1901.02970)] [[code](https://github.com/hughw19/NOCS_CVPR2019)] 
 
+**[arXiv]** Instance- and Category-level 6D Object Pose Estimation, [[paper](https://arxiv.org/pdf/1903.04229.pdf)]
+
 **[arXiv]** kPAM: KeyPoint Affordances for Category-Level Robotic Manipulation, [[paper](https://arxiv.org/abs/1903.06684)]
 
 
@@ -857,6 +899,10 @@ This kind of methods can be divided into four kinds, which are corresponding-bas
 ##### f. 3D shape reconstruction from images
 
 ***2020:***
+
+**[arXiv]** Instant recovery of shape from spectrum via latent space connections, [[paper](https://arxiv.org/pdf/2003.06523.pdf)]
+
+**[arXiv]** Self-supervised Single-view 3D Reconstruction via Semantic Consistency, [[paper](https://arxiv.org/pdf/2003.06473.pdf)]
 
 **[arXiv]** Meta3D: Single-View 3D Object Reconstruction from Shape Priors in Memory, [[paper](https://arxiv.org/pdf/2003.03711.pdf)]
 
@@ -939,6 +985,8 @@ The partial-view point cloud will be aligned to the complete shape in order to o
 ##### b. 3D feature-based methods
 
 ***2020:***
+
+**[arXiv]** End-to-End Learning Local Multi-view Descriptors for 3D Point Clouds, [[paper](https://arxiv.org/pdf/2003.05855.pdf)]
 
 **[arXiv]** D3Feat: Joint Learning of Dense Detection and Description of 3D Local Features, [[paper](https://arxiv.org/pdf/2003.03164.pdf)]
 
@@ -1084,6 +1132,10 @@ In this situation, there exist no 3D models, an the 6-DoF grasps are estimated f
 
 ***2020:***
 
+**[arXiv]** Multimodal Shape Completion via Conditional Generative Adversarial Networks, [[paper](https://arxiv.org/pdf/2003.07717.pdf)]
+
+**[arXiv]** Symmetry Detection of Occluded Point Cloud Using Deep Learning, [[paper](https://arxiv.org/pdf/2003.06520.pdf)]
+
 **[arXiv]** Robotic Grasping through Combined Image-Based Grasp Proposal and 3D Reconstruction, [[paper](https://arxiv.org/pdf/2003.01649.pdf)]
 
 **[arXiv]** PF-Net: Point Fractal Network for 3D Point Cloud Completion, [[paper](https://arxiv.org/pdf/2003.00410.pdf)]
@@ -1129,6 +1181,14 @@ In this situation, there exist no 3D models, an the 6-DoF grasps are estimated f
 #### 2.3.4 Depth completion and Estimation
 
 ***2020:***
+
+**[arXiv]** Monocular Depth Estimation Based On Deep Learning: An Overview, [[paper](https://arxiv.org/pdf/2003.06620.pdf)]
+
+**[arXiv]** Scene Completenesss-Aware Lidar Depth Completion for Driving Scenario, [[paper](https://arxiv.org/pdf/2003.06945.pdf)]
+
+**[arXiv]** Fast Depth Estimation for View Synthesis, [[paper](https://arxiv.org/pdf/2003.06637.pdf)]
+
+**[arXiv]** Active Depth Estimation: Stability Analysis and its Applications, [[paper](https://arxiv.org/pdf/2003.07137.pdf)]
 
 **[arXiv]** Uncertainty depth estimation with gated images for 3D reconstruction, [[paper](https://arxiv.org/pdf/2003.05122.pdf)]
 
@@ -1206,9 +1266,11 @@ In this situation, there exist no 3D models, an the 6-DoF grasps are estimated f
 
 
 
-#### 2.3.5 Point cloud upsamping
+#### 2.3.5 Point cloud upsamping and denoising
 
 ***2020:***
+
+**[arXiv]** Non-Local Part-Aware Point Cloud Denoising, [[paper](https://arxiv.org/pdf/2003.06631.pdf)]
 
 **[arXiv]** PUGeo-Net: A Geometry-centric Network for 3D Point Cloud Upsampling, [[paper](https://arxiv.org/pdf/2002.10277.pdf)]
 
