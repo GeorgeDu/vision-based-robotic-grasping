@@ -219,6 +219,8 @@ Detailed paper lists can refer to [hoya012](https://github.com/hoya012/deep_lear
 
 ***2020:***
 
+**[arXiv]** CentripetalNet: Pursuing High-quality Keypoint Pairs for Object Detection, [[paper](https://arxiv.org/pdf/2003.09119.pdf)]
+
 **[arXiv]** Extended Feature Pyramid Network for Small Object Detection, [[paper](https://arxiv.org/pdf/2003.07021.pdf)]
 
 **[arXiv]** Real Time Detection of Small Objects, [[paper](https://arxiv.org/pdf/2003.07442.pdf)]
@@ -276,6 +278,8 @@ Detailed paper lists can refer to [hoya012](https://github.com/hoya012/deep_lear
 #### 1.3.2 2D instance segmentation:
 
 ***2020:***
+
+**[arXiv]** Depth Potentiality-Aware Gated Attention Network for RGB-D Salient Object Detection, [[paper](https://arxiv.org/pdf/2003.08608.pdf)]
 
 **[arXiv]** Weakly-Supervised Salient Object Detection via Scribble Annotations, [[paper](https://arxiv.org/pdf/2003.07685.pdf)]
 
@@ -711,6 +715,8 @@ This kind of methods can be divided into four kinds, which are corresponding-bas
 
 ***2020:***
 
+**[arXiv]** LRC-Net: Learning Discriminative Features on Point Clouds by Encoding Local Region Contexts, [[paper](https://arxiv.org/pdf/2003.08240.pdf)]
+
 **[arXiv]** Table-Top Scene Analysis Using Knowledge-Supervised MCMC, [[paper](https://arxiv.org/pdf/2002.08417.pdf)]
 
 **[arXiv]** AprilTags 3D: Dynamic Fiducial Markers for Robust Pose Estimation in Highly Reflective Environments and Indirect Communication in Swarm Robotics, [[paper](https://arxiv.org/pdf/2001.08622.pdf)]
@@ -1132,6 +1138,8 @@ In this situation, there exist no 3D models, an the 6-DoF grasps are estimated f
 
 ***2020:***
 
+**[arXiv]** PT2PC: Learning to Generate 3D Point Cloud Shapes from Part Tree Conditions, [[paper](https://arxiv.org/pdf/2003.08624.pdf)]
+
 **[arXiv]** Multimodal Shape Completion via Conditional Generative Adversarial Networks, [[paper](https://arxiv.org/pdf/2003.07717.pdf)]
 
 **[arXiv]** Symmetry Detection of Occluded Point Cloud Using Deep Learning, [[paper](https://arxiv.org/pdf/2003.06520.pdf)]
@@ -1181,6 +1189,10 @@ In this situation, there exist no 3D models, an the 6-DoF grasps are estimated f
 #### 2.3.4 Depth completion and Estimation
 
 ***2020:***
+
+**[arXiv]** 3dDepthNet: Point Cloud Guided Depth Completion Network for Sparse Depth and Single Color Image, [[paper](https://arxiv.org/pdf/2003.09175.pdf)]
+
+**[arXiv]** Depth Estimation by Learning Triangulation and Densification of Sparse Points for Multi-view Stereo, [[paper](https://arxiv.org/pdf/2003.08933.pdf)]
 
 **[arXiv]** Monocular Depth Estimation Based On Deep Learning: An Overview, [[paper](https://arxiv.org/pdf/2003.06620.pdf)]
 
@@ -1358,6 +1370,8 @@ In this situation, there exist no 3D models, an the 6-DoF grasps are estimated f
 
 ***2020:***
 
+**[arXiv]** SAPIEN: A SimulAted Part-based Interactive ENvironment, [[paper](https://arxiv.org/pdf/2003.08515.pdf)]
+
 **[TVCG]** Voting for Distortion Points in Geometric Processing, [[paper](https://arxiv.org/pdf/1909.13066.pdf)]
 
 **[arXiv]** SketchDesc: Learning Local Sketch Descriptors for Multi-view Correspondence, [[paper](https://arxiv.org/pdf/2001.05744.pdf)]
@@ -1403,6 +1417,8 @@ In this situation, there exist no 3D models, an the 6-DoF grasps are estimated f
 ## 4. Dexterous Grippers
 
 ***2020:***
+
+**[arXiv]** The State of Service Robots: Current Bottlenecks in Object Perception and Manipulation, [[paper](https://arxiv.org/pdf/2003.08151.pdf)]
 
 **[arXiv]** Selecting and Designing Grippers for an Assembly Task in a Structured Approach, [[paper](https://arxiv.org/pdf/2003.04087.pdf)]
 
