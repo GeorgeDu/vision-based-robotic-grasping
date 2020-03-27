@@ -2,13 +2,66 @@
 
 According to the kinds of grasp, the methods of vision-based robotic grasping can be roughly divided into two kinds, **2D planar grasp** and **6DoF Grasp**. This repository summaries these methods in recent years, which utilize __deep learning__ mostly. Before this summary, previous review papers are also reviewed.
 
-[TOC]
-
-
+  * [Vision-based Robotic Grasping: Papers and Codes](#vision-based-robotic-grasping-papers-and-codes)
+  * [0. Review Papers](#0-review-papers)
+  * [1. 2D Planar Grasp](#1-2d-planar-grasp)
+     * [1.1 RGB or RGB-D based methods](#11-rgb-or-rgb-d-based-methods)
+     * [1.2 Depth-based methods](#12-depth-based-methods)
+     * [1.3 Target object localization in 2D](#13-target-object-localization-in-2d)
+        * [1.3.1 2D detection:](#131-2d-detection)
+           * [Survey papers](#survey-papers)
+           * [a. Two-stage methods](#a-two-stage-methods)
+           * [b. Single-stage methods](#b-single-stage-methods)
+        * [1.3.2 2D instance segmentation:](#132-2d-instance-segmentation)
+        * [1.3.3 2D panoptic segmentation:](#133-2d-panoptic-segmentation)
+  * [2. 6DoF Grasp](#2-6dof-grasp)
+     * [2.1 Target object extraction in 3D](#21-target-object-extraction-in-3d)
+        * [2.1.1 3D detection](#211-3d-detection)
+           * [a. RGB-based methods](#a-rgb-based-methods)
+           * [b. Point cloud-based methods](#b-point-cloud-based-methods)
+           * [c. Fusion methods](#c-fusion-methods)
+        * [2.1.2 3D segmentation](#212-3d-segmentation)
+        * [2.1.3 3D deep learning networks](#213-3d-deep-learning-networks)
+     * [2.2 6D object pose estimation (Exist 3D models)](#22-6d-object-pose-estimation-exist-3d-models)
+        * [2.2.1 RGB-D based methods](#221-rgb-d-based-methods)
+           * [a. Corresponding-based methods](#a-corresponding-based-methods)
+           * [b. Template-based methods](#b-template-based-methods)
+           * [c. Voting-based methods](#c-voting-based-methods)
+           * [d. Regression-based methods](#d-regression-based-methods)
+              * [1) Directly way](#1-directly-way)
+              * [2) Indirectly way (Firstly regress feature points and use PnP methods)](#2-indirectly-way-firstly-regress-feature-points-and-use-pnp-methods)
+           * [e. Category-level 6D pose estimation methods](#e-category-level-6d-pose-estimation-methods)
+           * [f. 3D shape reconstruction from images](#f-3d-shape-reconstruction-from-images)
+           * [g. 3D shape rendering](#g-3d-shape-rendering)
+        * [2.2.2 3D point cloud](#222-3d-point-cloud)
+           * [a. Ransac-based methods](#a-ransac-based-methods)
+           * [b. 3D feature-based methods](#b-3d-feature-based-methods)
+           * [c. Deep learning-based methods](#c-deep-learning-based-methods)
+           * [d. Point cloud de-noising](#d-point-cloud-de-noising)
+           * [e. Point cloud sampling](#e-point-cloud-sampling)
+     * [2.3 Deep learning-based methods (No existing 3D models)](#23-deep-learning-based-methods-no-existing-3d-models)
+        * [2.3.1 Estimating 6-DoF grasps from partial view point cloud](#231-estimating-6-dof-grasps-from-partial-view-point-cloud)
+        * [2.3.2 Grasp affordance](#232-grasp-affordance)
+        * [2.3.3 Shape completion assisted grasp](#233-shape-completion-assisted-grasp)
+        * [2.3.4 Depth completion and Estimation](#234-depth-completion-and-estimation)
+        * [2.3.5 Point cloud upsamping and denoising](#235-point-cloud-upsamping-and-denoising)
+  * [3. Grasp Transfer](#3-grasp-transfer)
+     * [3.1 Task-oriented manipulation](#31-task-oriented-manipulation)
+     * [3.2 Grasp transfer between shape parts](#32-grasp-transfer-between-shape-parts)
+     * [3.3 Non-rigid shape matching](#33-non-rigid-shape-matching)
+        * [3.3.1 Non-rigid registration](#331-non-rigid-registration)
+        * [3.3.2 Shape correspondence](#332-shape-correspondence)
+     * [3.4 3D part segmentation](#34-3d-part-segmentation)
+  * [4. Dexterous Grippers](#4-dexterous-grippers)
+  * [5. Simulation to Reality](#5-simulation-to-reality)
+  * [6. Multi-source](#6-multi-source)
+  * [7. Learning from Demonstration](#7-learning-from-demonstration)
+  * [8. Reinforcement Learning](#8-reinforcement-learning)
+  * [9. Visual servoing](#9-visual-servoing)
+  * [10. Path Planning](#10-path-planning)
+  * [11. Experts:](#11-experts)
 
 ## 0. Review Papers
-
-<a id="ReviewPapers"/>
 
 **[arXiv]** 2019-Deep Learning for 3D Point Clouds: A Survey, [[paper](https://arxiv.org/pdf/1912.12033.pdf)]
 
@@ -21,8 +74,6 @@ According to the kinds of grasp, the methods of vision-based robotic grasping ca
 **[ToR]** 2016-Data-Driven Grasp Synthesis - A Survey, [[paper](https://arxiv.org/abs/1309.2660)]
 
 **[RAS]** 2012-An overview of 3D object grasp synthesis algorithms - A Survey, [[paper](https://www.sciencedirect.com/science/article/abs/pii/S0921889011001485)]
-
-
 
 
 
@@ -103,9 +154,7 @@ This kind of methods directly regress the oriented 2D box from RGB or RGB-D imag
 
 [Cornell dataset](http://pr.cs.cornell.edu/grasping/rect_data/data.php), the dataset consists of 1035 images of 280 different objects.
 
-[0.Review](#0. Review Papers)
 
-<a href="#ReviewPapers">'使用'</a>
 
 ### 1.2 Depth-based methods
 
