@@ -279,6 +279,10 @@ Detailed paper lists can refer to [hoya012](https://github.com/hoya012/deep_lear
 
 ***2020:***
 
+**[arXiv]** SOLOv2: Dynamic, Faster and Stronger, [[paper](https://arxiv.org/pdf/2003.10152.pdf)] [[code](https://github.com/aim-uofa/AdelaiDet/)]
+
+**[arXiv]** Mask Encoding for Single Shot Instance Segmentation, [[paper](https://arxiv.org/pdf/2003.11712.pdf)]
+
 **[arXiv]** Depth Potentiality-Aware Gated Attention Network for RGB-D Salient Object Detection, [[paper](https://arxiv.org/pdf/2003.08608.pdf)]
 
 **[arXiv]** Weakly-Supervised Salient Object Detection via Scribble Annotations, [[paper](https://arxiv.org/pdf/2003.07685.pdf)]
@@ -465,6 +469,8 @@ Most of this kind of methods estimate depth images from RGB images, and then con
 This kind of methods purely utilize the 3D point cloud data.
 
 ***2020:***
+
+**[arXiv]** Real-time 3D object proposal generation and classification under limited processing resources, [[paper](https://arxiv.org/pdf/2003.10670.pdf)]
 
 **[arXiv]** 3D Object Detection From LiDAR Data Using Distance Dependent Feature Extraction, [[paper](https://arxiv.org/pdf/2003.00888.pdf)]
 
@@ -771,6 +777,8 @@ This kind of methods can be divided into four kinds, which are corresponding-bas
 
 ***2020:***
 
+**[arXiv]** G2L-Net: Global to Local Network for Real-time 6D Pose Estimation with Embedding Vector Features, [[paper](https://arxiv.org/pdf/2003.11089.pdf)]
+
 **[arXiv]** Neural Mesh Refiner for 6-DoF Pose Estimation, [[paper](https://arxiv.org/pdf/2003.07561.pdf)]
 
 **[arXiv]** MobilePose: Real-Time Pose Estimation for Unseen Objects with Weak Shape Supervision, [[paper](https://arxiv.org/pdf/2003.03522.pdf)]
@@ -905,6 +913,10 @@ This kind of methods can be divided into four kinds, which are corresponding-bas
 ##### f. 3D shape reconstruction from images
 
 ***2020:***
+
+**[arXiv]** Self-Supervised 2D Image to 3D Shape Translation with Disentangled Representations, [[paper](https://arxiv.org/pdf/2003.10016.pdf)]
+
+**[arXiv]** Atlas: End-to-End 3D Scene Reconstruction from Posed Images, [[paper](https://arxiv.org/pdf/2003.10432.pdf)]
 
 **[arXiv]** Instant recovery of shape from spectrum via latent space connections, [[paper](https://arxiv.org/pdf/2003.06523.pdf)]
 
@@ -1080,6 +1092,8 @@ In this situation, there exist no 3D models, an the 6-DoF grasps are estimated f
 
 ***2020:***
 
+**[arXiv]** PointNet++ Grasping: Learning An End-to-end Spatial Grasp Generation Algorithm from Sparse Point Clouds, [[paper](https://arxiv.org/pdf/2003.09644.pdf)]
+
 **[arXiv]** EGAD! an Evolved Grasping Analysis Dataset for diversity and reproducibility in robotic manipulation, [[paper](https://arxiv.org/pdf/2003.01314.pdf)]
 
 **[ariXiv]** REGNet: REgion-based Grasp Network for Single-shot Grasp Detection in Point Clouds, [[paper](https://arxiv.org/pdf/2002.12647.pdf)]
@@ -1189,6 +1203,10 @@ In this situation, there exist no 3D models, an the 6-DoF grasps are estimated f
 #### 2.3.4 Depth completion and Estimation
 
 ***2020:***
+
+**[arXiv]** Adversarial Attacks on Monocular Depth Estimation, [[paper](https://arxiv.org/pdf/2003.10315.pdf)]
+
+**[arXiv]** Monocular Depth Prediction Through Continuous 3D Loss, [[paper](https://arxiv.org/pdf/2003.09763.pdf)]
 
 **[arXiv]** 3dDepthNet: Point Cloud Guided Depth Completion Network for Sparse Depth and Single Color Image, [[paper](https://arxiv.org/pdf/2003.09175.pdf)]
 
@@ -1306,6 +1324,10 @@ In this situation, there exist no 3D models, an the 6-DoF grasps are estimated f
 
 ***2020:***
 
+**[arXiv]** Where to relocate?: Object rearrangement inside cluttered and confined environments for robotic manipulation, [[paper](https://arxiv.org/pdf/2003.10863.pdf)]
+
+**[arXiv]** Correspondence Networks with Adaptive Neighbourhood Consensus, [[paper](https://arxiv.org/pdf/2003.12059.pdf)]
+
 **[arXiv]** Development of a Robotic System for Automated Decaking of 3D-Printed Parts, [[paper](https://arxiv.org/pdf/2003.05115.pdf)]
 
 **[arXiv]** Team O2AS at the World Robot Summit 2018: An Approach to Robotic Kitting and Assembly Tasks using General Purpose Grippers and Tools, [[paper](https://arxiv.org/pdf/2003.02427.pdf)]
@@ -1394,6 +1416,8 @@ In this situation, there exist no 3D models, an the 6-DoF grasps are estimated f
 
 ***2020:***
 
+**[arXiv]** Learning 3D Part Assembly from a Single Image, [[paper](https://arxiv.org/pdf/2003.09754.pdf)]
+
 **[ICLR]** Learning to Group: A Bottom-Up Framework for 3D Part Discovery in Unseen Categories, [[paper](https://arxiv.org/pdf/2002.06478.pdf)]
 
 ***2019:***
@@ -1417,6 +1441,8 @@ In this situation, there exist no 3D models, an the 6-DoF grasps are estimated f
 ## 4. Dexterous Grippers
 
 ***2020:***
+
+**[arXiv]** Functionally Divided Manipulation Synergy for Controlling Multi-fingered Hands, [[paper](https://arxiv.org/pdf/2003.11699.pdf)]
 
 **[arXiv]** The State of Service Robots: Current Bottlenecks in Object Perception and Manipulation, [[paper](https://arxiv.org/pdf/2003.08151.pdf)]
 
@@ -1693,6 +1719,8 @@ In this situation, there exist no 3D models, an the 6-DoF grasps are estimated f
 ## 10. Path Planning
 
 ***2020:***
+
+**[arXiv]** Latent Space Roadmap for Visual Action Planning of Deformable and Rigid Object Manipulation, [[paper](https://arxiv.org/pdf/2003.08974.pdf)]
 
 **[arXiv]** GOMP: Grasp-Optimized Motion Planning for Bin Picking, [[paper](https://arxiv.org/pdf/2003.02401.pdf)]
 
