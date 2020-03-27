@@ -2,6 +2,10 @@
 
 According to the kinds of grasp, the methods of vision-based robotic grasping can be roughly divided into two kinds, **2D planar grasp** and **6DoF Grasp**. This repository summaries these methods in recent years, which utilize __deep learning__ mostly. Before this summary, previous review papers are also reviewed.
 
+[TOC]
+
+
+
 ## 0. Review Papers
 
 **[arXiv]** 2019-Deep Learning for 3D Point Clouds: A Survey, [[paper](https://arxiv.org/pdf/1912.12033.pdf)]
@@ -15,6 +19,8 @@ According to the kinds of grasp, the methods of vision-based robotic grasping ca
 **[ToR]** 2016-Data-Driven Grasp Synthesis - A Survey, [[paper](https://arxiv.org/abs/1309.2660)]
 
 **[RAS]** 2012-An overview of 3D object grasp synthesis algorithms - A Survey, [[paper](https://www.sciencedirect.com/science/article/abs/pii/S0921889011001485)]
+
+
 
 
 
@@ -95,7 +101,7 @@ This kind of methods directly regress the oriented 2D box from RGB or RGB-D imag
 
 [Cornell dataset](http://pr.cs.cornell.edu/grasping/rect_data/data.php), the dataset consists of 1035 images of 280 different objects.
 
-
+[0.Review](#0. Review Papers)
 
 ### 1.2 Depth-based methods
 
