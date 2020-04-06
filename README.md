@@ -1,69 +1,16 @@
 ## Vision-based Robotic Grasping: Papers and Codes
 
-According to the kinds of grasp, the methods of vision-based robotic grasping can be roughly divided into two kinds, **2D planar grasp** and **6DoF Grasp**. This repository summaries these methods in recent years, which utilize __deep learning__ mostly. Before this summary, previous review papers are also reviewed.
+The essential information to grasp the target object is the 6D gripper pose in the camera coordinate, which contains the 3D gripper position and the 3D gripper orientation to execute the grasp. Within the methods of vision-based robotic grasping, the estimation of 6D gripper poses varies aiming at different grasp manners, which can be categorized into __2D planar grasp__ and __6DoF grasp__.
 
-  * [Vision-based Robotic Grasping: Papers and Codes](#vision-based-robotic-grasping-papers-and-codes)
-  * [0. Review Papers](#0-review-papers)
-  * [1. 2D Planar Grasp](#1-2d-planar-grasp)
-     * [1.1 RGB or RGB-D based methods](#11-rgb-or-rgb-d-based-methods)
-     * [1.2 Depth-based methods](#12-depth-based-methods)
-     * [1.3 Target object localization in 2D](#13-target-object-localization-in-2d)
-        * [1.3.1 2D detection:](#131-2d-detection)
-           * [Survey papers](#survey-papers)
-           * [a. Two-stage methods](#a-two-stage-methods)
-           * [b. Single-stage methods](#b-single-stage-methods)
-        * [1.3.2 2D instance segmentation:](#132-2d-instance-segmentation)
-        * [1.3.3 2D panoptic segmentation:](#133-2d-panoptic-segmentation)
-  * [2. 6DoF Grasp](#2-6dof-grasp)
-     * [2.1 Target object extraction in 3D](#21-target-object-extraction-in-3d)
-        * [2.1.1 3D detection](#211-3d-detection)
-           * [a. RGB-based methods](#a-rgb-based-methods)
-           * [b. Point cloud-based methods](#b-point-cloud-based-methods)
-           * [c. Fusion methods](#c-fusion-methods)
-        * [2.1.2 3D segmentation](#212-3d-segmentation)
-        * [2.1.3 3D deep learning networks](#213-3d-deep-learning-networks)
-     * [2.2 6D object pose estimation (Exist 3D models)](#22-6d-object-pose-estimation-exist-3d-models)
-        * [2.2.1 RGB-D based methods](#221-rgb-d-based-methods)
-           * [a. Corresponding-based methods](#a-corresponding-based-methods)
-           * [b. Template-based methods](#b-template-based-methods)
-           * [c. Voting-based methods](#c-voting-based-methods)
-           * [d. Regression-based methods](#d-regression-based-methods)
-              * [1) Directly way](#1-directly-way)
-              * [2) Indirectly way (Firstly regress feature points and use PnP methods)](#2-indirectly-way-firstly-regress-feature-points-and-use-pnp-methods)
-           * [e. Category-level 6D pose estimation methods](#e-category-level-6d-pose-estimation-methods)
-           * [f. 3D shape reconstruction from images](#f-3d-shape-reconstruction-from-images)
-           * [g. 3D shape rendering](#g-3d-shape-rendering)
-        * [2.2.2 3D point cloud](#222-3d-point-cloud)
-           * [a. Ransac-based methods](#a-ransac-based-methods)
-           * [b. 3D feature-based methods](#b-3d-feature-based-methods)
-           * [c. Deep learning-based methods](#c-deep-learning-based-methods)
-           * [d. Point cloud de-noising](#d-point-cloud-de-noising)
-           * [e. Point cloud sampling](#e-point-cloud-sampling)
-     * [2.3 Deep learning-based methods (No existing 3D models)](#23-deep-learning-based-methods-no-existing-3d-models)
-        * [2.3.1 Estimating 6-DoF grasps from partial view point cloud](#231-estimating-6-dof-grasps-from-partial-view-point-cloud)
-        * [2.3.2 Grasp affordance](#232-grasp-affordance)
-        * [2.3.3 Shape completion assisted grasp](#233-shape-completion-assisted-grasp)
-        * [2.3.4 Depth completion and Estimation](#234-depth-completion-and-estimation)
-        * [2.3.5 Point cloud upsamping and denoising](#235-point-cloud-upsamping-and-denoising)
-  * [3. Grasp Transfer](#3-grasp-transfer)
-     * [3.1 Task-oriented manipulation](#31-task-oriented-manipulation)
-     * [3.2 Grasp transfer between shape parts](#32-grasp-transfer-between-shape-parts)
-     * [3.3 Non-rigid shape matching](#33-non-rigid-shape-matching)
-        * [3.3.1 Non-rigid registration](#331-non-rigid-registration)
-        * [3.3.2 Shape correspondence](#332-shape-correspondence)
-     * [3.4 3D part segmentation](#34-3d-part-segmentation)
-  * [4. Dexterous Grippers](#4-dexterous-grippers)
-  * [5. Simulation to Reality](#5-simulation-to-reality)
-  * [6. Multi-source](#6-multi-source)
-  * [7. Learning from Demonstration](#7-learning-from-demonstration)
-  * [8. Reinforcement Learning](#8-reinforcement-learning)
-  * [9. Visual servoing](#9-visual-servoing)
-  * [10. Path Planning](#10-path-planning)
-  * [11. Experts:](#11-experts)
+__2D planar grasp__ means that the target object lies on a plane workspace and the grasp is constrained from one direction. The essential information is simplified from 6D into 3D, which are the 2D in-plane positions and 1D rotation angle. There exist methods of __evaluating grasp contact points__ and methods of __evaluating grasp oriented rectangles__.
+
+__6DoF grasp__ means that the gripper can grasp the object from various angles in the 3D domain, and the essential 6D gripper pose could not be simplified. Based on whether the grasp is conducted on the complete shape or on the single-view point cloud, methods are categorized into __methods based on the partial point cloud__ and __methods based on the complete shape__. Most of 6DoF grasp methods aim at known objects where the grasps could be precomputed or computed via simulation, and the problem is thus transformed into a __6D object pose estimation__ problem. We categorized this kind of methods into methods based on the complete shape and Introduced 6D object pose estimation seperately.
+
+Besides, most of the robotic grasping approaches require __the target object’s location__ in the input data first. This involves three different stages: __object localization without classification__, __object detection__ and __object instance segmentation__. Object localization without classification only outputs the potential regions of the target objects without knowing their categories. Object detection provides bounding boxes of the target objects with their categories. Object instance segmentation further provides the pixel-level regions of the target objects with their categories.
+
+I summarize all above kinds of methods in this repository, and hope to presents a big picture for friends work on vision-based robotic grasping. The table of content is listed as follows.
 
 ## 0. Review Papers
-
-**[arXiv]** 2019-Deep Learning for 3D Point Clouds: A Survey, [[paper](https://arxiv.org/pdf/1912.12033.pdf)]
 
 **[arXiv]** 2019-A Review of Robot Learning for Manipulation- Challenges, Representations, and Algorithms, [[paper](https://arxiv.org/abs/1907.03146)]
 
@@ -77,128 +24,179 @@ According to the kinds of grasp, the methods of vision-based robotic grasping ca
 
 
 
-## 1. 2D Planar Grasp
+## 1. Object Localization
 
-**Grasp Representation:**
-The grasp is represented as an oriented 2D box, and the grasp is constrained from one direction.
+### 1.1 Object Localization without Classification
 
-### 1.1 RGB or RGB-D based methods
 
-This kind of methods directly regress the oriented 2D box from RGB or RGB-D images. When using RGB-D images, the depth image is regarded as an another channel, which is similar with RGB-based methods.
+
+#### 1.1.1 2D-based Methods
+
+##### a.Fitting 2D Shape Primitives
+
+**[BMVC]** A buyer’s guide to conic fitting, [[paper](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.36.695)] [[code](https://docs.opencv.org/2.4/modules/imgproc/doc/structural_analysis_and_shape_descriptors.html?highlight=fitellipse)]
+
+**[IJGIG]** Algorithms for the reduction of the number of points required to represent a digitized line or its caricature, [[paper](https://pdfs.semanticscholar.org/e46a/c802d7207e0e51b5333456a3f46519c2f92d.pdf)] [[code](https://docs.opencv.org/2.4/modules/imgproc/doc/structural_analysis_and_shape_descriptors.html?highlight=fitellipse#approxpolydp)]
+
+
+
+##### b. Saliency Detection
+
+***Survey papers:***
+
+**[arXiv]** 2019-Salient object detection in the deep learning era: An in-depth survey, [[paper](https://arxiv.org/pdf/1904.09146.pdf)]
+
+**[CVM]** 2014-Salient object detection: A survey, [[paper](https://arxiv.org/pdf/1411.5878.pdf)]
 
 ***2020:***
 
-**[arXiv]** Online Self-Supervised Learning for Object Picking: Detecting Optimum Grasping Position using a Metric Learning Approach, [[paper](https://arxiv.org/pdf/2003.03717.pdf)]
+**[arXiv]** Cross-layer Feature Pyramid Network for Salient Object Detection, [[paper](https://arxiv.org/pdf/2002.10864.pdf)]
 
-**[arXiv]** A Multi-task Learning Framework for Grasping-Position Detection and Few-Shot Classification, [[paper](https://arxiv.org/pdf/2003.05624.pdf)]
+**[arXiv]** Depth Potentiality-Aware Gated Attention Network for RGB-D Salient Object Detection, [[paper](https://arxiv.org/pdf/2003.08608.pdf)]
 
-**[arXiv]** Rigid-Soft Interactive Learning for Robust Grasping*, [[paper](https://arxiv.org/pdf/2003.01584.pdf)]
+**[arXiv]** Weakly-Supervised Salient Object Detection via Scribble Annotations, [[paper](https://arxiv.org/pdf/2003.07685.pdf)]
 
-**[arXiv]** Optimizing Correlated Graspability Score and Grasp Regression for Better Grasp Prediction, [[paper](https://arxiv.org/pdf/2002.00872.pdf)]
+**[arXiv]** Highly Efficient Salient Object Detection with 100K Parameters, [[paper](https://arxiv.org/pdf/2003.05643.pdf)]
 
-**[arXiv]** Domain Independent Unsupervised Learning to grasp the Novel Objects, [[paper](https://arxiv.org/pdf/2001.05856.pdf)]
+**[arXiv]** Global Context-Aware Progressive Aggregation Network for Salient Object Detection, [[paper](https://arxiv.org/pdf/2003.00651.pdf)]
 
-**[arXiv]** Real-time Grasp Pose Estimation for Novel Objects in Densely Cluttered Environment, [[paper](https://arxiv.org/pdf/2001.02076.pdf)]
-
-**[arXiv]** Semi-supervised Grasp Detection by Representation Learning in a Vector Quantized Latent Space, [[paper](https://arxiv.org/pdf/2001.08477.pdf)]
+**[arXiv]** Adaptive Graph Convolutional Network with Attention Graph Clustering for Co-saliency Detection, [[paper](https://arxiv.org/pdf/2003.06167.pdf)]
 
 ***2019:***
 
-**[arXiv]** Antipodal Robotic Grasping using Generative Residual Convolutional Neural Network, [[paper](https://arxiv.org/pdf/1909.04810.pdf)]
+**[ICCV]** Employing deep part-object relationships for salient object detection, [[paper](http://openaccess.thecvf.com/content_ICCV_2019/papers/Liu_Employing_Deep_Part-Object_Relationships_for_Salient_Object_Detection_ICCV_2019_paper.pdf)]
 
-**[IROS]** Domain Independent Unsupervised Learning to grasp the Novel Objects, [[paper](https://arxiv.org/pdf/2001.05856.pdf)]
-
-**[Sensors]** Vision for Robust Robot Manipulation, [[paper](https://www.mdpi.com/1424-8220/19/7/1648/htm)]
-
-**[arXiv]** Form2Fit: Learning Shape Priors for Generalizable Assembly from Disassembly, [[paper](https://arxiv.org/abs/1910.13675)] [[code](https://form2fit.github.io/)]
-
-**[IROS]** GRIP: Generative Robust Inference and Perception for Semantic Robot Manipulation in Adversarial Environments, [[paper](https://arxiv.org/abs/1903.08352)]
-
-**[arXiv]** Efficient Fully Convolution Neural Network for Generating Pixel Wise Robotic Grasps With High Resolution Images, [[paper](https://arxiv.org/abs/1902.08950)]
-
-**[arXiv]** A Single Multi-Task Deep Neural Network with Post-Processing for Object Detection with Reasoning and Robotic Grasp Detection, [[paper](https://arxiv.org/abs/1909.07050)]
-
-**[IROS]** ROI-based Robotic Grasp Detection for Object Overlapping Scenes, [[paper](https://arxiv.org/abs/1808.10313)]
-
-**[IROS]** SilhoNet: An RGB Method for 6D Object Pose Estimation, [[paper](https://arxiv.org/abs/1809.06893)]
-
-**[ICRA]** Multi-View Picking: Next-best-view Reaching for Improved Grasping in Clutter, [[paper](https://arxiv.org/abs/1809.08564)] [[code](https://github.com/dougsm/mvp_grasp)]
+**[ICME]** Multi-scale capsule attention-based salient object detection with multi-crossed layer connections, [[paper](https://ieeexplore.ieee.org/document/8784786)]
 
 ***2018:***
 
-**[arXiv]** Real-Time, Highly Accurate Robotic Grasp Detection using Fully Convolutional Neural Networks with High-Resolution Images, [[paper](https://arxiv.org/abs/1809.05828)]
+**[CVPR]** Picanet: Learning pixel-wise contextual attention for saliency detection, [[paper](http://openaccess.thecvf.com/content_cvpr_2018/papers/Liu_PiCANet_Learning_Pixel-Wise_CVPR_2018_paper.pdf)]
 
-**[arXiv]** Real-world Multi-object, Multi-grasp Detection, [[paper](https://arxiv.org/abs/1802.00520)]
-
-**[ICRA]** Robotic Pick-and-Place of Novel Objects in Clutter with Multi-Affordance Grasping and Cross-Domain Image Matching, [[paper](https://arxiv.org/abs/1710.01330)] [[code](https://github.com/andyzeng/arc-robot-vision)]
+**[SPM]** Advanced deep-learning techniques for salient and category-specific object detection: a survey, [[paper](https://ieeexplore.ieee.org/abstract/document/8253582)]
 
 ***2017:***
 
-**[IROS]** Robotic Grasp Detection using Deep Convolutional Neural Networks, [[paper](https://arxiv.org/abs/1611.08036)]
+**[CVPR]** Deeply supervised salient object detection with short connections, [[paper](http://openaccess.thecvf.com/content_cvpr_2017/papers/Hou_Deeply_Supervised_Salient_CVPR_2017_paper.pdf)]
+
+**[TOC]** Video saliency detection using object proposals, [[paper](https://ueaeprints.uea.ac.uk/id/eprint/65433/1/Accepted_manuscript.pdf)]
 
 ***2016:***
 
-**[ICRA]** Supersizing self-supervision: Learning to grasp from 50k tries and 700 robot hours, [[paper](https://arxiv.org/abs/1509.06825)]
+**[CVPR]** Unconstrained salient object detection via proposal subset optimization, [[paper](https://zpascal.net/cvpr2016/Zhang_Unconstrained_Salient_Object_CVPR_2016_paper.pdf)]
+
+**[CVPR]** Deep hierarchical saliency network for salient object detection, [[paper](http://openaccess.thecvf.com/content_cvpr_2016/papers/Liu_DHSNet_Deep_Hierarchical_CVPR_2016_paper.pdf)]
+
+**[TPAMI]** Salient object detection via structured matrix decomposition, [[paper](https://eprints.bbk.ac.uk/14986/1/14986.pdf)]
+
+**[TIP]** Correspondence driven saliency transfer, [[paper](https://ueaeprints.uea.ac.uk/id/eprint/62909/1/Accepted_manuscript.pdf)] 
 
 ***2015:***
 
-**[ICRA]** Real-time grasp detection using convolutional neural networks, [[paper](https://arxiv.org/abs/1412.3128)] [[code](https://github.com/tnikolla/robot-grasp-detection)]
+**[CVPR]** Saliency detection by multi-context deep learning, [[paper](https://www.cv-foundation.org/openaccess/content_cvpr_2015/papers/Zhao_Saliency_Detection_by_2015_CVPR_paper.pdf)]
+
+**[TPAMI]** Hierarchical image saliency detection on extended CSSD, [[paper](https://arxiv.org/pdf/1408.5418.pdf)]
 
 ***2014:***
 
-**[IJRR]** Deep Learning for Detecting Robotic Grasps, [[paper](https://arxiv.org/abs/1301.3592)]
+**[CVPR]** Saliency optimization from robust background detection, [[paper](https://www.cv-foundation.org/openaccess/content_cvpr_2014/papers/Zhu_Saliency_Optimization_from_2014_CVPR_paper.pdf)]
 
-------
+**[TPAMI]** Global contrast based salient region detection, [[paper](https://ieeexplore.ieee.org/abstract/document/6871397)]
 
-***Datasets:***
+***2013:***
 
-[Cornell dataset](http://pr.cs.cornell.edu/grasping/rect_data/data.php), the dataset consists of 1035 images of 280 different objects.
+**[CVPR]** Salient object detection: A discriminative regional feature integration approach, [[paper](https://arxiv.org/pdf/1410.5926.pdf)]
+
+**[CVPR]** Saliency detection via graph-based manifold ranking, [[paper](https://www.cv-foundation.org/openaccess/content_cvpr_2013/papers/Yang_Saliency_Detection_via_2013_CVPR_paper.pdf)]
+
+***2012:***
+
+**[ECCV]** Geodesic saliency using background priors, [[paper](http://jiansun.org/papers/ECCV12_GeodesicSaliency.pdf)]
 
 
 
-### 1.2 Depth-based methods
+#### 1.1.2 3D-based Methods
 
-This kind of methods utilized an indirectly way to obtain the grasp pose, which contains grasp candidate generation and grasp quality evaluation. The candidate grasp with the highly score will be selected as the final grasp.
+##### a.Fitting 3D Shape Primitives
+
+***Survey papers:***
+
+**[CGF]** 2019-A survey of simple geometric primitives detection methods for captured 3d data, [[paper](https://onlinelibrary.wiley.com/doi/full/10.1111/cgf.13451)]
+
+***2020:***
+
+**[arXiv]** ParSeNet: A Parametric Surface Fitting Network for 3D Point Clouds, [[paper](https://arxiv.org/pdf/2003.12181.pdf)]
+
+***2015:***
+
+**[CVPR]** Separating objects and clutter in indoor scenes, [[paper](http://openaccess.thecvf.com/content_cvpr_2015/papers/Khan_Separating_Objects_and_2015_CVPR_paper.pdf)]
+
+***2013:***
+
+**[CVPR]** A linear approach to matching cuboids in rgbd images, [[paper](https://ieeexplore.ieee.org/document/6619126)]
+
+***2012:***
+
+**[GCR]** Robustly segmenting cylindrical and box-like objects in cluttered scenes using depth cameras, [[paper](https://ieeexplore.ieee.org/document/6309565)]
+
+***2009:***
+
+**[IROS]** Close-range scene segmentation and reconstruction of 3d point cloud maps for mobile manipulation in domestic environments, [[paper](https://ieeexplore.ieee.org/document/5354683)]
+
+***2005:***
+
+**[ISPRS]** Efficient hough transform for automatic detection of cylinders in point clouds, [[paper](https://www.isprs.org/proceedings/XXXVI/3-W19/papers/060.pdf)]
+
+***1981:***
+
+**[COM]** Random sample consensus: a paradigm for model fitting with applications to image analysis and automated cartography, [[paper](http://www.cs.ait.ac.th/~mdailey/cvreadings/Fischler-RANSAC.pdf)]
+
+
+
+##### b. Saliency Detection
 
 ***2019:***
 
-**[IROS]** GQ-STN: Optimizing One-Shot Grasp Detection based on Robustness Classifier, [[paper](https://arxiv.org/abs/1903.02489)]
+**[PR]** Multi-modal fusion network with multi-scale multi-path and cross-modal interactions for RGB-D salient object detection, [[paper](https://www.sciencedirect.com/science/article/abs/pii/S0031320318303054)]
 
-**[ICRA]** Mechanical Search: Multi-Step Retrieval of a Target Object Occluded by Clutter, [[paper](https://arxiv.org/abs/1903.01588)]
+**[ICCV]** Depth-Induced Multi-Scale Recurrent Attention Network for Saliency Detection, [[paper](http://openaccess.thecvf.com/content_ICCV_2019/papers/Piao_Depth-Induced_Multi-Scale_Recurrent_Attention_Network_for_Saliency_Detection_ICCV_2019_paper.pdf)]
 
-**[ICRA]** MetaGrasp: Data Efficient Grasping by Affordance Interpreter Network, [[paper](https://arxiv.org/abs/1902.06554)]
+**[ICCV]** Pointcloud saliency maps, [[paper](http://openaccess.thecvf.com/content_ICCV_2019/papers/Zheng_PointCloud_Saliency_Maps_ICCV_2019_paper.pdf)]
 
-**[IROS]** GlassLoc: Plenoptic Grasp Pose Detection in Transparent Clutter, [[paper](https://arxiv.org/abs/1909.04269)]
+**[arXiv]** CNN-based RGB-D Salient Object Detection: Learn, Select and Fuse, [[paper](https://arxiv.org/pdf/1909.09309.pdf)]
 
 ***2018:***
 
-**[RSS]** Closing the Loop for Robotic Grasping: A Real-time, Generative Grasp Synthesis Approach, [[paper](https://arxiv.org/pdf/1804.05172.pdf)]
-
-**[BMVC]** EnsembleNet Improving Grasp Detection using an Ensemble of Convolutional Neural Networks, [[paper](http://bmvc2018.org/contents/papers/0322.pdf)]
+**[CVPR]** Progressively complementarity-aware fusion network for RGB-D salient object detection, [[paper](http://openaccess.thecvf.com/content_cvpr_2018/papers/Chen_Progressively_Complementarity-Aware_Fusion_CVPR_2018_paper.pdf)]
 
 ***2017:***
 
-**[RSS]** Dex-Net 2.0: Deep Learning to Plan Robust Grasps with Synthetic Point Clouds and Analytic Grasp Metrics, [[paper](https://github.com/BerkeleyAutomation/dex-net/raw/gh-pages/docs)] [[code](https://github.com/BerkeleyAutomation/gqcnn)]
+**[TIP]** RGBD salient object detection via deep fusion, [[paper](https://arxiv.org/pdf/1607.03333.pdf)]
 
-------
+***2015:***
 
-***Dataset:***
+**[CVPRW]** Exploiting global priors for RGB-D saliency detection, [[paper](https://www.cv-foundation.org/openaccess/content_cvpr_workshops_2015/W14/papers/Ren_Exploiting_Global_Priors_2015_CVPR_paper.pdf)]
 
-[Dex-Net](https://berkeleyautomation.github.io/dex-net/#dexnet_2), a synthetic dataset of 6.7 million point clouds, grasps, and robust analytic grasp metrics generated from thousands of 3D models.
+***2014:***
 
-[Jacquard Dataset](https://jacquard.liris.cnrs.fr), Jacquard: A Large Scale Dataset for Robotic Grasp Detection” in *IEEE International Conference on Intelligent Robots and Systems*, 2018, [[paper](https://arxiv.org/abs/1803.11469)]
+**[ECCV]** Rgbd salient object detection: a benchmark and algorithms, [[paper](https://projet.liris.cnrs.fr/imagine/pub/proceedings/ECCV-2014/papers/8691/86910092.pdf)]
+
+***2013:***
+
+**[JSIP]** Segmenting salient objects in 3d point clouds of indoor scenes using geodesic distances, [[paper](https://www.scirp.org/html/38079.html)]
+
+***2008:***
+
+**[WACV]** Segmentation of salient regions in outdoor scenes using imagery and 3-d data, [[paper](https://ieeexplore.ieee.org/abstract/document/4544014)]
 
 
 
-### 1.3 Target object localization in 2D
-
-In order to provide a better input to compute the oriented 2D box, or generate the candidates, the targe object's mask should be computed. The current deep learning-based 2D detection or 2D segmentation methods could assist.
-
-#### 1.3.1 2D detection:
+### 1.2 Object Detection
 
 Detailed paper lists can refer to [hoya012](https://github.com/hoya012/deep_learning_object_detection) or [amusi](https://github.com/amusi/awesome-object-detection).
 
-##### Survey papers
+#### 1.2.1 2D Object Detection
+
+***Survey papers:***
 
 ***2020:***
 
@@ -254,6 +252,8 @@ Detailed paper lists can refer to [hoya012](https://github.com/hoya012/deep_lear
 
 ***2017:***
 
+**[CVPR]** FPN: Feature pyramid networks for object detection, [[paper](http://openaccess.thecvf.com/content_cvpr_2017/papers/Lin_Feature_Pyramid_Networks_CVPR_2017_paper.pdf)]
+
 **[arXiv]** Light-Head R-CNN: In Defense of Two-Stage Object Detector, [[paper](https://arxiv.org/pdf/1711.07264.pdf)] [[code](https://github.com/zengarden/light_head_rcnn)]
 
 ***2016:***
@@ -274,9 +274,35 @@ Detailed paper lists can refer to [hoya012](https://github.com/hoya012/deep_lear
 
 **[CVPR]** R-CNN: Rich feature hierarchies for accurate object detection and semantic segmentation, [[paper](https://arxiv.org/pdf/1311.2524.pdf)] [[code](https://github.com/rbgirshick/rcnn)]
 
+**[CVPR]** Scalable object detection using deep neural networks, [[paper](http://openaccess.thecvf.com/content_cvpr_2014/papers/Erhan_Scalable_Object_Detection_2014_CVPR_paper.pdf)]
+
+**[arXiv]** Scalable, high-quality object detection, [[paper](https://arxiv.org/pdf/1412.1441.pdf)]
+
+**[ICLR]** OverFeat: Integrated Recognition, Localization and Detection using Convolutional Networks, [[paper](https://arxiv.org/pdf/1312.6229.pdf)] [[code](https://github.com/sermanet/OverFeat)]
+
+***2011:***
+
+**[ICCV]** ORB: An efficient alternative to SIFT or SURF, [[paper](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.370.4395&rep=rep1&type=pdf)]
+
+***2006:***
+
+**[ECCV]** SURF: Speeded up robust features, [[paper](https://link.springer.com/chapter/10.1007/11744023_32)]
+
+***2005:***
+
+**[ICCV]** FAST: Fusing points and lines for high performance tracking, [[paper](https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.60.4715&rep=rep1&type=pdf)]
+
+***1999:***
+
+**[ICCV]** SIFT: Object Recognition from Local Scale-Invariant Features, [[paper](http://new.csd.uwo.ca/Courses/CS9840a/PossibleStudentPapers/iccv99.pdf)]
+
+
+
 ##### b. Single-stage methods
 
 ***2020:***
+
+**[arXiv]** SaccadeNet: A Fast and Accurate Object Detector, [[paper](https://arxiv.org/pdf/2003.12125.pdf)]
 
 **[arXiv]** CentripetalNet: Pursuing High-quality Keypoint Pairs for Object Detection, [[paper](https://arxiv.org/pdf/2003.09119.pdf)]
 
@@ -306,21 +332,15 @@ Detailed paper lists can refer to [hoya012](https://github.com/hoya012/deep_lear
 
 **[CVPR]** YOLO9000: Better, Faster, Stronger, [[paper](https://arxiv.org/pdf/1612.08242.pdf)] [[code](https://github.com/longcw/yolo2-pytorch)]
 
+**[ICCV]** RetinaNet: Focal loss for dense object detection, [[paper](http://openaccess.thecvf.com/content_ICCV_2017/papers/Lin_Focal_Loss_for_ICCV_2017_paper.pdf)]
+
 ***2016:***
 
 **[CVPR]** YOLO: You only look once: Unified, real-time object detection, [[paper](https://arxiv.org/abs/1506.02640)] [[code](https://github.com/gliese581gg/YOLO_tensorflow)]
 
 **[ECCV]** SSD: Single Shot MultiBox Detector, [[paper](https://arxiv.org/abs/1512.02325)] [[code](https://github.com/balancap/SSD-Tensorflow)]
 
-**[ECCV]** LIFT: Learned Invariant Feature Transform, [[paper](https://arxiv.org/pdf/1603.09114.pdf)]
 
-***2015:***
-
-**[CVPR]** MatchNet: Unifying Feature and Metric Learning for Patch-Based Matching, [[paper](https://www.cv-foundation.org/openaccess/content_cvpr_2015/papers/Han_MatchNet_Unifying_Feature_2015_CVPR_paper.pdf)]
-
-***2014:***
-
-**[ICLR]** OverFeat: Integrated Recognition, Localization and Detection using Convolutional Networks, [[paper](https://arxiv.org/pdf/1312.6229.pdf)] [[code](https://github.com/sermanet/OverFeat)]
 
 ------
 
@@ -334,134 +354,9 @@ Detailed paper lists can refer to [hoya012](https://github.com/hoya012/deep_lear
 
 [Open Images](https://storage.googleapis.com/openimages/web/index.html): a collaborative release of ~9 million images annotated with labels spanning thousands of object categories, [[paper](https://arxiv.org/pdf/1811.00982v1.pdf)]
 
-#### 1.3.2 2D instance segmentation:
 
-***2020:***
 
-**[arXiv]** SOLOv2: Dynamic, Faster and Stronger, [[paper](https://arxiv.org/pdf/2003.10152.pdf)] [[code](https://github.com/aim-uofa/AdelaiDet/)]
-
-**[arXiv]** Mask Encoding for Single Shot Instance Segmentation, [[paper](https://arxiv.org/pdf/2003.11712.pdf)]
-
-**[arXiv]** Depth Potentiality-Aware Gated Attention Network for RGB-D Salient Object Detection, [[paper](https://arxiv.org/pdf/2003.08608.pdf)]
-
-**[arXiv]** Weakly-Supervised Salient Object Detection via Scribble Annotations, [[paper](https://arxiv.org/pdf/2003.07685.pdf)]
-
-**[arXiv]** 1st Place Solutions for OpenImage2019 - Object Detection and Instance Segmentation, [[paper](https://arxiv.org/pdf/2003.07557.pdf)]
-
-**[arXiv]** Deep Affinity Net: Instance Segmentation via Affinity, [[paper](https://arxiv.org/pdf/2003.06849.pdf)]
-
-**[arXiv]** PointINS: Point-based Instance Segmentation, [[paper](https://arxiv.org/pdf/2003.06148.pdf)]
-
-**[arXiv]** Adaptive Graph Convolutional Network with Attention Graph Clustering for Co-saliency Detection, [[paper](https://arxiv.org/pdf/2003.06167.pdf)]
-
-**[arXiv]** Highly Efficient Salient Object Detection with 100K Parameters, [[paper](https://arxiv.org/pdf/2003.05643.pdf)]
-
-**[arXiv]** Conditional Convolutions for Instance Segmentation, [[paper](https://arxiv.org/pdf/2003.05664.pdf)]
-
-**[arXiv]** Global Context-Aware Progressive Aggregation Network for Salient Object Detection, [[paper](https://arxiv.org/pdf/2003.00651.pdf)]
-
-**[arXiv]** Fully Convolutional Networks for Automatically Generating Image Masks to Train Mask R-CNN, [[paper](https://arxiv.org/pdf/2003.01383.pdf)]
-
-**[arXiv]** Cross-layer Feature Pyramid Network for Salient Object Detection, [[paper](https://arxiv.org/pdf/2002.10864.pdf)]
-
-**[arXiv]** Towards Bounding-Box Free Panoptic Segmentation, [[paper](https://arxiv.org/pdf/2002.07705.pdf)]
-
-**[arXiv]** Self-Supervised Object-in-Gripper Segmentation from Robotic Motions, [[paper](https://arxiv.org/pdf/2002.04487.pdf)]
-
-**[arXiv]** Real-time Semantic Background Subtraction, [[paper](https://arxiv.org/pdf/2002.04993.pdf)]
-
-**[arXiv]** Evolution of Image Segmentation using Deep Convolutional Neural Network: A Survey, [[paper](https://arxiv.org/pdf/2001.04074.pdf)]
-
-**[arXiv]** FourierNet: Compact mask representation for instance segmentation using differentiable shape decoders, [[paper](https://arxiv.org/pdf/2002.02709.pdf)]
-
-**[arXiv]** Segmenting unseen industrial components in a heavy clutter using rgb-d fusion and synthetic data, [[paper](https://arxiv.org/pdf/2002.03501.pdf)]
-
-**[arXiv]** Instance Segmentation of Visible and Occluded Regions for Finding and Picking Target from a Pile of Objects, [[paper](https://arxiv.org/pdf/2001.07475.pdf)]
-
-**[arXiv]** Joint Learning of Instance and Semantic Segmentation for Robotic Pick-and-Place with Heavy Occlusions in Clutter, [[paper](https://arxiv.org/pdf/2001.07481.pdf)]
-
-**[arXiv]** PointRend: Image Segmentation as Rendering, [[paper](https://arxiv.org/abs/1912.08193)]
-
-**[arXiv]** Image Segmentation Using Deep Learning: A Survey, [[paper](https://arxiv.org/pdf/2001.05566.pdf)]
-
-***2019:***
-
-**[arXiv]** CenterMask:Real-Time Anchor-Free Instance Segmentation, [[paper](https://arxiv.org/pdf/1911.06667.pdf)] [[code](https://github.com/youngwanLEE/centermask2)]
-
-**[arXiv]** SAIS: Single-stage Anchor-free Instance Segmentation, [[paper](https://arxiv.org/pdf/1912.01176.pdf)]
-
-**[arXiv]** YOLACT++ Better Real-time Instance Segmentation, [[paper](https://arxiv.org/pdf/1912.06218.pdf)] [[code](https://github.com/dbolya/yolact)]
-
-**[ICCV]** YOLACT: Real-time Instance Segmentation, [[paper](https://arxiv.org/pdf/1904.02689.pdf)] [[code](https://github.com/dbolya/yolact)]
-
-**[ICCV]** TensorMask: A Foundation for Dense Object Segmentation, [[paper](https://arxiv.org/pdf/1903.12174.pdf)] [[code](https://github.com/facebookresearch/detectron2/tree/master/projects/TensorMask)]
-
-**[CASE]** Deep Workpiece Region Segmentation for Bin Picking, [[paper](https://arxiv.org/abs/1909.03462)]
-
-***2018:***
-
-**[CVPR]** PANet: Path Aggregation Network for Instance Segmentation, [[paper](https://arxiv.org/pdf/1803.01534.pdf)] [[code](https://github.com/ShuLiu1993/PANet)]
-
-**[CVPR]** MaskLab: Instance Segmentation by Refining Object Detection with Semantic and Direction Features, [[paper](https://arxiv.org/pdf/1712.04837.pdf)]
-
-***2017:***
-
-**[ICCV]** Mask r-cnn, [[paper](https://arxiv.org/abs/1703.06870)] [[code](https://github.com/matterport/Mask_RCNN)]
-
-**[IROS]** SegICP: Integrated Deep Semantic Segmentation and Pose Estimation, [[paper](https://arxiv.org/abs/1703.01661)]
-
-**[CVPR]** Fully Convolutional Instance-aware Semantic Segmentation, [[paper](https://arxiv.org/pdf/1611.07709.pdf)]
-
-***2016:***
-
-**[ECCV]** SharpMask: Learning to Refine Object Segments, [[paper](https://arxiv.org/pdf/1603.08695.pdf)] [[code](https://github.com/facebookresearch/deepmask)]
-
-**[BMVC]** MultiPathNet: A MultiPath Network for Object Detection, [[paper](https://arxiv.org/pdf/1604.02135.pdf)] [[code](https://github.com/facebookresearch/multipathnet)]
-
-**[CVPR]** MNC: Instance-aware Semantic Segmentation via Multi-task Network Cascades, [[paper](https://arxiv.org/pdf/1512.04412.pdf)]
-
-***2015:***
-
-**[NeurIPS]** DeepMask: Learning to Segment Object Candidates, [[paper](https://arxiv.org/pdf/1506.06204.pdf)] [[code](https://github.com/facebookresearch/deepmask)]
-
-**[CVPR]** Hypercolumns for Object Segmentation and Fine-grained Localization, [[paper](https://arxiv.org/pdf/1411.5752.pdf)]
-
-***2014:***
-
-**[ECCV]** SDS: Simultaneous Detection and Segmentation, [[paper](https://arxiv.org/pdf/1407.1808.pdf)]
-
-#### 1.3.3 2D panoptic segmentation:
-
-***2020:***
-
-**[arXiv]** Axial-DeepLab: Stand-Alone Axial-Attention for Panoptic Segmentation, [[paper](https://arxiv.org/pdf/2003.07853.pdf)]
-
-***2019:***
-
-**[CVPR]** An End-to-End Network for Panoptic Segmentation, [[paper](https://arxiv.org/pdf/1903.05027.pdf)]
-
-**[CVPR]** Panoptic Segmentation, [[paper](https://arxiv.org/pdf/1801.00868.pdf)]
-
-**[CVPR]** Panoptic Feature Pyramid Networks, [[paper](https://arxiv.org/pdf/1901.02446.pdf)] 
-
-**[CVPR]** UPSNet: A Unified Panoptic Segmentation Network, [[paper](https://arxiv.org/pdf/1901.03784.pdf)]
-
-**[IV]** Single Network Panoptic Segmentation for Street Scene Understanding, [[paper](https://arxiv.org/pdf/1902.02678.pdf)] [[code](https://github.com/DdeGeus/single-network-panoptic-segmentation)]
-
-**[ITSC]** Multi-task Network for Panoptic Segmentation in Automated Driving, [[paper](https://ieeexplore.ieee.org/document/8917422)]
-
-
-
-## 2. 6DoF Grasp
-
-**Grasp Representation:**
-The grasp is represented as 6DoF pose in 3D domain, and the gripper can grasp the object from various angles. The input to this task is 3D point cloud from RGB-D sensors, and this task contains two stages. In the first stage, the target object should be extracted from the scene. In the second stage, if there exists an existing 3D model, the 6D pose of the object could be computed. If there exists no 3D models, the 6DoF grasp pose will be computed from some other methods.
-
-### 2.1 Target object extraction in 3D
-
-The staightforward way is to conduct 2D dection or segmentation, and utilize the point cloud from the corresponding depth area. This part is already related in section 1.3. In the following, only 3D detection and 3D instance segmentation will be summarized.
-
-#### 2.1.1 3D detection
+#### 1.2.2 3D Object Detection
 
 This kind of methods can be divided into three kinds: RGB-based methods, point cloud-based methods, and fusion methods which consume images and point cloud. Most of these works are focus on autonomous driving.
 
@@ -523,11 +418,31 @@ Most of this kind of methods estimate depth images from RGB images, and then con
 
 **[arXiv]** Monocular 3D Object Detection via Geometric Reasoning on Keypoints, [[paper](https://arxiv.org/abs/1905.05618)]
 
+
+
 ##### b. Point cloud-based methods
 
-This kind of methods purely utilize the 3D point cloud data.
+This kind of methods only consume the 3D point cloud data.
+
+***Survey papers:***
+
+**[arXiv]** 2019-Deep Learning for 3D Point Clouds: A Survey, [[paper](https://arxiv.org/pdf/1912.12033.pdf)]
+
+
 
 ***2020:***
+
+**[arXiv]** LiDAR-based Online 3D Video Object Detection with Graph-based Message Passing and Spatiotemporal Transformer Attention, [[paper](https://arxiv.org/pdf/2004.01389.pdf)]
+
+**[arXiv]** Quantifying Data Augmentation for LiDAR based 3D Object Detection, [[paper](https://arxiv.org/pdf/2004.01643.pdf)]
+
+**[arXiv]** DOPS: Learning to Detect 3D Objects and Predict their 3D Shapes, [[paper](https://arxiv.org/pdf/2004.01170.pdf)]
+
+**[arXiv]** Improving 3D Object Detection through Progressive Population Based Augmentation, [[paper](https://arxiv.org/pdf/2004.00831.pdf)]
+
+**[arXiv]** Boundary-Aware Dense Feature Indicator for Single-Stage 3D Object Detection from Point Clouds, [[paper](https://arxiv.org/pdf/2004.00186.pdf)]
+
+**[arXiv]** Physically Realizable Adversarial Examples for LiDAR Object Detection, [[paper](https://arxiv.org/pdf/2004.00543.pdf)]
 
 **[arXiv]** Real-time 3D object proposal generation and classification under limited processing resources, [[paper](https://arxiv.org/pdf/2003.10670.pdf)]
 
@@ -585,6 +500,8 @@ This kind of methods purely utilize the 3D point cloud data.
 
 **[ECCVW]** YOLO3D: End-to-end real-time 3D Oriented Object Bounding Box Detection from LiDAR Point Cloud, [[paper](https://arxiv.org/abs/1808.02350)]
 
+
+
 ##### c. Fusion methods
 
 This kind of methods utilize both rgb images and depth images/point clouds. There exist early fusion methods, late fusion methods, and dense fusion methods.
@@ -634,11 +551,173 @@ This kind of methods utilize both rgb images and depth images/point clouds. Ther
 ***2017:***
 **[CVPR]** Multi-View 3D Object Detection Network for Autonomous Driving, [[paper](https://arxiv.org/abs/1611.07759)] [[code](https://github.com/bostondiditeam/MV3D)]
 
+***2016:***
+
+**[CVPR]** Deep sliding shapes for amodal 3d object detection in rgb-d images, [[paper](https://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/Song_Deep_Sliding_Shapes_CVPR_2016_paper.pdf)]
 
 
-#### 2.1.2 3D segmentation
+
+### 1.3 Object Instance Segmentation
+
+#### 1.3.1 2D Instance Segmentation
+
+##### a. Survey papers
 
 ***2020:***
+
+**[arXiv]** Evolution of Image Segmentation using Deep Convolutional Neural Network: A Survey, [[paper](https://arxiv.org/pdf/2001.04074.pdf)]
+
+**[arXiv]** Image Segmentation Using Deep Learning: A Survey, [[paper](https://arxiv.org/pdf/2001.05566.pdf)]
+
+##### b. Two-stage methods
+
+***2020:***
+
+**[arXiv]** 1st Place Solutions for OpenImage2019 - Object Detection and Instance Segmentation, [[paper](https://arxiv.org/pdf/2003.07557.pdf)]
+
+**[arXiv]** Fully Convolutional Networks for Automatically Generating Image Masks to Train Mask R-CNN, [[paper](https://arxiv.org/pdf/2003.01383.pdf)]
+
+**[arXiv]** FGN: Fully Guided Network for Few-Shot Instance Segmentation, [[paper](https://arxiv.org/pdf/2003.13954.pdf)]
+
+**[arXiv]** PointRend: Image Segmentation as Rendering, [[paper](https://arxiv.org/abs/1912.08193)]
+
+***2019:***
+
+**[CVPR]** HTC: Hybrid task cascade for instance segmentation, [[paper](http://openaccess.thecvf.com/content_CVPR_2019/papers/Chen_Hybrid_Task_Cascade_for_Instance_Segmentation_CVPR_2019_paper.pdf)]
+
+***2018:***
+
+**[CVPR]** PANet: Path aggregation network for instance segmentation, [[paper](http://openaccess.thecvf.com/content_cvpr_2018/papers/Liu_Path_Aggregation_Network_CVPR_2018_paper.pdf)]
+
+**[CVPR]** Masklab: Instance segmentation by refining object detection with semantic and direction features, [[paper](http://openaccess.thecvf.com/content_cvpr_2018/papers/Chen_MaskLab_Instance_Segmentation_CVPR_2018_paper.pdf)]
+
+***2017:***
+
+**[ICCV]** Mask r-cnn, [[paper](https://arxiv.org/abs/1703.06870)] [[code](https://github.com/matterport/Mask_RCNN)]
+
+***2016:***
+
+**[CVPR]** Instance-aware semantic segmentation via multi-task network cascades, [[paper](https://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/Dai_Instance-Aware_Semantic_Segmentation_CVPR_2016_paper.pdf)]
+
+***2014:***
+
+**[ECCV]** Simultaneous detection and segmentation, [[paper](https://arxiv.org/pdf/1407.1808.pdf)]
+
+
+
+##### c. One-stage methods
+
+***2020:***
+
+**[arXiv]** BlendMask: Top-Down Meets Bottom-Up for Instance Segmentation, [[paper](https://arxiv.org/pdf/2001.00309.pdf)]
+
+**[arXiv]** SOLOv2: Dynamic, Faster and Stronger, [[paper](https://arxiv.org/pdf/2003.10152.pdf)] [[code](https://github.com/aim-uofa/AdelaiDet/)]
+
+**[arXiv]** Mask Encoding for Single Shot Instance Segmentation, [[paper](https://arxiv.org/pdf/2003.11712.pdf)]
+
+**[arXiv]** Deep Affinity Net: Instance Segmentation via Affinity, [[paper](https://arxiv.org/pdf/2003.06849.pdf)]
+
+**[arXiv]** PointINS: Point-based Instance Segmentation, [[paper](https://arxiv.org/pdf/2003.06148.pdf)]
+
+**[arXiv]** Conditional Convolutions for Instance Segmentation, [[paper](https://arxiv.org/pdf/2003.05664.pdf)]
+
+**[arXiv]** Real-time Semantic Background Subtraction, [[paper](https://arxiv.org/pdf/2002.04993.pdf)]
+
+**[arXiv]** FourierNet: Compact mask representation for instance segmentation using differentiable shape decoders, [[paper](https://arxiv.org/pdf/2002.02709.pdf)]
+
+***2019:***
+
+**[arXiv]** CenterMask:Real-Time Anchor-Free Instance Segmentation, [[paper](https://arxiv.org/pdf/1911.06667.pdf)] [[code](https://github.com/youngwanLEE/centermask2)]
+
+**[arXiv]** SAIS: Single-stage Anchor-free Instance Segmentation, [[paper](https://arxiv.org/pdf/1912.01176.pdf)]
+
+**[arXiv]** YOLACT++ Better Real-time Instance Segmentation, [[paper](https://arxiv.org/pdf/1912.06218.pdf)] [[code](https://github.com/dbolya/yolact)]
+
+**[ICCV]** YOLACT: Real-time Instance Segmentation, [[paper](https://arxiv.org/pdf/1904.02689.pdf)] [[code](https://github.com/dbolya/yolact)]
+
+**[ICCV]** TensorMask: A Foundation for Dense Object Segmentation, [[paper](https://arxiv.org/pdf/1903.12174.pdf)] [[code](https://github.com/facebookresearch/detectron2/tree/master/projects/TensorMask)]
+
+**[CASE]** Deep Workpiece Region Segmentation for Bin Picking, [[paper](https://arxiv.org/abs/1909.03462)]
+
+***2018:***
+
+**[CVPR]** PANet: Path Aggregation Network for Instance Segmentation, [[paper](https://arxiv.org/pdf/1803.01534.pdf)] [[code](https://github.com/ShuLiu1993/PANet)]
+
+**[CVPR]** MaskLab: Instance Segmentation by Refining Object Detection with Semantic and Direction Features, [[paper](https://arxiv.org/pdf/1712.04837.pdf)]
+
+***2017:***
+
+**[CVPR]** Fully Convolutional Instance-aware Semantic Segmentation, [[paper](https://arxiv.org/pdf/1611.07709.pdf)]
+
+***2016:***
+
+**[ECCV]** SharpMask: Learning to Refine Object Segments, [[paper](https://arxiv.org/pdf/1603.08695.pdf)] [[code](https://github.com/facebookresearch/deepmask)]
+
+**[BMVC]** MultiPathNet: A MultiPath Network for Object Detection, [[paper](https://arxiv.org/pdf/1604.02135.pdf)] [[code](https://github.com/facebookresearch/multipathnet)]
+
+**[CVPR]** MNC: Instance-aware Semantic Segmentation via Multi-task Network Cascades, [[paper](https://arxiv.org/pdf/1512.04412.pdf)]
+
+***2015:***
+
+**[NeurIPS]** DeepMask: Learning to Segment Object Candidates, [[paper](https://arxiv.org/pdf/1506.06204.pdf)] [[code](https://github.com/facebookresearch/deepmask)]
+
+**[CVPR]** Hypercolumns for Object Segmentation and Fine-grained Localization, [[paper](https://arxiv.org/pdf/1411.5752.pdf)]
+
+***2014:***
+
+**[ECCV]** SDS: Simultaneous Detection and Segmentation, [[paper](https://arxiv.org/pdf/1407.1808.pdf)]
+
+
+
+***Applications in Robotics:***
+
+***2020:***
+
+**[arXiv]** Self-Supervised Object-in-Gripper Segmentation from Robotic Motions, [[paper](https://arxiv.org/pdf/2002.04487.pdf)]
+
+**[arXiv]** Segmenting unseen industrial components in a heavy clutter using rgb-d fusion and synthetic data, [[paper](https://arxiv.org/pdf/2002.03501.pdf)]
+
+**[arXiv]** Instance Segmentation of Visible and Occluded Regions for Finding and Picking Target from a Pile of Objects, [[paper](https://arxiv.org/pdf/2001.07475.pdf)]
+
+**[arXiv]** Joint Learning of Instance and Semantic Segmentation for Robotic Pick-and-Place with Heavy Occlusions in Clutter, [[paper](https://arxiv.org/pdf/2001.07481.pdf)]
+
+
+
+##### d. Panoptic segmentation
+
+***2020:***
+
+**[arXiv]** BANet: Bidirectional Aggregation Network with Occlusion Handling for Panoptic Segmentation, [[paper](https://arxiv.org/pdf/2003.14031.pdf)]
+
+**[arXiv]** Axial-DeepLab: Stand-Alone Axial-Attention for Panoptic Segmentation, [[paper](https://arxiv.org/pdf/2003.07853.pdf)]
+
+**[arXiv]** Towards Bounding-Box Free Panoptic Segmentation, [[paper](https://arxiv.org/pdf/2002.07705.pdf)]
+
+***2019:***
+
+**[CVPR]** An End-to-End Network for Panoptic Segmentation, [[paper](https://arxiv.org/pdf/1903.05027.pdf)]
+
+**[CVPR]** Panoptic Segmentation, [[paper](https://arxiv.org/pdf/1801.00868.pdf)]
+
+**[CVPR]** Panoptic Feature Pyramid Networks, [[paper](https://arxiv.org/pdf/1901.02446.pdf)] 
+
+**[CVPR]** UPSNet: A Unified Panoptic Segmentation Network, [[paper](https://arxiv.org/pdf/1901.03784.pdf)]
+
+**[IV]** Single Network Panoptic Segmentation for Street Scene Understanding, [[paper](https://arxiv.org/pdf/1902.02678.pdf)] [[code](https://github.com/DdeGeus/single-network-panoptic-segmentation)]
+
+**[ITSC]** Multi-task Network for Panoptic Segmentation in Automated Driving, [[paper](https://ieeexplore.ieee.org/document/8917422)]
+
+
+
+#### 1.3.2 3D Instance Segmentation
+
+##### a. Two-stage methods
+
+***2020:***
+
+**[arXiv]** PointGroup: Dual-Set Point Grouping for 3D Instance Segmentation, [[paper](https://arxiv.org/pdf/2004.01658.pdf)]
+
+**[arXiv]** 3D-MPA: Multi Proposal Aggregation for 3D Semantic Instance Segmentation, [[paper](https://arxiv.org/pdf/2003.13867.pdf)]
 
 **[arXiv]** OccuSeg: Occupancy-aware 3D Instance Segmentation, [[paper](https://arxiv.org/pdf/2003.06537.pdf)]
 
@@ -648,19 +727,13 @@ This kind of methods utilize both rgb images and depth images/point clouds. Ther
 
 **[arXiv]** 3DCFS: Fast and Robust Joint 3D Semantic-Instance Segmentation via Coupled Feature Selection, [[paper](https://arxiv.org/pdf/2003.00535.pdf)]
 
-**[arXiv]** SceneEncoder: Scene-Aware Semantic Segmentation of Point Clouds with A Learnable Scene Descriptor, [[paper](https://arxiv.org/pdf/2001.09087.pdf)]
-
 **[RAL]** From Planes to Corners: Multi-Purpose Primitive Detection in Unorganized 3D Point Clouds, [[paper](https://arxiv.org/pdf/2001.07360.pdf)]
 
 **[arXiv]** Learning and Memorizing Representative Prototypes for 3D Point Cloud Semantic and Instance Segmentation, [[paper](https://arxiv.org/pdf/2001.01349.pdf)]
 
-**[AAAI]** JSNet: Joint Instance and Semantic Segmentation of 3D Point Clouds, [[paper](https://arxiv.org/abs/1912.09654)] [[code](https://github.com/dlinzhao/JSNet)]
-
 **[WACV]** FuseSeg: LiDAR Point Cloud Segmentation Fusing Multi-Modal Data, [[paper](https://arxiv.org/abs/1912.08487)]
 
 ***2019:***
-
-**[CVPR]** SGPN: Similarity Group Proposal Network for 3D Point Cloud Instance Segmentation, [[paper](https://www.zpascal.net/cvpr2018/Wang_SGPN_Similarity_Group_CVPR_2018_paper.pdf)]
 
 **[arXiv]** Point2Node: Correlation Learning of Dynamic-Node for Point Cloud Feature Modeling, [[paper](https://arxiv.org/pdf/1912.10775.pdf)]
 
@@ -674,25 +747,37 @@ This kind of methods utilize both rgb images and depth images/point clouds. Ther
 
 **[arXiv]** Addressing the Sim2Real Gap in Robotic 3D Object Classification, [[paper](https://arxiv.org/abs/1910.12585)]
 
-**[NeurIPS]** 3D-BoNet: Learning Object Bounding Boxes for 3D Instance Segmentation on Point Clouds, [[paper](https://arxiv.org/pdf/1906.01140.pdf)] [[code](https://github.com/Yang7879/3D-BoNet)]
-
 **[IROS]** LDLS: 3-D Object Segmentation Through Label Diffusion From 2-D Images, [[paper](https://arxiv.org/abs/1910.13955)]
-
-**[arXiv]** GSPN: Generative Shape Proposal Network for 3D Instance Segmentation in Point Cloud, [[paper](https://arxiv.org/abs/1812.03320)]
 
 **[CoRL]** The Best of Both Modes: Separately Leveraging RGB and Depth for Unseen Object Instance Segmentation, [[paper](https://arxiv.org/abs/1907.13236)] [[code](https://arxiv.org/abs/1907.13236)]
 
-**[IJARS]** Fast geometry-based computation of grasping points on three-dimensional point clouds, [[paper](https://journals.sagepub.com/doi/10.1177/1729881419831846)]
-
-***2018:***
-
-**[arXiv]** PointSIFT: A SIFT-like Network Module for 3D Point Cloud Semantic Segmentation, [[paper](https://arxiv.org/abs/1807.00652)]
+**[arXiv]** GSPN: Generative Shape Proposal Network for 3D Instance Segmentation in Point Cloud, [[paper](https://arxiv.org/abs/1812.03320)]
 
 
 
-#### 2.1.3 3D deep learning networks
+##### b. One-stage Methods
 
-Some of these works are cited from [awesome-point-cloud-analysis](https://github.com/Yochengliu/awesome-point-cloud-analysis) by [Yongcheng Liu](https://yochengliu.github.io/), thank him.
+***2020:***
+
+**[AAAI]** JSNet: Joint Instance and Semantic Segmentation of 3D Point Clouds, [[paper](https://arxiv.org/abs/1912.09654)] [[code](https://github.com/dlinzhao/JSNet)]
+
+**[ICRA]** LiDARSeg: Instance segmentation of lidar point clouds, [[paper](http://www.feihuzhang.com/ICRA2020.pdf)]
+
+***2019:***
+
+**[NeurIPS]** 3D-BoNet: Learning Object Bounding Boxes for 3D Instance Segmentation on Point Clouds, [[paper](https://arxiv.org/pdf/1906.01140.pdf)] [[code](https://github.com/Yang7879/3D-BoNet)]
+
+**[arXiv]** MASC: multi-scale affinity with sparse convolution for 3d instance segmentation, [[paper](https://arxiv.org/pdf/1902.04478.pdf)]
+
+**[CVPR]** ASIS: Associatively segmenting instances and semantics in point clouds, [[paper](http://openaccess.thecvf.com/content_CVPR_2019/papers/Wang_Associatively_Segmenting_Instances_and_Semantics_in_Point_Clouds_CVPR_2019_paper.pdf)]
+
+**[CVPR]** SGPN: Similarity Group Proposal Network for 3D Point Cloud Instance Segmentation, [[paper](https://www.zpascal.net/cvpr2018/Wang_SGPN_Similarity_Group_CVPR_2018_paper.pdf)]
+
+**[CVPR]** JSIS3D: joint semantic-instance segmentation of 3d point clouds with multi-task pointwise networks and multi-value conditional random fields, [[paper](http://openaccess.thecvf.com/content_CVPR_2019/papers/Pham_JSIS3D_Joint_Semantic-Instance_Segmentation_of_3D_Point_Clouds_With_Multi-Task_CVPR_2019_paper.pdf)]
+
+
+
+##### c. 3D deep learning networks
 
 ***2020:***
 
@@ -762,11 +847,13 @@ Some of these works are cited from [awesome-point-cloud-analysis](https://github
 
 
 
-### 2.2 6D object pose estimation (Exist 3D models)
+## 2. Object Pose Estimation
 
-#### 2.2.1 RGB-D based methods
+This part mainly discuss 6D object pose estimation methods, which can be categorized into __RGB-D image-based methods__ and __point cloud-based methods__. RGB-D image-based methods mainly utilized the 2D RGB image and the 2.5D Depth image. Point cloud-based methods utilize registration-based methods.
 
-This kind of methods can be divided into four kinds, which are corresponding-based methods, template-based methods, voting-based methods and regression-based methods.
+### 2.1 RGB-D Image-based Methods
+
+***Survey papers:***
 
 ***2020:***
 
@@ -776,9 +863,15 @@ This kind of methods can be divided into four kinds, which are corresponding-bas
 
 **[ECCVW]** A Summary of the 4th International Workshop on Recovering 6D Object Pose, [[paper](https://arxiv.org/abs/1810.03758)]
 
-##### a. Corresponding-based methods
+#### 2.1.1 Correspondence-based Methods
+
+##### a. Match 2D feature points
 
 ***2020:***
+
+**[arXiv]** S2DNet: Learning Accurate Correspondences for Sparse-to-Dense Feature Matching, [[paper](https://arxiv.org/pdf/2004.01673.pdf)]
+
+**[arXiv]** SK-Net: Deep Learning on Point Cloud via End-to-end Discovery of Spatial Keypoints, [[paper](https://arxiv.org/pdf/2003.14014.pdf)]
 
 **[arXiv]** LRC-Net: Learning Discriminative Features on Point Clouds by Encoding Local Region Contexts, [[paper](https://arxiv.org/pdf/2003.08240.pdf)]
 
@@ -790,49 +883,67 @@ This kind of methods can be divided into four kinds, which are corresponding-bas
 
 ***2019:***
 
-**[CVPR]** Segmentation-driven 6D Object Pose Estimation, [[paper](https://arxiv.org/abs/1812.02541)]
+**[ICCV]** GLAMpoints: Greedily Learned Accurate Match points, [[paper](http://openaccess.thecvf.com/content_ICCV_2019/papers/Truong_GLAMpoints_Greedily_Learned_Accurate_Match_Points_ICCV_2019_paper.pdf)]
 
-***2018:***
+***2016:***
 
-**[arXiv]** Estimating 6D Pose From Localizing Designated Surface Keypoints, [[paper](https://arxiv.org/abs/1812.01387)]
-
-***2017:***
-
-**[ICRA]** 6-DoF Object Pose from Semantic Keypoints, [[paper](https://arxiv.org/abs/1703.04670)]
+**[ECCV]** LIFT: Learned Invariant Feature Transform, [[paper](https://arxiv.org/pdf/1603.09114.pdf)]
 
 ***2012:***
 
 **[3DIMPVT]** 3D Object Detection and Localization using Multimodal Point Pair Features, [[paper](http://far.in.tum.de/pub/drost20123dimpvt/drost20123dimpvt.pdf)]
 
-##### b. Template-based methods
+
+
+##### b. Regress 2D projections
+
+***2020:***
+
+**[arXiv]** EPOS: Estimating 6D Pose of Objects with Symmetries, [[paper](https://arxiv.org/pdf/2004.00605.pdf)]
+
+**[arXiv]** Tackling Two Challenges of 6D Object Pose Estimation: Lack of Real Annotated RGB Images and Scalability to Number of Objects, [[paper](https://arxiv.org/pdf/2003.12344.pdf)]
+
+**[arXiv]** Squeezed Deep 6DoF Object Detection using Knowledge Distillation, [[paper](https://arxiv.org/pdf/2003.13586.pdf)]
+
+**[arXiv]** Learning 2D–3D Correspondences To Solve The Blind Perspective-n-Point Problem, [[paper](https://arxiv.org/pdf/2003.06752.pdf)]
+
+**[arXiv]** PnP-Net: A hybrid Perspective-n-Point Network, [[paper](https://arxiv.org/pdf/2003.04626.pdf)]
+
+**[arXiv]** Object 6D Pose Estimation with Non-local Attention, [[paper](https://arxiv.org/pdf/2002.08749.pdf)]
+
+**[arXiv]** 6DoF Object Pose Estimation via Differentiable Proxy Voting Loss, [[paper](https://arxiv.org/pdf/2002.03923.pdf)]
 
 ***2019:***
 
-**[arXiv]** Real-time Background-aware 3D Textureless Object Pose Estimation, [[paper](https://arxiv.org/abs/1907.09128)]
+**[arXiv]** DPOD: 6D Pose Object Detector and Refiner, [[paper](https://arxiv.org/pdf/1902.11020.pdf)]
+
+**[CVPR]** Segmentation-driven 6D Object Pose Estimation, [[paper](https://arxiv.org/abs/1812.02541)]
+
+**[arXiv]** Single-Stage 6D Object Pose Estimation, [[paper](https://arxiv.org/abs/1911.08324)]
+
+**[arXiv]** W-PoseNet: Dense Correspondence Regularized Pixel Pair Pose Regression, [[paper](https://arxiv.org/pdf/1912.11888.pdf)]
+
+**[arXiv]** KeyPose: Multi-view 3D Labeling and Keypoint Estimation for Transparent Objects, [[paper](https://arxiv.org/abs/1912.02805)]
+
+***2018:***
+
+**[CVPR]** Real-time seamless single shot 6d object pose prediction, [[paper](https://arxiv.org/abs/1711.08848)] [[code](https://github.com/Microsoft/singleshotpose)]
+
+**[arXiv]** Estimating 6D Pose From Localizing Designated Surface Keypoints, [[paper](https://arxiv.org/abs/1812.01387)]
 
 ***2017:***
 
-**[arXiv]** End-to-end Learning of Deep Visual Representations for Image Retrieval, [[paper](https://arxiv.org/pdf/1610.07940.pdf)]
+**[ICCV]** BB8: a scalable, accurate, robust to partial occlusion method for predicting the 3d poses of challenging objects without using depth, [[paper](https://arxiv.org/abs/1703.10896)]
 
-***2012:***
+**[ICCV]** SSD-6D: Making rgb-based 3d detection and 6d pose estimation great again, [[paper](https://arxiv.org/abs/1711.10006)] [[code](https://github.com/wadimkehl/ssd-6d)]
 
-**[ACCV]** Model based training, detection and pose estimation of texture-less 3d objects in heavily cluttered scenes, [[paper](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.250.6547&rep=rep1&type=pdf)]
+**[ICRA]** 6-DoF Object Pose from Semantic Keypoints, [[paper](https://arxiv.org/abs/1703.04670)]
 
-##### c. Voting-based methods
 
-***2017:***
 
-**[TPAMI]** Robust 3D Object Tracking from Monocular Images Using Stable Parts, [[paper](https://ieeexplore.ieee.org/document/7934426)]
+#### 2.1.2 Template-based Methods
 
-***2014:***
-
-**[ECCV]** Learning 6d object pose estimation using 3d object coordinate, [[paper](http://wwwpub.zih.tu-dresden.de/~cvweb/publications/papers/2014/PoseEstimationECCV2014.pdf)]
-
-**[ECCV]** Latent-class hough forests for 3d object detection and pose estimation, [[paper](https://labicvl.github.io/docs/pubs/Aly_ECCV_2014.pdf)]
-
-##### d. Regression-based methods
-
-###### 1) Directly way
+This kind of methods can be regarded as regression-based methods.
 
 ***2020:***
 
@@ -843,8 +954,6 @@ This kind of methods can be divided into four kinds, which are corresponding-bas
 **[arXiv]** MobilePose: Real-Time Pose Estimation for Unseen Objects with Weak Shape Supervision, [[paper](https://arxiv.org/pdf/2003.03522.pdf)]
 
 **[arXiv]** Robust 6D Object Pose Estimation by Learning RGB-D Features, [[paper](https://arxiv.org/pdf/2003.00188.pdf)]
-
-**[arXiv]** 6D Object Pose Regression via Supervised Learning on Point Clouds, [[paper](https://arxiv.org/pdf/2001.08942.pdf)]
 
 **[arXiv]** HybridPose: 6D Object Pose Estimation under Hybrid Representations, [[paper](https://arxiv.org/pdf/2001.01869.pdf)]
 
@@ -860,8 +969,6 @@ This kind of methods can be divided into four kinds, which are corresponding-bas
 
 **[arXiv]** Multi-View Matching Network for 6D Pose Estimation, [[paper](https://arxiv.org/abs/1911.12330)]
 
-**[arXiv]** Single-Stage 6D Object Pose Estimation, [[paper](https://arxiv.org/abs/1911.08324)]
-
 **[arXiv]** Fast 3D Pose Refinement with RGB Images, [[paper](https://arxiv.org/pdf/1911.07347.pdf)]
 
 **[arXiv]** MaskedFusion: Mask-based 6D Object Pose Detection, [[paper](https://arxiv.org/abs/1911.07771)]
@@ -873,6 +980,8 @@ This kind of methods can be divided into four kinds, which are corresponding-bas
 **[IROSW]** Motion-Nets: 6D Tracking of Unknown Objects in Unseen Environments using RGB, [[paper](https://arxiv.org/abs/1910.13942)]
 
 **[ICCV]** DPOD: 6D Pose Object Detector and Refiner, [[paper](http://openaccess.thecvf.com/content_ICCV_2019/html/Zakharov_DPOD_6D_Pose_Object_Detector_and_Refiner_ICCV_2019_paper.html)]
+
+**[ICCV]** CDPN: Coordinates-Based Disentangled Pose Network for Real-Time RGB-Based 6-DoF Object Pose Estimation, [[paper](http://openaccess.thecvf.com/content_ICCV_2019/html/Li_CDPN_Coordinates-Based_Disentangled_Pose_Network_for_Real-Time_RGB-Based_6-DoF_Object_ICCV_2019_paper.html)]
 
 **[ICCV]** Pix2Pose: Pixel-Wise Coordinate Regression of Objects for 6D Pose Estimation, [[paper](http://openaccess.thecvf.com/content_ICCV_2019/papers/Park_Pix2Pose_Pixel-Wise_Coordinate_Regression_of_Objects_for_6D_Pose_Estimation_ICCV_2019_paper.pdf)]
 
@@ -886,64 +995,199 @@ This kind of methods can be divided into four kinds, which are corresponding-bas
 
 **[ICHR]** Refining 6D Object Pose Predictions using Abstract Render-and-Compare, [[paper](https://arxiv.org/abs/1910.03412)]
 
-**[CVPR]** Densefusion: 6d object pose estimation by iterative dense fusion, [[paper](https://arxiv.org/abs/1901.04780)] [[code](https://github.com/j96w/DenseFusion)]
-
 **[arXiv]** Deep-6dpose: recovering 6d object pose from a single rgb image, [[paper](https://arxiv.org/abs/1901.04780)]
+
+**[arXiv]** Real-time Background-aware 3D Textureless Object Pose Estimation, [[paper](https://arxiv.org/abs/1907.09128)]
+
+**[IROS]** SilhoNet: An RGB Method for 6D Object Pose Estimation, [[paper](https://arxiv.org/abs/1809.06893)]
 
 ***2018:***
 
-**[ECCV]** Implicit 3D Orientation Learning for 6D Object Detection From RGB Images, [[paper](https://arxiv.org/abs/1902.01275)] [[code](https://github.com/DLR-RM/AugmentedAutoencoder)]
+**[ECCV]** AAE: Implicit 3D Orientation Learning for 6D Object Detection From RGB Images, [[paper](https://arxiv.org/abs/1902.01275)] [[code](https://github.com/DLR-RM/AugmentedAutoencoder)]
 
-**[ECCV]** DeepIM:Deep Iterative Matching for 6D Pose Estimation
-[[paper](https://arxiv.org/abs/1804.00175)] [[code](https://github.com/liyi14/mx-DeepIM)]
+**[ECCV]** DeepIM:Deep Iterative Matching for 6D Pose Estimation, [[paper](https://arxiv.org/abs/1804.00175)] [[code](https://github.com/liyi14/mx-DeepIM)]
 
 **[RSS]** Posecnn: A convolutional neural network for 6d object pose estimation in cluttered scenes, [[paper](https://arxiv.org/abs/1711.00199)] [[code](https://github.com/yuxng/PoseCNN)]
 
 **[IROS]** Robust 6D Object Pose Estimation in Cluttered Scenes using Semantic Segmentation and Pose Regression Networks, [[paper](https://arxiv.org/abs/1810.03410)]
 
-***2017:***
+***2012:***
 
-**[ICCV]** SSD-6D: Making rgb-based 3d detection and 6d pose estimation great again, [[paper](https://arxiv.org/abs/1711.10006)] [[code](https://github.com/wadimkehl/ssd-6d)]
+**[ACCV]** Model based training, detection and pose estimation of texture-less 3d objects in heavily cluttered scenes, [[paper](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.250.6547&rep=rep1&type=pdf)]
 
-###### 2) Indirectly way (Firstly regress feature points and use PnP methods)
 
-***2020:***
 
-**[arXiv]** Learning 2D–3D Correspondences To Solve The Blind Perspective-n-Point Problem, [[paper](https://arxiv.org/pdf/2003.06752.pdf)]
-
-**[arXiv]** PnP-Net: A hybrid Perspective-n-Point Network, [[paper](https://arxiv.org/pdf/2003.04626.pdf)]
-
-**[arXiv]** Object 6D Pose Estimation with Non-local Attention, [[paper](https://arxiv.org/pdf/2002.08749.pdf)]
-
-**[arXiv]** 6DoF Object Pose Estimation via Differentiable Proxy Voting Loss, [[paper](https://arxiv.org/pdf/2002.03923.pdf)]
-
-**[arXiv]** YOLOff: You Only Learn Offsets for robust 6DoF object pose estimation, [[paper](https://arxiv.org/pdf/2002.00911.pdf)]
+#### 2.1.3 Voting-based Methods
 
 ***2019:***
 
-**[arXiv]** DPOD: 6D Pose Object Detector and Refiner, [[paper](https://arxiv.org/pdf/1902.11020.pdf)]
-
-**[arXiv]** W-PoseNet: Dense Correspondence Regularized Pixel Pair Pose Regression, [[paper](https://arxiv.org/pdf/1912.11888.pdf)]
-
-**[arXiv]** KeyPose: Multi-view 3D Labeling and Keypoint Estimation for Transparent Objects, [[paper](https://arxiv.org/abs/1912.02805)]
-
-**[arXiv]** PVN3D: A Deep Point-wise 3D Keypoints Voting Network for 6DoF Pose Estimation, [[paper](https://arxiv.org/abs/1911.04231)]
-
-**[ICCV]** CDPN: Coordinates-Based Disentangled Pose Network for Real-Time RGB-Based 6-DoF Object Pose Estimation, [[paper](http://openaccess.thecvf.com/content_ICCV_2019/html/Li_CDPN_Coordinates-Based_Disentangled_Pose_Network_for_Real-Time_RGB-Based_6-DoF_Object_ICCV_2019_paper.html)]
-
 **[CVPR]** PVNet: Pixel-wise Voting Network for 6DoF Pose Estimation, [[paper](https://arxiv.org/abs/1812.11788)] [[code](https://github.com/zju3dv/pvnet)]
-
-***2018:***
-
-**[CVPR]** Real-time seamless single shot 6d object pose prediction, [[paper](https://arxiv.org/abs/1711.08848)] [[code](https://github.com/Microsoft/singleshotpose)]
 
 ***2017:***
 
-**[ICCV]** BB8: a scalable, accurate, robust to partial occlusion method for predicting the 3d poses of challenging objects without using depth, [[paper](https://arxiv.org/abs/1703.10896)]
+**[TPAMI]** Robust 3D Object Tracking from Monocular Images Using Stable Parts, [[paper](https://ieeexplore.ieee.org/document/7934426)]
+
+**[Access]** Fast Object Pose Estimation Using Adaptive Threshold for Bin-picking, [[paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9046779)]
+
+***2014:***
+
+**[ECCV]** Learning 6d object pose estimation using 3d object coordinate, [[paper](http://wwwpub.zih.tu-dresden.de/~cvweb/publications/papers/2014/PoseEstimationECCV2014.pdf)]
+
+**[ECCV]** Latent-class hough forests for 3d object detection and pose estimation, [[paper](https://labicvl.github.io/docs/pubs/Aly_ECCV_2014.pdf)]
 
 
 
-##### e. Category-level 6D pose estimation methods
+***Datasets:***
+
+[LineMOD](http://campar.in.tum.de/Main/StefanHinterstoisser): Model based training, detection and pose estimation of texture-less 3d objects in heavily cluttered scenes, ACCV, 2012 [[paper](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.250.6547&rep=rep1&type=pdf)] [[database](https://github.com/paroj/linemod_dataset)]
+
+[YCB Datasets](http://www.ycbbenchmarks.com): The YCB Object and Model Set: Towards Common Benchmarks for Manipulation Research, IEEE International Conference on Advanced Robotics (ICAR), 2015 [[paper](http://dx.doi.org/10.1109/ICAR.2015.7251504)]
+
+[T-LESS Datasets](http://cmp.felk.cvut.cz/t-less/): T-LESS: An RGB-D Dataset for 6D Pose Estimation of Texture-less Objects, IEEE Winter Conference on Applications of Computer Vision (WACV), 2017 [[paper](https://arxiv.org/abs/1701.05498)]
+
+HomebrewedDB: RGB-D Dataset for 6D Pose Estimation of 3D Objects, ICCVW, 2019 [[paper](http://openaccess.thecvf.com/content_ICCVW_2019/papers/R6D/Kaskman_HomebrewedDB_RGB-D_Dataset_for_6D_Pose_Estimation_of_3D_Objects_ICCVW_2019_paper.pdf)]
+
+
+
+### 2.2 Point Cloud-based Methods
+
+The partial-view point cloud will be aligned to the complete shape in order to obtain the 6D pose. Generally, coarse registration should be conduct firstly to provide an intial alignment, and dense registration methods like ICP (Iterative Closest Point) will be conducted to obtain the final 6D pose.
+
+#### 2.2.1 Correspondence-based Methods
+
+***2020:***
+
+**[arXiv]** RPM-Net: Robust Point Matching using Learned Features, [[paper](https://arxiv.org/pdf/2003.13479.pdf)]
+
+**[arXiv]** End-to-End Learning Local Multi-view Descriptors for 3D Point Clouds, [[paper](https://arxiv.org/pdf/2003.05855.pdf)]
+
+**[arXiv]** D3Feat: Joint Learning of Dense Detection and Description of 3D Local Features, [[paper](https://arxiv.org/pdf/2003.03164.pdf)]
+
+**[arXiv]** Self-supervised Point Set Local Descriptors for Point Cloud Registration, [[paper](https://arxiv.org/pdf/2003.05199.pdf)]
+
+**[arXiv]** StickyPillars: Robust feature matching on point clouds using Graph Neural Networks, [[paper](https://arxiv.org/pdf/2002.03983.pdf)]
+
+***2019:***
+
+**[arXiv]** 3DRegNet: A Deep Neural Network for 3D Point Registration, [[paper](https://arxiv.org/abs/1904.01701)] [[code](https://github.com/goncalo120/3DRegNet)]
+
+**[CVPR]** The Perfect Match: 3D Point Cloud Matching with Smoothed Densities, [[paper](http://openaccess.thecvf.com/content_CVPR_2019/papers/Gojcic_The_Perfect_Match_3D_Point_Cloud_Matching_With_Smoothed_Densities_CVPR_2019_paper.pdf)]
+
+**[arXiv]** LCD: Learned Cross-Domain Descriptors for 2D-3D Matching, [[paper](https://arxiv.org/pdf/1911.09326.pdf)]
+
+***2018:***
+
+**[arXiv]** Dense Object Nets: Learning Dense Visual Object Descriptors By and For Robotic Manipulation, [[paper](https://arxiv.org/abs/1806.08756)]
+
+**[ECCV]** 3DFeat-Net: Weakly Supervised Local 3D Features for Point Cloud Registration, [[paper](https://arxiv.org/abs/1807.09413)] [[code](https://github.com/yewzijian/3DFeatNet)]
+
+***2017:***
+
+**[CVPR]** 3DMatch: Learning Local Geometric Descriptors from RGB-D Reconstructions, [[paper](https://arxiv.org/abs/1603.08182)] [[code](https://github.com/andyzeng/3dmatch-toolbox)]
+
+***2016:***
+
+**[arXiv]** Lessons from the Amazon Picking Challenge, [[paper](https://arxiv.org/abs/1601.05484v2)]
+
+**[arXiv]** Team Delft's Robot Winner of the Amazon Picking Challenge 2016, [[paper](https://arxiv.org/abs/1610.05514)]
+
+**[IJCV]** A comprehensive performance evaluation of 3D local feature descriptors, [[paper](https://link.springer.com/article/10.1007/s11263-015-0824-y)]
+
+***2014:***
+
+**[CVIU]** SHOT: Unique signatures of histograms for surface and texture description, [[paper](https://www.sciencedirect.com/science/article/pii/S1077314214000988))]
+
+***2011:***
+
+**[ICCVW]** CAD-model recognition and 6DOF pose estimation using 3D cues, [[paper]([http://lars.mec.ua.pt/public/LAR%20Projects/BinPicking/2016_RodrigoSalgueiro/LIB/06130296.pdf](http://lars.mec.ua.pt/public/LAR Projects/BinPicking/2016_RodrigoSalgueiro/LIB/06130296.pdf))]
+
+***2009:***
+
+**[ICRA]** Fast Point Feature Histograms (FPFH) for 3D registration, [[paper](https://www.cvl.iis.u-tokyo.ac.jp/class2016/2016w/papers/6.3DdataProcessing/Rusu_FPFH_ICRA2009.pdf)]
+
+
+
+#### 2.2.2 Template-based Methods
+
+***Survey papers:***
+
+***2020:***
+
+**[arXiv]** When Deep Learning Meets Data Alignment: A Review on Deep Registration Networks (DRNs), [[paper](https://arxiv.org/pdf/2003.03167.pdf)]
+
+**[arXiv]** Least Squares Optimization: from Theory to Practice, [[paper](https://arxiv.org/pdf/2002.11051.pdf)]
+
+
+
+***2020:***
+
+**[arXiv]** A Benchmark for Point Clouds Registration Algorithms, [[paper](https://arxiv.org/pdf/2003.12841.pdf)] [[code](https://github.com/iralabdisco/point_clouds_registration_benchmark)]
+
+**[arXiv]** PointGMM: a Neural GMM Network for Point Clouds, [[paper](https://arxiv.org/pdf/2003.13326.pdf)]
+
+**[arXiv]** SceneCAD: Predicting Object Alignments and Layouts in RGB-D Scans, [[paper](https://arxiv.org/pdf/2003.12622.pdf)]
+
+**[arXiv]** TEASER: Fast and Certifiable Point Cloud Registration, [[paper](https://arxiv.org/pdf/2001.07715.pdf)] [[code](https://github.com/MIT-SPARK/TEASER-plusplus)]
+
+**[arXiv]** Plane Pair Matching for Efficient 3D View Registration, [[paper](https://arxiv.org/pdf/2001.07058.pdf)]
+
+**[arXiv]** Learning multiview 3D point cloud registration, [[paper](https://arxiv.org/pdf/2001.05119.pdf)]
+
+**[arXiv]** Robust, Occlusion-aware Pose Estimation for Objects Grasped by Adaptive Hands, [[paper](https://arxiv.org/pdf/2003.03518.pdf)]
+
+**[arXiv]** Non-iterative One-step Solution for Point Set Registration Problem on Pose Estimation without Correspondence, [[paper](https://arxiv.org/pdf/2003.00457.pdf)]
+
+**[arXiv]** 6D Object Pose Regression via Supervised Learning on Point Clouds, [[paper](https://arxiv.org/pdf/2001.08942.pdf)]
+
+***2019:***
+
+**[arXiv]** One Framework to Register Them All: PointNet Encoding for Point Cloud Alignment, [[paper](https://arxiv.org/abs/1912.05766)]
+
+**[arXiv]** DeepICP: An End-to-End Deep Neural Network for 3D Point Cloud Registration, [[paper](https://arxiv.org/pdf/1905.04153v2.pdf)]
+
+**[NeurIPS]** PRNet: Self-Supervised Learning for Partial-to-Partial Registration, [[paper](https://arxiv.org/abs/1910.12240)]
+
+**[CVPR]** PointNetLK: Robust & Efficient Point Cloud Registration using PointNet, [[paper](https://arxiv.org/abs/1903.05711)] [[code](https://github.com/hmgoforth/PointNetLK)]
+
+**[ICCV]** End-to-End CAD Model Retrieval and 9DoF Alignment in 3D Scans, [[paper](http://openaccess.thecvf.com/content_ICCV_2019/papers/Avetisyan_End-to-End_CAD_Model_Retrieval_and_9DoF_Alignment_in_3D_Scans_ICCV_2019_paper.pdf)]
+
+**[arXiv]** Iterative Matching Point, [[paper](https://arxiv.org/abs/1910.10328)]
+
+**[arXiv]** Deep Closest Point: Learning Representations for Point Cloud Registration, [[paper](https://arxiv.org/abs/1905.03304)] [[code](https://github.com/WangYueFt/dcp)]
+
+**[arXiv]** PCRNet: Point Cloud Registration Network using PointNet Encoding, [[paper](https://arxiv.org/abs/1908.07906)] [[code](https://github.com/vinits5/pcrnet)]
+
+***2016:***
+
+**[TPAMI]** Go-ICP: A Globally Optimal Solution to 3D ICP Point-Set Registration, [[paper](https://arxiv.org/pdf/1605.03344.pdf)] [[code](https://github.com/yangjiaolong/Go-ICP)]
+
+***2014:***
+
+**[SGP]** Super 4PCS Fast Global Pointcloud Registration via Smart Indexing, [[paper](https://geometry.cs.ucl.ac.uk/projects/2014/super4PCS/super4pcs.pdf)] [[code](https://github.com/nmellado/Super4PCS)]
+
+
+
+#### 2.2.3 Voting-based Methods
+
+
+
+***2020:***
+
+**[arXiv]** YOLOff: You Only Learn Offsets for robust 6DoF object pose estimation, [[paper](https://arxiv.org/pdf/2002.00911.pdf)]
+
+**[arXiv]** LRF-Net: Learning Local Reference Frames for 3D Local Shape Description and Matching, [[paper](https://arxiv.org/pdf/2001.07832.pdf)]
+
+***2019:***
+
+**[arXiv]** PVN3D: A Deep Point-wise 3D Keypoints Voting Network for 6DoF Pose Estimation, [[paper](https://arxiv.org/abs/1911.04231)]
+
+**[CVPR]** Densefusion: 6d object pose estimation by iterative dense fusion, [[paper](https://arxiv.org/abs/1901.04780)] [[code](https://github.com/j96w/DenseFusion)]
+
+
+
+### 2.3 Category-level Methods
+
+#### 2.3.1 Category-level 6D pose estimation
 
 ***2020:***
 
@@ -969,9 +1213,11 @@ This kind of methods can be divided into four kinds, which are corresponding-bas
 
 
 
-##### f. 3D shape reconstruction from images
+#### 2.3.2 3D shape reconstruction from images
 
 ***2020:***
+
+**[arXiv]** Deep 3D Capture: Geometry and Reflectance from Sparse Multi-View Images, [[paper](https://arxiv.org/pdf/2003.12642.pdf)]
 
 **[arXiv]** Self-Supervised 2D Image to 3D Shape Translation with Disentangled Representations, [[paper](https://arxiv.org/pdf/2003.10016.pdf)]
 
@@ -1009,7 +1255,7 @@ This kind of methods can be divided into four kinds, which are corresponding-bas
 
 
 
-##### g. 3D shape rendering
+#### 2.3.3 3D shape rendering
 
 ***2019:***
 
@@ -1019,137 +1265,146 @@ This kind of methods can be divided into four kinds, which are corresponding-bas
 
 **[arXiv]** Neural Voxel Renderer: Learning an Accurate and Controllable Rendering Tool, [[paper](https://arxiv.org/abs/1912.04591)]
 
+
+
+## 3. 2D Planar Grasp
+
+### 3.1 Estimating Grasp Contact Points
+
+***2019:***
+
+**[IROS]** GQ-STN: Optimizing One-Shot Grasp Detection based on Robustness Classifier, [[paper](https://arxiv.org/abs/1903.02489)]
+
+**[ICRA]** Mechanical Search: Multi-Step Retrieval of a Target Object Occluded by Clutter, [[paper](https://arxiv.org/abs/1903.01588)]
+
+**[ICRA]** MetaGrasp: Data Efficient Grasping by Affordance Interpreter Network, [[paper](https://arxiv.org/abs/1902.06554)]
+
+**[IROS]** GlassLoc: Plenoptic Grasp Pose Detection in Transparent Clutter, [[paper](https://arxiv.org/abs/1909.04269)]
+
+**[ICRA]** Multi-View Picking: Next-best-view Reaching for Improved Grasping in Clutter, [[paper](https://arxiv.org/abs/1809.08564)] [[code](https://github.com/dougsm/mvp_grasp)]
+
+***2018:***
+
+**[RSS]** Closing the Loop for Robotic Grasping: A Real-time, Generative Grasp Synthesis Approach, [[paper](https://arxiv.org/pdf/1804.05172.pdf)]
+
+**[BMVC]** EnsembleNet: Improving Grasp Detection using an Ensemble of Convolutional Neural Networks, [[paper](http://bmvc2018.org/contents/papers/0322.pdf)]
+
+**[ICRA]** Robotic Pick-and-Place of Novel Objects in Clutter with Multi-Affordance Grasping and Cross-Domain Image Matching, [[paper](https://arxiv.org/abs/1710.01330)] [[code](https://github.com/andyzeng/arc-robot-vision)]
+
+***2017:***
+
+**[RSS]** Dex-Net 2.0: Deep Learning to Plan Robust Grasps with Synthetic Point Clouds and Analytic Grasp Metrics, [[paper](https://github.com/BerkeleyAutomation/dex-net/raw/gh-pages/docs)] [[code](https://github.com/BerkeleyAutomation/gqcnn)]
+
+***2014:***
+
+**[ICRA]** Fast graspability evaluation on single depth maps for bin picking with general grippers, [[paper](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.681.316&rep=rep1&type=pdf)]
+
+***Dataset:***
+
+[Dex-Net](https://berkeleyautomation.github.io/dex-net/#dexnet_2), a synthetic dataset of 6.7 million point clouds, grasps, and robust analytic grasp metrics generated from thousands of 3D models.
+
+
+
+### 3.2 Estimating Oriented Rectangles
+
+***2020:***
+
+**[arXiv]** Online Self-Supervised Learning for Object Picking: Detecting Optimum Grasping Position using a Metric Learning Approach, [[paper](https://arxiv.org/pdf/2003.03717.pdf)]
+
+**[arXiv]** A Multi-task Learning Framework for Grasping-Position Detection and Few-Shot Classification, [[paper](https://arxiv.org/pdf/2003.05624.pdf)]
+
+**[arXiv]** Rigid-Soft Interactive Learning for Robust Grasping*, [[paper](https://arxiv.org/pdf/2003.01584.pdf)]
+
+**[arXiv]** Optimizing Correlated Graspability Score and Grasp Regression for Better Grasp Prediction, [[paper](https://arxiv.org/pdf/2002.00872.pdf)]
+
+**[arXiv]** Domain Independent Unsupervised Learning to grasp the Novel Objects, [[paper](https://arxiv.org/pdf/2001.05856.pdf)]
+
+**[arXiv]** Real-time Grasp Pose Estimation for Novel Objects in Densely Cluttered Environment, [[paper](https://arxiv.org/pdf/2001.02076.pdf)]
+
+**[arXiv]** Semi-supervised Grasp Detection by Representation Learning in a Vector Quantized Latent Space, [[paper](https://arxiv.org/pdf/2001.08477.pdf)]
+
+***2019:***
+
+**[arXiv]** Antipodal Robotic Grasping using Generative Residual Convolutional Neural Network, [[paper](https://arxiv.org/pdf/1909.04810.pdf)]
+
+**[IROS]** Domain Independent Unsupervised Learning to grasp the Novel Objects, [[paper](https://arxiv.org/pdf/2001.05856.pdf)]
+
+**[Sensors]** Vision for Robust Robot Manipulation, [[paper](https://www.mdpi.com/1424-8220/19/7/1648/htm)]
+
+**[arXiv]** Form2Fit: Learning Shape Priors for Generalizable Assembly from Disassembly, [[paper](https://arxiv.org/abs/1910.13675)] [[code](https://form2fit.github.io/)]
+
+**[IROS]** GRIP: Generative Robust Inference and Perception for Semantic Robot Manipulation in Adversarial Environments, [[paper](https://arxiv.org/abs/1903.08352)]
+
+**[arXiv]** Efficient Fully Convolution Neural Network for Generating Pixel Wise Robotic Grasps With High Resolution Images, [[paper](https://arxiv.org/abs/1902.08950)]
+
+**[arXiv]** A Single Multi-Task Deep Neural Network with Post-Processing for Object Detection with Reasoning and Robotic Grasp Detection, [[paper](https://arxiv.org/abs/1909.07050)]
+
+**[IROS]** ROI-based Robotic Grasp Detection for Object Overlapping Scenes, [[paper](https://arxiv.org/abs/1808.10313)]
+
+**[RO-MAN]** Real-time Grasp Pose Estimation for Novel Objects in Densely Cluttered Environment, [[paper](https://arxiv.org/pdf/2001.02076.pdf)]
+
+***2018:***
+
+**[IROS]** Fully convolutional grasp detection network with oriented anchor box, [[paper](https://arxiv.org/pdf/1803.02209.pdf)]
+
+**[arXiv]** Real-Time, Highly Accurate Robotic Grasp Detection using Fully Convolutional Neural Networks with High-Resolution Images, [[paper](https://arxiv.org/abs/1809.05828)]
+
+**[arXiv]** Real-world Multi-object, Multi-grasp Detection, [[paper](https://arxiv.org/abs/1802.00520)]
+
+**[arXiv]** Classification based grasp detection using spatial transformer network, [[paper](https://arxiv.org/pdf/1803.01356.pdf)]
+
+**[arXiv]** A Multi-task Convolutional Neural Network for Autonomous Robotic Grasping in Object Stacking Scenes, [[paper](https://arxiv.org/pdf/1809.07081.pdf)]
+
+***2017:***
+
+**[IROS]** Robotic Grasp Detection using Deep Convolutional Neural Networks, [[paper](https://arxiv.org/abs/1611.08036)]
+
+**[ICMITE]** Robust Robot Grasp Detection in Multimodal Fusion, [[paper](https://www.matec-conferences.org/articles/matecconf/pdf/2017/53/matecconf_icmite2017_00060.pdf)]
+
+**[ICRA]** A hybrid deep architecture for robotic grasp detection, [[paper](https://ieeexplore.ieee.org/abstract/document/7989191)]
+
+***2016:***
+
+**[ICRA]** Supersizing self-supervision: Learning to grasp from 50k tries and 700 robot hours, [[paper](https://arxiv.org/abs/1509.06825)]
+
+**[ICRA]** Object discovery and grasp detection with a shared convolutional neural network, [[paper](https://ieeexplore.ieee.org/abstract/document/7487351)]
+
+***2015:***
+
+**[ICRA]** Real-time grasp detection using convolutional neural networks, [[paper](https://arxiv.org/abs/1412.3128)] [[code](https://github.com/tnikolla/robot-grasp-detection)]
+
+**[IJRR]** Deep Learning for Detecting Robotic Grasps, [[paper](https://arxiv.org/abs/1301.3592)]
+
+***2011:***
+
+**[ICRA]** Efficient grasping from rgbd images: Learning using a new rectangle representation, [[paper](http://pr.cs.cornell.edu/grasping/jiang_rectanglerepresentation_fastgrasping.pdf)]
+
 ------
 
 ***Datasets:***
 
-HomebrewedDB: RGB-D Dataset for 6D Pose Estimation of 3D Objects, ICCVW, 2019 [[paper](http://openaccess.thecvf.com/content_ICCVW_2019/papers/R6D/Kaskman_HomebrewedDB_RGB-D_Dataset_for_6D_Pose_Estimation_of_3D_Objects_ICCVW_2019_paper.pdf)]
+[Cornell dataset](http://pr.cs.cornell.edu/grasping/rect_data/data.php), the dataset consists of 1035 images of 280 different objects.
 
-[YCB Datasets](http://www.ycbbenchmarks.com): The YCB Object and Model Set: Towards Common Benchmarks for Manipulation Research, IEEE International Conference on Advanced Robotics (ICAR), 2015 [[paper](http://dx.doi.org/10.1109/ICAR.2015.7251504)]
-
-[T-LESS Datasets](http://cmp.felk.cvut.cz/t-less/): T-LESS: An RGB-D Dataset for 6D Pose Estimation of Texture-less Objects, IEEE Winter Conference on Applications of Computer Vision (WACV), 2017 [[paper](https://arxiv.org/abs/1701.05498)]
+[Jacquard Dataset](https://jacquard.liris.cnrs.fr), Jacquard: A Large Scale Dataset for Robotic Grasp Detection” in *IEEE International Conference on Intelligent Robots and Systems*, 2018, [[paper](https://arxiv.org/abs/1803.11469)]
 
 
 
-#### 2.2.2 3D point cloud
+## 4. 6DoF Grasp
 
-The partial-view point cloud will be aligned to the complete shape in order to obtain the 6D pose. Generally, coarse registration should be conduct firstly to provide an intial alignment, and dense registration methods like ICP (Iterative Closest Point) will be conducted to obtain the final 6D pose.
+**Grasp Representation:**
+The grasp is represented as 6DoF pose in 3D domain, and the gripper can grasp the object from various angles. The input to this task is 3D point cloud from RGB-D sensors, and this task contains two stages. In the first stage, the target object should be extracted from the scene. In the second stage, if there exists an existing 3D model, the 6D pose of the object could be computed. If there exists no 3D models, the 6DoF grasp pose will be computed from some other methods.
 
-***Survey***
-
-***2020:***
-
-**[arXiv]** When Deep Learning Meets Data Alignment: A Review on Deep Registration Networks (DRNs), [[paper](https://arxiv.org/pdf/2003.03167.pdf)]
-
-**[arXiv]** Least Squares Optimization: from Theory to Practice, [[paper](https://arxiv.org/pdf/2002.11051.pdf)]
-
-##### a. Ransac-based methods
-
-***2020:***
-
-**[arXiv]** Robust, Occlusion-aware Pose Estimation for Objects Grasped by Adaptive Hands, [[paper](https://arxiv.org/pdf/2003.03518.pdf)]
-
-**[arXiv]** Non-iterative One-step Solution for Point Set Registration Problem on Pose Estimation without Correspondence, [[paper](https://arxiv.org/pdf/2003.00457.pdf)]
-
-***2016:***
-
-**[TPAMI]** Go-ICP: A Globally Optimal Solution to 3D ICP Point-Set Registration, [[paper](https://arxiv.org/pdf/1605.03344.pdf)] [[code](https://github.com/yangjiaolong/Go-ICP)]
-
-***2014:***
-
-**[SGP]** Super 4PCS Fast Global Pointcloud Registration via Smart Indexing, [[paper](https://geometry.cs.ucl.ac.uk/projects/2014/super4PCS/super4pcs.pdf)] [[code](https://github.com/nmellado/Super4PCS)]
-
-##### b. 3D feature-based methods
-
-***2020:***
-
-**[arXiv]** End-to-End Learning Local Multi-view Descriptors for 3D Point Clouds, [[paper](https://arxiv.org/pdf/2003.05855.pdf)]
-
-**[arXiv]** D3Feat: Joint Learning of Dense Detection and Description of 3D Local Features, [[paper](https://arxiv.org/pdf/2003.03164.pdf)]
-
-**[arXiv]** Self-supervised Point Set Local Descriptors for Point Cloud Registration, [[paper](https://arxiv.org/pdf/2003.05199.pdf)]
-
-**[arXiv]** StickyPillars: Robust feature matching on point clouds using Graph Neural Networks, [[paper](https://arxiv.org/pdf/2002.03983.pdf)]
-
-***2019:***
-
-**[arXiv]** 3DRegNet: A Deep Neural Network for 3D Point Registration, [[paper](https://arxiv.org/abs/1904.01701)] [[code](https://github.com/goncalo120/3DRegNet)]
-
-**[CVPR]** The Perfect Match: 3D Point Cloud Matching with Smoothed Densities, [[paper](http://openaccess.thecvf.com/content_CVPR_2019/papers/Gojcic_The_Perfect_Match_3D_Point_Cloud_Matching_With_Smoothed_Densities_CVPR_2019_paper.pdf)]
-
-***2018:***
-
-**[arXiv]** Dense Object Nets: Learning Dense Visual Object Descriptors By and For Robotic Manipulation, [[paper](https://arxiv.org/abs/1806.08756)]
-
-**[ECCV]** 3DFeat-Net: Weakly Supervised Local 3D Features for Point Cloud Registration, [[paper](https://arxiv.org/abs/1807.09413)] [[code](https://github.com/yewzijian/3DFeatNet)]
-
-***2017:***
-
-**[CVPR]** 3DMatch: Learning Local Geometric Descriptors from RGB-D Reconstructions, [[paper](https://arxiv.org/abs/1603.08182)] [[code](https://github.com/andyzeng/3dmatch-toolbox)]
-
-***2016:***
-
-**[arXiv]** Lessons from the Amazon Picking Challenge, [[paper](https://arxiv.org/abs/1601.05484v2)]
-
-**[arXiv]** Team Delft's Robot Winner of the Amazon Picking Challenge 2016, [[paper](https://arxiv.org/abs/1610.05514)]
-
-##### c. Deep learning-based methods
-
-***2020:***
-
-**[arXiv]** TEASER: Fast and Certifiable Point Cloud Registration, [[paper](https://arxiv.org/pdf/2001.07715.pdf)] [[code](https://github.com/MIT-SPARK/TEASER-plusplus)]
-
-**[arXiv]** Plane Pair Matching for Efficient 3D View Registration, [[paper](https://arxiv.org/pdf/2001.07058.pdf)]
-
-**[arXiv]** LRF-Net: Learning Local Reference Frames for 3D Local Shape Description and Matching, [[paper](https://arxiv.org/pdf/2001.07832.pdf)]
-
-**[arXiv]** Learning multiview 3D point cloud registration, [[paper](https://arxiv.org/pdf/2001.05119.pdf)]
-
-***2019:***
-
-**[arXiv]** One Framework to Register Them All: PointNet Encoding for Point Cloud Alignment, [[paper](https://arxiv.org/abs/1912.05766)]
-
-**[arXiv]** DeepICP: An End-to-End Deep Neural Network for 3D Point Cloud Registration, [[paper](https://arxiv.org/pdf/1905.04153v2.pdf)]
-
-**[NeurIPS]** PRNet: Self-Supervised Learning for Partial-to-Partial Registration, [[paper](https://arxiv.org/abs/1910.12240)]
-
-**[CVPR]** PointNetLK: Robust & Efficient Point Cloud Registration using PointNet, [[paper](https://arxiv.org/abs/1903.05711)] [[code](https://github.com/hmgoforth/PointNetLK)]
-
-**[ICCV]** End-to-End CAD Model Retrieval and 9DoF Alignment in 3D Scans, [[paper](http://openaccess.thecvf.com/content_ICCV_2019/papers/Avetisyan_End-to-End_CAD_Model_Retrieval_and_9DoF_Alignment_in_3D_Scans_ICCV_2019_paper.pdf)]
-
-**[arXiv]** Iterative Matching Point, [[paper](https://arxiv.org/abs/1910.10328)]
-
-**[arXiv]** Deep Closest Point: Learning Representations for Point Cloud Registration, [[paper](https://arxiv.org/abs/1905.03304)] [[code](https://github.com/WangYueFt/dcp)]
-
-**[arXiv]** PCRNet: Point Cloud Registration Network using PointNet Encoding, [[paper](https://arxiv.org/abs/1908.07906)] [[code](https://github.com/vinits5/pcrnet)]
-
-***2017:***
-
-**[ICRA]** Multi-view Self-supervised Deep Learning for 6D Pose Estimation in the Amazon Picking Challenge, [[paper](https://arxiv.org/abs/1609.09475)] [[code](https://github.com/andyzeng/apc-vision-toolbox)]
-
-
-
-##### d. Point cloud de-noising
-
-***2019:***
-
-**[arXiv]** CNN-based Lidar Point Cloud De-Noising in Adverse Weather, [[paper](https://arxiv.org/abs/1912.03874)]
-
-
-
-##### e. Point cloud sampling
-
-***2019:***
-
-**[arXiv]** SampleNet: Differentiable Point Cloud Sampling, [[paper](https://arxiv.org/abs/1912.03663)] [[code](https://github.com/itailang/SampleNet)]
-
-### 2.3 Deep learning-based methods (No existing 3D models)
+### 4.1 Methods based on Single-view Point Cloud
 
 In this situation, there exist no 3D models, an the 6-DoF grasps are estimated from available partial data. This can be implemented by directly estimating from partial view point cloud, or indirectly estimating after shape completion.
 
-#### 2.3.1 Estimating 6-DoF grasps from partial view point cloud
+#### 4.1.1 Methods of Estimating Candidate Grasps
 
 ***2020:***
+
+**[arXiv]** Go Fetch: Mobile Manipulation in Unstructured Environments, [[paper](https://arxiv.org/pdf/2004.00899.pdf)]
+
+**[arXiv]** Real-time Fruit Recognition and Grasp Estimation for Autonomous Apple harvesting, [[paper](https://arxiv.org/pdf/2003.13298.pdf)]
 
 **[arXiv]** PointNet++ Grasping: Learning An End-to-end Spatial Grasp Generation Algorithm from Sparse Point Clouds, [[paper](https://arxiv.org/pdf/2003.09644.pdf)]
 
@@ -1177,47 +1432,173 @@ In this situation, there exist no 3D models, an the 6-DoF grasps are estimated f
 
 **[ICRA]** PointNetGPD: Detecting Grasp Configurations from Point Sets, [[paper](https://arxiv.org/abs/1809.06267)] [[code](https://github.com/lianghongzhuo/PointNetGPD)]
 
+**[IJARS]** Fast geometry-based computation of grasping points on three-dimensional point clouds, [[paper](https://journals.sagepub.com/doi/10.1177/1729881419831846)]
+
 ***2017:***
 
 **[IJRR]** Grasp Pose Detection in Point Clouds, [[paper](https://arxiv.org/abs/1706.09911)] [[code](https://github.com/atenpas/gpd)]
 
+**[ICINCO]** Using geometry to detect grasping points on 3D unknown point cloud, [[paper](https://rua.ua.es/dspace/bitstream/10045/75568/1/ICINCO_2017_182_CR.pdf)]
+
+***2015:***
+
+**[arXiv]** Using geometry to detect grasps in 3d point clouds, [[paper](https://arxiv.org/pdf/1501.03100.pdf)]
+
+***2010:***
+
+**[RAS]** Learning grasping points with shape context, [[paper](https://www.sciencedirect.com/science/article/abs/pii/S0921889009001699)]
 
 
-#### 2.3.2 Grasp affordance
+
+#### 4.1.2 Methods of Transfering Grasps
+
+##### a. Grasp transfer
 
 ***2020:***
 
-**[arXiv]** Learning to Grasp 3D Objects using Deep Residual U-Nets, [[paper](https://arxiv.org/pdf/2002.03892.pdf)]
+**[arXiv]** DGCM-Net: Dense Geometrical Correspondence Matching Network for Incremental Experience-based Robotic Grasping, [[paper](https://arxiv.org/pdf/2001.05279.pdf)]
 
 ***2019:***
 
-**[IROS]** Detecting Robotic Affordances on Novel Objects with Regional Attention and Attributes, [[paper](https://arxiv.org/abs/1909.05770)]
+**[arXiv]** Using Synthetic Data and Deep Networks to Recognize Primitive Shapes for Object Grasping, [[paper](https://arxiv.org/abs/1909.08508)]
 
-**[IROS]** Learning Grasp Affordance Reasoning through Semantic Relations, [[paper](https://arxiv.org/abs/1906.09836)]
+**[ICRA]** Transferring Grasp Configurations using Active Learning and Local Replanning, [[paper](https://arxiv.org/abs/1807.08341)]
 
-**[arXiv]** Automatic pre-grasps generation for unknown 3D objects, [[paper](https://arxiv.org/abs/1908.00221)]
+***2017:***
 
-**[IECON]** A novel object slicing based grasp planner for 3D object grasping using underactuated robot gripper, [[paper](https://arxiv.org/abs/1907.09142)]
+**[AIP]** Fast grasping of unknown objects using principal component analysis, [[paper](https://aip.scitation.org/doi/10.1063/1.4991996)]
 
-***2018:***
+***2016:***
 
-**[ICRA]** AffordanceNet: An End-to-End Deep Learning Approach for Object Affordance Detection, [[paper](https://arxiv.org/pdf/1709.07326.pdf)]
+**[Humanoids]** Part-based grasp planning for familiar objects, [[paper](http://h2t.anthropomatik.kit.edu/pdf/Vahrenkamp2016b.pdf)]
 
-**[arXiv]** Workspace Aware Online Grasp Planning, [[paper](https://arxiv.org/abs/1806.11402)]
+***2015:***
+
+**[RAS]** Category-based task specific grasping, [[paper](https://www.sciencedirect.com/science/article/pii/S0921889015000846?via%3Dihub)]
+
+***2003:***
+
+**[ICRA]** Automatic grasp planning using shape primitives, [[paper](https://ieeexplore.ieee.org/abstract/document/1241860)]
 
 
 
-#### 2.3.3 Shape completion assisted grasp
+##### b. Non-rigid registration
 
 ***2020:***
 
-**[arXiv]** PT2PC: Learning to Generate 3D Point Cloud Shapes from Part Tree Conditions, [[paper](https://arxiv.org/pdf/2003.08624.pdf)]
+**[arXiv]** MINA: Convex Mixed-Integer Programming for Non-Rigid Shape Alignment, [[paper](https://arxiv.org/pdf/2002.12623.pdf)]
 
-**[arXiv]** Multimodal Shape Completion via Conditional Generative Adversarial Networks, [[paper](https://arxiv.org/pdf/2003.07717.pdf)]
+***2019:***
 
-**[arXiv]** Symmetry Detection of Occluded Point Cloud Using Deep Learning, [[paper](https://arxiv.org/pdf/2003.06520.pdf)]
+**[arXiv]** Non-Rigid Point Set Registration Networks, [[paper](https://arxiv.org/abs/1904.01428)] [[code](https://github.com/Lingjing324/PR-Net)]
+
+***2018:***
+
+**[RAL]** Transferring Category-based Functional Grasping Skills by Latent Space Non-Rigid Registration, [[paper](https://arxiv.org/abs/1809.05390)]
+
+**[RAS]** Learning Postural Synergies for Categorical Grasping through Shape Space Registration, [[paper](https://arxiv.org/abs/1810.07967)]
+
+**[RAS]** Autonomous Dual-Arm Manipulation of Familiar Objects, [[paper](https://arxiv.org/abs/1811.08716)]
+
+
+
+##### c. Shape correspondence
+
+***2020:***
+
+**[arXiv]** Deep Geometric Functional Maps: Robust Feature Learning for Shape Correspondence, [[paper](https://arxiv.org/pdf/2003.14286.pdf)] [[code](https://github.com/LIX-shape-analysis/GeomFmaps)]
+
+**[arXiv]** Efficient and Robust Shape Correspondence via Sparsity-Enforced Quadratic Assignment, [[paper](https://arxiv.org/pdf/2003.08680.pdf)]
+
+**[CVM]** Learning local shape descriptors for computing non-rigid dense correspondence, [[paper](https://link.springer.com/content/pdf/10.1007/s41095-020-0163-y.pdf)]
+
+**[JCDE]** Embedded spectral descriptors: learning the point-wise correspondence metric via Siamese neural networks, [[paper](https://academic.oup.com/jcde/advance-article/doi/10.1093/jcde/qwaa003/5810287)]
+
+**[arXiv]** SAPIEN: A SimulAted Part-based Interactive ENvironment, [[paper](https://arxiv.org/pdf/2003.08515.pdf)]
+
+**[TVCG]** Voting for Distortion Points in Geometric Processing, [[paper](https://arxiv.org/pdf/1909.13066.pdf)]
+
+**[arXiv]** SketchDesc: Learning Local Sketch Descriptors for Multi-view Correspondence, [[paper](https://arxiv.org/pdf/2001.05744.pdf)]
+
+***2019:***
+
+**[arXiv]** Fine-grained Object Semantic Understanding from Correspondences, [[paper](https://arxiv.org/pdf/1912.12577.pdf)]
+
+**[IROS]** Multi-step Pick-and-Place Tasks Using Object-centric Dense Correspondences, [[code](https://github.com/cychai1995/mcdons)]
+
+**[arXiv]** Unsupervised cycle-consistent deformation for shape matching, [[paper](https://arxiv.org/abs/1907.03165)]
+
+**[arXiv]** ZoomOut: Spectral Upsampling for Efficient Shape Correspondence, [[paper](https://arxiv.org/abs/1904.07865)]
+
+**[C&G]** Partial correspondence of 3D shapes using properties of the nearest-neighbor field, [[paper](http://webee.technion.ac.il/~ayellet/Ps/19-ATZ.pdf)]
+
+
+
+### 4.2 Methods based on Complete Shape
+
+#### 4.2.1 Methods of Estimating 6D Object Pose
+
+***2017:***
+
+**[IROS]** SegICP: Integrated Deep Semantic Segmentation and Pose Estimation, [[paper](https://arxiv.org/abs/1703.01661)]
+
+**[ICRA]** Multi-view Self-supervised Deep Learning for 6D Pose Estimation in the Amazon Picking Challenge, [[paper](https://arxiv.org/abs/1609.09475)] [[code](https://github.com/andyzeng/apc-vision-toolbox)]
+
+***2010:***
+
+**[SIMPAR]** OpenGRASP: A Toolkit for Robot Grasping Simulation, [[paper](https://link.springer.com/chapter/10.1007/978-3-642-17319-6_13)]
+
+***2009:***
+
+**[ICAR]** An automatic grasp planning system for service robots, [[paper](https://ieeexplore.ieee.org/abstract/document/5174759)]
+
+***2004:***
+
+**[RAM]** Graspit! A versatile simulator for robotic grasping, [[paper](https://ieeexplore.ieee.org/abstract/document/1371616)]
+
+
+
+#### 4.2.2 Methods of Shape Completion
+
+##### a. Shape Completion-based Grasp
+
+***2020:***
 
 **[arXiv]** Robotic Grasping through Combined Image-Based Grasp Proposal and 3D Reconstruction, [[paper](https://arxiv.org/pdf/2003.01649.pdf)]
+
+***2019:***
+
+**[arXiv]** ClearGrasp: 3D Shape Estimation of Transparent Objects for Manipulation, [[paper](https://arxiv.org/abs/1910.02550)]
+
+**[arXiv]** kPAM-SC: Generalizable Manipulation Planning using KeyPoint Affordance and Shape Completion, [[paper](https://arxiv.org/abs/1909.06980)] [[code](https://sites.google.com/view/generalizable-manipulation/)]
+
+**[arXiv]** Data-Efficient Learning for Sim-to-Real Robotic Grasping using Deep Point Cloud Prediction Networks, [[paper](https://arxiv.org/abs/1906.08989)]
+
+**[IROS]** Robust Grasp Planning Over Uncertain Shape Completions, [[paper](https://arxiv.org/abs/1903.00645)]
+
+**[arXiv]** Multi-Modal Geometric Learning for Grasping and Manipulation, [[paper](https://arxiv.org/abs/1803.07671)]
+
+***2018:***
+
+**[ICRA]** Learning 6-DOF Grasping Interaction via Deep Geometry-aware 3D Representations, [[paper](https://arxiv.org/abs/1708.07303)]
+
+**[IROS]** 3D Shape Perception from Monocular Vision, Touch, and Shape Priors, [[paper](https://arxiv.org/abs/1808.03247)]
+
+***2017:***
+
+**[IROS]** Shape Completion Enabled Robotic Grasping, [[paper](https://arxiv.org/abs/1609.08546)]
+
+
+
+##### b. Shape Completion or Generation
+
+***2020:***
+
+**[arXiv]** Generative PointNet: Energy-Based Learning on Unordered Point Sets for 3D Generation, Reconstruction and Classification, [[paper](https://arxiv.org/pdf/2004.01301.pdf)]
+
+**[arXiv]** Intrinsic Point Cloud Interpolation via Dual Latent Space Navigation, [[paper](https://arxiv.org/pdf/2004.01661.pdf)]
+
+**[arXiv]** Modeling 3D Shapes by Reinforcement Learning, [[paper](https://arxiv.org/pdf/2003.12397.pdf)]
 
 **[arXiv]** PF-Net: Point Fractal Network for 3D Point Cloud Completion, [[paper](https://arxiv.org/pdf/2003.00410.pdf)]
 
@@ -1233,35 +1614,33 @@ In this situation, there exist no 3D models, an the 6-DoF grasps are estimated f
 
 **[arXiv]** The Whole Is Greater Than the Sum of Its Nonrigid Parts, [[paper](https://arxiv.org/pdf/2001.09650.pdf)]
 
+**[arXiv]** PT2PC: Learning to Generate 3D Point Cloud Shapes from Part Tree Conditions, [[paper](https://arxiv.org/pdf/2003.08624.pdf)]
+
+**[arXiv]** Multimodal Shape Completion via Conditional Generative Adversarial Networks, [[paper](https://arxiv.org/pdf/2003.07717.pdf)]
+
+**[arXiv]** Symmetry Detection of Occluded Point Cloud Using Deep Learning, [[paper](https://arxiv.org/pdf/2003.06520.pdf)]
+
 ***2019:***
-
-**[arXiv]** ClearGrasp- 3D Shape Estimation of Transparent Objects for Manipulation, [[paper](https://arxiv.org/abs/1910.02550)]
-
-**[arXiv]** kPAM-SC: Generalizable Manipulation Planning using KeyPoint Affordance and Shape Completion, [[paper](https://arxiv.org/abs/1909.06980)] [[code](https://sites.google.com/view/generalizable-manipulation/)]
-
-**[arXiv]** Data-Efficient Learning for Sim-to-Real Robotic Grasping using Deep Point Cloud Prediction Networks, [[paper](https://arxiv.org/abs/1906.08989)]
 
 **[arXiv]** Inferring Occluded Geometry Improves Performance when Retrieving an Object from Dense Clutter, [[paper](https://arxiv.org/abs/1907.08770)]
 
-**[IROS]** Robust Grasp Planning Over Uncertain Shape Completions, [[paper](https://arxiv.org/abs/1903.00645)]
-
-**[arXiv]** Multi-Modal Geometric Learning for Grasping and Manipulation, [[paper](https://arxiv.org/abs/1803.07671)]
-
 ***2018:***
 
-**[ICRA]** Learning 6-DOF Grasping Interaction via Deep Geometry-aware 3D Representations, [[paper](https://arxiv.org/abs/1708.07303)]
-
-**[IROS]** 3D Shape Perception from Monocular Vision, Touch, and Shape Priors, [[paper](https://arxiv.org/abs/1808.03247)]
-
-***2016:***
-
-**[IROS]** Shape Completion Enabled Robotic Grasping, [[paper](https://arxiv.org/abs/1609.08546)]
+**[3DORW]** Completion of Cultural Heritage Objects with Rotational Symmetry, [[paper](https://diglib.eg.org/bitstream/handle/10.2312/3dor20181057/087-093.pdf?sequence=1&isAllowed=y)]
 
 
 
-#### 2.3.4 Depth completion and Estimation
+##### c. Depth Completion and Estimation
 
 ***2020:***
+
+**[arXiv]** Occlusion-Aware Depth Estimation with Adaptive Normal Constraints, [[paper](https://arxiv.org/pdf/2004.00845.pdf)]
+
+**[arXiv]** The Edge of Depth: Explicit Constraints between Segmentation and Depth, [[paper](https://arxiv.org/pdf/2004.00171.pdf)]
+
+**[arXiv]** Self-supervised Monocular Trained Depth Estimation using Self-attention and Discrete Disparity Volume, [[paper](https://arxiv.org/pdf/2003.13951.pdf)]
+
+**[arXiv]** DeFeat-Net: General Monocular Depth via Simultaneous Unsupervised Representation Learning, [[paper](https://arxiv.org/pdf/2003.13446.pdf)]
 
 **[arXiv]** Adversarial Attacks on Monocular Depth Estimation, [[paper](https://arxiv.org/pdf/2003.10315.pdf)]
 
@@ -1355,9 +1734,11 @@ In this situation, there exist no 3D models, an the 6-DoF grasps are estimated f
 
 
 
-#### 2.3.5 Point cloud upsamping and denoising
+##### d. Point Cloud Denoising and Samping
 
 ***2020:***
+
+**[arXiv]** Self-Supervised Learning for Domain Adaptation on Point-Clouds, [[paper](https://arxiv.org/pdf/2003.12641.pdf)]
 
 **[arXiv]** Non-Local Part-Aware Point Cloud Denoising, [[paper](https://arxiv.org/pdf/2003.06631.pdf)]
 
@@ -1365,11 +1746,15 @@ In this situation, there exist no 3D models, an the 6-DoF grasps are estimated f
 
 ***2019:***
 
+**[arXiv]** CNN-based Lidar Point Cloud De-Noising in Adverse Weather, [[paper](https://arxiv.org/abs/1912.03874)]
+
 **[arXiv]** PU-GCN: Point Cloud Upsampling using Graph Convolutional Networks, [[paper](https://arxiv.org/abs/1912.03264)] [[code](https://github.com/guochengqian/PU-GCN)]
 
 **[ICCV]** PU-GAN: a Point Cloud Upsampling Adversarial Network, [[paper](https://arxiv.org/pdf/1907.10844.pdf)] [[code](https://github.com/liruihui/PU-GAN)]
 
 **[CVPR]** Patch-based Progressive 3D Point Set Upsampling, [[paper](https://arxiv.org/abs/1811.11286)] [[code](https://github.com/yifita/3PU)]
+
+**[arXiv]** SampleNet: Differentiable Point Cloud Sampling, [[paper](https://arxiv.org/abs/1912.03663)] [[code](https://github.com/itailang/SampleNet)]
 
 ***2018:***
 
@@ -1377,9 +1762,9 @@ In this situation, there exist no 3D models, an the 6-DoF grasps are estimated f
 
 
 
-## 3. Grasp Transfer
+## 5. Task-oriented Methods
 
-### 3.1 Task-oriented manipulation
+### 5.1 Task-oriented Manipulation
 
 ***2020:***
 
@@ -1395,6 +1780,8 @@ In this situation, there exist no 3D models, an the 6-DoF grasps are estimated f
 
 **[arXiv]** Autonomous Industrial Assembly using Force, Torque, and RGB-D sensing, [[paper](Autonomous Industrial Assembly using Force, Torque, and RGB-D sensing)]
 
+**[RAL]** A Deep Learning Approach to Grasping the Invisible, [[paper](https://arxiv.org/pdf/1909.04840.pdf)] [[code](https://github.com/choicelab/grasping-invisible)]
+
 ***2019:***
 
 **[arXiv]** KETO: Learning Keypoint Representations for Tool Manipulation, [[paper](https://arxiv.org/abs/1910.11977)]
@@ -1403,77 +1790,35 @@ In this situation, there exist no 3D models, an the 6-DoF grasps are estimated f
 
 
 
-### 3.2 Grasp transfer between shape parts
+### 5.2 Grasp Affordance
 
 ***2020:***
 
-**[arXiv]** DGCM-Net: Dense Geometrical Correspondence Matching Network for Incremental Experience-based Robotic Grasping, [[paper](https://arxiv.org/pdf/2001.05279.pdf)]
+**[arXiv]** Learning to Grasp 3D Objects using Deep Residual U-Nets, [[paper](https://arxiv.org/pdf/2002.03892.pdf)]
 
 ***2019:***
 
-**[arXiv]** Using Synthetic Data and Deep Networks to Recognize Primitive Shapes for Object Grasping, [[paper](https://arxiv.org/abs/1909.08508)]
+**[IROS]** Detecting Robotic Affordances on Novel Objects with Regional Attention and Attributes, [[paper](https://arxiv.org/abs/1909.05770)]
 
-**[ICRA]** Transferring Grasp Configurations using Active Learning and Local Replanning, [[paper](https://arxiv.org/abs/1807.08341)]
+**[IROS]** Learning Grasp Affordance Reasoning through Semantic Relations, [[paper](https://arxiv.org/abs/1906.09836)]
 
-***2017:***
+**[arXiv]** Automatic pre-grasps generation for unknown 3D objects, [[paper](https://arxiv.org/abs/1908.00221)]
 
-**[AIP]** Fast grasping of unknown objects using principal component analysis, [[paper](https://aip.scitation.org/doi/10.1063/1.4991996)]
-
-***2015:***
-
-**[RAS]** Category-based task specific grasping, [[paper](https://www.sciencedirect.com/science/article/pii/S0921889015000846?via%3Dihub)]
-
-
-
-### 3.3 Non-rigid shape matching
-
-#### 3.3.1 Non-rigid registration
-
-***2020:***
-
-**[arXiv]** MINA: Convex Mixed-Integer Programming for Non-Rigid Shape Alignment, [[paper](https://arxiv.org/pdf/2002.12623.pdf)]
-
-***2019:***
-
-**[arXiv]** Non-Rigid Point Set Registration Networks, [[paper](https://arxiv.org/abs/1904.01428)] [[code](https://github.com/Lingjing324/PR-Net)]
+**[IECON]** A novel object slicing based grasp planner for 3D object grasping using underactuated robot gripper, [[paper](https://arxiv.org/abs/1907.09142)]
 
 ***2018:***
 
-**[RAL]** Transferring Category-based Functional Grasping Skills by Latent Space Non-Rigid Registration, [[paper](https://arxiv.org/abs/1809.05390)]
+**[ICRA]** AffordanceNet: An End-to-End Deep Learning Approach for Object Affordance Detection, [[paper](https://arxiv.org/pdf/1709.07326.pdf)]
 
-**[RAS]** Learning Postural Synergies for Categorical Grasping through Shape Space Registration, [[paper](https://arxiv.org/abs/1810.07967)]
-
-**[RAS]** Autonomous Dual-Arm Manipulation of Familiar Objects, [[paper](https://arxiv.org/abs/1811.08716)]
+**[arXiv]** Workspace Aware Online Grasp Planning, [[paper](https://arxiv.org/abs/1806.11402)]
 
 
 
-#### 3.3.2 Shape correspondence
+### 5.3 3D Part Segmentation
 
 ***2020:***
 
-**[arXiv]** SAPIEN: A SimulAted Part-based Interactive ENvironment, [[paper](https://arxiv.org/pdf/2003.08515.pdf)]
-
-**[TVCG]** Voting for Distortion Points in Geometric Processing, [[paper](https://arxiv.org/pdf/1909.13066.pdf)]
-
-**[arXiv]** SketchDesc: Learning Local Sketch Descriptors for Multi-view Correspondence, [[paper](https://arxiv.org/pdf/2001.05744.pdf)]
-
-***2019:***
-
-**[arXiv]** Fine-grained Object Semantic Understanding from Correspondences, [[paper](https://arxiv.org/pdf/1912.12577.pdf)]
-
-**[IROS]** Multi-step Pick-and-Place Tasks Using Object-centric Dense Correspondences, [[code](https://github.com/cychai1995/mcdons)]
-
-**[arXiv]** Unsupervised cycle-consistent deformation for shape matching, [[paper](https://arxiv.org/abs/1907.03165)]
-
-**[arXiv]** ZoomOut: Spectral Upsampling for Efficient Shape Correspondence, [[paper](https://arxiv.org/abs/1904.07865)]
-
-**[C&G]** Partial correspondence of 3D shapes using properties of the nearest-neighbor field, [[paper](http://webee.technion.ac.il/~ayellet/Ps/19-ATZ.pdf)]
-
-
-
-### 3.4 3D part segmentation
-
-***2020:***
+**[arXiv]** Learning Unsupervised Hierarchical Part Decomposition of 3D Objects from a Single RGB Image, [[paper](https://arxiv.org/pdf/2004.01176.pdf)]
 
 **[arXiv]** Learning 3D Part Assembly from a Single Image, [[paper](https://arxiv.org/pdf/2003.09754.pdf)]
 
@@ -1497,9 +1842,11 @@ In this situation, there exist no 3D models, an the 6-DoF grasps are estimated f
 
 
 
-## 4. Dexterous Grippers
+## 6. Dexterous Grippers
 
 ***2020:***
+
+**[arXiv]** HandVoxNet: Deep Voxel-Based Network for 3D Hand Shape and Pose Estimation from a Single Depth Map, [[paper](https://arxiv.org/pdf/2004.01588.pdf)]
 
 **[arXiv]** Functionally Divided Manipulation Synergy for Controlling Multi-fingered Hands, [[paper](https://arxiv.org/pdf/2003.11699.pdf)]
 
@@ -1555,7 +1902,9 @@ In this situation, there exist no 3D models, an the 6-DoF grasps are estimated f
 
 
 
-## 5. Simulation to Reality
+## 7. Data Generation
+
+### 7.1 Simulation to Reality
 
 ***2020:***
 
@@ -1570,8 +1919,6 @@ In this situation, there exist no 3D models, an the 6-DoF grasps are estimated f
 **[arXiv]** Sim2Real2Sim: Bridging the Gap Between Simulation and Real-World in Flexible Object Manipulation, [[paper](https://arxiv.org/pdf/2002.02538.pdf)]
 
 ***2019:***
-
-**[arXiv]** Self-supervised 6D Object Pose Estimation for Robot Manipulation, [[paper](https://arxiv.org/abs/1909.10159)]
 
 **[arXiv]** Accept Synthetic Objects as Real-End-to-End Training of Attentive Deep Visuomotor Policies for Manipulation in Clutter, [[paper](https://arxiv.org/abs/1909.11128)]
 
@@ -1589,11 +1936,23 @@ In this situation, there exist no 3D models, an the 6-DoF grasps are estimated f
 
 **[arXiv]** Using Simulation and Domain Adaptation to Improve Efficiency of Deep Robotic Grasping, [[paper](https://arxiv.org/abs/1709.07857)]
 
+### 7.2 Self-supervised Methods
+
+***2019:***
+
+**[arXiv]** Self-supervised 6D Object Pose Estimation for Robot Manipulation, [[paper](https://arxiv.org/abs/1909.10159)]
+
+***2018:***
+
+**[RSS]** Learning Task-Oriented Grasping for Tool Manipulation from Simulated Self-Supervision, [[paper](https://arxiv.org/abs/1806.09266)]
 
 
-## 6. Multi-source
+
+## 8. Multi-source
 
 ***2020:***
+
+**[arXiv]** Multimodal Material Classification for Robots using Spectroscopy and High Resolution Texture Imaging, [[paper](https://arxiv.org/pdf/2004.01160.pdf)]
 
 **[arXiv]** Understanding Contexts Inside Robot and Human Manipulation Tasks through a Vision-Language Model and Ontology System in a Video Stream, [[paper](https://arxiv.org/pdf/2003.01163.pdf)]
 
@@ -1615,9 +1974,65 @@ In this situation, there exist no 3D models, an the 6-DoF grasps are estimated f
 
 
 
-## 7. Learning from Demonstration
+## 9. Motion Planning
+
+### 9.1 Visual servoing
 
 ***2020:***
+
+**[arXiv]** Predicting Target Feature Configuration of Non-stationary Objects for Grasping with Image-Based Visual Servoing, [[paper](https://arxiv.org/pdf/2001.05650.pdf)]
+
+**[AAAI]** That and There: Judging the Intent of Pointing Actions with Robotic Arms, [[paper](https://arxiv.org/abs/1912.06602)]
+
+***2019:***
+
+**[arXiv]** Camera-to-Robot Pose Estimation from a Single Image, [[paper](https://arxiv.org/abs/1911.09231)]
+
+**[ICRA]** Learning Driven Coarse-to-Fine Articulated Robot Tracking, [[paper](http://www.robots.ox.ac.uk/~mobile/drs/Papers/2019ICRA_rauch.pdf)]
+
+**[CVPR]** Craves: controlling robotic arm with a vision-based, economic system, [[paper](http://openaccess.thecvf.com/content_CVPR_2019/papers/Zuo_CRAVES_Controlling_Robotic_Arm_With_a_Vision-Based_Economic_System_CVPR_2019_paper.pdf)] [[code](https://github.com/zuoym15/craves.ai)]
+
+***2018:***
+
+**[arXiv]** Point-to-Pose Voting based Hand Pose Estimation using Residual Permutation Equivariant Layer, [[paper](https://arxiv.org/pdf/1812.02050.pdf)]
+
+***2016:***
+
+**[ICRA]** Robot Arm Pose Estimation by Pixel-wise Regression of Joint Angles, [[paper](https://www.is.mpg.de/uploads_file/attachment/attachment/311/ICRA16_felix_small.pdf)]
+
+***2014:***
+
+**[ICRA]** Robot Arm Pose Estimation through Pixel-Wise Part Classification, [[paper](https://www.is.mpg.de/uploads_file/attachment/attachment/176/2014_ICRA_brhs_small.pdf)]
+
+
+
+### 9.2 Path Planning
+
+***2020:***
+
+**[arXiv]** Human-Guided Planner for Non-Prehensile Manipulation, [[paper](https://arxiv.org/pdf/2004.00946.pdf))]
+
+**[arXiv]** Latent Space Roadmap for Visual Action Planning of Deformable and Rigid Object Manipulation, [[paper](https://arxiv.org/pdf/2003.08974.pdf)]
+
+**[arXiv]** GOMP: Grasp-Optimized Motion Planning for Bin Picking, [[paper](https://arxiv.org/pdf/2003.02401.pdf)]
+
+**[arXiv]** Describing Physics For Physical Reasoning: Force-based Sequential Manipulation Planning, [[paper](https://arxiv.org/pdf/2002.12780.pdf)]
+
+**[arXiv]** Reaching, Grasping and Re-grasping: Learning Fine Coordinated Motor Skills, [[paper](https://arxiv.org/pdf/2002.04498.pdf)]
+
+***2019:***
+
+**[arXiv]** Manipulation Trajectory Optimization with Online Grasp Synthesis and Selection, [[paper](https://arxiv.org/abs/1911.10280)]
+
+**[arXiv]** Parareal with a Learned Coarse Model for Robotic Manipulation, [[paper](https://arxiv.org/abs/1912.05958)]
+
+
+
+## 10. Imitation Learning
+
+***2020:***
+
+**[arXiv]** HOPE-Net: A Graph-based Model for Hand-Object Pose Estimation, [[paper](https://arxiv.org/pdf/2004.00060.pdf)]
 
 **[arXiv]** SQUIRL: Robust and Efficient Learning from Video Demonstration of Long-Horizon Robotic Manipulation Tasks, [[paper](https://arxiv.org/pdf/2003.04956.pdf)]
 
@@ -1649,7 +2064,7 @@ In this situation, there exist no 3D models, an the 6-DoF grasps are estimated f
 
 
 
-## 8. Reinforcement Learning
+## 11. Reinforcement Learning
 
 ***2020:***
 
@@ -1745,57 +2160,7 @@ In this situation, there exist no 3D models, an the 6-DoF grasps are estimated f
 
 
 
-## 9. Visual servoing
-
-***2020:***
-
-**[arXiv]** Predicting Target Feature Configuration of Non-stationary Objects for Grasping with Image-Based Visual Servoing, [[paper](https://arxiv.org/pdf/2001.05650.pdf)]
-
-**[AAAI]** That and There: Judging the Intent of Pointing Actions with Robotic Arms, [[paper](https://arxiv.org/abs/1912.06602)]
-
-***2019:***
-
-**[arXiv]** Camera-to-Robot Pose Estimation from a Single Image, [[paper](https://arxiv.org/abs/1911.09231)]
-
-**[ICRA]** Learning Driven Coarse-to-Fine Articulated Robot Tracking, [[paper](http://www.robots.ox.ac.uk/~mobile/drs/Papers/2019ICRA_rauch.pdf)]
-
-**[CVPR]** Craves: controlling robotic arm with a vision-based, economic system, [[paper](http://openaccess.thecvf.com/content_CVPR_2019/papers/Zuo_CRAVES_Controlling_Robotic_Arm_With_a_Vision-Based_Economic_System_CVPR_2019_paper.pdf)] [[code](https://github.com/zuoym15/craves.ai)]
-
-***2018:***
-
-**[arXiv]** Point-to-Pose Voting based Hand Pose Estimation using Residual Permutation Equivariant Layer, [[paper](https://arxiv.org/pdf/1812.02050.pdf)]
-
-***2016:***
-
-**[ICRA]** Robot Arm Pose Estimation by Pixel-wise Regression of Joint Angles, [[paper](https://www.is.mpg.de/uploads_file/attachment/attachment/311/ICRA16_felix_small.pdf)]
-
-***2014:***
-
-**[ICRA]** Robot Arm Pose Estimation through Pixel-Wise Part Classification, [[paper](https://www.is.mpg.de/uploads_file/attachment/attachment/176/2014_ICRA_brhs_small.pdf)]
-
-
-
-## 10. Path Planning
-
-***2020:***
-
-**[arXiv]** Latent Space Roadmap for Visual Action Planning of Deformable and Rigid Object Manipulation, [[paper](https://arxiv.org/pdf/2003.08974.pdf)]
-
-**[arXiv]** GOMP: Grasp-Optimized Motion Planning for Bin Picking, [[paper](https://arxiv.org/pdf/2003.02401.pdf)]
-
-**[arXiv]** Describing Physics For Physical Reasoning: Force-based Sequential Manipulation Planning, [[paper](https://arxiv.org/pdf/2002.12780.pdf)]
-
-**[arXiv]** Reaching, Grasping and Re-grasping: Learning Fine Coordinated Motor Skills, [[paper](https://arxiv.org/pdf/2002.04498.pdf)]
-
-***2019:***
-
-**[arXiv]** Manipulation Trajectory Optimization with Online Grasp Synthesis and Selection, [[paper](https://arxiv.org/abs/1911.10280)]
-
-**[arXiv]** Parareal with a Learned Coarse Model for Robotic Manipulation, [[paper](https://arxiv.org/abs/1912.05958)]
-
-
-
-## 11. Experts:
+## 12. Experts
 
 [Abhinav Gupta](http://www.cs.cmu.edu/~abhinavg/)(CMU & FAIR): Robotics, machine learning
 
@@ -1804,6 +2169,8 @@ In this situation, there exist no 3D models, an the 6-DoF grasps are estimated f
 [Andy Zeng](http://andyzeng.github.io/)(Princeton University & Google Brain Robotics): 3D Deep Learning, Robotic Grasping
 
 [Animesh Garg](https://www.cs.toronto.edu/~garg/)(University of Toronto): Robotics, Reinforcement Learning
+
+[Bugra Tekin](https://btekin.github.io/)(Microsoft MR): Pose Estimation 
 
 [Cewu Lu](http://mvig.sjtu.edu.cn/)(SJTU): Machine Vision
 
@@ -1819,7 +2186,7 @@ In this situation, there exist no 3D models, an the 6-DoF grasps are estimated f
 
 [Hao Su](http://cseweb.ucsd.edu/~haosu/)(UC San Diego): 3D Deep Learning
 
-[Jeannette Bohg](https://am.is.tuebingen.mpg.de/person/jbohg)(Stanford University): perception for autonomous robotic manipulation and grasping
+[Jeannette Bohg](https://am.is.tuebingen.mpg.de/person/jbohg)(Stanford University): Perception for robotic manipulation and grasping
 
 [Jianping Shi](https://shijianping.me/)(SenseTime): Computer Vision
 
@@ -1841,9 +2208,11 @@ In this situation, there exist no 3D models, an the 6-DoF grasps are estimated f
 
 [Markus Vincze](https://www.acin.tuwien.ac.at/staff/vm/)(Technical University Wien (TUW)): Robotic Vision
 
+[Matthias Nießner](https://www.niessnerlab.org/members/matthias_niessner/profile.html)(TUM): 3D reconstruction, Semantic 3D Scene Understanding
+
 [Oliver Brock](https://www.robotics.tu-berlin.de/menue/team/oliver_brock)(TU Berlin): Robotic manipulation
 
-[Pascal Fua](https://icwww.epfl.ch/~fua/)(INRIA): Computer Vision
+[Pascal Fua](https://icwww.epfl.ch/~fua/)(EPFL): Computer Vision
 
 [Peter K. Allen.](http://www.cs.columbia.edu/~allen/)(Columbia University): Robotic Grasping, 3-D vision, Modeling, Medical robotics
 
@@ -1878,6 +2247,8 @@ In this situation, there exist no 3D models, an the 6-DoF grasps are estimated f
 [Xiaozhi Chen](https://xiaozhichen.github.io/)(DJI): Deep learning
 
 [Yan Xinchen](https://sites.google.com/site/skywalkeryxc/)(Uber ATG): Deep Representation Learning, Generative Modeling
+
+[Yasutaka Furukawa](https://www2.cs.sfu.ca/~furukawa/)(SFU): 3D Reconstruction
 
 [Yu Xiang](https://yuxng.github.io/)(Nvidia): Robotics, Computer Vision
 
