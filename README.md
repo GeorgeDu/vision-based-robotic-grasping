@@ -8,17 +8,17 @@ __6DoF grasp__ means that the gripper can grasp the object from various angles i
 
 Besides, most of the robotic grasping approaches require __the target object’s location__ in the input data first. This involves three different stages: __object localization without classification__, __object detection__ and __object instance segmentation__. Object localization without classification only outputs the potential regions of the target objects without knowing their categories. Object detection provides bounding boxes of the target objects with their categories. Object instance segmentation further provides the pixel-level regions of the target objects with their categories.
 
-I summarize all above kinds of methods in this repository, and hope to presents a big picture for friends work on vision-based robotic grasping. The table of content is listed as follows.
+I summarize all above kinds of methods in this repository, and hope to present a big picture for friends work on vision-based robotic grasping. The table of content is listed as follows.
 
   * [Vision-based Robotic Grasping: Papers and Codes](#vision-based-robotic-grasping-papers-and-codes)
   * [0. Review Papers](#0-review-papers)
   * [1. Object Localization](#1-object-localization)
      * [1.1 Object Localization without Classification](#11-object-localization-without-classification)
         * [1.1.1 2D-based Methods](#111-2d-based-methods)
-           * [a.Fitting 2D Shape Primitives](#afitting-2d-shape-primitives)
+           * [a. Fitting 2D Shape Primitives](#afitting-2d-shape-primitives)
            * [b. Saliency Detection](#b-saliency-detection)
         * [1.1.2 3D-based Methods](#112-3d-based-methods)
-           * [a.Fitting 3D Shape Primitives](#afitting-3d-shape-primitives)
+           * [a. Fitting 3D Shape Primitives](#afitting-3d-shape-primitives)
            * [b. Saliency Detection](#b-saliency-detection-1)
      * [1.2 Object Detection](#12-object-detection)
         * [1.2.1 2D Object Detection](#121-2d-object-detection)
@@ -294,6 +294,10 @@ Detailed paper lists can refer to [hoya012](https://github.com/hoya012/deep_lear
 
 ***2020:***
 
+**[arXiv]** Instance-Aware, Context-Focused, and Memory-Efficient Weakly Supervised Object Detection, [[paper](https://arxiv.org/pdf/2004.04725.pdf)]
+
+**[arXiv]** Scalable Active Learning for Object Detection, [[paper](https://arxiv.org/pdf/2004.04699.pdf)]
+
 **[arXiv]** Any-Shot Object Detection, [[paper](https://arxiv.org/pdf/2003.07003.pdf)]
 
 **[arXiv]** Frustratingly Simple Few-Shot Object Detection, [[paper](https://arxiv.org/pdf/2003.06957.pdf)]
@@ -442,6 +446,10 @@ Most of this kind of methods estimate depth images from RGB images, and then con
 
 ***2020:***
 
+**[arXiv]** Disp R-CNN: Stereo 3D Object Detection via Shape Prior Guided Instance Disparity Estimation, [[paper](https://arxiv.org/pdf/2004.03572.pdf)]
+
+**[arXiv]** End-to-End Pseudo-LiDAR for Image-Based 3D Object Detection, [[paper](https://arxiv.org/pdf/2004.03080.pdf)]
+
 **[arXiv]** Confidence Guided Stereo 3D Object Detection with Split Depth Estimation, [[paper](https://arxiv.org/pdf/2003.05505.pdf)]
 
 **[arXiv]** Monocular 3D Object Detection in Cylindrical Images from Fisheye Cameras, [[paper](https://arxiv.org/pdf/2003.03759.pdf)]
@@ -507,6 +515,8 @@ This kind of methods only consume the 3D point cloud data.
 
 
 ***2020:***
+
+**[arXiv]** Finding Your (3D) Center: 3D Object Detection Using a Learned Loss, [[paper](https://arxiv.org/pdf/2004.02693.pdf)]
 
 **[arXiv]** LiDAR-based Online 3D Video Object Detection with Graph-based Message Passing and Spatiotemporal Transformer Attention, [[paper](https://arxiv.org/pdf/2004.01389.pdf)]
 
@@ -685,6 +695,8 @@ This kind of methods utilize both rgb images and depth images/point clouds. Ther
 
 ***2020:***
 
+**[CVPR]** CenterMask: single shot instance segmentation with point representation, [[paper](https://arxiv.org/pdf/2004.04446.pdf)]
+
 **[arXiv]** BlendMask: Top-Down Meets Bottom-Up for Instance Segmentation, [[paper](https://arxiv.org/pdf/2001.00309.pdf)]
 
 **[arXiv]** SOLOv2: Dynamic, Faster and Stronger, [[paper](https://arxiv.org/pdf/2003.10152.pdf)] [[code](https://github.com/aim-uofa/AdelaiDet/)]
@@ -856,6 +868,8 @@ This kind of methods utilize both rgb images and depth images/point clouds. Ther
 ##### c. 3D deep learning networks
 
 ***2020:***
+
+**[arXiv]** LightConvPoint: convolution for points, [[paper](https://arxiv.org/pdf/2004.04462.pdf)]
 
 **[arXiv]** Review: deep learning on 3D point clouds, [[paper](https://arxiv.org/pdf/2001.06280.pdf)]
 
@@ -1175,7 +1189,7 @@ The partial-view point cloud will be aligned to the complete shape in order to o
 
 ***2011:***
 
-**[ICCVW]** CAD-model recognition and 6DOF pose estimation using 3D cues, [[paper]([http://lars.mec.ua.pt/public/LAR%20Projects/BinPicking/2016_RodrigoSalgueiro/LIB/06130296.pdf](http://lars.mec.ua.pt/public/LAR Projects/BinPicking/2016_RodrigoSalgueiro/LIB/06130296.pdf))]
+**[ICCVW]** CAD-model recognition and 6DOF pose estimation using 3D cues, [[paper](https://ieeexplore.ieee.org/abstract/document/6130296/)]
 
 ***2009:***
 
@@ -1249,6 +1263,8 @@ The partial-view point cloud will be aligned to the complete shape in order to o
 
 ***2020:***
 
+**[arXiv]** MoreFusion: Multi-object Reasoning for 6D Pose Estimation from Volumetric Fusion, [[paper](https://arxiv.org/pdf/2004.04336.pdf)]
+
 **[arXiv]** YOLOff: You Only Learn Offsets for robust 6DoF object pose estimation, [[paper](https://arxiv.org/pdf/2002.00911.pdf)]
 
 **[arXiv]** LRF-Net: Learning Local Reference Frames for 3D Local Shape Description and Matching, [[paper](https://arxiv.org/pdf/2001.07832.pdf)]
@@ -1292,6 +1308,10 @@ The partial-view point cloud will be aligned to the complete shape in order to o
 #### 2.3.2 3D shape reconstruction from images
 
 ***2020:***
+
+**[arXiv]** Neural Object Descriptors for Multi-View Shape Reconstruction, [[paper](https://arxiv.org/pdf/2004.04485.pdf)]
+
+**[arXiv]** Leveraging 2D Data to Learn Textured 3D Mesh Generation, [[paper](https://arxiv.org/pdf/2004.04180.pdf)]
 
 **[arXiv]** Deep 3D Capture: Geometry and Reflectance from Sparse Multi-View Images, [[paper](https://arxiv.org/pdf/2003.12642.pdf)]
 
@@ -1562,6 +1582,8 @@ In this situation, there exist no 3D models, an the 6-DoF grasps are estimated f
 
 ***2020:***
 
+**[arXiv]** Quasi-Newton Solver for Robust Non-Rigid Registration, [[paper](https://arxiv.org/pdf/2004.04322.pdf)]
+
 **[arXiv]** MINA: Convex Mixed-Integer Programming for Non-Rigid Shape Alignment, [[paper](https://arxiv.org/pdf/2002.12623.pdf)]
 
 ***2019:***
@@ -1670,6 +1692,10 @@ In this situation, there exist no 3D models, an the 6-DoF grasps are estimated f
 
 ***2020:***
 
+**[arXiv]** Anisotropic Convolutional Networks for 3D Semantic Scene Completion, [[paper](https://arxiv.org/pdf/2004.02122.pdf)]
+
+**[arXiv]** Cascaded Refinement Network for Point Cloud Completio, [[paper](https://arxiv.org/pdf/2004.03327.pdf)]
+
 **[arXiv]** Generative PointNet: Energy-Based Learning on Unordered Point Sets for 3D Generation, Reconstruction and Classification, [[paper](https://arxiv.org/pdf/2004.01301.pdf)]
 
 **[arXiv]** Intrinsic Point Cloud Interpolation via Dual Latent Space Navigation, [[paper](https://arxiv.org/pdf/2004.01661.pdf)]
@@ -1709,6 +1735,10 @@ In this situation, there exist no 3D models, an the 6-DoF grasps are estimated f
 ##### c. Depth Completion and Estimation
 
 ***2020:***
+
+**[arXiv]** Guiding Monocular Depth Estimation Using Depth-Attention Volume, [[paper](https://arxiv.org/pdf/2004.02760.pdf)]
+
+**[arXiv]** 3D Photography using Context-aware Layered Depth Inpainting, [[paper](https://arxiv.org/pdf/2004.04727.pdf)]
 
 **[arXiv]** Occlusion-Aware Depth Estimation with Adaptive Normal Constraints, [[paper](https://arxiv.org/pdf/2004.00845.pdf)]
 
