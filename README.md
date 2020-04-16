@@ -126,6 +126,8 @@ I summarize all above kinds of methods in this repository, and hope to present a
 
 ***2020:***
 
+**[arXiv]** UC-Net: Uncertainty Inspired RGB-D Saliency Detection via Conditional Variational Autoencoders, [[paper](https://arxiv.org/pdf/2004.05763.pdf)]
+
 **[arXiv]** Cross-layer Feature Pyramid Network for Salient Object Detection, [[paper](https://arxiv.org/pdf/2002.10864.pdf)]
 
 **[arXiv]** Depth Potentiality-Aware Gated Attention Network for RGB-D Salient Object Detection, [[paper](https://arxiv.org/pdf/2003.08608.pdf)]
@@ -515,6 +517,10 @@ This kind of methods only consume the 3D point cloud data.
 
 
 ***2020:***
+
+**[arXiv]** MLCVNet: Multi-Level Context VoteNet for 3D Object Detection, [[paper](https://arxiv.org/pdf/2004.05679.pdf)]
+
+**[arXiv]** 3D IoU-Net: IoU Guided 3D Object Detector for Point Clouds, [[paper](https://arxiv.org/pdf/2004.04962.pdf)]
 
 **[arXiv]** Finding Your (3D) Center: 3D Object Detection Using a Learned Loss, [[paper](https://arxiv.org/pdf/2004.02693.pdf)]
 
@@ -1037,6 +1043,10 @@ This kind of methods can be regarded as regression-based methods.
 
 ***2020:***
 
+**[arXiv]** Self6D: Self-Supervised Monocular 6D Object Pose Estimation, [[paper](https://arxiv.org/pdf/2004.06468.pdf)]
+
+**[arXiv]** A Novel Pose Proposal Network and Refinement Pipeline for Better Object Pose Estimation, [[paper](https://arxiv.org/pdf/2004.05507.pdf)]
+
 **[arXiv]** G2L-Net: Global to Local Network for Real-time 6D Pose Estimation with Embedding Vector Features, [[paper](https://arxiv.org/pdf/2003.11089.pdf)]
 
 **[arXiv]** Neural Mesh Refiner for 6-DoF Pose Estimation, [[paper](https://arxiv.org/pdf/2003.07561.pdf)]
@@ -1308,6 +1318,8 @@ The partial-view point cloud will be aligned to the complete shape in order to o
 #### 2.3.2 3D shape reconstruction from images
 
 ***2020:***
+
+**[arXiv]** Few-Shot Single-View 3-D Object Reconstruction with Compositional Priors, [[paper](https://arxiv.org/pdf/2004.06302.pdf)]
 
 **[arXiv]** Neural Object Descriptors for Multi-View Shape Reconstruction, [[paper](https://arxiv.org/pdf/2004.04485.pdf)]
 
@@ -1604,6 +1616,8 @@ In this situation, there exist no 3D models, an the 6-DoF grasps are estimated f
 
 ***2020:***
 
+**[arXiv]** Self-supervised Feature Learning by Cross-modality and Cross-view Correspondences, [[paper](https://arxiv.org/pdf/2004.05749.pdf)]
+
 **[arXiv]** Deep Geometric Functional Maps: Robust Feature Learning for Shape Correspondence, [[paper](https://arxiv.org/pdf/2003.14286.pdf)] [[code](https://github.com/LIX-shape-analysis/GeomFmaps)]
 
 **[arXiv]** Efficient and Robust Shape Correspondence via Sparsity-Enforced Quadratic Assignment, [[paper](https://arxiv.org/pdf/2003.08680.pdf)]
@@ -1735,6 +1749,10 @@ In this situation, there exist no 3D models, an the 6-DoF grasps are estimated f
 ##### c. Depth Completion and Estimation
 
 ***2020:***
+
+**[arXiv]** RealMonoDepth: Self-Supervised Monocular Depth Estimation for General Scenes, [[paper](https://arxiv.org/pdf/2004.06267.pdf)]
+
+**[arXiv]** Monocular Depth Estimation with Self-supervised Instance Adaptation, [[paper](https://arxiv.org/pdf/2004.05821.pdf)]
 
 **[arXiv]** Guiding Monocular Depth Estimation Using Depth-Attention Volume, [[paper](https://arxiv.org/pdf/2004.02760.pdf)]
 
@@ -2013,6 +2031,8 @@ In this situation, there exist no 3D models, an the 6-DoF grasps are estimated f
 ### 7.1 Simulation to Reality
 
 ***2020:***
+
+**[arXiv]** RoboTHOR: An Open Simulation-to-Real Embodied AI Platform, [[paper](https://arxiv.org/pdf/2004.06799.pdf)]
 
 **[arXiv]** On the Effectiveness of Virtual Reality-based Training for Robotic Setup, [[paper](https://arxiv.org/pdf/2003.01540.pdf)]
 
