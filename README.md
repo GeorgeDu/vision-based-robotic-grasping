@@ -88,6 +88,8 @@ I summarize all above kinds of methods in this repository, and hope to present a
 
 ## 0. Review Papers
 
+**[arXiv]** 2020-Affordances in Robotic Tasks - A Survey, [[paper](https://arxiv.org/pdf/2004.07400.pdf)]
+
 **[arXiv]** 2019-A Review of Robot Learning for Manipulation- Challenges, Representations, and Algorithms, [[paper](https://arxiv.org/abs/1907.03146)]
 
 **[arXiv]** 2019-Vision-based Robotic Grasping from Object Localization, Pose Estimation, Grasp Detection to Motion Planning: A Review, [[paper](https://arxiv.org/abs/1905.06658)]
@@ -1536,7 +1538,7 @@ In this situation, there exist no 3D models, an the 6-DoF grasps are estimated f
 
 **[CoRL]** S4G: Amodal Single-view Single-Shot SE(3) Grasp Detection in Cluttered Scenes, [[paper](https://arxiv.org/abs/1910.14218)]
 
-**[ICCV]** 6-DoF GraspNet: Variational Grasp Generation for Object Manipulation, [[paper](https://arxiv.org/abs/1905.10520)][[code](https://github.com/NVlabs/6dof-graspnet)]
+**[ICCV]** 6-DoF GraspNet: Variational Grasp Generation for Object Manipulation, [[paper](https://arxiv.org/abs/1905.10520)] [[code](https://github.com/NVlabs/6dof-graspnet)]
 
 **[ICRA]** PointNetGPD: Detecting Grasp Configurations from Point Sets, [[paper](https://arxiv.org/abs/1809.06267)] [[code](https://github.com/lianghongzhuo/PointNetGPD)]
 
@@ -1750,6 +1752,8 @@ In this situation, there exist no 3D models, an the 6-DoF grasps are estimated f
 
 ***2020:***
 
+**[arXiv]** DepthNet Nano: A Highly Compact Self-Normalizing Neural Network for Monocular Depth Estimation, [[paper](https://arxiv.org/pdf/2004.08008.pdf)]
+
 **[arXiv]** RealMonoDepth: Self-Supervised Monocular Depth Estimation for General Scenes, [[paper](https://arxiv.org/pdf/2004.06267.pdf)]
 
 **[arXiv]** Monocular Depth Estimation with Self-supervised Instance Adaptation, [[paper](https://arxiv.org/pdf/2004.05821.pdf)]
@@ -1892,6 +1896,12 @@ In this situation, there exist no 3D models, an the 6-DoF grasps are estimated f
 
 ***2020:***
 
+**[arXiv]** Neuromorphic Event-Based Slip Detection and Suppression in Robotic Grasping and Manipulation, [[paper](https://arxiv.org/pdf/2004.07386.pdf)]
+
+**[arXiv]** Combinatorial 3D Shape Generation via Sequential Assembly, [[paper](https://arxiv.org/pdf/2004.07414.pdf)]
+
+**[arXiv]** Learning visual policies for building 3D shape categories, [[paper](https://arxiv.org/pdf/2004.07950.pdf)]
+
 **[arXiv]** Where to relocate?: Object rearrangement inside cluttered and confined environments for robotic manipulation, [[paper](https://arxiv.org/pdf/2003.10863.pdf)]
 
 **[arXiv]** Correspondence Networks with Adaptive Neighbourhood Consensus, [[paper](https://arxiv.org/pdf/2003.12059.pdf)]
@@ -2032,6 +2042,10 @@ In this situation, there exist no 3D models, an the 6-DoF grasps are estimated f
 
 ***2020:***
 
+**[arXiv]** A Study on the Challenges of Using Robotics Simulators for Testing, [[paper](https://arxiv.org/pdf/2004.07368.pdf)]
+
+**[arXiv]** Joint Supervised and Self-Supervised Learning for 3D Real-World Challenges, [[paper](https://arxiv.org/pdf/2004.07392.pdf)]
+
 **[arXiv]** RoboTHOR: An Open Simulation-to-Real Embodied AI Platform, [[paper](https://arxiv.org/pdf/2004.06799.pdf)]
 
 **[arXiv]** On the Effectiveness of Virtual Reality-based Training for Robotic Setup, [[paper](https://arxiv.org/pdf/2003.01540.pdf)]
@@ -2045,6 +2059,8 @@ In this situation, there exist no 3D models, an the 6-DoF grasps are estimated f
 **[arXiv]** Sim2Real2Sim: Bridging the Gap Between Simulation and Real-World in Flexible Object Manipulation, [[paper](https://arxiv.org/pdf/2002.02538.pdf)]
 
 ***2019:***
+
+**[IROS]** Learning to Augment Synthetic Images for Sim2Real Policy Transfer, [[paper](https://arxiv.org/pdf/1903.07740.pdf)]
 
 **[arXiv]** Accept Synthetic Objects as Real-End-to-End Training of Attentive Deep Visuomotor Policies for Manipulation in Clutter, [[paper](https://arxiv.org/abs/1909.11128)]
 
@@ -2105,6 +2121,10 @@ In this situation, there exist no 3D models, an the 6-DoF grasps are estimated f
 ### 9.1 Visual servoing
 
 ***2020:***
+
+**[arXiv]** Detailed 2D-3D Joint Representation for Human-Object Interaction, [[paper](https://arxiv.org/pdf/2004.08154.pdf)]
+
+**[arXiv]** Neuromorphic Eye-in-Hand Visual Servoing, [[paper](https://arxiv.org/pdf/2004.07398.pdf)]
 
 **[arXiv]** Predicting Target Feature Configuration of Non-stationary Objects for Grasping with Image-Based Visual Servoing, [[paper](https://arxiv.org/pdf/2001.05650.pdf)]
 
