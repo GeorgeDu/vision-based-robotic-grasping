@@ -4,9 +4,9 @@ The essential information to grasp the target object is the 6D gripper pose in t
 
 __2D planar grasp__ means that the target object lies on a plane workspace and the grasp is constrained from one direction. The essential information is simplified from 6D into 3D, which are the 2D in-plane positions and 1D rotation angle. There exist methods of __evaluating grasp contact points__ and methods of __evaluating grasp oriented rectangles__.
 
-__6DoF grasp__ means that the gripper can grasp the object from various angles in the 3D domain, and the essential 6D gripper pose could not be simplified. Based on whether the grasp is conducted on the complete shape or on the single-view point cloud, methods are categorized into __methods based on the partial point cloud__ and __methods based on the complete shape__. Most of 6DoF grasp methods aim at known objects where the grasps could be precomputed or computed via simulation, and the problem is thus transformed into a __6D object pose estimation__ problem. We categorized this kind of methods into methods based on the complete shape and Introduced 6D object pose estimation seperately.
+__6DoF grasp__ means that the gripper can grasp the object from various angles in the 3D domain, and the essential 6D gripper pose could not be simplified. Based on whether the grasp is conducted on the complete shape or on the single-view point cloud, methods are categorized into __methods based on the partial point cloud__ and __methods based on the complete shape__. Methods based on the partial point cloud contains __methods of estimating candidate grasps__ and __methods of transferring grasps__ from existing grasps database.  Methods based on the complete shape contains __methods of estimating 6D object pose__ and __methods of shape completion__. Most of current 6DoF grasp methods aim at known objects where the grasps could be precomputed manually or by simulation, and the problem is thus transformed into a __6D object pose estimation__ problem.
 
-Besides, most of the robotic grasping approaches require __the target object’s location__ in the input data first. This involves three different stages: __object localization without classification__, __object detection__ and __object instance segmentation__. Object localization without classification only outputs the potential regions of the target objects without knowing their categories. Object detection provides bounding boxes of the target objects with their categories. Object instance segmentation further provides the pixel-level regions of the target objects with their categories.
+Besides, most of the robotic grasping approaches require __the target object’s location__ in the input data first. This involves three different stages: __object localization without classification__, __object detection__ and __object instance segmentation__. Object localization without classification only outputs the potential regions of the target objects without knowing their categories. Object detection provides bounding boxes of the target objects with their categories. Object instance segmentation further provides pixel or point-level regions of the target objects with their categories.
 
 I summarize all above kinds of methods in this repository, and hope to present a big picture for friends work on vision-based robotic grasping. The table of content is listed as follows.
 
@@ -59,7 +59,7 @@ I summarize all above kinds of methods in this repository, and hope to present a
   * [4. 6DoF Grasp](#4-6dof-grasp)
      * [4.1 Methods based on Single-view Point Cloud](#41-methods-based-on-single-view-point-cloud)
         * [4.1.1 Methods of Estimating Candidate Grasps](#411-methods-of-estimating-candidate-grasps)
-        * [4.1.2 Methods of Transfering Grasps](#412-methods-of-transfering-grasps)
+        * [4.1.2 Methods of Transferring Grasps](#412-methods-of-transferring-grasps)
            * [a. Grasp transfer](#a-grasp-transfer)
            * [b. Non-rigid registration](#b-non-rigid-registration)
            * [c. Shape correspondence](#c-shape-correspondence)
@@ -1560,7 +1560,7 @@ In this situation, there exist no 3D models, an the 6-DoF grasps are estimated f
 
 
 
-#### 4.1.2 Methods of Transfering Grasps
+#### 4.1.2 Methods of Transferring Grasps
 
 ##### a. Grasp transfer
 
