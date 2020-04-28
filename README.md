@@ -606,6 +606,8 @@ This kind of methods utilize both rgb images and depth images/point clouds. Ther
 
 ***2020:***
 
+**[arXiv]** 3D-CVF: Generating Joint Camera and LiDAR Features Using Cross-View Spatial Feature Fusion for 3D Object Detection, [[paper](https://arxiv.org/pdf/2004.12636.pdf)]
+
 **[arXiv]** ImVoteNet: Boosting 3D Object Detection in Point Clouds with Image Votes, [[paper](https://arxiv.org/pdf/2001.10692.pdf)]
 
 **[arXiv]** JRMOT: A Real-Time 3D Multi-Object Tracker and a New Large-Scale Dataset, [[paper](https://arxiv.org/pdf/2002.08397.pdf)]
@@ -1157,6 +1159,8 @@ This kind of methods can be regarded as regression-based methods.
 
 HomebrewedDB: RGB-D Dataset for 6D Pose Estimation of 3D Objects, ICCVW, 2019 [[paper](http://openaccess.thecvf.com/content_ICCVW_2019/papers/R6D/Kaskman_HomebrewedDB_RGB-D_Dataset_for_6D_Pose_Estimation_of_3D_Objects_ICCVW_2019_paper.pdf)]
 
+YCB-M: A Multi-Camera RGB-D Dataset for Object Recognition and 6DoF Pose Estimation, arXiv, 2020, [[paper](https://arxiv.org/pdf/2004.11657.pdf)] [[database](https://zenodo.org/record/2579173#.XqgpkxMzbX8)]
+
 
 
 ### 2.2 Point Cloud-based Methods
@@ -1230,6 +1234,12 @@ The partial-view point cloud will be aligned to the complete shape in order to o
 
 
 ***2020:***
+
+**[CVPR]** Deep Global Registration, [[paper](https://arxiv.org/pdf/2004.11540.pdf)]
+
+**[arXiv]** DPDist : Comparing Point Clouds Using Deep Point Cloud Distance, [[paper](https://arxiv.org/pdf/2004.11784.pdf)]
+
+**[arXiv]** Single Shot 6D Object Pose Estimation, [[paper](https://arxiv.org/pdf/2004.12729.pdf)]
 
 **[arXiv]** A Benchmark for Point Clouds Registration Algorithms, [[paper](https://arxiv.org/pdf/2003.12841.pdf)] [[code](https://github.com/iralabdisco/point_clouds_registration_benchmark)]
 
@@ -1328,6 +1338,10 @@ The partial-view point cloud will be aligned to the complete shape in order to o
 #### 2.3.2 3D shape reconstruction from images
 
 ***2020:***
+
+**[arXiv]** CoReNet: Coherent 3D scene reconstruction from a single RGB image, [[paper](https://arxiv.org/pdf/2004.12989.pdf)]
+
+**[arXiv]** Reconstruct, Rasterize and Backprop: Dense shape and pose estimation from a single image, [[paper](https://arxiv.org/pdf/2004.12232.pdf)]
 
 **[arXiv]** Through the Looking Glass: Neural 3D Reconstruction of Transparent Shapes, [[paper](https://arxiv.org/pdf/2004.10904.pdf)]
 
@@ -1882,6 +1896,8 @@ In this situation, there exist no 3D models, an the 6-DoF grasps are estimated f
 
 ***2020:***
 
+**[arXiv]** Deep Feature-preserving Normal Estimation for Point Cloud Filtering, [[paper](https://arxiv.org/pdf/2004.11563.pdf)]
+
 **[arXiv]** Self-Supervised Learning for Domain Adaptation on Point-Clouds, [[paper](https://arxiv.org/pdf/2003.12641.pdf)]
 
 **[arXiv]** Non-Local Part-Aware Point Cloud Denoising, [[paper](https://arxiv.org/pdf/2003.06631.pdf)]
@@ -1911,6 +1927,8 @@ In this situation, there exist no 3D models, an the 6-DoF grasps are estimated f
 ### 5.1 Task-oriented Manipulation
 
 ***2020:***
+
+**[arXiv]** A Point Cloud-Based Method for Automatic Groove Detection and Trajectory Generation of Robotic Arc Welding Tasks, [[paper](https://arxiv.org/pdf/2004.12281.pdf)]
 
 **[arXiv]** Neuromorphic Event-Based Slip Detection and Suppression in Robotic Grasping and Manipulation, [[paper](https://arxiv.org/pdf/2004.07386.pdf)]
 
@@ -2229,6 +2247,8 @@ In this situation, there exist no 3D models, an the 6-DoF grasps are estimated f
 ## 11. Reinforcement Learning
 
 ***2020:***
+
+**[ICLR]** The Ingredients of Real World Robotic Reinforcement Learning, [[paper](https://arxiv.org/pdf/2004.12570.pdf)]
 
 **[arXiv]** Efficient Adaptation for End-to-End Vision-Based Robotic Manipulation, [[paper](https://arxiv.org/pdf/2004.10190.pdf)]
 
