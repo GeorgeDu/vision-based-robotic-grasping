@@ -304,6 +304,8 @@ Detailed paper lists can refer to [hoya012](https://github.com/hoya012/deep_lear
 
 ***2020:***
 
+**[arXiv]** Enhancing Geometric Factors in Model Learning and Inference for Object Detection and Instance Segmentation, [[paper](https://arxiv.org/pdf/2005.03572.pdf)]
+
 **[arXiv]** Instance-Aware, Context-Focused, and Memory-Efficient Weakly Supervised Object Detection, [[paper](https://arxiv.org/pdf/2004.04725.pdf)]
 
 **[arXiv]** Scalable Active Learning for Object Detection, [[paper](https://arxiv.org/pdf/2004.04699.pdf)]
@@ -528,6 +530,10 @@ This kind of methods only consume the 3D point cloud data.
 
 ***2020:***
 
+**[arXiv]** Drosophila-Inspired 3D Moving Object Detection Based on Point Clouds, [[paper](https://arxiv.org/pdf/2005.02696.pdf)]
+
+**[arXiv]** Streaming Object Detection for 3-D Point Clouds, [[paper](https://arxiv.org/pdf/2005.01864.pdf)]
+
 **[arXiv]** SS3D: Single Shot 3D Object Detector, [[paper](https://arxiv.org/pdf/2004.14674.pdf)]
 
 **[arXiv]** MLCVNet: Multi-Level Context VoteNet for 3D Object Detection, [[paper](https://arxiv.org/pdf/2004.05679.pdf)]
@@ -611,6 +617,8 @@ This kind of methods only consume the 3D point cloud data.
 This kind of methods utilize both rgb images and depth images/point clouds. There exist early fusion methods, late fusion methods, and dense fusion methods.
 
 ***2020:***
+
+**[arXiv]** 3D Object Detection Method Based on YOLO and K-Means for Image and Point Clouds, [[paper](https://arxiv.org/pdf/2005.02132.pdf)]
 
 **[arXiv]** 3D-CVF: Generating Joint Camera and LiDAR Features Using Cross-View Spatial Feature Fusion for 3D Object Detection, [[paper](https://arxiv.org/pdf/2004.12636.pdf)]
 
@@ -1243,6 +1251,10 @@ The partial-view point cloud will be aligned to the complete shape in order to o
 
 ***2020:***
 
+**[arXiv]** A Dynamical Perspective on Point Cloud Registration, [[paper](https://arxiv.org/pdf/2005.03190.pdf)]
+
+**[arXiv]** Feature-metric Registration: A Fast Semi-supervised Approach for Robust Point Cloud Registration without Correspondences, [[paper](https://arxiv.org/pdf/2005.01014.pdf)]
+
 **[CVPR]** Deep Global Registration, [[paper](https://arxiv.org/pdf/2004.11540.pdf)]
 
 **[arXiv]** DPDist : Comparing Point Clouds Using Deep Point Cloud Distance, [[paper](https://arxiv.org/pdf/2004.11784.pdf)]
@@ -1745,6 +1757,8 @@ In this situation, there exist no 3D models, an the 6-DoF grasps are estimated f
 ##### b. Shape Completion or Generation
 
 ***2020:***
+
+**[arXiv]** PointTriNet: Learned Triangulation of 3D Point Sets, [[paper](https://arxiv.org/pdf/2005.02138.pdf)]
 
 **[arXiv]** DeepSDF x Sim(3): Extending DeepSDF for automatic 3D shape retrieval and similarity transform estimation, [[paper](https://arxiv.org/pdf/2004.09048.pdf)]
 
