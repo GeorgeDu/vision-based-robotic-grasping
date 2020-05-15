@@ -1069,6 +1069,8 @@ This kind of methods can be regarded as regression-based methods.
 
 ***2020:***
 
+**[arXiv]** Neural Object Learning for 6D Pose Estimation Using a Few Cluttered Images, [[paper](https://arxiv.org/pdf/2005.03717.pdf)]
+
 **[arXiv]** How to track your dragon: A Multi-Attentional Framework for real-time RGB-D 6-DOF Object Pose Tracking, [[paper](https://arxiv.org/pdf/2004.10335.pdf)]
 
 **[arXiv]** Self6D: Self-Supervised Monocular 6D Object Pose Estimation, [[paper](https://arxiv.org/pdf/2004.06468.pdf)]
@@ -1186,6 +1188,8 @@ The partial-view point cloud will be aligned to the complete shape in order to o
 #### 2.2.1 Correspondence-based Methods
 
 ***2020:***
+
+**[arXiv]** Latent Fingerprint Registration via Matching Densely Sampled Points, [[paper](https://arxiv.org/pdf/2005.05878.pdf)]
 
 **[arXiv]** RPM-Net: Robust Point Matching using Learned Features, [[paper](https://arxiv.org/pdf/2003.13479.pdf)]
 
@@ -1358,6 +1362,8 @@ The partial-view point cloud will be aligned to the complete shape in order to o
 #### 2.3.2 3D shape reconstruction from images
 
 ***2020:***
+
+**[arXiv]** FroDO: From Detections to 3D Objects, [[paper](https://arxiv.org/pdf/2005.05125.pdf)]
 
 **[arXiv]** CoReNet: Coherent 3D scene reconstruction from a single RGB image, [[paper](https://arxiv.org/pdf/2004.12989.pdf)]
 
@@ -1758,6 +1764,8 @@ In this situation, there exist no 3D models, an the 6-DoF grasps are estimated f
 
 ***2020:***
 
+**[arXiv]** Point Cloud Completion by Skip-attention Network with Hierarchical Folding, [[paper](https://arxiv.org/pdf/2005.03871.pdf)]
+
 **[arXiv]** PointTriNet: Learned Triangulation of 3D Point Sets, [[paper](https://arxiv.org/pdf/2005.02138.pdf)]
 
 **[arXiv]** DeepSDF x Sim(3): Extending DeepSDF for automatic 3D shape retrieval and similarity transform estimation, [[paper](https://arxiv.org/pdf/2004.09048.pdf)]
@@ -1805,6 +1813,8 @@ In this situation, there exist no 3D models, an the 6-DoF grasps are estimated f
 ##### c. Depth Completion and Estimation
 
 ***2020:***
+
+**[CVPR]** On the uncertainty of self-supervised monocular depth estimation, [[paper](https://arxiv.org/pdf/2005.06209.pdf)] [[code](https://github.com/mattpoggi/mono-uncertainty)]
 
 **[arXiv]** Consistent Video Depth Estimation, [[paper](https://arxiv.org/pdf/2004.15021.pdf)]
 
