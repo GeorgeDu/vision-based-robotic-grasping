@@ -4,9 +4,9 @@ The essential information to grasp the target object is the 6D gripper pose in t
 
 __2D planar grasp__ means that the target object lies on a plane workspace and the grasp is constrained from one direction. The essential information is simplified from 6D into 3D, which are the 2D in-plane positions and 1D rotation angle. There exist methods of __evaluating grasp contact points__ and methods of __evaluating grasp oriented rectangles__.
 
-__6DoF grasp__ means that the gripper can grasp the object from various angles in the 3D domain, and the essential 6D gripper pose could not be simplified. Based on whether the grasp is conducted on the complete shape or on the single-view point cloud, methods are categorized into __methods based on the partial point cloud__ and __methods based on the complete shape__. Most of 6DoF grasp methods aim at known objects where the grasps could be precomputed or computed via simulation, and the problem is thus transformed into a __6D object pose estimation__ problem. We categorized this kind of methods into methods based on the complete shape and Introduced 6D object pose estimation seperately.
+__6DoF grasp__ means that the gripper can grasp the object from various angles in the 3D domain, and the essential 6D gripper pose could not be simplified. Based on whether the grasp is conducted on the complete shape or on the single-view point cloud, methods are categorized into __methods based on the partial point cloud__ and __methods based on the complete shape__. Methods based on the partial point cloud contains __methods of estimating candidate grasps__ and __methods of transferring grasps__ from existing grasps database.  Methods based on the complete shape contains __methods of estimating 6D object pose__ and __methods of shape completion__. Most of current 6DoF grasp methods aim at known objects where the grasps could be precomputed manually or by simulation, and the problem is thus transformed into a __6D object pose estimation__ problem.
 
-Besides, most of the robotic grasping approaches require __the target object’s location__ in the input data first. This involves three different stages: __object localization without classification__, __object detection__ and __object instance segmentation__. Object localization without classification only outputs the potential regions of the target objects without knowing their categories. Object detection provides bounding boxes of the target objects with their categories. Object instance segmentation further provides the pixel-level regions of the target objects with their categories.
+Besides, most of the robotic grasping approaches require __the target object’s location__ in the input data first. This involves three different stages: __object localization without classification__, __object detection__ and __object instance segmentation__. Object localization without classification only outputs the potential regions of the target objects without knowing their categories. Object detection provides bounding boxes of the target objects with their categories. Object instance segmentation further provides pixel or point-level regions of the target objects with their categories.
 
 I summarize all above kinds of methods in this repository, and hope to present a big picture for friends work on vision-based robotic grasping. The table of content is listed as follows.
 
@@ -59,7 +59,7 @@ I summarize all above kinds of methods in this repository, and hope to present a
   * [4. 6DoF Grasp](#4-6dof-grasp)
      * [4.1 Methods based on Single-view Point Cloud](#41-methods-based-on-single-view-point-cloud)
         * [4.1.1 Methods of Estimating Candidate Grasps](#411-methods-of-estimating-candidate-grasps)
-        * [4.1.2 Methods of Transfering Grasps](#412-methods-of-transfering-grasps)
+        * [4.1.2 Methods of Transferring Grasps](#412-methods-of-transferring-grasps)
            * [a. Grasp transfer](#a-grasp-transfer)
            * [b. Non-rigid registration](#b-non-rigid-registration)
            * [c. Shape correspondence](#c-shape-correspondence)
@@ -87,6 +87,8 @@ I summarize all above kinds of methods in this repository, and hope to present a
   * [12. Experts](#12-experts)
 
 ## 0. Review Papers
+
+**[arXiv]** 2020-Affordances in Robotic Tasks - A Survey, [[paper](https://arxiv.org/pdf/2004.07400.pdf)]
 
 **[arXiv]** 2019-A Review of Robot Learning for Manipulation- Challenges, Representations, and Algorithms, [[paper](https://arxiv.org/abs/1907.03146)]
 
@@ -125,6 +127,12 @@ I summarize all above kinds of methods in this repository, and hope to present a
 **[CVM]** 2014-Salient object detection: A survey, [[paper](https://arxiv.org/pdf/1411.5878.pdf)]
 
 ***2020:***
+
+**[arXiv]** Bilateral Attention Network for RGB-D Salient Object Detection, [[paper](https://arxiv.org/pdf/2004.14582.pdf)]
+
+**[arXiv]** Salient Object Detection Combining a Self-attention Module and a Feature Pyramid Network, [[paper](https://arxiv.org/pdf/2004.14552.pdf)]
+
+**[arXiv]** JL-DCF: Joint Learning and Densely-Cooperative Fusion Framework for RGB-D Salient Object Detection, [[paper](https://arxiv.org/pdf/2004.08515.pdf)]
 
 **[arXiv]** UC-Net: Uncertainty Inspired RGB-D Saliency Detection via Conditional Variational Autoencoders, [[paper](https://arxiv.org/pdf/2004.05763.pdf)]
 
@@ -296,6 +304,8 @@ Detailed paper lists can refer to [hoya012](https://github.com/hoya012/deep_lear
 
 ***2020:***
 
+**[arXiv]** Enhancing Geometric Factors in Model Learning and Inference for Object Detection and Instance Segmentation, [[paper](https://arxiv.org/pdf/2005.03572.pdf)]
+
 **[arXiv]** Instance-Aware, Context-Focused, and Memory-Efficient Weakly Supervised Object Detection, [[paper](https://arxiv.org/pdf/2004.04725.pdf)]
 
 **[arXiv]** Scalable Active Learning for Object Detection, [[paper](https://arxiv.org/pdf/2004.04699.pdf)]
@@ -383,6 +393,8 @@ Detailed paper lists can refer to [hoya012](https://github.com/hoya012/deep_lear
 ##### b. Single-stage methods
 
 ***2020:***
+
+**[arXiv]** YOLOv4: Optimal Speed and Accuracy of Object Detection, [[paper](https://arxiv.org/pdf/2004.10934.pdf)]
 
 **[arXiv]** SaccadeNet: A Fast and Accurate Object Detector, [[paper](https://arxiv.org/pdf/2003.12125.pdf)]
 
@@ -518,6 +530,12 @@ This kind of methods only consume the 3D point cloud data.
 
 ***2020:***
 
+**[arXiv]** Drosophila-Inspired 3D Moving Object Detection Based on Point Clouds, [[paper](https://arxiv.org/pdf/2005.02696.pdf)]
+
+**[arXiv]** Streaming Object Detection for 3-D Point Clouds, [[paper](https://arxiv.org/pdf/2005.01864.pdf)]
+
+**[arXiv]** SS3D: Single Shot 3D Object Detector, [[paper](https://arxiv.org/pdf/2004.14674.pdf)]
+
 **[arXiv]** MLCVNet: Multi-Level Context VoteNet for 3D Object Detection, [[paper](https://arxiv.org/pdf/2004.05679.pdf)]
 
 **[arXiv]** 3D IoU-Net: IoU Guided 3D Object Detector for Point Clouds, [[paper](https://arxiv.org/pdf/2004.04962.pdf)]
@@ -600,6 +618,10 @@ This kind of methods utilize both rgb images and depth images/point clouds. Ther
 
 ***2020:***
 
+**[arXiv]** 3D Object Detection Method Based on YOLO and K-Means for Image and Point Clouds, [[paper](https://arxiv.org/pdf/2005.02132.pdf)]
+
+**[arXiv]** 3D-CVF: Generating Joint Camera and LiDAR Features Using Cross-View Spatial Feature Fusion for 3D Object Detection, [[paper](https://arxiv.org/pdf/2004.12636.pdf)]
+
 **[arXiv]** ImVoteNet: Boosting 3D Object Detection in Point Clouds with Image Votes, [[paper](https://arxiv.org/pdf/2001.10692.pdf)]
 
 **[arXiv]** JRMOT: A Real-Time 3D Multi-Object Tracker and a New Large-Scale Dataset, [[paper](https://arxiv.org/pdf/2002.08397.pdf)]
@@ -664,6 +686,8 @@ This kind of methods utilize both rgb images and depth images/point clouds. Ther
 ##### b. Two-stage methods
 
 ***2020:***
+
+**[arXiv]** A novel Region of Interest Extraction Layer for Instance Segmentation, [[paper](https://arxiv.org/pdf/2004.13665.pdf)]
 
 **[arXiv]** 1st Place Solutions for OpenImage2019 - Object Detection and Instance Segmentation, [[paper](https://arxiv.org/pdf/2003.07557.pdf)]
 
@@ -875,6 +899,8 @@ This kind of methods utilize both rgb images and depth images/point clouds. Ther
 
 ***2020:***
 
+**[arXiv]** Shape-Oriented Convolution Neural Network for Point Cloud Analysis, [[paper](https://arxiv.org/pdf/2004.09411.pdf)]
+
 **[arXiv]** LightConvPoint: convolution for points, [[paper](https://arxiv.org/pdf/2004.04462.pdf)]
 
 **[arXiv]** Review: deep learning on 3D point clouds, [[paper](https://arxiv.org/pdf/2001.06280.pdf)]
@@ -1043,6 +1069,10 @@ This kind of methods can be regarded as regression-based methods.
 
 ***2020:***
 
+**[arXiv]** Neural Object Learning for 6D Pose Estimation Using a Few Cluttered Images, [[paper](https://arxiv.org/pdf/2005.03717.pdf)]
+
+**[arXiv]** How to track your dragon: A Multi-Attentional Framework for real-time RGB-D 6-DOF Object Pose Tracking, [[paper](https://arxiv.org/pdf/2004.10335.pdf)]
+
 **[arXiv]** Self6D: Self-Supervised Monocular 6D Object Pose Estimation, [[paper](https://arxiv.org/pdf/2004.06468.pdf)]
 
 **[arXiv]** A Novel Pose Proposal Network and Refinement Pipeline for Better Object Pose Estimation, [[paper](https://arxiv.org/pdf/2004.05507.pdf)]
@@ -1147,6 +1177,8 @@ This kind of methods can be regarded as regression-based methods.
 
 HomebrewedDB: RGB-D Dataset for 6D Pose Estimation of 3D Objects, ICCVW, 2019 [[paper](http://openaccess.thecvf.com/content_ICCVW_2019/papers/R6D/Kaskman_HomebrewedDB_RGB-D_Dataset_for_6D_Pose_Estimation_of_3D_Objects_ICCVW_2019_paper.pdf)]
 
+YCB-M: A Multi-Camera RGB-D Dataset for Object Recognition and 6DoF Pose Estimation, arXiv, 2020, [[paper](https://arxiv.org/pdf/2004.11657.pdf)] [[database](https://zenodo.org/record/2579173#.XqgpkxMzbX8)]
+
 
 
 ### 2.2 Point Cloud-based Methods
@@ -1156,6 +1188,8 @@ The partial-view point cloud will be aligned to the complete shape in order to o
 #### 2.2.1 Correspondence-based Methods
 
 ***2020:***
+
+**[arXiv]** Latent Fingerprint Registration via Matching Densely Sampled Points, [[paper](https://arxiv.org/pdf/2005.05878.pdf)]
 
 **[arXiv]** RPM-Net: Robust Point Matching using Learned Features, [[paper](https://arxiv.org/pdf/2003.13479.pdf)]
 
@@ -1220,6 +1254,16 @@ The partial-view point cloud will be aligned to the complete shape in order to o
 
 
 ***2020:***
+
+**[arXiv]** A Dynamical Perspective on Point Cloud Registration, [[paper](https://arxiv.org/pdf/2005.03190.pdf)]
+
+**[arXiv]** Feature-metric Registration: A Fast Semi-supervised Approach for Robust Point Cloud Registration without Correspondences, [[paper](https://arxiv.org/pdf/2005.01014.pdf)]
+
+**[CVPR]** Deep Global Registration, [[paper](https://arxiv.org/pdf/2004.11540.pdf)]
+
+**[arXiv]** DPDist : Comparing Point Clouds Using Deep Point Cloud Distance, [[paper](https://arxiv.org/pdf/2004.11784.pdf)]
+
+**[arXiv]** Single Shot 6D Object Pose Estimation, [[paper](https://arxiv.org/pdf/2004.12729.pdf)]
 
 **[arXiv]** A Benchmark for Point Clouds Registration Algorithms, [[paper](https://arxiv.org/pdf/2003.12841.pdf)] [[code](https://github.com/iralabdisco/point_clouds_registration_benchmark)]
 
@@ -1319,6 +1363,14 @@ The partial-view point cloud will be aligned to the complete shape in order to o
 
 ***2020:***
 
+**[arXiv]** FroDO: From Detections to 3D Objects, [[paper](https://arxiv.org/pdf/2005.05125.pdf)]
+
+**[arXiv]** CoReNet: Coherent 3D scene reconstruction from a single RGB image, [[paper](https://arxiv.org/pdf/2004.12989.pdf)]
+
+**[arXiv]** Reconstruct, Rasterize and Backprop: Dense shape and pose estimation from a single image, [[paper](https://arxiv.org/pdf/2004.12232.pdf)]
+
+**[arXiv]** Through the Looking Glass: Neural 3D Reconstruction of Transparent Shapes, [[paper](https://arxiv.org/pdf/2004.10904.pdf)]
+
 **[arXiv]** Few-Shot Single-View 3-D Object Reconstruction with Compositional Priors, [[paper](https://arxiv.org/pdf/2004.06302.pdf)]
 
 **[arXiv]** Neural Object Descriptors for Multi-View Shape Reconstruction, [[paper](https://arxiv.org/pdf/2004.04485.pdf)]
@@ -1417,6 +1469,8 @@ The partial-view point cloud will be aligned to the complete shape in order to o
 
 ***2020:***
 
+**[arXiv]** Event-based Robotic Grasping Detection with Neuromorphic Vision Sensor and Event-Stream Dataset, [[paper](https://arxiv.org/pdf/2004.13652.pdf)]
+
 **[arXiv]** Online Self-Supervised Learning for Object Picking: Detecting Optimum Grasping Position using a Metric Learning Approach, [[paper](https://arxiv.org/pdf/2003.03717.pdf)]
 
 **[arXiv]** A Multi-task Learning Framework for Grasping-Position Detection and Few-Shot Classification, [[paper](https://arxiv.org/pdf/2003.05624.pdf)]
@@ -1510,6 +1564,8 @@ In this situation, there exist no 3D models, an the 6-DoF grasps are estimated f
 
 ***2020:***
 
+**[arXiv]** Transferable Active Grasping and Real Embodied Dataset, [[paper](https://arxiv.org/pdf/2004.13358.pdf)] [[code](https://github.com/cxy1997/Transferable-Active-Grasping)]
+
 **[arXiv]** Go Fetch: Mobile Manipulation in Unstructured Environments, [[paper](https://arxiv.org/pdf/2004.00899.pdf)]
 
 **[arXiv]** Real-time Fruit Recognition and Grasp Estimation for Autonomous Apple harvesting, [[paper](https://arxiv.org/pdf/2003.13298.pdf)]
@@ -1536,7 +1592,7 @@ In this situation, there exist no 3D models, an the 6-DoF grasps are estimated f
 
 **[CoRL]** S4G: Amodal Single-view Single-Shot SE(3) Grasp Detection in Cluttered Scenes, [[paper](https://arxiv.org/abs/1910.14218)]
 
-**[ICCV]** 6-DoF GraspNet: Variational Grasp Generation for Object Manipulation, [[paper](https://arxiv.org/abs/1905.10520)][[code](https://github.com/NVlabs/6dof-graspnet)]
+**[ICCV]** 6-DoF GraspNet: Variational Grasp Generation for Object Manipulation, [[paper](https://arxiv.org/abs/1905.10520)] [[code](https://github.com/NVlabs/6dof-graspnet)]
 
 **[ICRA]** PointNetGPD: Detecting Grasp Configurations from Point Sets, [[paper](https://arxiv.org/abs/1809.06267)] [[code](https://github.com/lianghongzhuo/PointNetGPD)]
 
@@ -1558,7 +1614,7 @@ In this situation, there exist no 3D models, an the 6-DoF grasps are estimated f
 
 
 
-#### 4.1.2 Methods of Transfering Grasps
+#### 4.1.2 Methods of Transferring Grasps
 
 ##### a. Grasp transfer
 
@@ -1615,6 +1671,8 @@ In this situation, there exist no 3D models, an the 6-DoF grasps are estimated f
 ##### c. Shape correspondence
 
 ***2020:***
+
+**[arXiv]** Semantic Correspondence via 2D-3D-2D Cycle, [[paper](https://arxiv.org/pdf/2004.09061.pdf)]
 
 **[arXiv]** Self-supervised Feature Learning by Cross-modality and Cross-view Correspondences, [[paper](https://arxiv.org/pdf/2004.05749.pdf)]
 
@@ -1706,6 +1764,12 @@ In this situation, there exist no 3D models, an the 6-DoF grasps are estimated f
 
 ***2020:***
 
+**[arXiv]** Point Cloud Completion by Skip-attention Network with Hierarchical Folding, [[paper](https://arxiv.org/pdf/2005.03871.pdf)]
+
+**[arXiv]** PointTriNet: Learned Triangulation of 3D Point Sets, [[paper](https://arxiv.org/pdf/2005.02138.pdf)]
+
+**[arXiv]** DeepSDF x Sim(3): Extending DeepSDF for automatic 3D shape retrieval and similarity transform estimation, [[paper](https://arxiv.org/pdf/2004.09048.pdf)]
+
 **[arXiv]** Anisotropic Convolutional Networks for 3D Semantic Scene Completion, [[paper](https://arxiv.org/pdf/2004.02122.pdf)]
 
 **[arXiv]** Cascaded Refinement Network for Point Cloud Completio, [[paper](https://arxiv.org/pdf/2004.03327.pdf)]
@@ -1749,6 +1813,16 @@ In this situation, there exist no 3D models, an the 6-DoF grasps are estimated f
 ##### c. Depth Completion and Estimation
 
 ***2020:***
+
+**[CVPR]** On the uncertainty of self-supervised monocular depth estimation, [[paper](https://arxiv.org/pdf/2005.06209.pdf)] [[code](https://github.com/mattpoggi/mono-uncertainty)]
+
+**[arXiv]** Consistent Video Depth Estimation, [[paper](https://arxiv.org/pdf/2004.15021.pdf)]
+
+**[arXiv]** Self-Supervised Attention Learning for Depth and Ego-motion Estimation, [[paper](https://arxiv.org/pdf/2004.13077.pdf)]
+
+**[arXiv]** Pseudo RGB-D for Self-Improving Monocular SLAM and Depth Prediction, [[paper](https://arxiv.org/pdf/2004.10681.pdf)]
+
+**[arXiv]** DepthNet Nano: A Highly Compact Self-Normalizing Neural Network for Monocular Depth Estimation, [[paper](https://arxiv.org/pdf/2004.08008.pdf)]
 
 **[arXiv]** RealMonoDepth: Self-Supervised Monocular Depth Estimation for General Scenes, [[paper](https://arxiv.org/pdf/2004.06267.pdf)]
 
@@ -1862,6 +1936,10 @@ In this situation, there exist no 3D models, an the 6-DoF grasps are estimated f
 
 ***2020:***
 
+**[arXiv]** MOPS-Net: A Matrix Optimization-driven Network for Task-Oriented 3D Point Cloud Downsampling, [[paper](https://arxiv.org/pdf/2005.00383.pdf)]
+
+**[arXiv]** Deep Feature-preserving Normal Estimation for Point Cloud Filtering, [[paper](https://arxiv.org/pdf/2004.11563.pdf)]
+
 **[arXiv]** Self-Supervised Learning for Domain Adaptation on Point-Clouds, [[paper](https://arxiv.org/pdf/2003.12641.pdf)]
 
 **[arXiv]** Non-Local Part-Aware Point Cloud Denoising, [[paper](https://arxiv.org/pdf/2003.06631.pdf)]
@@ -1891,6 +1969,14 @@ In this situation, there exist no 3D models, an the 6-DoF grasps are estimated f
 ### 5.1 Task-oriented Manipulation
 
 ***2020:***
+
+**[arXiv]** A Point Cloud-Based Method for Automatic Groove Detection and Trajectory Generation of Robotic Arc Welding Tasks, [[paper](https://arxiv.org/pdf/2004.12281.pdf)]
+
+**[arXiv]** Neuromorphic Event-Based Slip Detection and Suppression in Robotic Grasping and Manipulation, [[paper](https://arxiv.org/pdf/2004.07386.pdf)]
+
+**[arXiv]** Combinatorial 3D Shape Generation via Sequential Assembly, [[paper](https://arxiv.org/pdf/2004.07414.pdf)]
+
+**[arXiv]** Learning visual policies for building 3D shape categories, [[paper](https://arxiv.org/pdf/2004.07950.pdf)]
 
 **[arXiv]** Where to relocate?: Object rearrangement inside cluttered and confined environments for robotic manipulation, [[paper](https://arxiv.org/pdf/2003.10863.pdf)]
 
@@ -1970,6 +2056,10 @@ In this situation, there exist no 3D models, an the 6-DoF grasps are estimated f
 
 ***2020:***
 
+**[arXiv]** Learning Compliance Adaptation in Contact-Rich Manipulation, [[paper](https://arxiv.org/pdf/2005.00227.pdf)]
+
+**[arXiv]** Leveraging Photometric Consistency over Time for Sparsely Supervised Hand-Object Reconstruction, [[paper](https://arxiv.org/pdf/2004.13449.pdf)]
+
 **[arXiv]** HandVoxNet: Deep Voxel-Based Network for 3D Hand Shape and Pose Estimation from a Single Depth Map, [[paper](https://arxiv.org/pdf/2004.01588.pdf)]
 
 **[arXiv]** Functionally Divided Manipulation Synergy for Controlling Multi-fingered Hands, [[paper](https://arxiv.org/pdf/2003.11699.pdf)]
@@ -2032,6 +2122,10 @@ In this situation, there exist no 3D models, an the 6-DoF grasps are estimated f
 
 ***2020:***
 
+**[arXiv]** A Study on the Challenges of Using Robotics Simulators for Testing, [[paper](https://arxiv.org/pdf/2004.07368.pdf)]
+
+**[arXiv]** Joint Supervised and Self-Supervised Learning for 3D Real-World Challenges, [[paper](https://arxiv.org/pdf/2004.07392.pdf)]
+
 **[arXiv]** RoboTHOR: An Open Simulation-to-Real Embodied AI Platform, [[paper](https://arxiv.org/pdf/2004.06799.pdf)]
 
 **[arXiv]** On the Effectiveness of Virtual Reality-based Training for Robotic Setup, [[paper](https://arxiv.org/pdf/2003.01540.pdf)]
@@ -2045,6 +2139,8 @@ In this situation, there exist no 3D models, an the 6-DoF grasps are estimated f
 **[arXiv]** Sim2Real2Sim: Bridging the Gap Between Simulation and Real-World in Flexible Object Manipulation, [[paper](https://arxiv.org/pdf/2002.02538.pdf)]
 
 ***2019:***
+
+**[IROS]** Learning to Augment Synthetic Images for Sim2Real Policy Transfer, [[paper](https://arxiv.org/pdf/1903.07740.pdf)]
 
 **[arXiv]** Accept Synthetic Objects as Real-End-to-End Training of Attentive Deep Visuomotor Policies for Manipulation in Clutter, [[paper](https://arxiv.org/abs/1909.11128)]
 
@@ -2078,6 +2174,8 @@ In this situation, there exist no 3D models, an the 6-DoF grasps are estimated f
 
 ***2020:***
 
+**[arXiv]** Teaching Cameras to Feel: Estimating Tactile Physical Properties of Surfaces From Images, [[paper](https://arxiv.org/pdf/2004.14487.pdf)]
+
 **[arXiv]** Multimodal Material Classification for Robots using Spectroscopy and High Resolution Texture Imaging, [[paper](https://arxiv.org/pdf/2004.01160.pdf)]
 
 **[arXiv]** Understanding Contexts Inside Robot and Human Manipulation Tasks through a Vision-Language Model and Ontology System in a Video Stream, [[paper](https://arxiv.org/pdf/2003.01163.pdf)]
@@ -2105,6 +2203,10 @@ In this situation, there exist no 3D models, an the 6-DoF grasps are estimated f
 ### 9.1 Visual servoing
 
 ***2020:***
+
+**[arXiv]** Detailed 2D-3D Joint Representation for Human-Object Interaction, [[paper](https://arxiv.org/pdf/2004.08154.pdf)]
+
+**[arXiv]** Neuromorphic Eye-in-Hand Visual Servoing, [[paper](https://arxiv.org/pdf/2004.07398.pdf)]
 
 **[arXiv]** Predicting Target Feature Configuration of Non-stationary Objects for Grasping with Image-Based Visual Servoing, [[paper](https://arxiv.org/pdf/2001.05650.pdf)]
 
@@ -2193,6 +2295,12 @@ In this situation, there exist no 3D models, an the 6-DoF grasps are estimated f
 ## 11. Reinforcement Learning
 
 ***2020:***
+
+**[ICLR]** The Ingredients of Real World Robotic Reinforcement Learning, [[paper](https://arxiv.org/pdf/2004.12570.pdf)]
+
+**[arXiv]** Efficient Adaptation for End-to-End Vision-Based Robotic Manipulation, [[paper](https://arxiv.org/pdf/2004.10190.pdf)]
+
+**[arXiv]** Spatial Action Maps for Mobile Manipulation, [[paper](https://arxiv.org/pdf/2004.09141.pdf)]
 
 **[arXiv]** Learning Precise 3D Manipulation from Multiple Uncalibrated Cameras, [[paper](https://arxiv.org/pdf/2002.09107.pdf)]
 
