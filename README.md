@@ -94,6 +94,8 @@ I summarize all above kinds of methods in this repository, and hope to present a
 
 **[arXiv]** 2019-Vision-based Robotic Grasping from Object Localization, Pose Estimation, Grasp Detection to Motion Planning: A Review, [[paper](https://arxiv.org/abs/1905.06658)]
 
+**[arXiv]** 2018-The Limits and Potentials of Deep Learning for Robotics, [[paper](https://arxiv.org/abs/1804.06557)]
+
 **[MTI]** 2018-Review of Deep Learning Methods in Robotic Grasp Detection, [[paper](https://www.mdpi.com/2414-4088/2/3/57)]
 
 **[ToR]** 2016-Data-Driven Grasp Synthesis - A Survey, [[paper](https://arxiv.org/abs/1309.2660)]
