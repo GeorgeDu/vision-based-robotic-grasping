@@ -94,6 +94,8 @@ I summarize all above kinds of methods in this repository, and hope to present a
 
 **[arXiv]** 2019-Vision-based Robotic Grasping from Object Localization, Pose Estimation, Grasp Detection to Motion Planning: A Review, [[paper](https://arxiv.org/abs/1905.06658)]
 
+**[arXiv]** 2018-The Limits and Potentials of Deep Learning for Robotics, [[paper](https://arxiv.org/abs/1804.06557)]
+
 **[MTI]** 2018-Review of Deep Learning Methods in Robotic Grasp Detection, [[paper](https://www.mdpi.com/2414-4088/2/3/57)]
 
 **[ToR]** 2016-Data-Driven Grasp Synthesis - A Survey, [[paper](https://arxiv.org/abs/1309.2660)]
@@ -1578,7 +1580,7 @@ In this situation, there exist no 3D models, an the 6-DoF grasps are estimated f
 
 **[arXiv]** Real-time Fruit Recognition and Grasp Estimation for Autonomous Apple harvesting, [[paper](https://arxiv.org/pdf/2003.13298.pdf)]
 
-**[arXiv]** PointNet++ Grasping: Learning An End-to-end Spatial Grasp Generation Algorithm from Sparse Point Clouds, [[paper](https://arxiv.org/pdf/2003.09644.pdf)]
+**[arXiv]** PointNet++ Grasping: Learning An End-to-end Spatial Grasp Generation Algorithm from Sparse Point Clouds, [[paper](https://arxiv.org/pdf/2003.09644.pdf)][[code](https://github.com/pyni/PointNet2_Grasping_Data_Part)]
 
 **[arXiv]** EGAD! an Evolved Grasping Analysis Dataset for diversity and reproducibility in robotic manipulation, [[paper](https://arxiv.org/pdf/2003.01314.pdf)]
 
