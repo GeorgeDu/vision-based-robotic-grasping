@@ -606,11 +606,15 @@ This kind of methods only consume the 3D point cloud data.
 
 **[CVPR]** PIXOR: Real-time 3D Object Detection from Point Clouds, [[paper](https://arxiv.org/abs/1902.06326)] [[code](https://github.com/philip-huang/PIXOR)]
 
+**[CVPR]** VoxelNet: End-to-End Learning for Point Cloud Based 3D Object Detection, [[paper](http://openaccess.thecvf.com/content_cvpr_2018/papers/Zhou_VoxelNet_End-to-End_Learning_CVPR_2018_paper.pdf)] [[code](https://github.com/qianguih/voxelnet)]
+
 **[ECCVW]** Complex-YOLO: Real-time 3D Object Detection on Point Clouds, [[paper](https://arxiv.org/abs/1803.06199)] [[code](https://github.com/AI-liu/Complex-YOLO)]
 
 **[ECCVW]** YOLO3D: End-to-end real-time 3D Oriented Object Bounding Box Detection from LiDAR Point Cloud, [[paper](https://arxiv.org/abs/1808.02350)]
 
+***2015***
 
+**[IROS]** VoxNet: A 3D Convolutional Neural Network for real-time object recognition, [[paper](https://ieeexplore.ieee.org/abstract/document/7353481)] [[code](https://github.com/Durant35/VoxNet)] [[project](http://dimatura.net/research/voxnet/)]
 
 ##### c. Fusion methods
 
@@ -663,12 +667,21 @@ This kind of methods utilize both rgb images and depth images/point clouds. Ther
 **[ICRA]** A General Pipeline for 3D Detection of Vehicles, [[paper](https://arxiv.org/abs/1803.00387)]
 
 ***2017:***
+
 **[CVPR]** Multi-View 3D Object Detection Network for Autonomous Driving, [[paper](https://arxiv.org/abs/1611.07759)] [[code](https://github.com/bostondiditeam/MV3D)]
+
+**[CVPR]** Amodal Detection of 3D Objects: Inferring 3D Bounding Boxes From 2D Ones in RGB-Depth Images [[paper](http://openaccess.thecvf.com/content_cvpr_2017/papers/Deng_Amodal_Detection_of_CVPR_2017_paper.pdf)] [[code](https://github.com/phoenixnn/Amodal3Det)]
+
+**[ICCV]** 2D-Driven 3D Object Detection in RGB-D Images, [[paper](http://openaccess.thecvf.com/content_ICCV_2017/papers/Lahoud_2D-Driven_3D_Object_ICCV_2017_paper.pdf)]
 
 ***2016:***
 
 **[CVPR]** Deep sliding shapes for amodal 3d object detection in rgb-d images, [[paper](https://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/Song_Deep_Sliding_Shapes_CVPR_2016_paper.pdf)]
 
+
+***2014***
+
+**[ECCV]** Learning Rich Features from RGB-D Images for Object Detection and Segmentation, [[paper](https://arxiv.org/pdf/1407.5736.pdf)]
 
 
 ### 1.3 Object Instance Segmentation
@@ -935,6 +948,9 @@ This kind of methods utilize both rgb images and depth images/point clouds. Ther
 
 **[CVPR]** Modeling Local Geometric Structure of 3D Point Clouds using Geo-CNN, [[paper](https://arxiv.org/pdf/1811.07782.pdf)] [[code](https://github.com/voidrank/Geo-CNN)]
 
+
+**[CVPR]** A-CNN: Annularly Convolutional Neural Networks on Point Clouds, [[paper](http://openaccess.thecvf.com/content_CVPR_2019/papers/Komarichev_A-CNN_Annularly_Convolutional_Neural_Networks_on_Point_Clouds_CVPR_2019_paper.pdf)] [[code](https://github.com/artemkomarichev/a-cnn)]
+
 **[arXiv]** SAWNet: A Spatially Aware Deep Neural Network for 3D Point Cloud Processing, [[paper](https://arxiv.org/pdf/1905.07650v1.pdf)]
 
 **[arXiv]** PyramNet: Point Cloud Pyramid Attention Network and Graph Embedding Module for Classification and Segmentation, [[paper](https://arxiv.org/pdf/1906.03299.pdf)]
@@ -954,6 +970,10 @@ This kind of methods utilize both rgb images and depth images/point clouds. Ther
 **[CVPR]** SO-Net: Self-Organizing Network for Point Cloud Analysis, [[paper](https://arxiv.org/abs/1803.04249)] [[code](https://github.com/lijx10/SO-Net)]
 
 **[CVPR]** SPLATNet: Sparse Lattice Networks for Point Cloud Processing, [[paper](https://arxiv.org/abs/1802.08275)] [[code](https://github.com/NVlabs/splatnet)]
+
+
+**[CVPR]** Local Spectral Graph Convolution for Point Set Feature
+Learning, [[paper](https://arxiv.org/pdf/1803.05827.pdf)] [[code](https://github.com/fate3439/LocalSpecGCN)]
 
 **[arXiv]** Point Convolutional Neural Networks by Extension Operators, [[paper](https://arxiv.org/abs/1803.10091)]
 
