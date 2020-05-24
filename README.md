@@ -1195,6 +1195,8 @@ The partial-view point cloud will be aligned to the complete shape in order to o
 
 ***2020:***
 
+**[PRL]** Fuzzy Logic and Histogram of Normal Orientation-based 3D Keypoint Detection for Point Clouds, [[paper](https://www.sciencedirect.com/science/article/abs/pii/S016786552030180X)]
+
 **[arXiv]** Latent Fingerprint Registration via Matching Densely Sampled Points, [[paper](https://arxiv.org/pdf/2005.05878.pdf)]
 
 **[arXiv]** RPM-Net: Robust Point Matching using Learned Features, [[paper](https://arxiv.org/pdf/2003.13479.pdf)]
@@ -1679,6 +1681,8 @@ In this situation, there exist no 3D models, an the 6-DoF grasps are estimated f
 ##### c. Shape correspondence
 
 ***2020:***
+
+**[JMSE]** Geometric Deep Learning for Shape Correspondence in Mass Customization by Three-Dimensional Printing, [[paper](https://users.encs.concordia.ca/~thkwok/publication/JMSE20_GDL.pdf)]
 
 **[arXiv]** Semantic Correspondence via 2D-3D-2D Cycle, [[paper](https://arxiv.org/pdf/2004.09061.pdf)]
 
