@@ -212,6 +212,8 @@ I summarize all above kinds of methods in this repository, and hope to present a
 
 ***2020:***
 
+**[ICRA]** PrimiTect: Fast Continuous Hough Voting for Primitive Detection, [[paper](https://arxiv.org/pdf/2005.07457.pdf)] [[code](https://github.com/c-sommer/primitect)]
+
 **[arXiv]** ParSeNet: A Parametric Surface Fitting Network for 3D Point Clouds, [[paper](https://arxiv.org/pdf/2003.12181.pdf)]
 
 ***2015:***
@@ -460,6 +462,8 @@ Most of this kind of methods estimate depth images from RGB images, and then con
 
 ***2020:***
 
+**[ICITS]** Exploring the Capabilities and Limits of 3D Monocular Object Detection - A Study on Simulation and Real World Data, [[paper](https://arxiv.org/pdf/2005.07424.pdf)]
+
 **[arXiv]** Disp R-CNN: Stereo 3D Object Detection via Shape Prior Guided Instance Disparity Estimation, [[paper](https://arxiv.org/pdf/2004.03572.pdf)]
 
 **[arXiv]** End-to-End Pseudo-LiDAR for Image-Based 3D Object Detection, [[paper](https://arxiv.org/pdf/2004.03080.pdf)]
@@ -529,6 +533,8 @@ This kind of methods only consume the 3D point cloud data.
 
 
 ***2020:***
+
+**[arXiv]** Range Conditioned Dilated Convolutions for Scale Invariant 3D Object Detection, [[paper](https://arxiv.org/pdf/2005.09927.pdf)]
 
 **[arXiv]** Drosophila-Inspired 3D Moving Object Detection Based on Point Clouds, [[paper](https://arxiv.org/pdf/2005.02696.pdf)]
 
@@ -1209,6 +1215,8 @@ The partial-view point cloud will be aligned to the complete shape in order to o
 
 ***2020:***
 
+**[PRL]** Fuzzy Logic and Histogram of Normal Orientation-based 3D Keypoint Detection for Point Clouds, [[paper](https://www.sciencedirect.com/science/article/abs/pii/S016786552030180X)]
+
 **[arXiv]** Latent Fingerprint Registration via Matching Densely Sampled Points, [[paper](https://arxiv.org/pdf/2005.05878.pdf)]
 
 **[arXiv]** RPM-Net: Robust Point Matching using Learned Features, [[paper](https://arxiv.org/pdf/2003.13479.pdf)]
@@ -1489,6 +1497,8 @@ The partial-view point cloud will be aligned to the complete shape in order to o
 
 ***2020:***
 
+**[arXiv]** SGDN: Segmentation-Based Grasp Detection Network For Unsymmetrical Three-Finger Gripper, [[paper](https://arxiv.org/pdf/2005.08222.pdf)]
+
 **[arXiv]** Event-based Robotic Grasping Detection with Neuromorphic Vision Sensor and Event-Stream Dataset, [[paper](https://arxiv.org/pdf/2004.13652.pdf)]
 
 **[arXiv]** Online Self-Supervised Learning for Object Picking: Detecting Optimum Grasping Position using a Metric Learning Approach, [[paper](https://arxiv.org/pdf/2003.03717.pdf)]
@@ -1686,6 +1696,8 @@ In this situation, there exist no 3D models, an the 6-DoF grasps are estimated f
 
 ***2020:***
 
+**[JMSE]** Geometric Deep Learning for Shape Correspondence in Mass Customization by Three-Dimensional Printing, [[paper](https://users.encs.concordia.ca/~thkwok/publication/JMSE20_GDL.pdf)]
+
 **[arXiv]** Semantic Correspondence via 2D-3D-2D Cycle, [[paper](https://arxiv.org/pdf/2004.09061.pdf)]
 
 **[arXiv]** Self-supervised Feature Learning by Cross-modality and Cross-view Correspondences, [[paper](https://arxiv.org/pdf/2004.05749.pdf)]
@@ -1827,6 +1839,12 @@ In this situation, there exist no 3D models, an the 6-DoF grasps are estimated f
 ##### c. Depth Completion and Estimation
 
 ***2020:***
+
+**[CVPR]** Bi3D: Stereo Depth Estimation via Binary Classifications, [[paper](https://arxiv.org/pdf/2005.07274.pdf)]
+
+**[CVPR]** Focus on defocus: bridging the synthetic to real domain gap for depth estimation, [[paper](https://arxiv.org/pdf/2005.09623.pdf)]
+
+**[arXiv]** Decoder Modulation for Indoor Depth Completion, [[paper](https://arxiv.org/pdf/2005.08607.pdf)]
 
 **[CVPR]** On the uncertainty of self-supervised monocular depth estimation, [[paper](https://arxiv.org/pdf/2005.06209.pdf)] [[code](https://github.com/mattpoggi/mono-uncertainty)]
 
@@ -2135,6 +2153,8 @@ In this situation, there exist no 3D models, an the 6-DoF grasps are estimated f
 ### 7.1 Simulation to Reality
 
 ***2020:***
+
+**[arXiv]** How to Close Sim-Real Gap? Transfer with Segmentation!, [[paper](https://arxiv.org/pdf/2005.07695.pdf)]
 
 **[arXiv]** A Study on the Challenges of Using Robotics Simulators for Testing, [[paper](https://arxiv.org/pdf/2004.07368.pdf)]
 
