@@ -462,6 +462,8 @@ Most of this kind of methods estimate depth images from RGB images, and then con
 
 ***2020:***
 
+**[arXiv]** Center3D: Center-based Monocular 3D Object Detection with Joint Depth Understanding, [[paper](https://arxiv.org/pdf/2005.13423.pdf)]
+
 **[ICITS]** Exploring the Capabilities and Limits of 3D Monocular Object Detection - A Study on Simulation and Real World Data, [[paper](https://arxiv.org/pdf/2005.07424.pdf)]
 
 **[arXiv]** Disp R-CNN: Stereo 3D Object Detection via Shape Prior Guided Instance Disparity Estimation, [[paper](https://arxiv.org/pdf/2004.03572.pdf)]
@@ -533,6 +535,8 @@ This kind of methods only consume the 3D point cloud data.
 
 
 ***2020:***
+
+**[arXiv]** P2B: Point-to-Box Network for 3D Object Tracking in Point Clouds, [[paper](https://arxiv.org/pdf/2005.13888.pdf)]
 
 **[arXiv]** Range Conditioned Dilated Convolutions for Scale Invariant 3D Object Detection, [[paper](https://arxiv.org/pdf/2005.09927.pdf)]
 
@@ -744,6 +748,8 @@ This kind of methods utilize both rgb images and depth images/point clouds. Ther
 
 ***2020:***
 
+**[arXiv]** POLY-YOLO: HIGHER SPEED, MORE PRECISE DETECTION AND INSTANCE SEGMENTATION FOR YOLOV3, [[paper](https://arxiv.org/pdf/2005.13243.pdf)]
+
 **[CVPR]** CenterMask: single shot instance segmentation with point representation, [[paper](https://arxiv.org/pdf/2004.04446.pdf)]
 
 **[arXiv]** BlendMask: Top-Down Meets Bottom-Up for Instance Segmentation, [[paper](https://arxiv.org/pdf/2001.00309.pdf)]
@@ -917,6 +923,8 @@ This kind of methods utilize both rgb images and depth images/point clouds. Ther
 ##### c. 3D deep learning networks
 
 ***2020:***
+
+**[arXiv]** PAI-Conv: Permutable Anisotropic Convolutional Networks for Learning on Point Clouds, [[paper](https://arxiv.org/pdf/2005.13135.pdf)]
 
 **[arXiv]** Shape-Oriented Convolution Neural Network for Point Cloud Analysis, [[paper](https://arxiv.org/pdf/2004.09411.pdf)]
 
@@ -1391,6 +1399,8 @@ The partial-view point cloud will be aligned to the complete shape in order to o
 
 ***2020:***
 
+**[arXiv]** SurfaceNet+: An End-to-end 3D Neural Network for Very Sparse Multi-view Stereopsis, [[paper](https://arxiv.org/pdf/2005.12690.pdf)]
+
 **[arXiv]** FroDO: From Detections to 3D Objects, [[paper](https://arxiv.org/pdf/2005.05125.pdf)]
 
 **[arXiv]** CoReNet: Coherent 3D scene reconstruction from a single RGB image, [[paper](https://arxiv.org/pdf/2004.12989.pdf)]
@@ -1496,6 +1506,8 @@ The partial-view point cloud will be aligned to the complete shape in order to o
 ### 3.2 Estimating Oriented Rectangles
 
 ***2020:***
+
+**[arXiv]** Stereo Vision Based Single-Shot 6D Object Pose Estimation for Bin-Picking by a Robot Manipulator , [[paper](https://arxiv.org/pdf/2005.13759.pdf)]
 
 **[arXiv]** SGDN: Segmentation-Based Grasp Detection Network For Unsymmetrical Three-Finger Gripper, [[paper](https://arxiv.org/pdf/2005.08222.pdf)]
 
@@ -2001,6 +2013,8 @@ In this situation, there exist no 3D models, an the 6-DoF grasps are estimated f
 ### 5.1 Task-oriented Manipulation
 
 ***2020:***
+
+**[arXiv]** Vision-based control of a knuckle boom crane with online cable length estimation, [[paper](https://arxiv.org/pdf/2005.11794.pdf)]
 
 **[arXiv]** A Point Cloud-Based Method for Automatic Groove Detection and Trajectory Generation of Robotic Arc Welding Tasks, [[paper](https://arxiv.org/pdf/2004.12281.pdf)]
 
