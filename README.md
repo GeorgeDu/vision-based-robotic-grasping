@@ -398,6 +398,8 @@ Detailed paper lists can refer to [hoya012](https://github.com/hoya012/deep_lear
 
 ***2020:***
 
+**[arXiv]** DetectoRS: Detecting Objects with Recursive Feature Pyramid and Switchable Atrous Convolution, [[paper](https://arxiv.org/pdf/2006.02334.pdf)] [[code](https://github.com/joe-siyuan-qiao/DetectoRS)]
+
 **[arXiv]** YOLOv4: Optimal Speed and Accuracy of Object Detection, [[paper](https://arxiv.org/pdf/2004.10934.pdf)]
 
 **[arXiv]** SaccadeNet: A Fast and Accurate Object Detector, [[paper](https://arxiv.org/pdf/2003.12125.pdf)]
@@ -536,6 +538,8 @@ This kind of methods only consume the 3D point cloud data.
 
 ***2020:***
 
+**[arXiv]** Learning to Detect 3D Objects from Point Clouds in Real Time, [[paper](https://arxiv.org/pdf/2006.01250.pdf)]
+
 **[arXiv]** P2B: Point-to-Box Network for 3D Object Tracking in Point Clouds, [[paper](https://arxiv.org/pdf/2005.13888.pdf)]
 
 **[arXiv]** Range Conditioned Dilated Convolutions for Scale Invariant 3D Object Detection, [[paper](https://arxiv.org/pdf/2005.09927.pdf)]
@@ -627,6 +631,8 @@ This kind of methods only consume the 3D point cloud data.
 This kind of methods utilize both rgb images and depth images/point clouds. There exist early fusion methods, late fusion methods, and dense fusion methods.
 
 ***2020:***
+
+**[arXiv]** PnPNet: End-to-End Perception and Prediction with Tracking in the Loop, [[paper](https://arxiv.org/pdf/2005.14711.pdf)]
 
 **[arXiv]** 3D Object Detection Method Based on YOLO and K-Means for Image and Point Clouds, [[paper](https://arxiv.org/pdf/2005.02132.pdf)]
 
@@ -1004,6 +1010,8 @@ This part mainly discuss 6D object pose estimation methods, which can be categor
 ##### a. Match 2D feature points
 
 ***2020:***
+
+**[arXiv]** Unconstrained Matching of 2D and 3D Descriptors for 6-DOF Pose Estimation, [[paper](https://arxiv.org/pdf/2005.14502.pdf)]
 
 **[arXiv]** S2DNet: Learning Accurate Correspondences for Sparse-to-Dense Feature Matching, [[paper](https://arxiv.org/pdf/2004.01673.pdf)]
 
@@ -1451,6 +1459,8 @@ The partial-view point cloud will be aligned to the complete shape in order to o
 
 ***2019:***
 
+**[arXiv]** Multi-modal Transfer Learning for Grasping Transparent and Specular Objects, [[paper](https://arxiv.org/pdf/2006.00028.pdf)]
+
 **[IROS]** GQ-STN: Optimizing One-Shot Grasp Detection based on Robustness Classifier, [[paper](https://arxiv.org/abs/1903.02489)]
 
 **[ICRA]** Mechanical Search: Multi-Step Retrieval of a Target Object Occluded by Clutter, [[paper](https://arxiv.org/abs/1903.01588)]
@@ -1752,6 +1762,8 @@ In this situation, there exist no 3D models, an the 6-DoF grasps are estimated f
 
 ***2020:***
 
+**[ICRA]** Learning Continuous 3D Reconstructions for Geometrically Aware Grasping, [[paper](https://arxiv.org/pdf/1910.00983.pdf)] [[code](https://github.com/mvandermerwe/PointSDF)]
+
 **[arXiv]** Robotic Grasping through Combined Image-Based Grasp Proposal and 3D Reconstruction, [[paper](https://arxiv.org/pdf/2003.01649.pdf)]
 
 ***2019:***
@@ -1781,6 +1793,8 @@ In this situation, there exist no 3D models, an the 6-DoF grasps are estimated f
 ##### b. Shape Completion or Generation
 
 ***2020:***
+
+**[RAL]** GFPNet: A Deep Network for Learning Shape Completion in Generic Fitted Primitives, [[paper](https://arxiv.org/pdf/2006.02098.pdf)]
 
 **[arXiv]** Point Cloud Completion by Skip-attention Network with Hierarchical Folding, [[paper](https://arxiv.org/pdf/2005.03871.pdf)]
 
@@ -1831,6 +1845,8 @@ In this situation, there exist no 3D models, an the 6-DoF grasps are estimated f
 ##### c. Depth Completion and Estimation
 
 ***2020:***
+
+**[arXiv]** PLG-IN: Pluggable Geometric Consistency Loss with Wasserstein Distance in Monocular Depth Estimation, [[paper](https://arxiv.org/pdf/2006.02068.pdf)]
 
 **[CVPR]** Bi3D: Stereo Depth Estimation via Binary Classifications, [[paper](https://arxiv.org/pdf/2005.07274.pdf)]
 
