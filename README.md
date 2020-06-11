@@ -464,6 +464,8 @@ Most of this kind of methods estimate depth images from RGB images, and then con
 
 ***2020:***
 
+**[arXiv]** CubifAE-3D: Monocular Camera Space Cubification on Autonomous Vehicles for Auto-Encoder based 3D Object Detection, [[paper](https://arxiv.org/pdf/2006.04080.pdf)]
+
 **[arXiv]** Center3D: Center-based Monocular 3D Object Detection with Joint Depth Understanding, [[paper](https://arxiv.org/pdf/2005.13423.pdf)]
 
 **[ICITS]** Exploring the Capabilities and Limits of 3D Monocular Object Detection - A Study on Simulation and Real World Data, [[paper](https://arxiv.org/pdf/2005.07424.pdf)]
@@ -537,6 +539,12 @@ This kind of methods only consume the 3D point cloud data.
 
 
 ***2020:***
+
+**[arXiv]** H3DNet: 3D Object Detection Using Hybrid Geometric Primitives, [[paper](https://arxiv.org/pdf/2006.05682.pdf)]
+
+**[arXiv]** Associate-3Ddet: Perceptual-to-Conceptual Association for 3D Point Cloud Object Detection, [[paper](https://arxiv.org/pdf/2006.04356.pdf)]
+
+**[arXiv]** SVGA-Net: Sparse Voxel-Graph Attention Network for 3D Object Detection from Point Clouds, [[paper](https://arxiv.org/pdf/2006.04043.pdf)]
 
 **[arXiv]** Learning to Detect 3D Objects from Point Clouds in Real Time, [[paper](https://arxiv.org/pdf/2006.01250.pdf)]
 
@@ -631,6 +639,8 @@ This kind of methods only consume the 3D point cloud data.
 This kind of methods utilize both rgb images and depth images/point clouds. There exist early fusion methods, late fusion methods, and dense fusion methods.
 
 ***2020:***
+
+**[arXiv]** Stereo RGB and Deeper LIDAR Based Network for 3D Object Detection, [[paper](https://arxiv.org/pdf/2006.05187.pdf)]
 
 **[arXiv]** PnPNet: End-to-End Perception and Prediction with Tracking in the Loop, [[paper](https://arxiv.org/pdf/2005.14711.pdf)]
 
@@ -999,6 +1009,8 @@ This part mainly discuss 6D object pose estimation methods, which can be categor
 
 ***2020:***
 
+**[arXiv]** Recent Advances in 3D Object and Hand Pose Estimation, [[paper](https://arxiv.org/pdf/2006.05927.pdf)]
+
 **[arXiv]** A Review on Object Pose Recovery: from 3D Bounding Box Detectors to Full 6D Pose Estimators, [[paper](https://arxiv.org/pdf/2001.10609.pdf)]
 
 ***2016:***
@@ -1010,6 +1022,8 @@ This part mainly discuss 6D object pose estimation methods, which can be categor
 ##### a. Match 2D feature points
 
 ***2020:***
+
+**[arXiv]** Delta Descriptors: Change-Based Place Representation for Robust Visual Localization, [[paper](https://arxiv.org/pdf/2006.05700.pdf)]
 
 **[arXiv]** Unconstrained Matching of 2D and 3D Descriptors for 6-DOF Pose Estimation, [[paper](https://arxiv.org/pdf/2005.14502.pdf)]
 
@@ -1090,6 +1104,8 @@ This part mainly discuss 6D object pose estimation methods, which can be categor
 This kind of methods can be regarded as regression-based methods.
 
 ***2020:***
+
+**[arXiv]** A survey on deep supervised hashing methods for image retrieval, [[paper](https://arxiv.org/pdf/2006.05627.pdf)]
 
 **[arXiv]** Neural Object Learning for 6D Pose Estimation Using a Few Cluttered Images, [[paper](https://arxiv.org/pdf/2005.03717.pdf)]
 
@@ -1279,6 +1295,8 @@ The partial-view point cloud will be aligned to the complete shape in order to o
 
 ***2020:***
 
+**[arXiv]** Learning 3D-3D Correspondences for One-shot Partial-to-partial Registration, [[paper](https://arxiv.org/pdf/2006.04523.pdf)]
+
 **[arXiv]** A Dynamical Perspective on Point Cloud Registration, [[paper](https://arxiv.org/pdf/2005.03190.pdf)]
 
 **[arXiv]** Feature-metric Registration: A Fast Semi-supervised Approach for Robust Point Cloud Registration without Correspondences, [[paper](https://arxiv.org/pdf/2005.01014.pdf)]
@@ -1386,6 +1404,10 @@ The partial-view point cloud will be aligned to the complete shape in order to o
 #### 2.3.2 3D shape reconstruction from images
 
 ***2020:***
+
+**[arXiv]** Novel Object Viewpoint Estimation through Reconstruction Alignment, [[paper](https://arxiv.org/pdf/2006.03586.pdf)]
+
+**[arXiv]** UCLID-Net: Single View Reconstruction in Object Space, [[paper](https://arxiv.org/pdf/2006.03817.pdf)]
 
 **[arXiv]** SurfaceNet+: An End-to-end 3D Neural Network for Very Sparse Multi-view Stereopsis, [[paper](https://arxiv.org/pdf/2005.12690.pdf)]
 
@@ -1496,6 +1518,8 @@ The partial-view point cloud will be aligned to the complete shape in order to o
 ### 3.2 Estimating Oriented Rectangles
 
 ***2020:***
+
+**[arXiv]** Orientation Attentive Robot Grasp Synthesis, [[paper](https://arxiv.org/pdf/2006.05123.pdf)]
 
 **[arXiv]** Stereo Vision Based Single-Shot 6D Object Pose Estimation for Bin-Picking by a Robot Manipulator , [[paper](https://arxiv.org/pdf/2005.13759.pdf)]
 
@@ -1794,6 +1818,10 @@ In this situation, there exist no 3D models, an the 6-DoF grasps are estimated f
 
 ***2020:***
 
+**[arXiv]** Deep Octree-based CNNs with Output-Guided Skip Connections for 3D Shape and Scene Completion, [[paper](https://arxiv.org/pdf/2006.03762.pdf)]
+
+**[arXiv]** GRNet: Gridding Residual Network for Dense Point Cloud Completion, [[paper](https://arxiv.org/pdf/2006.03761.pdf)]
+
 **[RAL]** GFPNet: A Deep Network for Learning Shape Completion in Generic Fitted Primitives, [[paper](https://arxiv.org/pdf/2006.02098.pdf)]
 
 **[arXiv]** Point Cloud Completion by Skip-attention Network with Hierarchical Folding, [[paper](https://arxiv.org/pdf/2005.03871.pdf)]
@@ -1845,6 +1873,14 @@ In this situation, there exist no 3D models, an the 6-DoF grasps are estimated f
 ##### c. Depth Completion and Estimation
 
 ***2020:***
+
+**[arXiv]** Uncertainty-Aware CNNs for Depth Completion: Uncertainty from Beginning to End, [[paper](https://arxiv.org/pdf/2006.03349.pdf)]
+
+**[arXiv]** A Survey on Deep Learning Techniques for Stereo-based Depth Estimation, [[paper](https://arxiv.org/pdf/2006.02535.pdf)]
+
+**[arXiv]** Real-time single image depth perception in the wild with handheld devices, [[paper](https://arxiv.org/pdf/2006.05724.pdf)]
+
+**[arXiv]** SharinGAN: Combining Synthetic and Real Data for Unsupervised Geometry Estimation, [[paper](https://arxiv.org/pdf/2006.04026.pdf)]
 
 **[arXiv]** PLG-IN: Pluggable Geometric Consistency Loss with Wasserstein Distance in Monocular Depth Estimation, [[paper](https://arxiv.org/pdf/2006.02068.pdf)]
 
@@ -2097,6 +2133,8 @@ In this situation, there exist no 3D models, an the 6-DoF grasps are estimated f
 ## 6. Dexterous Grippers
 
 ***2020:***
+
+**[arXiv]** Multi-Fingered Active Grasp Learning, [[paper](https://arxiv.org/pdf/2006.05264.pdf)]
 
 **[arXiv]** Learning Compliance Adaptation in Contact-Rich Manipulation, [[paper](https://arxiv.org/pdf/2005.00227.pdf)]
 
