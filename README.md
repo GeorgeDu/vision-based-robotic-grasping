@@ -1077,6 +1077,8 @@ This part mainly discuss 6D object pose estimation methods, which can be categor
 
 ***2020:***
 
+**[arXiv]** PrimA6D: Rotational Primitive Reconstruction for Enhanced and Robust 6D Pose Estimation, [[paper](https://arxiv.org/pdf/2006.07789.pdf)]
+
 **[arXiv]** EPOS: Estimating 6D Pose of Objects with Symmetries, [[paper](https://arxiv.org/pdf/2004.00605.pdf)]
 
 **[arXiv]** Tackling Two Challenges of 6D Object Pose Estimation: Lack of Real Annotated RGB Images and Scalability to Number of Objects, [[paper](https://arxiv.org/pdf/2003.12344.pdf)]
@@ -1315,6 +1317,10 @@ The partial-view point cloud will be aligned to the complete shape in order to o
 
 ***2020:***
 
+**[arXiv]** Unsupervised Learning of 3D Point Set Registration, [[paper](https://arxiv.org/pdf/2006.06200.pdf)]
+
+**[arXiv]** Minimum Potential Energy of Point Cloud for Robust Global Registration, [[paper](https://arxiv.org/pdf/2006.06460.pdf)]
+
 **[arXiv]** Learning 3D-3D Correspondences for One-shot Partial-to-partial Registration, [[paper](https://arxiv.org/pdf/2006.04523.pdf)]
 
 **[arXiv]** A Dynamical Perspective on Point Cloud Registration, [[paper](https://arxiv.org/pdf/2005.03190.pdf)]
@@ -1425,6 +1431,10 @@ The partial-view point cloud will be aligned to the complete shape in order to o
 
 ***2020:***
 
+**[arXiv]** Convolutional Generation of Textured 3D Meshes, [[paper](https://arxiv.org/pdf/2006.07660.pdf)]
+
+**[arXiv]** 3D Reconstruction of Novel Object Shapes from Single Images, [[paper](https://arxiv.org/pdf/2006.07752.pdf)]
+
 **[arXiv]** Novel Object Viewpoint Estimation through Reconstruction Alignment, [[paper](https://arxiv.org/pdf/2006.03586.pdf)]
 
 **[arXiv]** UCLID-Net: Single View Reconstruction in Object Space, [[paper](https://arxiv.org/pdf/2006.03817.pdf)]
@@ -1484,6 +1494,10 @@ The partial-view point cloud will be aligned to the complete shape in order to o
 
 
 #### 2.3.3 3D shape rendering
+
+***2020:***
+
+**[arXiv]** Equivariant Neural Rendering, [[paper](https://arxiv.org/pdf/2006.07630.pdf)]
 
 ***2019:***
 
@@ -2361,6 +2375,8 @@ In this situation, there exist no 3D models, an the 6-DoF grasps are estimated f
 ## 10. Imitation Learning
 
 ***2020:***
+
+**[arXiv]** Self-supervised Learning for Precise Pick-and-place without Object Model, [[paper](https://arxiv.org/pdf/2006.08373.pdf)]
 
 **[arXiv]** HOPE-Net: A Graph-based Model for Hand-Object Pose Estimation, [[paper](https://arxiv.org/pdf/2004.00060.pdf)]
 
