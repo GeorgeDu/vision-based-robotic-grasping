@@ -540,6 +540,8 @@ This kind of methods only consume the 3D point cloud data.
 
 ***2020:***
 
+**[arXiv]** Center-based 3D Object Detection and Tracking, [[paper](https://arxiv.org/pdf/2006.11275.pdf)]
+
 **[arXiv]** H3DNet: 3D Object Detection Using Hybrid Geometric Primitives, [[paper](https://arxiv.org/pdf/2006.05682.pdf)]
 
 **[arXiv]** Associate-3Ddet: Perceptual-to-Conceptual Association for 3D Point Cloud Object Detection, [[paper](https://arxiv.org/pdf/2006.04356.pdf)]
@@ -1431,6 +1433,10 @@ The partial-view point cloud will be aligned to the complete shape in order to o
 
 ***2020:***
 
+**[arXiv]** 3D Shape Reconstruction from Free-Hand Sketches, [[paper](https://arxiv.org/pdf/2006.09694.pdf)]
+
+**[arXiv]** Learning to Detect 3D Reflection Symmetry for Single-View Reconstruction, [[paper](https://arxiv.org/pdf/2006.10042.pdf)]
+
 **[arXiv]** Convolutional Generation of Textured 3D Meshes, [[paper](https://arxiv.org/pdf/2006.07660.pdf)]
 
 **[arXiv]** 3D Reconstruction of Novel Object Shapes from Single Images, [[paper](https://arxiv.org/pdf/2006.07752.pdf)]
@@ -1907,6 +1913,14 @@ In this situation, there exist no 3D models, an the 6-DoF grasps are estimated f
 ##### c. Depth Completion and Estimation
 
 ***2020:***
+
+**[arXiv]** Targeted Adversarial Perturbations for Monocular Depth Prediction, [[paper](https://arxiv.org/pdf/2006.08602.pdf)]
+
+**[arXiv]** ACED: ACCURATE AND EDGE-CONSISTENT MONOCULAR DEPTH ESTIMATION, [[paper](https://arxiv.org/pdf/2006.09243.pdf)]
+
+**[arXiv]** Self-Supervised Joint Learning Framework of Depth Estimation via Implicit Cues, [[paper](https://arxiv.org/pdf/2006.09876.pdf)]
+
+**[arXiv]** Depth by Poking: Learning to Estimate Depth from Self-Supervised Grasping, [[paper](https://arxiv.org/pdf/2006.08903.pdf)]
 
 **[arXiv]** Uncertainty-Aware CNNs for Depth Completion: Uncertainty from Beginning to End, [[paper](https://arxiv.org/pdf/2006.03349.pdf)]
 
