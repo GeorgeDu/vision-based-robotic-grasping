@@ -464,6 +464,10 @@ Most of this kind of methods estimate depth images from RGB images, and then con
 
 ***2020:***
 
+**[arXiv]** Instant 3D Object Tracking with Applications in Augmented Reality, [[paper](https://arxiv.org/pdf/2006.13194.pdf)]
+
+**[arXiv]** Single-Shot 3D Detection of Vehicles from Monocular RGB Images via Geometry Constrained Keypoints in Real-Time, [[paper](https://arxiv.org/pdf/2006.13084.pdf)]
+
 **[arXiv]** CubifAE-3D: Monocular Camera Space Cubification on Autonomous Vehicles for Auto-Encoder based 3D Object Detection, [[paper](https://arxiv.org/pdf/2006.04080.pdf)]
 
 **[arXiv]** Center3D: Center-based Monocular 3D Object Detection with Joint Depth Understanding, [[paper](https://arxiv.org/pdf/2005.13423.pdf)]
@@ -539,6 +543,10 @@ This kind of methods only consume the 3D point cloud data.
 
 
 ***2020:***
+
+**[arXiv]** AFDet: Anchor Free One Stage 3D Object Detection, [[paper](https://arxiv.org/pdf/2006.12671.pdf)]
+
+**[arXiv]** Generative Sparse Detection Networks for 3D Single-shot Object Detection, [[paper](https://arxiv.org/pdf/2006.12356.pdf)]
 
 **[arXiv]** Center-based 3D Object Detection and Tracking, [[paper](https://arxiv.org/pdf/2006.11275.pdf)]
 
@@ -1031,6 +1039,8 @@ This part mainly discuss 6D object pose estimation methods, which can be categor
 
 ***2020:***
 
+**[arXiv]** A Survey on Deep Learning for Localization and Mapping: Towards the Age of Spatial Machine Intelligence, [[paper](https://arxiv.org/pdf/2006.12567.pdf)]
+
 **[arXiv]** Recent Advances in 3D Object and Hand Pose Estimation, [[paper](https://arxiv.org/pdf/2006.05927.pdf)]
 
 **[arXiv]** A Review on Object Pose Recovery: from 3D Bounding Box Detectors to Full 6D Pose Estimators, [[paper](https://arxiv.org/pdf/2001.10609.pdf)]
@@ -1319,6 +1329,10 @@ The partial-view point cloud will be aligned to the complete shape in order to o
 
 ***2020:***
 
+**[arXiv]** An Analysis of SVD for Deep Rotation Estimation, [[paper](https://arxiv.org/pdf/2006.14616.pdf)]
+
+**[arXiv]** Applying Lie Groups Approaches for Rigid Registration of Point Clouds, [[paper](https://arxiv.org/pdf/2006.13341.pdf)]
+
 **[arXiv]** Unsupervised Learning of 3D Point Set Registration, [[paper](https://arxiv.org/pdf/2006.06200.pdf)]
 
 **[arXiv]** Minimum Potential Energy of Point Cloud for Robust Global Registration, [[paper](https://arxiv.org/pdf/2006.06460.pdf)]
@@ -1433,6 +1447,8 @@ The partial-view point cloud will be aligned to the complete shape in order to o
 
 ***2020:***
 
+**[arXiv]** Pix2Vox++: Multi-scale Context-aware 3D Object Reconstruction from Single and Multiple Images, [[paper](https://arxiv.org/pdf/2006.12250.pdf)]
+
 **[arXiv]** 3D Shape Reconstruction from Free-Hand Sketches, [[paper](https://arxiv.org/pdf/2006.09694.pdf)]
 
 **[arXiv]** Learning to Detect 3D Reflection Symmetry for Single-View Reconstruction, [[paper](https://arxiv.org/pdf/2006.10042.pdf)]
@@ -1502,6 +1518,8 @@ The partial-view point cloud will be aligned to the complete shape in order to o
 #### 2.3.3 3D shape rendering
 
 ***2020:***
+
+**[arXiv]** Differentiable Rendering: A Survey, [[paper](https://arxiv.org/pdf/2006.12057.pdf)]
 
 **[arXiv]** Equivariant Neural Rendering, [[paper](https://arxiv.org/pdf/2006.07630.pdf)]
 
@@ -1740,6 +1758,8 @@ In this situation, there exist no 3D models, an the 6-DoF grasps are estimated f
 
 ***2020:***
 
+**[arXiv]** Neural Non-Rigid Tracking, [[paper](https://arxiv.org/pdf/2006.13240.pdf)]
+
 **[arXiv]** Quasi-Newton Solver for Robust Non-Rigid Registration, [[paper](https://arxiv.org/pdf/2004.04322.pdf)]
 
 **[arXiv]** MINA: Convex Mixed-Integer Programming for Non-Rigid Shape Alignment, [[paper](https://arxiv.org/pdf/2002.12623.pdf)]
@@ -1913,6 +1933,10 @@ In this situation, there exist no 3D models, an the 6-DoF grasps are estimated f
 ##### c. Depth Completion and Estimation
 
 ***2020:***
+
+**[RAL]** Discontinuous and Smooth Depth Completion with Binary Anisotropic Diffusion Tensor, [[paper](https://arxiv.org/pdf/2006.14374.pdf)]
+
+**[arXiv]** Increased-Range Unsupervised Monocular Depth Estimation, [[paper](https://arxiv.org/pdf/2006.12791.pdf)]
 
 **[arXiv]** Targeted Adversarial Perturbations for Monocular Depth Prediction, [[paper](https://arxiv.org/pdf/2006.08602.pdf)]
 
@@ -2181,6 +2205,8 @@ In this situation, there exist no 3D models, an the 6-DoF grasps are estimated f
 ## 6. Dexterous Grippers
 
 ***2020:***
+
+**[ICRA]** Generalized Grasping for Mechanical Grippers for Unknown Objects with Partial Point Cloud Representations, [[paper](https://arxiv.org/pdf/2006.12676.pdf)]
 
 **[arXiv]** Multi-Fingered Active Grasp Learning, [[paper](https://arxiv.org/pdf/2006.05264.pdf)]
 
