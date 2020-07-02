@@ -398,6 +398,8 @@ Detailed paper lists can refer to [hoya012](https://github.com/hoya012/deep_lear
 
 ***2020:***
 
+**[arXiv]** Localization Uncertainty Estimation for Anchor-Free Object Detection, [[paper](https://arxiv.org/pdf/2006.15607.pdf)]
+
 **[arXiv]** DetectoRS: Detecting Objects with Recursive Feature Pyramid and Switchable Atrous Convolution, [[paper](https://arxiv.org/pdf/2006.02334.pdf)] [[code](https://github.com/joe-siyuan-qiao/DetectoRS)]
 
 **[arXiv]** YOLOv4: Optimal Speed and Accuracy of Object Detection, [[paper](https://arxiv.org/pdf/2004.10934.pdf)]
@@ -463,6 +465,10 @@ This kind of methods can be divided into three kinds: RGB-based methods, point c
 Most of this kind of methods estimate depth images from RGB images, and then conduct 3D detection.
 
 ***2020:***
+
+**[arXiv]** MoNet3D: Towards Accurate Monocular 3D Object Localization in Real Time, [[paper](https://arxiv.org/pdf/2006.16007.pdf)]
+
+**[arXiv]** Expandable YOLO: 3D Object Detection from RGB-D Images, [[paper](https://arxiv.org/pdf/2006.14837.pdf)]
 
 **[arXiv]** Instant 3D Object Tracking with Applications in Augmented Reality, [[paper](https://arxiv.org/pdf/2006.13194.pdf)]
 
@@ -543,6 +549,10 @@ This kind of methods only consume the 3D point cloud data.
 
 
 ***2020:***
+
+**[arXiv]** 1 st Place Solution for Waymo Open Dataset Challenge - 3D Detection and Domain Adaptation, [[paper](https://arxiv.org/pdf/2006.15505.pdf)]
+
+**[arXiv]** Optimisation of the PointPillars network for 3D object detection in point clouds, [[paper](https://arxiv.org/pdf/2007.00493.pdf)]
 
 **[arXiv]** AFDet: Anchor Free One Stage 3D Object Detection, [[paper](https://arxiv.org/pdf/2006.12671.pdf)]
 
@@ -727,6 +737,8 @@ This kind of methods utilize both rgb images and depth images/point clouds. Ther
 ##### a. Survey papers
 
 ***2020:***
+
+**[arXiv]** A Survey on Instance Segmentation: State of the art, [[paper](https://arxiv.org/pdf/2007.00047.pdf)]
 
 **[arXiv]** Evolution of Image Segmentation using Deep Convolutional Neural Network: A Survey, [[paper](https://arxiv.org/pdf/2001.04074.pdf)]
 
@@ -927,6 +939,8 @@ This kind of methods utilize both rgb images and depth images/point clouds. Ther
 ##### b. One-stage Methods
 
 ***2020:***
+
+**[IET]** SASO: Joint 3D Semantic-Instance Segmentation via Multi-scale Semantic Association and Salient Point Clustering Optimization, [[paper](https://arxiv.org/pdf/2006.15015.pdf)]
 
 **[AAAI]** JSNet: Joint Instance and Semantic Segmentation of 3D Point Clouds, [[paper](https://arxiv.org/abs/1912.09654)] [[code](https://github.com/dlinzhao/JSNet)]
 
@@ -1447,6 +1461,8 @@ The partial-view point cloud will be aligned to the complete shape in order to o
 
 ***2020:***
 
+**[arXiv]** Joint Hand-object 3D Reconstruction from a Single Image with Cross-branch Feature Fusion, [[paper](https://arxiv.org/pdf/2006.15561.pdf)]
+
 **[arXiv]** Pix2Vox++: Multi-scale Context-aware 3D Object Reconstruction from Single and Multiple Images, [[paper](https://arxiv.org/pdf/2006.12250.pdf)]
 
 **[arXiv]** 3D Shape Reconstruction from Free-Hand Sketches, [[paper](https://arxiv.org/pdf/2006.09694.pdf)]
@@ -1518,6 +1534,10 @@ The partial-view point cloud will be aligned to the complete shape in order to o
 #### 2.3.3 3D shape rendering
 
 ***2020:***
+
+**[arXiv]** Intrinsic Autoencoders for Joint Neural Rendering and Intrinsic Image Decomposition, [[paper](https://arxiv.org/pdf/2006.16011.pdf)]
+
+**[arXiv]** SPSG: Self-Supervised Photometric Scene Generation from RGB-D Scans, [[paper](https://arxiv.org/pdf/2006.14660.pdf)]
 
 **[arXiv]** Differentiable Rendering: A Survey, [[paper](https://arxiv.org/pdf/2006.12057.pdf)]
 
@@ -1782,6 +1802,10 @@ In this situation, there exist no 3D models, an the 6-DoF grasps are estimated f
 
 ***2020:***
 
+**[arXiv]** RPM-Net: Recurrent Prediction of Motion and Parts from Point Cloud, [[paper](https://arxiv.org/pdf/2006.14865.pdf)]
+
+**[arXiv]** Meta Deformation Network: Meta Functionals for Shape Correspondence, [[paper](https://arxiv.org/pdf/2006.14758.pdf)]
+
 **[JMSE]** Geometric Deep Learning for Shape Correspondence in Mass Customization by Three-Dimensional Printing, [[paper](https://users.encs.concordia.ca/~thkwok/publication/JMSE20_GDL.pdf)]
 
 **[arXiv]** Semantic Correspondence via 2D-3D-2D Cycle, [[paper](https://arxiv.org/pdf/2004.09061.pdf)]
@@ -1933,6 +1957,8 @@ In this situation, there exist no 3D models, an the 6-DoF grasps are estimated f
 ##### c. Depth Completion and Estimation
 
 ***2020:***
+
+**[arXiv]** MiniNet: An extremely lightweight convolutional neural network for real-time unsupervised monocular depth estimation, [[paper](https://arxiv.org/pdf/2006.15350.pdf)]
 
 **[RAL]** Discontinuous and Smooth Depth Completion with Binary Anisotropic Diffusion Tensor, [[paper](https://arxiv.org/pdf/2006.14374.pdf)]
 
@@ -2117,6 +2143,8 @@ In this situation, there exist no 3D models, an the 6-DoF grasps are estimated f
 ### 5.1 Task-oriented Manipulation
 
 ***2020:***
+
+**[RAL]** Task-driven Perception and Manipulation for Constrained Placement of Unknown Objects, [[paper](https://arxiv.org/pdf/2006.15503.pdf)]
 
 **[arXiv]** Vision-based control of a knuckle boom crane with online cable length estimation, [[paper](https://arxiv.org/pdf/2005.11794.pdf)]
 
