@@ -290,6 +290,8 @@ Detailed paper lists can refer to [hoya012](https://github.com/hoya012/deep_lear
 
 ***2020:***
 
+**[arXiv]** Iterative Bounding Box Annotation for Object Detection, [[paper](https://arxiv.org/pdf/2007.00961.pdf)]
+
 **[arXiv]** Deep Domain Adaptive Object Detection: a Survey, [[paper](https://arxiv.org/pdf/2002.06797.pdf)]
 
 **[IJCV]** Deep Learning for Generic Object Detection: A Survey, [[paper](https://link.springer.com/content/pdf/10.1007%2Fs11263-019-01247-4.pdf)]
@@ -963,6 +965,8 @@ This kind of methods utilize both rgb images and depth images/point clouds. Ther
 ##### c. 3D deep learning networks
 
 ***2020:***
+
+**[arXiv]** A Closer Look at Local Aggregation Operators in Point Cloud Analysis, [[paper](https://arxiv.org/pdf/2007.01294.pdf)]
 
 **[arXiv]** PAI-Conv: Permutable Anisotropic Convolutional Networks for Learning on Point Clouds, [[paper](https://arxiv.org/pdf/2005.13135.pdf)]
 
@@ -2481,6 +2485,8 @@ In this situation, there exist no 3D models, an the 6-DoF grasps are estimated f
 ## 11. Reinforcement Learning
 
 ***2020:***
+
+**[arXiv]** Towards Generalization and Data Efficient Learning of Deep Robotic Grasping, [[paper](https://arxiv.org/pdf/2007.00982.pdf)]
 
 **[ICLR]** The Ingredients of Real World Robotic Reinforcement Learning, [[paper](https://arxiv.org/pdf/2004.12570.pdf)]
 
