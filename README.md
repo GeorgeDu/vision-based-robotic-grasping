@@ -400,6 +400,10 @@ Detailed paper lists can refer to [hoya012](https://github.com/hoya012/deep_lear
 
 ***2020:***
 
+**[arXiv]** Point-Set Anchors for Object Detection, Instance Segmentation and Pose Estimation, [[paper](https://arxiv.org/pdf/2007.02846.pdf)]
+
+**[arXiv]** AutoAssign: Differentiable Label Assignment for Dense Object Detection, [[paper](https://arxiv.org/pdf/2007.03496.pdf)]
+
 **[arXiv]** Localization Uncertainty Estimation for Anchor-Free Object Detection, [[paper](https://arxiv.org/pdf/2006.15607.pdf)]
 
 **[arXiv]** DetectoRS: Detecting Objects with Recursive Feature Pyramid and Switchable Atrous Convolution, [[paper](https://arxiv.org/pdf/2006.02334.pdf)] [[code](https://github.com/joe-siyuan-qiao/DetectoRS)]
@@ -551,6 +555,8 @@ This kind of methods only consume the 3D point cloud data.
 
 
 ***2020:***
+
+**[arXiv]** Local Grid Rendering Networks for 3D Object Detection in Point Clouds, [[paper](https://arxiv.org/pdf/2007.02099.pdf)]
 
 **[arXiv]** 1 st Place Solution for Waymo Open Dataset Challenge - 3D Detection and Domain Adaptation, [[paper](https://arxiv.org/pdf/2006.15505.pdf)]
 
@@ -942,6 +948,8 @@ This kind of methods utilize both rgb images and depth images/point clouds. Ther
 
 ***2020:***
 
+**[arXiv]** Spatial Semantic Embedding Network: Fast 3D Instance Segmentation with Deep Metric Learning, [[paper](https://arxiv.org/pdf/2007.03169.pdf)]
+
 **[IET]** SASO: Joint 3D Semantic-Instance Segmentation via Multi-scale Semantic Association and Salient Point Clustering Optimization, [[paper](https://arxiv.org/pdf/2006.15015.pdf)]
 
 **[AAAI]** JSNet: Joint Instance and Semantic Segmentation of 3D Point Clouds, [[paper](https://arxiv.org/abs/1912.09654)] [[code](https://github.com/dlinzhao/JSNet)]
@@ -1157,6 +1165,8 @@ This kind of methods can be regarded as regression-based methods.
 
 ***2020:***
 
+**[arXiv]** Learning Orientation Distributions for Object Pose Estimation, [[paper](https://arxiv.org/pdf/2007.01418.pdf)]
+
 **[arXiv]** A survey on deep supervised hashing methods for image retrieval, [[paper](https://arxiv.org/pdf/2006.05627.pdf)]
 
 **[arXiv]** Neural Object Learning for 6D Pose Estimation Using a Few Cluttered Images, [[paper](https://arxiv.org/pdf/2005.03717.pdf)]
@@ -1279,6 +1289,8 @@ The partial-view point cloud will be aligned to the complete shape in order to o
 
 ***2020:***
 
+**[arXiv]** Radial intersection count image: a clutter resistant 3D shape descriptor, [[paper](https://arxiv.org/pdf/2007.02306.pdf)]
+
 **[PRL]** Fuzzy Logic and Histogram of Normal Orientation-based 3D Keypoint Detection for Point Clouds, [[paper](https://www.sciencedirect.com/science/article/abs/pii/S016786552030180X)]
 
 **[arXiv]** Latent Fingerprint Registration via Matching Densely Sampled Points, [[paper](https://arxiv.org/pdf/2005.05878.pdf)]
@@ -1346,6 +1358,8 @@ The partial-view point cloud will be aligned to the complete shape in order to o
 
 
 ***2020:***
+
+**[arXiv]** Aligning Partially Overlapping Point Sets: an Inner Approximation Algorithm, [[paper](https://arxiv.org/pdf/2007.02363.pdf)]
 
 **[arXiv]** An Analysis of SVD for Deep Rotation Estimation, [[paper](https://arxiv.org/pdf/2006.14616.pdf)]
 
@@ -1464,6 +1478,8 @@ The partial-view point cloud will be aligned to the complete shape in order to o
 #### 2.3.2 3D shape reconstruction from images
 
 ***2020:***
+
+**[arXiv]** 3D Shape Reconstruction from Vision and Touch, [[paper](https://arxiv.org/pdf/2007.03778.pdf)]
 
 **[arXiv]** Joint Hand-object 3D Reconstruction from a Single Image with Cross-branch Feature Fusion, [[paper](https://arxiv.org/pdf/2006.15561.pdf)]
 
@@ -1906,6 +1922,8 @@ In this situation, there exist no 3D models, an the 6-DoF grasps are estimated f
 
 ***2020:***
 
+**[arXiv]** Detail Preserved Point Cloud Completion via Separated Feature Aggregation, [[paper](https://arxiv.org/pdf/2007.02374.pdf)]
+
 **[arXiv]** Deep Octree-based CNNs with Output-Guided Skip Connections for 3D Shape and Scene Completion, [[paper](https://arxiv.org/pdf/2006.03762.pdf)]
 
 **[arXiv]** GRNet: Gridding Residual Network for Dense Point Cloud Completion, [[paper](https://arxiv.org/pdf/2006.03761.pdf)]
@@ -2113,6 +2131,8 @@ In this situation, there exist no 3D models, an the 6-DoF grasps are estimated f
 ##### d. Point Cloud Denoising and Samping
 
 ***2020:***
+
+**[arXiv]** Learning Graph-Convolutional Representations for Point Cloud Denoising, [[paper](https://arxiv.org/pdf/2007.02578.pdf)]
 
 **[arXiv]** MOPS-Net: A Matrix Optimization-driven Network for Task-Oriented 3D Point Cloud Downsampling, [[paper](https://arxiv.org/pdf/2005.00383.pdf)]
 
