@@ -130,6 +130,10 @@ I summarize all above kinds of methods in this repository, and hope to present a
 
 ***2020:***
 
+**[ECCV]** Hierarchical Dynamic Filtering Network for RGB-D Salient Object Detection, [[paper](https://arxiv.org/pdf/2007.06227.pdf)]
+
+**[ECCV]** Cross-Modal Weighting Network for RGB-D Salient Object Detection, [[paper](https://arxiv.org/pdf/2007.04901.pdf)]
+
 **[arXiv]** Bilateral Attention Network for RGB-D Salient Object Detection, [[paper](https://arxiv.org/pdf/2004.14582.pdf)]
 
 **[arXiv]** Salient Object Detection Combining a Self-attention Module and a Feature Pyramid Network, [[paper](https://arxiv.org/pdf/2004.14552.pdf)]
@@ -904,6 +908,8 @@ This kind of methods utilize both rgb images and depth images/point clouds. Ther
 
 ***2020:***
 
+**[arXiv]** Spatial Semantic Embedding Network: Fast 3D Instance Segmentation with Deep Metric Learning, [[paper](https://arxiv.org/pdf/2007.03169.pdf)]
+
 **[arXiv]** PointGroup: Dual-Set Point Grouping for 3D Instance Segmentation, [[paper](https://arxiv.org/pdf/2004.01658.pdf)]
 
 **[arXiv]** 3D-MPA: Multi Proposal Aggregation for 3D Semantic Instance Segmentation, [[paper](https://arxiv.org/pdf/2003.13867.pdf)]
@@ -948,8 +954,6 @@ This kind of methods utilize both rgb images and depth images/point clouds. Ther
 
 ***2020:***
 
-**[arXiv]** Spatial Semantic Embedding Network: Fast 3D Instance Segmentation with Deep Metric Learning, [[paper](https://arxiv.org/pdf/2007.03169.pdf)]
-
 **[IET]** SASO: Joint 3D Semantic-Instance Segmentation via Multi-scale Semantic Association and Salient Point Clustering Optimization, [[paper](https://arxiv.org/pdf/2006.15015.pdf)]
 
 **[AAAI]** JSNet: Joint Instance and Semantic Segmentation of 3D Point Clouds, [[paper](https://arxiv.org/abs/1912.09654)] [[code](https://github.com/dlinzhao/JSNet)]
@@ -973,6 +977,8 @@ This kind of methods utilize both rgb images and depth images/point clouds. Ther
 ##### c. 3D deep learning networks
 
 ***2020:***
+
+**[arXiv]** PointMask: Towards Interpretable and Bias-Resilient Point Cloud Processing, [[paper](https://arxiv.org/pdf/2007.04525.pdf)]
 
 **[arXiv]** A Closer Look at Local Aggregation Operators in Point Cloud Analysis, [[paper](https://arxiv.org/pdf/2007.01294.pdf)]
 
@@ -1358,6 +1364,8 @@ The partial-view point cloud will be aligned to the complete shape in order to o
 
 
 ***2020:***
+
+**[arXiv]** The Phong Surface: Efficient 3D Model Fitting using Lifted Optimization, [[paper](https://arxiv.org/pdf/2007.04940.pdf)]
 
 **[arXiv]** Aligning Partially Overlapping Point Sets: an Inner Approximation Algorithm, [[paper](https://arxiv.org/pdf/2007.02363.pdf)]
 
@@ -1922,6 +1930,12 @@ In this situation, there exist no 3D models, an the 6-DoF grasps are estimated f
 
 ***2020:***
 
+**[arXiv]** Progressive Point Cloud Deconvolution Generation Network, [[paper](https://arxiv.org/pdf/2007.05361.pdf)]
+
+**[arXiv]** Point Set Voting for Partial Point Cloud Analysis, [[paper](https://arxiv.org/pdf/2007.04537.pdf)]
+
+**[arXiv]** 3D Topology Transformation with Generative Adversarial Networks, [[paper](https://arxiv.org/pdf/2007.03532.pdf)]
+
 **[arXiv]** Detail Preserved Point Cloud Completion via Separated Feature Aggregation, [[paper](https://arxiv.org/pdf/2007.02374.pdf)]
 
 **[arXiv]** Deep Octree-based CNNs with Output-Guided Skip Connections for 3D Shape and Scene Completion, [[paper](https://arxiv.org/pdf/2006.03762.pdf)]
@@ -2131,6 +2145,8 @@ In this situation, there exist no 3D models, an the 6-DoF grasps are estimated f
 ##### d. Point Cloud Denoising and Samping
 
 ***2020:***
+
+**[arXiv]** A Quick Review on Recent Trends in 3D Point Cloud Data Compression Techniques and the Challenges of Direct Processing in 3D Compressed Domain , [[paper](https://arxiv.org/pdf/2007.05038.pdf)]
 
 **[arXiv]** Learning Graph-Convolutional Representations for Point Cloud Denoising, [[paper](https://arxiv.org/pdf/2007.02578.pdf)]
 
