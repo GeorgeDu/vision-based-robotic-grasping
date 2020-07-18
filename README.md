@@ -248,6 +248,12 @@ I summarize all above kinds of methods in this repository, and hope to present a
 
 ##### b. Saliency Detection
 
+***2020:***
+
+**[ECCV]** A Single Stream Network for Robust and Real-time RGB-D Salient Object Detection, [[paper](https://arxiv.org/pdf/2007.06853.pdf)]
+
+**[ECCV]** RGB-D Salient Object Detection with Cross-Modality Modulation and Selection, [[paper](https://arxiv.org/pdf/2007.07051.pdf)]
+
 ***2019:***
 
 **[PR]** Multi-modal fusion network with multi-scale multi-path and cross-modal interactions for RGB-D salient object detection, [[paper](https://www.sciencedirect.com/science/article/abs/pii/S0031320318303054)]
@@ -559,6 +565,8 @@ This kind of methods only consume the 3D point cloud data.
 
 
 ***2020:***
+
+**[arXiv]** CenterNet3D: An Anchor free Object Detector for Autonomous Driving, [[paper](https://arxiv.org/pdf/2007.07214.pdf)]
 
 **[arXiv]** Local Grid Rendering Networks for 3D Object Detection in Point Clouds, [[paper](https://arxiv.org/pdf/2007.02099.pdf)]
 
@@ -1365,6 +1373,8 @@ The partial-view point cloud will be aligned to the complete shape in order to o
 
 ***2020:***
 
+**[arXiv]** Fast and Robust Iterative Closet Point, [[paper](https://arxiv.org/pdf/2007.07627.pdf)]
+
 **[arXiv]** The Phong Surface: Efficient 3D Model Fitting using Lifted Optimization, [[paper](https://arxiv.org/pdf/2007.04940.pdf)]
 
 **[arXiv]** Aligning Partially Overlapping Point Sets: an Inner Approximation Algorithm, [[paper](https://arxiv.org/pdf/2007.02363.pdf)]
@@ -1460,6 +1470,8 @@ The partial-view point cloud will be aligned to the complete shape in order to o
 #### 2.3.1 Category-level 6D pose estimation
 
 ***2020:***
+
+**[ECCV]** Shape Prior Deformation for Categorical 6D Object Pose and Size Estimation, [[paper](https://arxiv.org/pdf/2007.08454.pdf)]
 
 **[arXiv]** CPS: Class-level 6D Pose and Shape Estimation From Monocular Images, [[paper](https://arxiv.org/pdf/2003.05848v1.pdf)]
 
@@ -1562,6 +1574,10 @@ The partial-view point cloud will be aligned to the complete shape in order to o
 #### 2.3.3 3D shape rendering
 
 ***2020:***
+
+**[ECCV]** AUTO3D: Novel view synthesis through unsupervisely learned variational viewpoint and global 3D representation, [[paper](https://arxiv.org/pdf/2007.06620.pdf)]
+
+**[ICML]** DRWR: A Differentiable Renderer without Rendering for Unsupervised 3D Structure Learning from Silhouette Images, [[paper](https://arxiv.org/pdf/2007.06127.pdf)]
 
 **[arXiv]** Intrinsic Autoencoders for Joint Neural Rendering and Intrinsic Image Decomposition, [[paper](https://arxiv.org/pdf/2006.16011.pdf)]
 
@@ -1993,6 +2009,16 @@ In this situation, there exist no 3D models, an the 6-DoF grasps are estimated f
 ##### c. Depth Completion and Estimation
 
 ***2020:***
+
+**[IROS]** UnRectDepthNet: Self-Supervised Monocular Depth Estimation using a Generic Framework for Handling Common Camera Distortion Models, [[paper](https://arxiv.org/pdf/2007.06676.pdf)]
+
+**[IROS]** 360° Depth Estimation from Multiple Fisheye Images with Origami Crown Representation of Icosahedron, [[paper](https://arxiv.org/pdf/2007.06891.pdf)]
+
+**[ECCV]** Self-Supervised Monocular Depth Estimation: Solving the Dynamic Object Problem by Semantic Guidance, [[paper](https://arxiv.org/pdf/2007.06936.pdf)]
+
+**[ECCV]** $P^2$Net: Patch-match and Plane-regularization for Unsupervised Indoor Depth Estimation, [[paper](https://arxiv.org/pdf/2007.07696.pdf)]
+
+**[arXiv]** P2D: a self-supervised method for depth estimation from polarimetry, [[paper](https://arxiv.org/pdf/2007.07567.pdf)]
 
 **[arXiv]** MiniNet: An extremely lightweight convolutional neural network for real-time unsupervised monocular depth estimation, [[paper](https://arxiv.org/pdf/2006.15350.pdf)]
 
