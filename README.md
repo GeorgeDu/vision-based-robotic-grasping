@@ -180,7 +180,7 @@ I summarize all above kinds of methods in this repository, and hope to present a
 
 **[TPAMI]** Salient object detection via structured matrix decomposition, [[paper](https://eprints.bbk.ac.uk/14986/1/14986.pdf)]
 
-**[TIP]** Correspondence driven saliency transfer, [[paper](https://ueaeprints.uea.ac.uk/id/eprint/62909/1/Accepted_manuscript.pdf)] 
+**[TIP]** Correspondence driven saliency transfer, [[paper](https://ueaeprints.uea.ac.uk/id/eprint/62909/1/Accepted_manuscript.pdf)]
 
 ***2015:***
 
@@ -538,7 +538,7 @@ Most of this kind of methods estimate depth images from RGB images, and then con
 
 **[arXiv]** Task-Aware Monocular Depth Estimation for 3D Object Detection, [[paper](https://arxiv.org/abs/1909.07701)]
 
-**[CVPR]** Pseudo-LiDAR from Visual Depth Estimation: Bridging the Gap in 3D Object Detection for Autonomous Driving, [[paper](https://arxiv.org/abs/1812.07179)] [[code](https://github.com/mileyan/pseudo_lidar)] 
+**[CVPR]** Pseudo-LiDAR from Visual Depth Estimation: Bridging the Gap in 3D Object Detection for Autonomous Driving, [[paper](https://arxiv.org/abs/1812.07179)] [[code](https://github.com/mileyan/pseudo_lidar)]
 
 **[AAAI]** MonoGRNet: A Geometric Reasoning Network for 3D Object Localization, [[paper](https://arxiv.org/abs/1811.10247)] [[code](https://github.com/Zengyi-Qin/MonoGRNet)]
 
@@ -900,7 +900,7 @@ This kind of methods utilize both rgb images and depth images/point clouds. Ther
 
 **[CVPR]** Panoptic Segmentation, [[paper](https://arxiv.org/pdf/1801.00868.pdf)]
 
-**[CVPR]** Panoptic Feature Pyramid Networks, [[paper](https://arxiv.org/pdf/1901.02446.pdf)] 
+**[CVPR]** Panoptic Feature Pyramid Networks, [[paper](https://arxiv.org/pdf/1901.02446.pdf)]
 
 **[CVPR]** UPSNet: A Unified Panoptic Segmentation Network, [[paper](https://arxiv.org/pdf/1901.03784.pdf)]
 
@@ -1411,7 +1411,7 @@ The partial-view point cloud will be aligned to the complete shape in order to o
 
 **[arXiv]** Learning multiview 3D point cloud registration, [[paper](https://arxiv.org/pdf/2001.05119.pdf)]
 
-**[arXiv]** Robust, Occlusion-aware Pose Estimation for Objects Grasped by Adaptive Hands, [[paper](https://arxiv.org/pdf/2003.03518.pdf)]
+**[ICRA]** Robust, Occlusion-aware Pose Estimation for Objects Grasped by Adaptive Hands, [[paper](https://arxiv.org/pdf/2003.03518.pdf)] [[code](https://github.com/wenbowen123/icra20-hand-object-pose)]
 
 **[arXiv]** Non-iterative One-step Solution for Point Set Registration Problem on Pose Estimation without Correspondence, [[paper](https://arxiv.org/pdf/2003.00457.pdf)]
 
@@ -1487,7 +1487,7 @@ The partial-view point cloud will be aligned to the complete shape in order to o
 
 **[arXiv]** Self-Supervised 3D Keypoint Learning for Ego-motion Estimation, [[paper](https://arxiv.org/abs/1912.03426)]
 
-**[CVPR]** Normalized Object Coordinate Space for Category-Level 6D Object Pose and Size Estimation, [[paper](https://arxiv.org/abs/1901.02970)] [[code](https://github.com/hughw19/NOCS_CVPR2019)] 
+**[CVPR]** Normalized Object Coordinate Space for Category-Level 6D Object Pose and Size Estimation, [[paper](https://arxiv.org/abs/1901.02970)] [[code](https://github.com/hughw19/NOCS_CVPR2019)]
 
 **[arXiv]** Instance- and Category-level 6D Object Pose Estimation, [[paper](https://arxiv.org/pdf/1903.04229.pdf)]
 
@@ -2658,7 +2658,7 @@ In this situation, there exist no 3D models, an the 6-DoF grasps are estimated f
 
 [Animesh Garg](https://www.cs.toronto.edu/~garg/)(University of Toronto): Robotics, Reinforcement Learning
 
-[Bugra Tekin](https://btekin.github.io/)(Microsoft MR): Pose Estimation 
+[Bugra Tekin](https://btekin.github.io/)(Microsoft MR): Pose Estimation
 
 [Cewu Lu](http://mvig.sjtu.edu.cn/)(SJTU): Machine Vision
 
@@ -2730,7 +2730,7 @@ In this situation, there exist no 3D models, an the 6-DoF grasps are estimated f
 
 [Vicient Lepetit](https://www.labri.fr/perso/vlepetit/index.php)(University of Bordeaux): Machine Learning, 3D Vision
 
-[Xiaogang Wang](http://www.ee.cuhk.edu.hk/~xgwang/)(Chinese University of Hong Kong): Deep Learning, Computer Vision 
+[Xiaogang Wang](http://www.ee.cuhk.edu.hk/~xgwang/)(Chinese University of Hong Kong): Deep Learning, Computer Vision
 
 [Xiaozhi Chen](https://xiaozhichen.github.io/)(DJI): Deep learning
 
