@@ -482,6 +482,12 @@ Most of this kind of methods estimate depth images from RGB images, and then con
 
 ***2020:***
 
+**[IROS]** Object-Aware Centroid Voting for Monocular 3D Object Detection, [[paper](https://arxiv.org/pdf/2007.09836.pdf)]
+
+**[ECCV]** Kinematic 3D Object Detection in Monocular Video, [[paper](https://arxiv.org/pdf/2007.09548.pdf)]
+
+**[ECCV]** Geometric Correspondence Fields: Learned Differentiable Rendering for 3D Pose Refinement in the Wild, [[paper](https://arxiv.org/pdf/2007.08939.pdf)]
+
 **[arXiv]** MoNet3D: Towards Accurate Monocular 3D Object Localization in Real Time, [[paper](https://arxiv.org/pdf/2006.16007.pdf)]
 
 **[arXiv]** Expandable YOLO: 3D Object Detection from RGB-D Images, [[paper](https://arxiv.org/pdf/2006.14837.pdf)]
@@ -565,6 +571,10 @@ This kind of methods only consume the 3D point cloud data.
 
 
 ***2020:***
+
+**[ECCV]** Pillar-based Object Detection for Autonomous Driving, [[paper](https://arxiv.org/pdf/2007.10323.pdf)]
+
+**[arXiv]** InfoFocus: 3D Object Detection for Autonomous Driving with Dynamic Information Modeling, [[paper](https://arxiv.org/pdf/2007.08556.pdf)]
 
 **[arXiv]** CenterNet3D: An Anchor free Object Detector for Autonomous Driving, [[paper](https://arxiv.org/pdf/2007.07214.pdf)]
 
@@ -678,11 +688,15 @@ This kind of methods only consume the 3D point cloud data.
 
 **[IROS]** VoxNet: A 3D Convolutional Neural Network for real-time object recognition, [[paper](https://ieeexplore.ieee.org/abstract/document/7353481)] [[code](https://github.com/Durant35/VoxNet)] [[project](http://dimatura.net/research/voxnet/)]
 
+
+
 ##### c. Fusion methods
 
 This kind of methods utilize both rgb images and depth images/point clouds. There exist early fusion methods, late fusion methods, and dense fusion methods.
 
 ***2020:***
+
+**[ECCV]** EPNet: Enhancing Point Features with Image Semantics for 3D Object Detection, [[paper](https://arxiv.org/pdf/2007.08856.pdf)]
 
 **[arXiv]** Stereo RGB and Deeper LIDAR Based Network for 3D Object Detection, [[paper](https://arxiv.org/pdf/2006.05187.pdf)]
 
@@ -767,6 +781,8 @@ This kind of methods utilize both rgb images and depth images/point clouds. Ther
 ##### b. Two-stage methods
 
 ***2020:***
+
+**[ECCV]** Boundary-preserving Mask R-CNN, [[paper](https://arxiv.org/pdf/2007.08921.pdf)] [[code](https://github.com/hustvl/BMaskR-CNN)]
 
 **[arXiv]** A novel Region of Interest Extraction Layer for Instance Segmentation, [[paper](https://arxiv.org/pdf/2004.13665.pdf)]
 
@@ -915,6 +931,8 @@ This kind of methods utilize both rgb images and depth images/point clouds. Ther
 ##### a. Two-stage methods
 
 ***2020:***
+
+**[arXiv]** Learning Gaussian Instance Segmentation in Point Clouds, [[paper](https://arxiv.org/pdf/2007.09860.pdf)]
 
 **[arXiv]** Spatial Semantic Embedding Network: Fast 3D Instance Segmentation with Deep Metric Learning, [[paper](https://arxiv.org/pdf/2007.03169.pdf)]
 
@@ -1115,6 +1133,10 @@ This part mainly discuss 6D object pose estimation methods, which can be categor
 
 **[ICCV]** GLAMpoints: Greedily Learned Accurate Match points, [[paper](http://openaccess.thecvf.com/content_ICCV_2019/papers/Truong_GLAMpoints_Greedily_Learned_Accurate_Match_Points_ICCV_2019_paper.pdf)]
 
+***2018:***
+
+**[TPAMI]** Re-weighting and 1-Point RANSAC-Based PnP Solution to Handle Outliers, [[paper](https://arxiv.org/pdf/2007.08577.pdf)] [[code](https://github.com/haoyinzhou/PnP_Toolbox)]
+
 ***2016:***
 
 **[ECCV]** LIFT: Learned Invariant Feature Transform, [[paper](https://arxiv.org/pdf/1603.09114.pdf)]
@@ -1302,6 +1324,8 @@ The partial-view point cloud will be aligned to the complete shape in order to o
 #### 2.2.1 Correspondence-based Methods
 
 ***2020:***
+
+**[ECCV]** DH3D: Deep Hierarchical 3D Descriptors for Robust Large-Scale 6DoF Relocalization, [[paper](https://arxiv.org/pdf/2007.09217.pdf)]
 
 **[arXiv]** Radial intersection count image: a clutter resistant 3D shape descriptor, [[paper](https://arxiv.org/pdf/2007.02306.pdf)]
 
@@ -1846,6 +1870,8 @@ In this situation, there exist no 3D models, an the 6-DoF grasps are estimated f
 
 ***2020:***
 
+**[ECCV]** Mapping in a cycle: Sinkhorn regularized unsupervised learning for point cloud shapes, [[paper](https://arxiv.org/pdf/2007.09594.pdf)]
+
 **[arXiv]** RPM-Net: Recurrent Prediction of Motion and Parts from Point Cloud, [[paper](https://arxiv.org/pdf/2006.14865.pdf)]
 
 **[arXiv]** Meta Deformation Network: Meta Functionals for Shape Correspondence, [[paper](https://arxiv.org/pdf/2006.14758.pdf)]
@@ -1946,6 +1972,8 @@ In this situation, there exist no 3D models, an the 6-DoF grasps are estimated f
 
 ***2020:***
 
+**[ECCV]** Discrete Point Flow Networks for Efficient Point Cloud Generation, [[paper](https://arxiv.org/pdf/2007.10170.pdf)]
+
 **[arXiv]** Progressive Point Cloud Deconvolution Generation Network, [[paper](https://arxiv.org/pdf/2007.05361.pdf)]
 
 **[arXiv]** Point Set Voting for Partial Point Cloud Analysis, [[paper](https://arxiv.org/pdf/2007.04537.pdf)]
@@ -2009,6 +2037,8 @@ In this situation, there exist no 3D models, an the 6-DoF grasps are estimated f
 ##### c. Depth Completion and Estimation
 
 ***2020:***
+
+**[ECCV]** Non-Local Spatial Propagation Network for Depth Completion, [[paper](https://arxiv.org/pdf/2007.10042.pdf)] [[code](https://github.com/zzangjinsun/NLSPN_ECCV20)]
 
 **[IROS]** UnRectDepthNet: Self-Supervised Monocular Depth Estimation using a Generic Framework for Handling Common Camera Distortion Models, [[paper](https://arxiv.org/pdf/2007.06676.pdf)]
 
