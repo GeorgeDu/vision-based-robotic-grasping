@@ -216,6 +216,10 @@ I summarize all above kinds of methods in this repository, and hope to present a
 
 ***2020:***
 
+**[ECCV]** CAD-DEFORM: DEFORMABLE FITTING OF CAD MODELS TO 3D SCANS, [[paper](https://arxiv.org/pdf/2007.11965.pdf)] [[code](https://github.com/alexeybokhovkin/CAD-Deform)]
+
+**[arXiv]** Polylidar3D - Fast Polygon Extraction from 3D Data, [[paper](https://arxiv.org/pdf/2007.12065.pdf)]
+
 **[ICRA]** PrimiTect: Fast Continuous Hough Voting for Primitive Detection, [[paper](https://arxiv.org/pdf/2005.07457.pdf)] [[code](https://github.com/c-sommer/primitect)]
 
 **[arXiv]** ParSeNet: A Parametric Surface Fitting Network for 3D Point Clouds, [[paper](https://arxiv.org/pdf/2003.12181.pdf)]
@@ -486,8 +490,6 @@ Most of this kind of methods estimate depth images from RGB images, and then con
 
 **[ECCV]** Kinematic 3D Object Detection in Monocular Video, [[paper](https://arxiv.org/pdf/2007.09548.pdf)]
 
-**[ECCV]** Geometric Correspondence Fields: Learned Differentiable Rendering for 3D Pose Refinement in the Wild, [[paper](https://arxiv.org/pdf/2007.08939.pdf)]
-
 **[arXiv]** MoNet3D: Towards Accurate Monocular 3D Object Localization in Real Time, [[paper](https://arxiv.org/pdf/2006.16007.pdf)]
 
 **[arXiv]** Expandable YOLO: 3D Object Detection from RGB-D Images, [[paper](https://arxiv.org/pdf/2006.14837.pdf)]
@@ -571,6 +573,8 @@ This kind of methods only consume the 3D point cloud data.
 
 
 ***2020:***
+
+**[ECCV]** Weakly Supervised 3D Object Detection from Lidar Point Cloud, [[paper](https://arxiv.org/pdf/2007.11901.pdf)] [[code](https://github.com/hlesmqh/WS3D)]
 
 **[ECCV]** Pillar-based Object Detection for Autonomous Driving, [[paper](https://arxiv.org/pdf/2007.10323.pdf)]
 
@@ -1325,6 +1329,8 @@ The partial-view point cloud will be aligned to the complete shape in order to o
 
 ***2020:***
 
+**[arXiv]** 3D Correspondence Grouping with Compatibility Features, [[paper](https://arxiv.org/pdf/2007.10570.pdf)]
+
 **[ECCV]** DH3D: Deep Hierarchical 3D Descriptors for Robust Large-Scale 6DoF Relocalization, [[paper](https://arxiv.org/pdf/2007.09217.pdf)]
 
 **[arXiv]** Radial intersection count image: a clutter resistant 3D shape descriptor, [[paper](https://arxiv.org/pdf/2007.02306.pdf)]
@@ -1396,6 +1402,8 @@ The partial-view point cloud will be aligned to the complete shape in order to o
 
 
 ***2020:***
+
+**[ITSC]** DeepCLR: Correspondence-Less Architecture for Deep End-to-End Point Cloud Registration, [[paper](https://arxiv.org/pdf/2007.11255.pdf)]
 
 **[arXiv]** Fast and Robust Iterative Closet Point, [[paper](https://arxiv.org/pdf/2007.07627.pdf)]
 
@@ -1495,6 +1503,8 @@ The partial-view point cloud will be aligned to the complete shape in order to o
 
 ***2020:***
 
+**[ECCV]** Geometric Correspondence Fields: Learned Differentiable Rendering for 3D Pose Refinement in the Wild, [[paper](https://arxiv.org/pdf/2007.08939.pdf)]
+
 **[ECCV]** Shape Prior Deformation for Categorical 6D Object Pose and Size Estimation, [[paper](https://arxiv.org/pdf/2007.08454.pdf)]
 
 **[arXiv]** CPS: Class-level 6D Pose and Shape Estimation From Monocular Images, [[paper](https://arxiv.org/pdf/2003.05848v1.pdf)]
@@ -1522,6 +1532,8 @@ The partial-view point cloud will be aligned to the complete shape in order to o
 #### 2.3.2 3D shape reconstruction from images
 
 ***2020:***
+
+**[ECCV]** Shape and Viewpoint without Keypoints, [[paper](https://arxiv.org/pdf/2007.10982.pdf)]
 
 **[arXiv]** 3D Shape Reconstruction from Vision and Touch, [[paper](https://arxiv.org/pdf/2007.03778.pdf)]
 
@@ -1972,6 +1984,8 @@ In this situation, there exist no 3D models, an the 6-DoF grasps are estimated f
 
 ***2020:***
 
+**[arXiv]** Neural Mesh Flow: 3D Manifold Mesh Generation via Diffeomorphic Flows, [[paper](https://arxiv.org/pdf/2007.10973.pdf)] [[project](https://kunalmgupta.github.io/projects/NeuralMeshflow.html)]
+
 **[ECCV]** Discrete Point Flow Networks for Efficient Point Cloud Generation, [[paper](https://arxiv.org/pdf/2007.10170.pdf)]
 
 **[arXiv]** Progressive Point Cloud Deconvolution Generation Network, [[paper](https://arxiv.org/pdf/2007.05361.pdf)]
@@ -2037,6 +2051,10 @@ In this situation, there exist no 3D models, an the 6-DoF grasps are estimated f
 ##### c. Depth Completion and Estimation
 
 ***2020:***
+
+**[arXiv]** Improving Monocular Depth Estimation by Leveraging Structural Awareness and Complementary Datasets, [[paper](https://arxiv.org/pdf/2007.11256.pdf)]
+
+**[ECCV]** Feature-metric Loss for Self-supervised Learning of Depth and Egomotion, [[paper](https://arxiv.org/pdf/2007.10603.pdf)]
 
 **[ECCV]** Non-Local Spatial Propagation Network for Depth Completion, [[paper](https://arxiv.org/pdf/2007.10042.pdf)] [[code](https://github.com/zzangjinsun/NLSPN_ECCV20)]
 
@@ -2329,6 +2347,8 @@ In this situation, there exist no 3D models, an the 6-DoF grasps are estimated f
 ## 6. Dexterous Grippers
 
 ***2020:***
+
+**[ECCV]** ContactPose: A Dataset of Grasps with Object Contact and Hand Pose, [[paper](https://arxiv.org/pdf/2007.09545.pdf)] [[project](https://contactpose.cc.gatech.edu/)]
 
 **[ICRA]** Generalized Grasping for Mechanical Grippers for Unknown Objects with Partial Point Cloud Representations, [[paper](https://arxiv.org/pdf/2006.12676.pdf)]
 
