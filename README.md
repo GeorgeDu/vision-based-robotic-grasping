@@ -324,6 +324,8 @@ Detailed paper lists can refer to [hoya012](https://github.com/hoya012/deep_lear
 
 ***2020:***
 
+**[ECCV]** Corner Proposal Network for Anchor-free, Two-stage Object Detection, [[paper](https://arxiv.org/pdf/2007.13816.pdf)]
+
 **[arXiv]** Enhancing Geometric Factors in Model Learning and Inference for Object Detection and Instance Segmentation, [[paper](https://arxiv.org/pdf/2005.03572.pdf)]
 
 **[arXiv]** Instance-Aware, Context-Focused, and Memory-Efficient Weakly Supervised Object Detection, [[paper](https://arxiv.org/pdf/2004.04725.pdf)]
@@ -574,6 +576,12 @@ This kind of methods only consume the 3D point cloud data.
 
 ***2020:***
 
+**[arXiv]** An LSTM Approach to Temporal 3D Object Detection in LiDAR Point Clouds, [[paper](https://arxiv.org/pdf/2007.12392.pdf)]
+
+**[arXiv]** Part-Aware Data Augmentation for 3D Object Detection in Point Cloud, [[paper](https://arxiv.org/pdf/2007.13373.pdf)]
+
+**[MM]** Weakly Supervised 3D Object Detection from Point Clouds, [[paper](https://arxiv.org/pdf/2007.13970.pdf)]
+
 **[ECCV]** Weakly Supervised 3D Object Detection from Lidar Point Cloud, [[paper](https://arxiv.org/pdf/2007.11901.pdf)] [[code](https://github.com/hlesmqh/WS3D)]
 
 **[ECCV]** Pillar-based Object Detection for Autonomous Driving, [[paper](https://arxiv.org/pdf/2007.10323.pdf)]
@@ -786,6 +794,12 @@ This kind of methods utilize both rgb images and depth images/point clouds. Ther
 
 ***2020:***
 
+**[ECCV]** Commonality-Parsing Network across Shape and Appearance for Partially Supervised Instance Segmentation, [[paper](https://arxiv.org/pdf/2007.12387.pdf)]
+
+**[arXiv]** Learning RGB-D Feature Embeddings for Unseen Object Instance Segmentation, [[paper](https://arxiv.org/pdf/2007.15157.pdf)]
+
+**[ECCV]** LevelSet R-CNN: A Deep Variational Method for Instance Segmentation, [[paper](https://arxiv.org/pdf/2007.15629.pdf)]
+
 **[ECCV]** Boundary-preserving Mask R-CNN, [[paper](https://arxiv.org/pdf/2007.08921.pdf)] [[code](https://github.com/hustvl/BMaskR-CNN)]
 
 **[arXiv]** A novel Region of Interest Extraction Layer for Instance Segmentation, [[paper](https://arxiv.org/pdf/2004.13665.pdf)]
@@ -825,6 +839,8 @@ This kind of methods utilize both rgb images and depth images/point clouds. Ther
 ##### c. One-stage methods
 
 ***2020:***
+
+**[ECCV]** SipMask: Spatial Information Preservation for Fast Image and Video Instance Segmentation, [[paper](https://arxiv.org/pdf/2007.14772.pdf)] [[code](https://github.com/JialeCao001/SipMask)]
 
 **[arXiv]** POLY-YOLO: HIGHER SPEED, MORE PRECISE DETECTION AND INSTANCE SEGMENTATION FOR YOLOV3, [[paper](https://arxiv.org/pdf/2005.13243.pdf)]
 
@@ -984,6 +1000,8 @@ This kind of methods utilize both rgb images and depth images/point clouds. Ther
 
 ***2020:***
 
+**[ECCV]** Self-Prediction for Joint Instance and Semantic Segmentation of Point Clouds, [[paper](https://arxiv.org/pdf/2007.13344.pdf)]
+
 **[IET]** SASO: Joint 3D Semantic-Instance Segmentation via Multi-scale Semantic Association and Salient Point Clustering Optimization, [[paper](https://arxiv.org/pdf/2006.15015.pdf)]
 
 **[AAAI]** JSNet: Joint Instance and Semantic Segmentation of 3D Point Clouds, [[paper](https://arxiv.org/abs/1912.09654)] [[code](https://github.com/dlinzhao/JSNet)]
@@ -1117,6 +1135,8 @@ This part mainly discuss 6D object pose estimation methods, which can be categor
 
 ***2020:***
 
+**[ECCV]** Solving the Blind Perspective-n-Point Problem End-To-End With Robust Differentiable Geometric Optimization, [[paper](https://arxiv.org/pdf/2007.14628.pdf)]
+
 **[arXiv]** Delta Descriptors: Change-Based Place Representation for Robust Visual Localization, [[paper](https://arxiv.org/pdf/2006.05700.pdf)]
 
 **[arXiv]** Unconstrained Matching of 2D and 3D Descriptors for 6-DOF Pose Estimation, [[paper](https://arxiv.org/pdf/2005.14502.pdf)]
@@ -1204,6 +1224,10 @@ This part mainly discuss 6D object pose estimation methods, which can be categor
 This kind of methods can be regarded as regression-based methods.
 
 ***2020:***
+
+**[IROS]** Robust Ego and Object 6-DoF Motion Estimation and Tracking, [[paper](https://arxiv.org/pdf/2007.13993.pdf)]
+
+**[IROS]** se(3)-TrackNet: Data-driven 6D Pose Tracking by Calibrating Image Residuals in Synthetic Domains, [[paper](https://arxiv.org/pdf/2007.13866.pdf)]
 
 **[arXiv]** Learning Orientation Distributions for Object Pose Estimation, [[paper](https://arxiv.org/pdf/2007.01418.pdf)]
 
@@ -1533,6 +1557,16 @@ The partial-view point cloud will be aligned to the complete shape in order to o
 
 ***2020:***
 
+**[arXiv]** OpenRooms: An End-to-End Open Framework for Photorealistic Indoor Scene Datasets, [[paper](https://arxiv.org/pdf/2007.12868.pdf)]
+
+**[ECCV]** Mask2CAD: 3D Shape Prediction by Learning to Segment and Retrieve, [[paper](https://arxiv.org/pdf/2007.13034.pdf)]
+
+**[CVPR]** OASIS: A Large-Scale Dataset for Single Image 3D in the Wild, [[paper](https://arxiv.org/pdf/2007.13215.pdf)]
+
+**[ECCV]** Ladybird: Quasi-Monte Carlo Sampling for Deep Implicit Field Based 3D Reconstruction with Symmetry, [[paper](https://arxiv.org/pdf/2007.13393.pdf)]
+
+**[ECCV]** Associative3D: Volumetric Reconstruction from Sparse Views, [[paper](https://arxiv.org/pdf/2007.13727.pdf)]
+
 **[ECCV]** Shape and Viewpoint without Keypoints, [[paper](https://arxiv.org/pdf/2007.10982.pdf)]
 
 **[arXiv]** 3D Shape Reconstruction from Vision and Touch, [[paper](https://arxiv.org/pdf/2007.03778.pdf)]
@@ -1610,6 +1644,8 @@ The partial-view point cloud will be aligned to the complete shape in order to o
 #### 2.3.3 3D shape rendering
 
 ***2020:***
+
+**[NeurIPS]** Unsupervised Continuous Object Representation Networks for Novel View Synthesis, [[paper](https://arxiv.org/pdf/2007.15627.pdf)]
 
 **[ECCV]** AUTO3D: Novel view synthesis through unsupervisely learned variational viewpoint and global 3D representation, [[paper](https://arxiv.org/pdf/2007.06620.pdf)]
 
@@ -1882,6 +1918,8 @@ In this situation, there exist no 3D models, an the 6-DoF grasps are estimated f
 
 ***2020:***
 
+**[arXiv]** A Dual Iterative Refinement Method for Non-rigid Shape Matching, [[paper](https://arxiv.org/pdf/2007.13049.pdf)]
+
 **[ECCV]** Mapping in a cycle: Sinkhorn regularized unsupervised learning for point cloud shapes, [[paper](https://arxiv.org/pdf/2007.09594.pdf)]
 
 **[arXiv]** RPM-Net: Recurrent Prediction of Motion and Parts from Point Cloud, [[paper](https://arxiv.org/pdf/2006.14865.pdf)]
@@ -1983,6 +2021,8 @@ In this situation, there exist no 3D models, an the 6-DoF grasps are estimated f
 ##### b. Shape Completion or Generation
 
 ***2020:***
+
+**[arXiv]** MRGAN: Multi-Rooted 3D Shape Generation with Unsupervised Part Disentanglement, [[paper](https://arxiv.org/pdf/2007.12944.pdf)]
 
 **[arXiv]** Neural Mesh Flow: 3D Manifold Mesh Generation via Diffeomorphic Flows, [[paper](https://arxiv.org/pdf/2007.10973.pdf)] [[project](https://kunalmgupta.github.io/projects/NeuralMeshflow.html)]
 
@@ -2220,6 +2260,8 @@ In this situation, there exist no 3D models, an the 6-DoF grasps are estimated f
 
 ***2020:***
 
+**[MM]** Differentiable Manifold Reconstruction for Point Cloud Denoising, [[paper](https://arxiv.org/pdf/2007.13551.pdf)]
+
 **[arXiv]** A Quick Review on Recent Trends in 3D Point Cloud Data Compression Techniques and the Challenges of Direct Processing in 3D Compressed Domain , [[paper](https://arxiv.org/pdf/2007.05038.pdf)]
 
 **[arXiv]** Learning Graph-Convolutional Representations for Point Cloud Denoising, [[paper](https://arxiv.org/pdf/2007.02578.pdf)]
@@ -2257,6 +2299,12 @@ In this situation, there exist no 3D models, an the 6-DoF grasps are estimated f
 ### 5.1 Task-oriented Manipulation
 
 ***2020:***
+
+**[arXiv]** Self-Adapting Recurrent Models for Object Pushing from Learning in Simulation, [[paper](https://arxiv.org/pdf/2007.13421.pdf)]
+
+**[arXiv]** Complex Robotic Manipulation via Graph-Based Hindsight Goal Generation, [[paper](https://arxiv.org/pdf/2007.13486.pdf)]
+
+**[TOR]** Learning Transferable Push Manipulation Skills in Novel Contexts, [[paper](https://arxiv.org/pdf/2007.14755.pdf)]
 
 **[RAL]** Task-driven Perception and Manipulation for Constrained Placement of Unknown Objects, [[paper](https://arxiv.org/pdf/2006.15503.pdf)]
 
@@ -2503,6 +2551,8 @@ In this situation, there exist no 3D models, an the 6-DoF grasps are estimated f
 ### 9.1 Visual servoing
 
 ***2020:***
+
+**[IROS]** KOVIS: Keypoint-based Visual Servoing with Zero-Shot Sim-to-Real Transfer for Robotics Manipulation, [[paper](https://arxiv.org/pdf/2007.13960.pdf)]
 
 **[arXiv]** Detailed 2D-3D Joint Representation for Human-Object Interaction, [[paper](https://arxiv.org/pdf/2004.08154.pdf)]
 
