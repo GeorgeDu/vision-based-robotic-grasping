@@ -124,6 +124,8 @@ I summarize all above kinds of methods in this repository, and hope to present a
 
 ***Survey papers:***
 
+**[arXiv]** 2020-RGB-D Salient Object Detection: A Survey, [[paper](https://arxiv.org/pdf/2008.00230.pdf)] [[project](https://github.com/taozh2017/RGBD-SODsurvey)]
+
 **[arXiv]** 2019-Salient object detection in the deep learning era: An in-depth survey, [[paper](https://arxiv.org/pdf/1904.09146.pdf)]
 
 **[CVM]** 2014-Salient object detection: A survey, [[paper](https://arxiv.org/pdf/1411.5878.pdf)]
@@ -794,6 +796,8 @@ This kind of methods utilize both rgb images and depth images/point clouds. Ther
 
 ***2020:***
 
+**[arXiv]** Mask Point R-CNN, [[paper](https://arxiv.org/pdf/2008.00460.pdf)]
+
 **[ECCV]** Commonality-Parsing Network across Shape and Appearance for Partially Supervised Instance Segmentation, [[paper](https://arxiv.org/pdf/2007.12387.pdf)]
 
 **[arXiv]** Learning RGB-D Feature Embeddings for Unseen Object Instance Segmentation, [[paper](https://arxiv.org/pdf/2007.15157.pdf)]
@@ -1026,6 +1030,14 @@ This kind of methods utilize both rgb images and depth images/point clouds. Ther
 
 ***2020:***
 
+**[arXiv]** Self-Supervised Learning of Point Clouds via Orientation Estimation, [[paper](https://arxiv.org/pdf/2008.00305.pdf)]
+
+**[arXiv]** Searching Efficient 3D Architectures with Sparse Point-Voxel Convolution, [[paper](https://arxiv.org/pdf/2007.16100.pdf)]
+
+**[arXiv]** Unsupervised 3D Learning for Shape Analysis via Multiresolution Instance Discrimination, [[paper](https://arxiv.org/pdf/2008.01068.pdf)]
+
+**[arXiv]** Rethinking PointNet Embedding for Faster and Compact Model, [[paper](https://arxiv.org/pdf/2007.15855.pdf)]
+
 **[arXiv]** PointMask: Towards Interpretable and Bias-Resilient Point Cloud Processing, [[paper](https://arxiv.org/pdf/2007.04525.pdf)]
 
 **[arXiv]** A Closer Look at Local Aggregation Operators in Point Cloud Analysis, [[paper](https://arxiv.org/pdf/2007.01294.pdf)]
@@ -1224,6 +1236,8 @@ This part mainly discuss 6D object pose estimation methods, which can be categor
 This kind of methods can be regarded as regression-based methods.
 
 ***2020:***
+
+**[IROS]** PERCH 2.0 : Fast and Accurate GPU-based Perception via Search for Object Pose Estimation, [[paper](https://arxiv.org/pdf/2008.00326.pdf)] [[code](https://sbpl-cruz.github.io/perception/)]
 
 **[IROS]** Robust Ego and Object 6-DoF Motion Estimation and Tracking, [[paper](https://arxiv.org/pdf/2007.13993.pdf)]
 
@@ -2022,6 +2036,12 @@ In this situation, there exist no 3D models, an the 6-DoF grasps are estimated f
 
 ***2020:***
 
+**[arXiv]** KAPLAN: A 3D Point Descriptor for Shape Completion, [[paper](https://arxiv.org/pdf/2008.00096.pdf)]
+
+**[arXiv]** Point Cloud Completion by Learning Shape Priors, [[paper](https://arxiv.org/pdf/2008.00394.pdf)]
+
+**[TOG]** SymmetryNet: Learning to Predict Reflectional and Rotational Symmetries of 3D Shapes from Single-View RGB-D Images, [[paper](https://arxiv.org/pdf/2008.00485.pdf)]
+
 **[arXiv]** MRGAN: Multi-Rooted 3D Shape Generation with Unsupervised Part Disentanglement, [[paper](https://arxiv.org/pdf/2007.12944.pdf)]
 
 **[arXiv]** Neural Mesh Flow: 3D Manifold Mesh Generation via Diffeomorphic Flows, [[paper](https://arxiv.org/pdf/2007.10973.pdf)] [[project](https://kunalmgupta.github.io/projects/NeuralMeshflow.html)]
@@ -2468,6 +2488,8 @@ In this situation, there exist no 3D models, an the 6-DoF grasps are estimated f
 
 ***2020:***
 
+**[arXiv]** BenchBot: Evaluating Robotics Research in Photorealistic 3D Simulation and on Real Robots, [[paper](https://arxiv.org/pdf/2008.00635.pdf)]
+
 **[arXiv]** How to Close Sim-Real Gap? Transfer with Segmentation!, [[paper](https://arxiv.org/pdf/2005.07695.pdf)]
 
 **[arXiv]** A Study on the Challenges of Using Robotics Simulators for Testing, [[paper](https://arxiv.org/pdf/2004.07368.pdf)]
@@ -2610,6 +2632,8 @@ In this situation, there exist no 3D models, an the 6-DoF grasps are estimated f
 
 ***2020:***
 
+**[arXiv]** Learning-from-Observation Framework: One-Shot Robot Teaching for Grasp-Manipulation-Release Household Operations, [[paper](https://arxiv.org/pdf/2008.01513.pdf)]
+
 **[arXiv]** Self-supervised Learning for Precise Pick-and-place without Object Model, [[paper](https://arxiv.org/pdf/2006.08373.pdf)]
 
 **[arXiv]** HOPE-Net: A Graph-based Model for Hand-Object Pose Estimation, [[paper](https://arxiv.org/pdf/2004.00060.pdf)]
@@ -2647,6 +2671,8 @@ In this situation, there exist no 3D models, an the 6-DoF grasps are estimated f
 ## 11. Reinforcement Learning
 
 ***2020:***
+
+**[arXiv]** Follow the Object: Curriculum Learning for Manipulation Tasks with Imagined Goals, [[paper](https://arxiv.org/pdf/2008.02066.pdf)]
 
 **[arXiv]** Towards Generalization and Data Efficient Learning of Deep Robotic Grasping, [[paper](https://arxiv.org/pdf/2007.00982.pdf)]
 
