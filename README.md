@@ -490,6 +490,8 @@ Most of this kind of methods estimate depth images from RGB images, and then con
 
 ***2020:***
 
+**[arXiv]** 1-Point RANSAC-Based Method for Ground Object Pose Estimation, [[paper](https://arxiv.org/pdf/2008.03718.pdf)]
+
 **[IROS]** Object-Aware Centroid Voting for Monocular 3D Object Detection, [[paper](https://arxiv.org/pdf/2007.09836.pdf)]
 
 **[ECCV]** Kinematic 3D Object Detection in Monocular Video, [[paper](https://arxiv.org/pdf/2007.09548.pdf)]
@@ -796,6 +798,8 @@ This kind of methods utilize both rgb images and depth images/point clouds. Ther
 
 ***2020:***
 
+**[MM]** Forest R-CNN: Large-Vocabulary Long-Tailed Object Detection and Instance Segmentation, [[paper](https://arxiv.org/pdf/2008.05676.pdf)]
+
 **[arXiv]** Mask Point R-CNN, [[paper](https://arxiv.org/pdf/2008.00460.pdf)]
 
 **[ECCV]** Commonality-Parsing Network across Shape and Appearance for Partially Supervised Instance Segmentation, [[paper](https://arxiv.org/pdf/2007.12387.pdf)]
@@ -1030,6 +1034,8 @@ This kind of methods utilize both rgb images and depth images/point clouds. Ther
 
 ***2020:***
 
+**[arXiv]** Global Context Aware Convolutions for 3D Point Cloud Understanding, [[paper](https://arxiv.org/pdf/2008.02986.pdf)]
+
 **[arXiv]** Self-Supervised Learning of Point Clouds via Orientation Estimation, [[paper](https://arxiv.org/pdf/2008.00305.pdf)]
 
 **[arXiv]** Searching Efficient 3D Architectures with Sparse Point-Voxel Convolution, [[paper](https://arxiv.org/pdf/2007.16100.pdf)]
@@ -1236,6 +1242,8 @@ This part mainly discuss 6D object pose estimation methods, which can be categor
 This kind of methods can be regarded as regression-based methods.
 
 ***2020:***
+
+**[arXiv]** PAM:Point-wise Attention Module for 6D Object Pose Estimation, [[paper](https://arxiv.org/pdf/2008.05242.pdf)]
 
 **[IROS]** PERCH 2.0 : Fast and Accurate GPU-based Perception via Search for Object Pose Estimation, [[paper](https://arxiv.org/pdf/2008.00326.pdf)] [[code](https://sbpl-cruz.github.io/perception/)]
 
@@ -1571,6 +1579,8 @@ The partial-view point cloud will be aligned to the complete shape in order to o
 
 ***2020:***
 
+**[arXiv]** SkeletonNet: A Topology-Preserving Solution for Learning Mesh Reconstruction of Object Surfaces from RGB Images, [[paper](https://arxiv.org/pdf/2008.05742.pdf)]
+
 **[arXiv]** OpenRooms: An End-to-End Open Framework for Photorealistic Indoor Scene Datasets, [[paper](https://arxiv.org/pdf/2007.12868.pdf)]
 
 **[ECCV]** Mask2CAD: 3D Shape Prediction by Learning to Segment and Retrieve, [[paper](https://arxiv.org/pdf/2007.13034.pdf)]
@@ -1686,6 +1696,10 @@ The partial-view point cloud will be aligned to the complete shape in order to o
 ## 3. 2D Planar Grasp
 
 ### 3.1 Estimating Grasp Contact Points
+
+***2020:***
+
+**[IROS]** Cloth Region Segmentation for Robust Grasp Selection, [[paper](https://arxiv.org/pdf/2008.05626.pdf)]
 
 ***2019:***
 
@@ -2036,6 +2050,12 @@ In this situation, there exist no 3D models, an the 6-DoF grasps are estimated f
 
 ***2020:***
 
+**[arXiv]** VPC-Net: Completion of 3D Vehicles from MLS Point Clouds, [[paper](https://arxiv.org/pdf/2008.03404.pdf)]
+
+**[arXiv]** LPMNet: Latent Part Modification and Generation for 3D Point Clouds, [[paper](https://arxiv.org/pdf/2008.03560.pdf)]
+
+**[arXiv]** DSM-Net: Disentangled Structured Mesh Net for Controllable Generation of Fine Geometry, [[paper](https://arxiv.org/pdf/2008.05440.pdf)]
+
 **[arXiv]** KAPLAN: A 3D Point Descriptor for Shape Completion, [[paper](https://arxiv.org/pdf/2008.00096.pdf)]
 
 **[arXiv]** Point Cloud Completion by Learning Shape Priors, [[paper](https://arxiv.org/pdf/2008.00394.pdf)]
@@ -2111,6 +2131,8 @@ In this situation, there exist no 3D models, an the 6-DoF grasps are estimated f
 ##### c. Depth Completion and Estimation
 
 ***2020:***
+
+**[IROS]** Balanced Depth Completion between Dense Depth Inference and Sparse Range Measurements via KISS-GP, [[paper](https://arxiv.org/pdf/2008.05158.pdf)]
 
 **[arXiv]** Improving Monocular Depth Estimation by Leveraging Structural Awareness and Complementary Datasets, [[paper](https://arxiv.org/pdf/2007.11256.pdf)]
 
@@ -2416,6 +2438,10 @@ In this situation, there exist no 3D models, an the 6-DoF grasps are estimated f
 
 ***2020:***
 
+**[arXiv]** TriFinger: An Open-Source Robot for Learning Dexterity, [[paper](https://arxiv.org/pdf/2008.03596.pdf)]
+
+**[arXiv]** Grasping Field: Learning Implicit Representations for Human Grasps, [[paper](https://arxiv.org/pdf/2008.04451.pdf)]
+
 **[ECCV]** ContactPose: A Dataset of Grasps with Object Contact and Hand Pose, [[paper](https://arxiv.org/pdf/2007.09545.pdf)] [[project](https://contactpose.cc.gatech.edu/)]
 
 **[ICRA]** Generalized Grasping for Mechanical Grippers for Unknown Objects with Partial Point Cloud Representations, [[paper](https://arxiv.org/pdf/2006.12676.pdf)]
@@ -2487,6 +2513,8 @@ In this situation, there exist no 3D models, an the 6-DoF grasps are estimated f
 ### 7.1 Simulation to Reality
 
 ***2020:***
+
+**[arXiv]** The Importance and the Limitations of Sim2Real for Robotic Manipulation in Precision Agriculture, [[paper](https://arxiv.org/pdf/2008.03983.pdf)]
 
 **[arXiv]** BenchBot: Evaluating Robotics Research in Photorealistic 3D Simulation and on Real Robots, [[paper](https://arxiv.org/pdf/2008.00635.pdf)]
 
@@ -2671,6 +2699,8 @@ In this situation, there exist no 3D models, an the 6-DoF grasps are estimated f
 ## 11. Reinforcement Learning
 
 ***2020:***
+
+**[IROS]** Physics-Based Dexterous Manipulations with Estimated Hand Poses and Residual Reinforcement Learning, [[paper](https://arxiv.org/pdf/2008.03285.pdf)]
 
 **[arXiv]** Follow the Object: Curriculum Learning for Manipulation Tasks with Imagined Goals, [[paper](https://arxiv.org/pdf/2008.02066.pdf)]
 
