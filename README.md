@@ -88,11 +88,11 @@ I summarize all above kinds of methods in this repository, and hope to present a
 
 ## 0. Review Papers
 
+**[AIRE]** 2020-Vision-based Robotic Grasp Detection From Object Localization, Object Pose Estimation To Grasp Estimation: A Review, [[paper](https://arxiv.org/abs/1905.06658)]
+
 **[arXiv]** 2020-Affordances in Robotic Tasks - A Survey, [[paper](https://arxiv.org/pdf/2004.07400.pdf)]
 
 **[arXiv]** 2019-A Review of Robot Learning for Manipulation- Challenges, Representations, and Algorithms, [[paper](https://arxiv.org/abs/1907.03146)]
-
-**[arXiv]** 2019-Vision-based Robotic Grasping from Object Localization, Pose Estimation, Grasp Detection to Motion Planning: A Review, [[paper](https://arxiv.org/abs/1905.06658)]
 
 **[arXiv]** 2018-The Limits and Potentials of Deep Learning for Robotics, [[paper](https://arxiv.org/abs/1804.06557)]
 
@@ -131,6 +131,8 @@ I summarize all above kinds of methods in this repository, and hope to present a
 **[CVM]** 2014-Salient object detection: A survey, [[paper](https://arxiv.org/pdf/1411.5878.pdf)]
 
 ***2020:***
+
+**[ECCV]** Progressively Guided Alternate Refinement Network for RGB-D Salient Object Detection, [[paper](https://arxiv.org/pdf/2008.07064.pdf)]
 
 **[ECCV]** Hierarchical Dynamic Filtering Network for RGB-D Salient Object Detection, [[paper](https://arxiv.org/pdf/2007.06227.pdf)]
 
@@ -418,6 +420,8 @@ Detailed paper lists can refer to [hoya012](https://github.com/hoya012/deep_lear
 
 ***2020:***
 
+**[TPAMI]** AP-Loss for Accurate One-Stage Object Detection, [[paper](https://arxiv.org/pdf/2008.07294.pdf)]
+
 **[arXiv]** Point-Set Anchors for Object Detection, Instance Segmentation and Pose Estimation, [[paper](https://arxiv.org/pdf/2007.02846.pdf)]
 
 **[arXiv]** AutoAssign: Differentiable Label Assignment for Dense Object Detection, [[paper](https://arxiv.org/pdf/2007.03496.pdf)]
@@ -579,6 +583,12 @@ This kind of methods only consume the 3D point cloud data.
 
 
 ***2020:***
+
+**[ECCVW]** AB3DMOT: A Baseline for 3D Multi-Object Tracking and New Evaluation Metrics, [[paper](https://arxiv.org/pdf/2008.08063.pdf)] [[project](http://www.xinshuoweng.com/projects/AB3DMOT)]
+
+**[IROS]** Uncertainty-aware Self-supervised 3D Data Association, [[paper](https://arxiv.org/pdf/2008.08173.pdf)]
+
+**[ECCVW]** Deformable PV-RCNN: Improving 3D Object Detection with Learned Deformations, [[paper](https://arxiv.org/pdf/2008.08766.pdf)]
 
 **[arXiv]** An LSTM Approach to Temporal 3D Object Detection in LiDAR Point Clouds, [[paper](https://arxiv.org/pdf/2007.12392.pdf)]
 
@@ -1193,6 +1203,8 @@ This part mainly discuss 6D object pose estimation methods, which can be categor
 
 ***2020:***
 
+**[arXiv]** Robust RGB-based 6-DoF Pose Estimation without Real Pose Annotations, [[paper](https://arxiv.org/pdf/2008.08391.pdf)]
+
 **[arXiv]** PrimA6D: Rotational Primitive Reconstruction for Enhanced and Robust 6D Pose Estimation, [[paper](https://arxiv.org/pdf/2006.07789.pdf)]
 
 **[arXiv]** EPOS: Estimating 6D Pose of Objects with Symmetries, [[paper](https://arxiv.org/pdf/2004.00605.pdf)]
@@ -1242,6 +1254,8 @@ This part mainly discuss 6D object pose estimation methods, which can be categor
 This kind of methods can be regarded as regression-based methods.
 
 ***2020:***
+
+**[ECCV]** CosyPose: Consistent multi-view multi-object 6D pose estimation, [[paper](https://arxiv.org/pdf/2008.08465.pdf)]
 
 **[arXiv]** PAM:Point-wise Attention Module for 6D Object Pose Estimation, [[paper](https://arxiv.org/pdf/2008.05242.pdf)]
 
@@ -1449,6 +1463,8 @@ The partial-view point cloud will be aligned to the complete shape in order to o
 
 ***2020:***
 
+**[ECCV]** DeepGMR: Learning Latent Gaussian Mixture Models for Registration, [[paper](https://arxiv.org/pdf/2008.09088.pdf)]
+
 **[ITSC]** DeepCLR: Correspondence-Less Architecture for Deep End-to-End Point Cloud Registration, [[paper](https://arxiv.org/pdf/2007.11255.pdf)]
 
 **[arXiv]** Fast and Robust Iterative Closet Point, [[paper](https://arxiv.org/pdf/2007.07627.pdf)]
@@ -1549,6 +1565,8 @@ The partial-view point cloud will be aligned to the complete shape in order to o
 
 ***2020:***
 
+**[arXiv]** Category Level Object Pose Estimation via Neural Analysis-by-Synthesis, [[paper](https://arxiv.org/pdf/2008.08145.pdf)]
+
 **[ECCV]** Geometric Correspondence Fields: Learned Differentiable Rendering for 3D Pose Refinement in the Wild, [[paper](https://arxiv.org/pdf/2007.08939.pdf)]
 
 **[ECCV]** Shape Prior Deformation for Categorical 6D Object Pose and Size Estimation, [[paper](https://arxiv.org/pdf/2007.08454.pdf)]
@@ -1578,6 +1596,8 @@ The partial-view point cloud will be aligned to the complete shape in order to o
 #### 2.3.2 3D shape reconstruction from images
 
 ***2020:***
+
+**[ECCV]** Pix2Surf: Learning Parametric 3D Surface Models of Objects from Images, [[paper](https://arxiv.org/pdf/2008.07760.pdf)]
 
 **[arXiv]** SkeletonNet: A Topology-Preserving Solution for Learning Mesh Reconstruction of Object Surfaces from RGB Images, [[paper](https://arxiv.org/pdf/2008.05742.pdf)]
 
@@ -1740,6 +1760,8 @@ The partial-view point cloud will be aligned to the complete shape in order to o
 ### 3.2 Estimating Oriented Rectangles
 
 ***2020:***
+
+**[IROS]** Grasping Detection Network with Uncertainty Estimation for Confidence-Driven Semi-Supervised Domain Adaptation, [[paper](https://arxiv.org/pdf/2008.08817.pdf)]
 
 **[arXiv]** Orientation Attentive Robot Grasp Synthesis, [[paper](https://arxiv.org/pdf/2006.05123.pdf)]
 
@@ -1922,6 +1944,8 @@ In this situation, there exist no 3D models, an the 6-DoF grasps are estimated f
 
 ***2020:***
 
+**[arXiv]** Category-Level 3D Non-Rigid Registration from Single-View RGB Images, [[paper](https://arxiv.org/pdf/2008.07203.pdf)]
+
 **[arXiv]** Neural Non-Rigid Tracking, [[paper](https://arxiv.org/pdf/2006.13240.pdf)]
 
 **[arXiv]** Quasi-Newton Solver for Robust Non-Rigid Registration, [[paper](https://arxiv.org/pdf/2004.04322.pdf)]
@@ -2050,6 +2074,16 @@ In this situation, there exist no 3D models, an the 6-DoF grasps are estimated f
 
 ***2020:***
 
+**[arXiv]** Self-Sampling for Neural Point Cloud Consolidation, [[paper](https://arxiv.org/pdf/2008.06471.pdf)]
+
+**[ECCV]** PointMixup: Augmentation for Point Clouds, [[paper](https://arxiv.org/pdf/2008.06374.pdf)]
+
+**[ECCV]** Learning Gradient Fields for Shape Generation, [[paper](https://arxiv.org/pdf/2008.06520.pdf)]
+
+**[ECCV]** SoftPoolNet: Shape Descriptor for Point Cloud Completion and Classification, [[paper](https://arxiv.org/pdf/2008.07358.pdf)]
+
+**[ECCV]** Weakly-supervised 3D Shape Completion in the Wild, [[paper](https://arxiv.org/pdf/2008.09110.pdf)]
+
 **[arXiv]** VPC-Net: Completion of 3D Vehicles from MLS Point Clouds, [[paper](https://arxiv.org/pdf/2008.03404.pdf)]
 
 **[arXiv]** LPMNet: Latent Part Modification and Generation for 3D Point Clouds, [[paper](https://arxiv.org/pdf/2008.03560.pdf)]
@@ -2131,6 +2165,8 @@ In this situation, there exist no 3D models, an the 6-DoF grasps are estimated f
 ##### c. Depth Completion and Estimation
 
 ***2020:***
+
+**[arXiv]** Depth Completion with RGB Prior, [[paper](https://arxiv.org/pdf/2008.07861.pdf)]
 
 **[IROS]** Balanced Depth Completion between Dense Depth Inference and Sparse Range Measurements via KISS-GP, [[paper](https://arxiv.org/pdf/2008.05158.pdf)]
 
@@ -2513,6 +2549,10 @@ In this situation, there exist no 3D models, an the 6-DoF grasps are estimated f
 ### 7.1 Simulation to Reality
 
 ***2020:***
+
+**[ECCV]** AutoSimulate: (Quickly) Learning Synthetic Data Generation, [[paper](https://arxiv.org/pdf/2008.08424.pdf)]
+
+**[ECCV]** Meta-Sim2: Unsupervised Learning of Scene Structure for Synthetic Data Generation, [[paper](https://arxiv.org/pdf/2008.09092.pdf)]
 
 **[arXiv]** The Importance and the Limitations of Sim2Real for Robotic Manipulation in Precision Agriculture, [[paper](https://arxiv.org/pdf/2008.03983.pdf)]
 
