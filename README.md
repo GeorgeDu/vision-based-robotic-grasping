@@ -584,6 +584,8 @@ This kind of methods only consume the 3D point cloud data.
 
 ***2020:***
 
+**[WACV]** Cross-Modality 3D Object Detection, [[paper](https://arxiv.org/pdf/2008.10436.pdf)]
+
 **[ECCVW]** AB3DMOT: A Baseline for 3D Multi-Object Tracking and New Evaluation Metrics, [[paper](https://arxiv.org/pdf/2008.08063.pdf)] [[project](http://www.xinshuoweng.com/projects/AB3DMOT)]
 
 **[IROS]** Uncertainty-aware Self-supervised 3D Data Association, [[paper](https://arxiv.org/pdf/2008.08173.pdf)]
@@ -1044,6 +1046,10 @@ This kind of methods utilize both rgb images and depth images/point clouds. Ther
 
 ***2020:***
 
+**[BMVC]** Neighbourhood-Insensitive Point Cloud Normal Estimation Network, [[paper](https://arxiv.org/pdf/2008.09965.pdf)] [[code](https://code.active.vision/)]
+
+**[arXiv]** LC-NAS: Latency Constrained Neural Architecture Search for Point Cloud Networks, [[paper](https://arxiv.org/pdf/2008.10309.pdf)]
+
 **[arXiv]** Global Context Aware Convolutions for 3D Point Cloud Understanding, [[paper](https://arxiv.org/pdf/2008.02986.pdf)]
 
 **[arXiv]** Self-Supervised Learning of Point Clouds via Orientation Estimation, [[paper](https://arxiv.org/pdf/2008.00305.pdf)]
@@ -1255,6 +1261,8 @@ This kind of methods can be regarded as regression-based methods.
 
 ***2020:***
 
+**[IROS]** Indirect Object-to-Robot Pose Estimation from an External Monocular RGB Camera, [[paper](https://arxiv.org/pdf/2008.11822.pdf)]
+
 **[ECCV]** CosyPose: Consistent multi-view multi-object 6D pose estimation, [[paper](https://arxiv.org/pdf/2008.08465.pdf)]
 
 **[arXiv]** PAM:Point-wise Attention Module for 6D Object Pose Estimation, [[paper](https://arxiv.org/pdf/2008.05242.pdf)]
@@ -1462,6 +1470,8 @@ The partial-view point cloud will be aligned to the complete shape in order to o
 
 
 ***2020:***
+
+**[arXiv]** Deterministic PointNetLK for Generalized Registration, [[paper](https://arxiv.org/pdf/2008.09527.pdf)]
 
 **[ECCV]** DeepGMR: Learning Latent Gaussian Mixture Models for Registration, [[paper](https://arxiv.org/pdf/2008.09088.pdf)]
 
@@ -2074,6 +2084,8 @@ In this situation, there exist no 3D models, an the 6-DoF grasps are estimated f
 
 ***2020:***
 
+**[arXiv]** LMSCNet: Lightweight Multiscale 3D Semantic Completion, [[paper](https://arxiv.org/pdf/2008.10559.pdf)]
+
 **[arXiv]** Self-Sampling for Neural Point Cloud Consolidation, [[paper](https://arxiv.org/pdf/2008.06471.pdf)]
 
 **[ECCV]** PointMixup: Augmentation for Point Clouds, [[paper](https://arxiv.org/pdf/2008.06374.pdf)]
@@ -2165,6 +2177,8 @@ In this situation, there exist no 3D models, an the 6-DoF grasps are estimated f
 ##### c. Depth Completion and Estimation
 
 ***2020:***
+
+**[arXiv]** Adaptive Context-Aware Multi-Modal Network for Depth Completion, [[paper](https://arxiv.org/pdf/2008.10833.pdf)]
 
 **[arXiv]** Depth Completion with RGB Prior, [[paper](https://arxiv.org/pdf/2008.07861.pdf)]
 
@@ -2378,6 +2392,10 @@ In this situation, there exist no 3D models, an the 6-DoF grasps are estimated f
 
 ***2020:***
 
+**[IROS]** Learning and Sequencing of Object-Centric Manipulation Skills for Industrial Tasks, [[paper](https://arxiv.org/pdf/2008.10471.pdf)]
+
+**[RSSW]** Self-Supervised Goal-Conditioned Pick and Place, [[paper](https://arxiv.org/pdf/2008.11466.pdf)]
+
 **[arXiv]** Self-Adapting Recurrent Models for Object Pushing from Learning in Simulation, [[paper](https://arxiv.org/pdf/2007.13421.pdf)]
 
 **[arXiv]** Complex Robotic Manipulation via Graph-Based Hindsight Goal Generation, [[paper](https://arxiv.org/pdf/2007.13486.pdf)]
@@ -2473,6 +2491,12 @@ In this situation, there exist no 3D models, an the 6-DoF grasps are estimated f
 ## 6. Dexterous Grippers
 
 ***2020:***
+
+**[ECCV]** GRAB: A Dataset of Whole-Body Human Grasping of Objects, [[paper](https://arxiv.org/pdf/2008.11200.pdf)]
+
+**[ECCV]** DRG: Dual Relation Graph for Human-Object Interaction Detection, [[paper](https://arxiv.org/pdf/2008.11714.pdf)] [[project](http://chengao.vision/DRG/)] [[code](https://github.com/vt-vl-lab/DRG)]
+
+**[ECCV]** InterHand2.6M: A Dataset and Baseline for 3D Interacting Hand Pose Estimation from a Single RGB Image, [[paper](https://arxiv.org/pdf/2008.09309.pdf)]
 
 **[arXiv]** TriFinger: An Open-Source Robot for Learning Dexterity, [[paper](https://arxiv.org/pdf/2008.03596.pdf)]
 
