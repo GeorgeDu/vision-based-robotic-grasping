@@ -494,6 +494,8 @@ Most of this kind of methods estimate depth images from RGB images, and then con
 
 ***2020:***
 
+**[arXiv]** Monocular 3D Detection with Geometric Constraints Embedding and Semi-supervised Training, [[paper](https://arxiv.org/pdf/2009.00764.pdf)]
+
 **[arXiv]** 1-Point RANSAC-Based Method for Ground Object Pose Estimation, [[paper](https://arxiv.org/pdf/2008.03718.pdf)]
 
 **[IROS]** Object-Aware Centroid Voting for Monocular 3D Object Detection, [[paper](https://arxiv.org/pdf/2007.09836.pdf)]
@@ -583,6 +585,8 @@ This kind of methods only consume the 3D point cloud data.
 
 
 ***2020:***
+
+**[arXiv]** RangeRCNN: Towards Fast and Accurate 3D Object Detection with Range Image Representation, [[paper](https://arxiv.org/pdf/2009.00206.pdf)]
 
 **[WACV]** Cross-Modality 3D Object Detection, [[paper](https://arxiv.org/pdf/2008.10436.pdf)]
 
@@ -723,6 +727,8 @@ This kind of methods only consume the 3D point cloud data.
 This kind of methods utilize both rgb images and depth images/point clouds. There exist early fusion methods, late fusion methods, and dense fusion methods.
 
 ***2020:***
+
+**[arXiv]** CLOCs: Camera-LiDAR Object Candidates Fusion for 3D Object Detection, [[paper](https://arxiv.org/pdf/2009.00784.pdf)]
 
 **[ECCV]** EPNet: Enhancing Point Features with Image Semantics for 3D Object Detection, [[paper](https://arxiv.org/pdf/2007.08856.pdf)]
 
@@ -1046,6 +1052,8 @@ This kind of methods utilize both rgb images and depth images/point clouds. Ther
 
 ***2020:***
 
+**[arXiv]** Spatial Transformer Point Convolution, [[paper](https://arxiv.org/pdf/2009.01427.pdf)]
+
 **[BMVC]** Neighbourhood-Insensitive Point Cloud Normal Estimation Network, [[paper](https://arxiv.org/pdf/2008.09965.pdf)] [[code](https://code.active.vision/)]
 
 **[arXiv]** LC-NAS: Latency Constrained Neural Architecture Search for Point Cloud Networks, [[paper](https://arxiv.org/pdf/2008.10309.pdf)]
@@ -1168,6 +1176,8 @@ This part mainly discuss 6D object pose estimation methods, which can be categor
 ##### a. Match 2D feature points
 
 ***2020:***
+
+**[MM]** LodoNet: A Deep Neural Network with 2D Keypoint Matchingfor 3D LiDAR Odometry Estimation, [[paper](https://arxiv.org/pdf/2009.00164.pdf)]
 
 **[ECCV]** Solving the Blind Perspective-n-Point Problem End-To-End With Robust Differentiable Geometric Optimization, [[paper](https://arxiv.org/pdf/2007.14628.pdf)]
 
@@ -1397,6 +1407,8 @@ The partial-view point cloud will be aligned to the complete shape in order to o
 
 ***2020:***
 
+**[ICIP]** Distinctive 3D local deep descriptors, [[paper](https://arxiv.org/pdf/2009.00258.pdf)]
+
 **[arXiv]** 3D Correspondence Grouping with Compatibility Features, [[paper](https://arxiv.org/pdf/2007.10570.pdf)]
 
 **[ECCV]** DH3D: Deep Hierarchical 3D Descriptors for Robust Large-Scale 6DoF Relocalization, [[paper](https://arxiv.org/pdf/2007.09217.pdf)]
@@ -1470,6 +1482,8 @@ The partial-view point cloud will be aligned to the complete shape in order to o
 
 
 ***2020:***
+
+**[VCIP]** Unsupervised Point Cloud Registration via Salient Points Analysis (SPA), [[paper](https://arxiv.org/pdf/2009.01293.pdf)]
 
 **[arXiv]** Deterministic PointNetLK for Generalized Registration, [[paper](https://arxiv.org/pdf/2008.09527.pdf)]
 
@@ -1728,6 +1742,8 @@ The partial-view point cloud will be aligned to the complete shape in order to o
 ### 3.1 Estimating Grasp Contact Points
 
 ***2020:***
+
+**[arXiv]** Dexterous Robotic Grasping with Object-Centric Visual Affordances, [[paper](https://arxiv.org/pdf/2009.01439.pdf)]
 
 **[IROS]** Cloth Region Segmentation for Robust Grasp Selection, [[paper](https://arxiv.org/pdf/2008.05626.pdf)]
 
@@ -2177,6 +2193,8 @@ In this situation, there exist no 3D models, an the 6-DoF grasps are estimated f
 ##### c. Depth Completion and Estimation
 
 ***2020:***
+
+**[BMVC]** DESC: Domain Adaptation for Depth Estimation via Semantic Consistency, [[paper](https://arxiv.org/pdf/2009.01579.pdf)] [[code](https://github.com/alopezgit/DESC)]
 
 **[arXiv]** Adaptive Context-Aware Multi-Modal Network for Depth Completion, [[paper](https://arxiv.org/pdf/2008.10833.pdf)]
 
