@@ -2196,6 +2196,8 @@ In this situation, there exist no 3D models, an the 6-DoF grasps are estimated f
 
 ***2020:***
 
+**[IROS]** Depth Completion via Inductive Fusion of Planar LIDAR and Monocular Camera, [[paper](https://arxiv.org/pdf/2009.01875.pdf)]
+
 **[BMVC]** DESC: Domain Adaptation for Depth Estimation via Semantic Consistency, [[paper](https://arxiv.org/pdf/2009.01579.pdf)] [[code](https://github.com/alopezgit/DESC)]
 
 **[arXiv]** Adaptive Context-Aware Multi-Modal Network for Depth Completion, [[paper](https://arxiv.org/pdf/2008.10833.pdf)]
@@ -2371,6 +2373,8 @@ In this situation, there exist no 3D models, an the 6-DoF grasps are estimated f
 ##### d. Point Cloud Denoising and Samping
 
 ***2020:***
+
+**[arXiv]** CAD-PU: A Curvature-Adaptive Deep Learning Solution for Point Set Upsampling, [[paper](https://arxiv.org/pdf/2009.04660.pdf)]
 
 **[MM]** Differentiable Manifold Reconstruction for Point Cloud Denoising, [[paper](https://arxiv.org/pdf/2007.13551.pdf)]
 
