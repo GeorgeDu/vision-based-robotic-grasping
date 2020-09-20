@@ -588,6 +588,12 @@ This kind of methods only consume the 3D point cloud data.
 
 ***2020:***
 
+**[ICRA]** 3D Object Detection and Tracking Based on Streaming Data, [[paper](https://arxiv.org/pdf/2009.06169.pdf)]
+
+**[arXiv]** A Density-Aware PointRCNN for 3D Objection Detection in Point Clouds, [[paper](https://arxiv.org/pdf/2009.05307.pdf)]
+
+**[arXiv]** Dynamic Edge Weights in Graph Neural Networks for 3D Object Detection, [[paper](https://arxiv.org/pdf/2009.08253.pdf)]
+
 **[arXiv]** RangeRCNN: Towards Fast and Accurate 3D Object Detection with Range Image Representation, [[paper](https://arxiv.org/pdf/2009.00206.pdf)]
 
 **[WACV]** Cross-Modality 3D Object Detection, [[paper](https://arxiv.org/pdf/2008.10436.pdf)]
@@ -1163,6 +1169,8 @@ This part mainly discuss 6D object pose estimation methods, which can be categor
 
 ***2020:***
 
+**[ECCVW]** BOP Challenge 2020 on 6D Object Localization, [[paper](https://arxiv.org/pdf/2009.07378.pdf)]
+
 **[arXiv]** A Survey on Deep Learning for Localization and Mapping: Towards the Age of Spatial Machine Intelligence, [[paper](https://arxiv.org/pdf/2006.12567.pdf)]
 
 **[arXiv]** Recent Advances in 3D Object and Hand Pose Estimation, [[paper](https://arxiv.org/pdf/2006.05927.pdf)]
@@ -1485,6 +1493,8 @@ The partial-view point cloud will be aligned to the complete shape in order to o
 
 ***2020:***
 
+**[arXiv]** Unsupervised Partial Point Set Registration via Joint Shape Completion and Registration, [[paper](https://arxiv.org/pdf/2009.05290.pdf)]
+
 **[VCIP]** Unsupervised Point Cloud Registration via Salient Points Analysis (SPA), [[paper](https://arxiv.org/pdf/2009.01293.pdf)]
 
 **[arXiv]** Deterministic PointNetLK for Generalized Registration, [[paper](https://arxiv.org/pdf/2008.09527.pdf)]
@@ -1570,6 +1580,8 @@ The partial-view point cloud will be aligned to the complete shape in order to o
 
 
 ***2020:***
+
+**[arXiv]** 3DPVNet: Patch-level 3D Hough Voting Network for 6D Pose Estimation, [[paper](https://arxiv.org/pdf/2009.06887.pdf)]
 
 **[arXiv]** MoreFusion: Multi-object Reasoning for 6D Pose Estimation from Volumetric Fusion, [[paper](https://arxiv.org/pdf/2004.04336.pdf)] [[code](https://github.com/wkentaro/morefusion)]
 
