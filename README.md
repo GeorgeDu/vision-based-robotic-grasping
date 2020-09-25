@@ -328,6 +328,8 @@ Detailed paper lists can refer to [hoya012](https://github.com/hoya012/deep_lear
 
 ***2020:***
 
+**[ECCV]** MimicDet: Bridging the Gap Between One-Stage and Two-Stage Object Detection, [[paper](https://arxiv.org/pdf/2009.11528.pdf)]
+
 **[ECCV]** Corner Proposal Network for Anchor-free, Two-stage Object Detection, [[paper](https://arxiv.org/pdf/2007.13816.pdf)]
 
 **[arXiv]** Enhancing Geometric Factors in Model Learning and Inference for Object Detection and Instance Segmentation, [[paper](https://arxiv.org/pdf/2005.03572.pdf)]
@@ -582,11 +584,15 @@ This kind of methods only consume the 3D point cloud data.
 
 ***Survey papers:***
 
-**[arXiv]** 2019-Deep Learning for 3D Point Clouds: A Survey, [[paper](https://arxiv.org/pdf/1912.12033.pdf)]
+**[arXiv]** Deep Learning for 3D Point Cloud Understanding: A Survey, [[paper](https://arxiv.org/pdf/2009.08920.pdf)]
+
+**[TPAMI]** 2020-Deep Learning for 3D Point Clouds: A Survey, [[paper](https://arxiv.org/pdf/1912.12033.pdf)]
 
 
 
 ***2020:***
+
+**[ECCVW]** Multi-Frame to Single-Frame: Knowledge Distillation for 3D Object Detection, [[paper](https://arxiv.org/pdf/2009.11859.pdf)]
 
 **[ICRA]** 3D Object Detection and Tracking Based on Streaming Data, [[paper](https://arxiv.org/pdf/2009.06169.pdf)]
 
@@ -1898,6 +1904,8 @@ In this situation, there exist no 3D models, an the 6-DoF grasps are estimated f
 
 ***2020:***
 
+**[arXiv]** 6-DoF Grasp Planning using Fast 3D Reconstruction and Grasp Quality CNN, [[paper](https://arxiv.org/pdf/2009.08618.pdf)]
+
 **[arXiv]** Transferable Active Grasping and Real Embodied Dataset, [[paper](https://arxiv.org/pdf/2004.13358.pdf)] [[code](https://github.com/cxy1997/Transferable-Active-Grasping)]
 
 **[arXiv]** Go Fetch: Mobile Manipulation in Unstructured Environments, [[paper](https://arxiv.org/pdf/2004.00899.pdf)]
@@ -2113,6 +2121,8 @@ In this situation, there exist no 3D models, an the 6-DoF grasps are estimated f
 ##### b. Shape Completion or Generation
 
 ***2020:***
+
+**[ECCVW]** Implicit Feature Networks for Texture Completion from Partial 3D Data, [[paper](https://arxiv.org/pdf/2009.09458.pdf)]
 
 **[arXiv]** LMSCNet: Lightweight Multiscale 3D Semantic Completion, [[paper](https://arxiv.org/pdf/2008.10559.pdf)]
 
