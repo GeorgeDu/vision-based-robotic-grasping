@@ -10,81 +10,81 @@ Besides, most of the robotic grasping approaches require __the target object’s
 
 I summarize all above kinds of methods in this repository, and hope to present a big picture for friends work on vision-based robotic grasping. The table of content is listed as follows.
 
-  * [Vision-based Robotic Grasping: Papers and Codes](#vision-based-robotic-grasping-papers-and-codes)
-  * [0. Review Papers](#0-review-papers)
-  * [1. Object Localization](#1-object-localization)
-     * [1.1 Object Localization without Classification](#11-object-localization-without-classification)
-        * [1.1.1 2D-based Methods](#111-2d-based-methods)
-           * [a. Fitting 2D Shape Primitives](#afitting-2d-shape-primitives)
-           * [b. Saliency Detection](#b-saliency-detection)
-        * [1.1.2 3D-based Methods](#112-3d-based-methods)
-           * [a. Fitting 3D Shape Primitives](#afitting-3d-shape-primitives)
-           * [b. Saliency Detection](#b-saliency-detection-1)
-     * [1.2 Object Detection](#12-object-detection)
-        * [1.2.1 2D Object Detection](#121-2d-object-detection)
-           * [a. Two-stage methods](#a-two-stage-methods)
-           * [b. Single-stage methods](#b-single-stage-methods)
-        * [1.2.2 3D Object Detection](#122-3d-object-detection)
-           * [a. RGB-based methods](#a-rgb-based-methods)
-           * [b. Point cloud-based methods](#b-point-cloud-based-methods)
-           * [c. Fusion methods](#c-fusion-methods)
-     * [1.3 Object Instance Segmentation](#13-object-instance-segmentation)
-        * [1.3.1 2D Instance Segmentation](#131-2d-instance-segmentation)
-           * [a. Survey papers](#a-survey-papers)
-           * [b. Two-stage methods](#b-two-stage-methods)
-           * [c. One-stage methods](#c-one-stage-methods)
-           * [d. Panoptic segmentation](#d-panoptic-segmentation)
-        * [1.3.2 3D Instance Segmentation](#132-3d-instance-segmentation)
-           * [a. Two-stage methods](#a-two-stage-methods-1)
-           * [b. One-stage Methods](#b-one-stage-methods)
-           * [c. 3D deep learning networks](#c-3d-deep-learning-networks)
-  * [2. Object Pose Estimation](#2-object-pose-estimation)
-     * [2.1 RGB-D Image-based Methods](#21-rgb-d-image-based-methods)
-        * [2.1.1 Correspondence-based Methods](#211-correspondence-based-methods)
-           * [a. Match 2D feature points](#a-match-2d-feature-points)
-           * [b. Regress 2D projections](#b-regress-2d-projections)
-        * [2.1.2 Template-based Methods](#212-template-based-methods)
-        * [2.1.3 Voting-based Methods](#213-voting-based-methods)
-     * [2.2 Point Cloud-based Methods](#22-point-cloud-based-methods)
-        * [2.2.1 Correspondence-based Methods](#221-correspondence-based-methods)
-        * [2.2.2 Template-based Methods](#222-template-based-methods)
-        * [2.2.3 Voting-based Methods](#223-voting-based-methods)
-     * [2.3 Category-level Methods](#23-category-level-methods)
-        * [2.3.1 Category-level 6D pose estimation](#231-category-level-6d-pose-estimation)
-        * [2.3.2 3D shape reconstruction from images](#232-3d-shape-reconstruction-from-images)
-        * [2.3.3 3D shape rendering](#233-3d-shape-rendering)
-  * [3. 2D Planar Grasp](#3-2d-planar-grasp)
-     * [3.1 Estimating Grasp Contact Points](#31-estimating-grasp-contact-points)
-     * [3.2 Estimating Oriented Rectangles](#32-estimating-oriented-rectangles)
-  * [4. 6DoF Grasp](#4-6dof-grasp)
-     * [4.1 Methods based on Single-view Point Cloud](#41-methods-based-on-single-view-point-cloud)
-        * [4.1.1 Methods of Estimating Candidate Grasps](#411-methods-of-estimating-candidate-grasps)
-        * [4.1.2 Methods of Transferring Grasps](#412-methods-of-transferring-grasps)
-           * [a. Grasp transfer](#a-grasp-transfer)
-           * [b. Non-rigid registration](#b-non-rigid-registration)
-           * [c. Shape correspondence](#c-shape-correspondence)
-     * [4.2 Methods based on Complete Shape](#42-methods-based-on-complete-shape)
-        * [4.2.1 Methods of Estimating 6D Object Pose](#421-methods-of-estimating-6d-object-pose)
-        * [4.2.2 Methods of Shape Completion](#422-methods-of-shape-completion)
-           * [a. Shape Completion-based Grasp](#a-shape-completion-based-grasp)
-           * [b. Shape Completion or Generation](#b-shape-completion-or-generation)
-           * [c. Depth Completion and Estimation](#c-depth-completion-and-estimation)
-           * [d. Point Cloud Denoising and Samping](#d-point-cloud-denoising-and-samping)
-  * [5. Task-oriented Methods](#5-task-oriented-methods)
-     * [5.1 Task-oriented Manipulation](#51-task-oriented-manipulation)
-     * [5.2 Grasp Affordance](#52-grasp-affordance)
-     * [5.3 3D Part Segmentation](#53-3d-part-segmentation)
-  * [6. Dexterous Grippers](#6-dexterous-grippers)
-  * [7. Data Generation](#7-data-generation)
-     * [7.1 Simulation to Reality](#71-simulation-to-reality)
-     * [7.2 Self-supervised Methods](#72-self-supervised-methods)
-  * [8. Multi-source](#8-multi-source)
-  * [9. Motion Planning](#9-motion-planning)
-     * [9.1 Visual servoing](#91-visual-servoing)
-     * [9.2 Path Planning](#92-path-planning)
-  * [10. Imitation Learning](#10-imitation-learning)
-  * [11. Reinforcement Learning](#11-reinforcement-learning)
-  * [12. Experts](#12-experts)
+- [Vision-based Robotic Grasping: Papers and Codes](#vision-based-robotic-grasping-papers-and-codes)
+- [0. Review Papers](#0-review-papers)
+- [1. Object Localization](#1-object-localization)
+  - [1.1 Object Localization without Classification](#11-object-localization-without-classification)
+    - [1.1.1 2D-based Methods](#111-2d-based-methods)
+      - [a. Fitting 2D Shape Primitives](#afitting-2d-shape-primitives)
+      - [b. Saliency Detection](#b-saliency-detection)
+    - [1.1.2 3D-based Methods](#112-3d-based-methods)
+      - [a. Fitting 3D Shape Primitives](#afitting-3d-shape-primitives)
+      - [b. Saliency Detection](#b-saliency-detection-1)
+  - [1.2 Object Detection](#12-object-detection)
+    - [1.2.1 2D Object Detection](#121-2d-object-detection)
+      - [a. Two-stage methods](#a-two-stage-methods)
+      - [b. Single-stage methods](#b-single-stage-methods)
+    - [1.2.2 3D Object Detection](#122-3d-object-detection)
+      - [a. RGB-based methods](#a-rgb-based-methods)
+      - [b. Point cloud-based methods](#b-point-cloud-based-methods)
+      - [c. Fusion methods](#c-fusion-methods)
+  - [1.3 Object Instance Segmentation](#13-object-instance-segmentation)
+    - [1.3.1 2D Instance Segmentation](#131-2d-instance-segmentation)
+      - [a. Survey papers](#a-survey-papers)
+      - [b. Two-stage methods](#b-two-stage-methods)
+      - [c. One-stage methods](#c-one-stage-methods)
+      - [d. Panoptic segmentation](#d-panoptic-segmentation)
+    - [1.3.2 3D Instance Segmentation](#132-3d-instance-segmentation)
+      - [a. Two-stage methods](#a-two-stage-methods-1)
+      - [b. One-stage Methods](#b-one-stage-methods)
+      - [c. 3D deep learning networks](#c-3d-deep-learning-networks)
+- [2. Object Pose Estimation](#2-object-pose-estimation)
+  - [2.1 RGB-D Image-based Methods](#21-rgb-d-image-based-methods)
+    - [2.1.1 Correspondence-based Methods](#211-correspondence-based-methods)
+      - [a. Match 2D feature points](#a-match-2d-feature-points)
+      - [b. Regress 2D projections](#b-regress-2d-projections)
+    - [2.1.2 Template-based Methods](#212-template-based-methods)
+    - [2.1.3 Voting-based Methods](#213-voting-based-methods)
+  - [2.2 Point Cloud-based Methods](#22-point-cloud-based-methods)
+    - [2.2.1 Correspondence-based Methods](#221-correspondence-based-methods)
+    - [2.2.2 Template-based Methods](#222-template-based-methods)
+    - [2.2.3 Voting-based Methods](#223-voting-based-methods)
+  - [2.3 Category-level Methods](#23-category-level-methods)
+    - [2.3.1 Category-level 6D pose estimation](#231-category-level-6d-pose-estimation)
+    - [2.3.2 3D shape reconstruction from images](#232-3d-shape-reconstruction-from-images)
+    - [2.3.3 3D shape rendering](#233-3d-shape-rendering)
+- [3. 2D Planar Grasp](#3-2d-planar-grasp)
+  - [3.1 Estimating Grasp Contact Points](#31-estimating-grasp-contact-points)
+  - [3.2 Estimating Oriented Rectangles](#32-estimating-oriented-rectangles)
+- [4. 6DoF Grasp](#4-6dof-grasp)
+  - [4.1 Methods based on Single-view Point Cloud](#41-methods-based-on-single-view-point-cloud)
+    - [4.1.1 Methods of Estimating Candidate Grasps](#411-methods-of-estimating-candidate-grasps)
+    - [4.1.2 Methods of Transferring Grasps](#412-methods-of-transferring-grasps)
+      - [a. Grasp transfer](#a-grasp-transfer)
+      - [b. Non-rigid registration](#b-non-rigid-registration)
+      - [c. Shape correspondence](#c-shape-correspondence)
+  - [4.2 Methods based on Complete Shape](#42-methods-based-on-complete-shape)
+    - [4.2.1 Methods of Estimating 6D Object Pose](#421-methods-of-estimating-6d-object-pose)
+    - [4.2.2 Methods of Shape Completion](#422-methods-of-shape-completion)
+      - [a. Shape Completion-based Grasp](#a-shape-completion-based-grasp)
+      - [b. Shape Completion or Generation](#b-shape-completion-or-generation)
+      - [c. Depth Completion and Estimation](#c-depth-completion-and-estimation)
+      - [d. Point Cloud Denoising and Samping](#d-point-cloud-denoising-and-samping)
+- [5. Task-oriented Methods](#5-task-oriented-methods)
+  - [5.1 Task-oriented Manipulation](#51-task-oriented-manipulation)
+  - [5.2 Grasp Affordance](#52-grasp-affordance)
+  - [5.3 3D Part Segmentation](#53-3d-part-segmentation)
+- [6. Dexterous Grippers](#6-dexterous-grippers)
+- [7. Data Generation](#7-data-generation)
+  - [7.1 Simulation to Reality](#71-simulation-to-reality)
+  - [7.2 Self-supervised Methods](#72-self-supervised-methods)
+- [8. Multi-source](#8-multi-source)
+- [9. Motion Planning](#9-motion-planning)
+  - [9.1 Visual servoing](#91-visual-servoing)
+  - [9.2 Path Planning](#92-path-planning)
+- [10. Imitation Learning](#10-imitation-learning)
+- [11. Reinforcement Learning](#11-reinforcement-learning)
+- [12. Experts](#12-experts)
 
 ## 0. Review Papers
 
@@ -496,6 +496,8 @@ Most of this kind of methods estimate depth images from RGB images, and then con
 
 ***2020:***
 
+**[ECCV]** Monocular Differentiable Rendering for Self-Supervised 3D Object Detection, [[paper](https://arxiv.org/pdf/2009.14524.pdf)]
+
 **[ECCV]** Reinforced Axial Refinement Network for Monocular 3D Object Detection, [[paper](https://arxiv.org/pdf/2008.13748.pdf)]
 
 **[arXiv]** Monocular 3D Detection with Geometric Constraints Embedding and Semi-supervised Training, [[paper](https://arxiv.org/pdf/2009.00764.pdf)]
@@ -806,11 +808,9 @@ This kind of methods utilize both rgb images and depth images/point clouds. Ther
 
 **[CVPR]** Deep sliding shapes for amodal 3d object detection in rgb-d images, [[paper](https://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/Song_Deep_Sliding_Shapes_CVPR_2016_paper.pdf)]
 
-
 ***2014***
 
 **[ECCV]** Learning Rich Features from RGB-D Images for Object Detection and Segmentation, [[paper](https://arxiv.org/pdf/1407.5736.pdf)]
-
 
 ### 1.3 Object Instance Segmentation
 
@@ -1124,7 +1124,6 @@ This kind of methods utilize both rgb images and depth images/point clouds. Ther
 
 **[CVPR]** Modeling Local Geometric Structure of 3D Point Clouds using Geo-CNN, [[paper](https://arxiv.org/pdf/1811.07782.pdf)] [[code](https://github.com/voidrank/Geo-CNN)]
 
-
 **[CVPR]** A-CNN: Annularly Convolutional Neural Networks on Point Clouds, [[paper](http://openaccess.thecvf.com/content_CVPR_2019/papers/Komarichev_A-CNN_Annularly_Convolutional_Neural_Networks_on_Point_Clouds_CVPR_2019_paper.pdf)] [[code](https://github.com/artemkomarichev/a-cnn)]
 
 **[arXiv]** SAWNet: A Spatially Aware Deep Neural Network for 3D Point Cloud Processing, [[paper](https://arxiv.org/pdf/1905.07650v1.pdf)]
@@ -1146,7 +1145,6 @@ This kind of methods utilize both rgb images and depth images/point clouds. Ther
 **[CVPR]** SO-Net: Self-Organizing Network for Point Cloud Analysis, [[paper](https://arxiv.org/abs/1803.04249)] [[code](https://github.com/lijx10/SO-Net)]
 
 **[CVPR]** SPLATNet: Sparse Lattice Networks for Point Cloud Processing, [[paper](https://arxiv.org/abs/1802.08275)] [[code](https://github.com/NVlabs/splatnet)]
-
 
 **[CVPR]** Local Spectral Graph Convolution for Point Set Feature
 Learning, [[paper](https://arxiv.org/pdf/1803.05827.pdf)] [[code](https://github.com/fate3439/LocalSpecGCN)]
@@ -1286,6 +1284,8 @@ This part mainly discuss 6D object pose estimation methods, which can be categor
 This kind of methods can be regarded as regression-based methods.
 
 ***2020:***
+
+**[arXiv]** I Like to Move It: 6D Pose Estimation as an Action Decision Process, [[paper](https://arxiv.org/pdf/2009.12678.pdf)]
 
 **[IROS]** Indirect Object-to-Robot Pose Estimation from an External Monocular RGB Camera, [[paper](https://arxiv.org/pdf/2008.11822.pdf)]
 
@@ -1498,6 +1498,10 @@ The partial-view point cloud will be aligned to the complete shape in order to o
 
 
 ***2020:***
+
+**[arXiv]** Deep-3DAligner: Unsupervised 3D Point Set Registration Network With Optimizable Latent Vector, [[paper](https://arxiv.org/pdf/2010.00321.pdf)]
+
+**[arXiv]** Fast Gravitational Approach for Rigid Point Set Registration with Ordinary Differential Equations, [[paper](https://arxiv.org/pdf/2009.14005.pdf)]
 
 **[arXiv]** Unsupervised Partial Point Set Registration via Joint Shape Completion and Registration, [[paper](https://arxiv.org/pdf/2009.05290.pdf)]
 
@@ -1763,6 +1767,8 @@ The partial-view point cloud will be aligned to the complete shape in order to o
 
 ***2020:***
 
+**[arXiv]** S3K: Self-Supervised Semantic Keypoints for Robotic Manipulation via Multi-View Consistency, [[paper](https://arxiv.org/pdf/2009.14711.pdf)]
+
 **[arXiv]** Dexterous Robotic Grasping with Object-Centric Visual Affordances, [[paper](https://arxiv.org/pdf/2009.01439.pdf)]
 
 **[IROS]** Cloth Region Segmentation for Robust Grasp Selection, [[paper](https://arxiv.org/pdf/2008.05626.pdf)]
@@ -1904,6 +1910,8 @@ In this situation, there exist no 3D models, an the 6-DoF grasps are estimated f
 
 ***2020:***
 
+**[NeurIPS]** Grasp Proposal Networks: An End-to-End Solution for Visual Learning of Robotic Grasps, [[paper](https://arxiv.org/pdf/2009.12606.pdf)]
+
 **[arXiv]** 6-DoF Grasp Planning using Fast 3D Reconstruction and Grasp Quality CNN, [[paper](https://arxiv.org/pdf/2009.08618.pdf)]
 
 **[arXiv]** Transferable Active Grasping and Real Embodied Dataset, [[paper](https://arxiv.org/pdf/2004.13358.pdf)] [[code](https://github.com/cxy1997/Transferable-Active-Grasping)]
@@ -2018,6 +2026,8 @@ In this situation, there exist no 3D models, an the 6-DoF grasps are estimated f
 
 ***2020:***
 
+**[NeurIPS]** Weakly Supervised Deep Functional Map for Shape Matching, [[paper](https://arxiv.org/pdf/2009.13339.pdf)]
+
 **[arXiv]** A Dual Iterative Refinement Method for Non-rigid Shape Matching, [[paper](https://arxiv.org/pdf/2007.13049.pdf)]
 
 **[ECCV]** Mapping in a cycle: Sinkhorn regularized unsupervised learning for point cloud shapes, [[paper](https://arxiv.org/pdf/2007.09594.pdf)]
@@ -2089,6 +2099,8 @@ In this situation, there exist no 3D models, an the 6-DoF grasps are estimated f
 ##### a. Shape Completion-based Grasp
 
 ***2020:***
+
+**[arXiv]** Amodal 3D Reconstruction for Robotic Manipulation via Stability and Connectivity, [[paper](https://arxiv.org/pdf/2009.13146.pdf)]
 
 **[ICRA]** Learning Continuous 3D Reconstructions for Geometrically Aware Grasping, [[paper](https://arxiv.org/pdf/1910.00983.pdf)] [[code](https://github.com/mvandermerwe/PointSDF)]
 
