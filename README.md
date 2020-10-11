@@ -1066,6 +1066,10 @@ This kind of methods utilize both rgb images and depth images/point clouds. Ther
 
 ***2020:***
 
+**[NeurIPS]** Rotation-Invariant Local-to-Global Representation Learning for 3D Point Cloud, [[paper](https://arxiv.org/pdf/2010.03318.pdf)]
+
+**[3DV]** RANP: Resource Aware Neuron Pruning at Initialization for 3D CNNs, [[paper](https://arxiv.org/pdf/2010.02488.pdf)]
+
 **[arXiv]** Spatial Transformer Point Convolution, [[paper](https://arxiv.org/pdf/2009.01427.pdf)]
 
 **[BMVC]** Neighbourhood-Insensitive Point Cloud Normal Estimation Network, [[paper](https://arxiv.org/pdf/2008.09965.pdf)] [[code](https://code.active.vision/)]
@@ -1232,6 +1236,8 @@ This part mainly discuss 6D object pose estimation methods, which can be categor
 ##### b. Regress 2D projections
 
 ***2020:***
+
+**[arXiv]** 3D Object Detection and Pose Estimation of Unseen Objects in Color Images with Local Surface Embeddings, [[paper](https://arxiv.org/pdf/2010.04075.pdf)]
 
 **[arXiv]** Robust RGB-based 6-DoF Pose Estimation without Real Pose Annotations, [[paper](https://arxiv.org/pdf/2008.08391.pdf)]
 
@@ -1499,6 +1505,10 @@ The partial-view point cloud will be aligned to the complete shape in order to o
 
 ***2020:***
 
+**[ACCV]** Mapping of Sparse 3D Data using Alternating Projection, [[paper](https://arxiv.org/pdf/2010.02516.pdf)]
+
+**[ACCV]** Best Buddies Registration for Point Clouds, [[paper](https://arxiv.org/pdf/2010.01912.pdf)]
+
 **[arXiv]** Deep-3DAligner: Unsupervised 3D Point Set Registration Network With Optimizable Latent Vector, [[paper](https://arxiv.org/pdf/2010.00321.pdf)]
 
 **[arXiv]** Fast Gravitational Approach for Rigid Point Set Registration with Ordinary Differential Equations, [[paper](https://arxiv.org/pdf/2009.14005.pdf)]
@@ -1558,6 +1568,8 @@ The partial-view point cloud will be aligned to the complete shape in order to o
 **[arXiv]** 6D Object Pose Regression via Supervised Learning on Point Clouds, [[paper](https://arxiv.org/pdf/2001.08942.pdf)]
 
 ***2019:***
+
+**[IROS]** Continuous close-range 3D object pose estimation, [[paper](https://arxiv.org/pdf/2010.00829.pdf)]
 
 **[arXiv]** One Framework to Register Them All: PointNet Encoding for Point Cloud Alignment, [[paper](https://arxiv.org/abs/1912.05766)]
 
@@ -1910,6 +1922,8 @@ In this situation, there exist no 3D models, an the 6-DoF grasps are estimated f
 
 ***2020:***
 
+**[arXiv]** Goal-Auxiliary Actor-Critic for 6D Robotic Grasping with Point Clouds, [[paper](https://arxiv.org/pdf/2010.00824.pdf)]
+
 **[NeurIPS]** Grasp Proposal Networks: An End-to-End Solution for Visual Learning of Robotic Grasps, [[paper](https://arxiv.org/pdf/2009.12606.pdf)]
 
 **[arXiv]** 6-DoF Grasp Planning using Fast 3D Reconstruction and Grasp Quality CNN, [[paper](https://arxiv.org/pdf/2009.08618.pdf)]
@@ -2133,6 +2147,8 @@ In this situation, there exist no 3D models, an the 6-DoF grasps are estimated f
 ##### b. Shape Completion or Generation
 
 ***2020:***
+
+**[arXiv]** Pre-Training by Completing Point Clouds, [[paper](https://arxiv.org/pdf/2010.01089.pdf)]
 
 **[ECCVW]** Implicit Feature Networks for Texture Completion from Partial 3D Data, [[paper](https://arxiv.org/pdf/2009.09458.pdf)]
 
