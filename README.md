@@ -1505,6 +1505,8 @@ The partial-view point cloud will be aligned to the complete shape in order to o
 
 ***2020:***
 
+**[arXiv]** A Termination Criterion for Probabilistic PointClouds Registration, [[paper](https://arxiv.org/pdf/2010.04979.pdf)]
+
 **[ACCV]** Mapping of Sparse 3D Data using Alternating Projection, [[paper](https://arxiv.org/pdf/2010.02516.pdf)]
 
 **[ACCV]** Best Buddies Registration for Point Clouds, [[paper](https://arxiv.org/pdf/2010.01912.pdf)]
@@ -2114,6 +2116,8 @@ In this situation, there exist no 3D models, an the 6-DoF grasps are estimated f
 
 ***2020:***
 
+**[arXiv]** Pick-Place With Uncertain Object Instance Segmentation and Shape Completion, [[paper](https://arxiv.org/pdf/2010.07892.pdf)]
+
 **[arXiv]** Amodal 3D Reconstruction for Robotic Manipulation via Stability and Connectivity, [[paper](https://arxiv.org/pdf/2009.13146.pdf)]
 
 **[ICRA]** Learning Continuous 3D Reconstructions for Geometrically Aware Grasping, [[paper](https://arxiv.org/pdf/1910.00983.pdf)] [[code](https://github.com/mvandermerwe/PointSDF)]
@@ -2147,6 +2151,12 @@ In this situation, there exist no 3D models, an the 6-DoF grasps are estimated f
 ##### b. Shape Completion or Generation
 
 ***2020:***
+
+**[arXiv]** Refinement of Predicted Missing Parts Enhance Point Cloud Completion, [[paper](https://arxiv.org/pdf/2010.04278.pdf)]
+
+**[3DV]** A Progressive Conditional Generative Adversarial Network for Generating Dense and Colored 3D Point Clouds, [[paper](https://arxiv.org/pdf/2010.05391.pdf)]
+
+**[NeurIPS]** Skeleton-bridged Point Completion: From Global Inference to Local Adjustment, [[paper](https://arxiv.org/pdf/2010.07428.pdf)]
 
 **[arXiv]** Pre-Training by Completing Point Clouds, [[paper](https://arxiv.org/pdf/2010.01089.pdf)]
 
