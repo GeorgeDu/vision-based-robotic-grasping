@@ -594,6 +594,8 @@ This kind of methods only consume the 3D point cloud data.
 
 ***2020:***
 
+**[3DV]** SF-UDA<sup>3D</sup>: Source-Free Unsupervised Domain Adaptation for LiDAR-Based 3D Object Detection, [[paper](https://arxiv.org/pdf/2010.08243.pdf)]
+
 **[ECCVW]** Multi-Frame to Single-Frame: Knowledge Distillation for 3D Object Detection, [[paper](https://arxiv.org/pdf/2009.11859.pdf)]
 
 **[ICRA]** 3D Object Detection and Tracking Based on Streaming Data, [[paper](https://arxiv.org/pdf/2009.06169.pdf)]
@@ -607,6 +609,8 @@ This kind of methods only consume the 3D point cloud data.
 **[WACV]** Cross-Modality 3D Object Detection, [[paper](https://arxiv.org/pdf/2008.10436.pdf)]
 
 **[ECCVW]** AB3DMOT: A Baseline for 3D Multi-Object Tracking and New Evaluation Metrics, [[paper](https://arxiv.org/pdf/2008.08063.pdf)] [[project](http://www.xinshuoweng.com/projects/AB3DMOT)]
+
+**[IROS]** MLOD: Awareness of Extrinsic Perturbation in Multi-LiDAR 3D Object Detection for Autonomous Driving, [[paper](https://arxiv.org/pdf/2010.11702.pdf)]
 
 **[IROS]** Uncertainty-aware Self-supervised 3D Data Association, [[paper](https://arxiv.org/pdf/2008.08173.pdf)]
 
@@ -992,6 +996,8 @@ This kind of methods utilize both rgb images and depth images/point clouds. Ther
 
 ***2020:***
 
+**[arXiv]** Self-Supervised Learning of Part Mobility from Point Cloud Sequence, [[paper](https://arxiv.org/pdf/2010.11735.pdf)]
+
 **[arXiv]** Learning Gaussian Instance Segmentation in Point Clouds, [[paper](https://arxiv.org/pdf/2007.09860.pdf)]
 
 **[arXiv]** Spatial Semantic Embedding Network: Fast 3D Instance Segmentation with Deep Metric Learning, [[paper](https://arxiv.org/pdf/2007.03169.pdf)]
@@ -1176,6 +1182,8 @@ This part mainly discuss 6D object pose estimation methods, which can be categor
 ***Survey papers:***
 
 ***2020:***
+
+**[EGW]** SHREC 2020 track: 6D Object Pose Estimation, [[paper](https://arxiv.org/pdf/2010.09355.pdf)]
 
 **[ECCVW]** BOP Challenge 2020 on 6D Object Localization, [[paper](https://arxiv.org/pdf/2009.07378.pdf)]
 
@@ -1504,6 +1512,14 @@ The partial-view point cloud will be aligned to the complete shape in order to o
 
 
 ***2020:***
+
+**[IROSW]** Improving the Iterative Closest Point Algorithm using Lie Algebra, [[paper](https://arxiv.org/pdf/2010.11160.pdf)]
+
+**[arXiv]** Graphite: GRAPH-Induced feaTure Extraction for Point Cloud Registration, [[paper](https://arxiv.org/pdf/2010.09079.pdf)]
+
+**[3DV]** MaskNet: A Fully-Convolutional Network to Estimate Inlier Points, [[paper](https://arxiv.org/pdf/2010.09185.pdf)]
+
+**[arXiv]** 3D Meta-Registration: Learning to Learn Registration of 3D Point Clouds, [[paper](https://arxiv.org/pdf/2010.11504.pdf)]
 
 **[arXiv]** A Termination Criterion for Probabilistic PointClouds Registration, [[paper](https://arxiv.org/pdf/2010.04979.pdf)]
 
@@ -1924,6 +1940,8 @@ In this situation, there exist no 3D models, an the 6-DoF grasps are estimated f
 
 ***2020:***
 
+**[CoRL]** A Coarse-To-Fine (C2F) Representation for End-To-End 6-DoF Grasp Detection, [[paper](https://arxiv.org/pdf/2010.10695.pdf)]
+
 **[arXiv]** Goal-Auxiliary Actor-Critic for 6D Robotic Grasping with Point Clouds, [[paper](https://arxiv.org/pdf/2010.00824.pdf)]
 
 **[NeurIPS]** Grasp Proposal Networks: An End-to-End Solution for Visual Learning of Robotic Grasps, [[paper](https://arxiv.org/pdf/2009.12606.pdf)]
@@ -2042,6 +2060,8 @@ In this situation, there exist no 3D models, an the 6-DoF grasps are estimated f
 
 ***2020:***
 
+**[arXiv]** 3D Meta Point Signature: Learning to Learn 3D Point Signature for 3D Dense Shape Correspondence, [[paper](https://arxiv.org/pdf/2010.11159.pdf)]
+
 **[NeurIPS]** Weakly Supervised Deep Functional Map for Shape Matching, [[paper](https://arxiv.org/pdf/2009.13339.pdf)]
 
 **[arXiv]** A Dual Iterative Refinement Method for Non-rigid Shape Matching, [[paper](https://arxiv.org/pdf/2007.13049.pdf)]
@@ -2151,6 +2171,8 @@ In this situation, there exist no 3D models, an the 6-DoF grasps are estimated f
 ##### b. Shape Completion or Generation
 
 ***2020:***
+
+**[arXiv]** A Self-supervised Cascaded Refinement Network for Point Cloud Completion, [[paper](https://arxiv.org/pdf/2010.08719.pdf)]
 
 **[arXiv]** Refinement of Predicted Missing Parts Enhance Point Cloud Completion, [[paper](https://arxiv.org/pdf/2010.04278.pdf)]
 
@@ -2749,6 +2771,8 @@ In this situation, there exist no 3D models, an the 6-DoF grasps are estimated f
 ### 9.1 Visual servoing
 
 ***2020:***
+
+**[arXiv]** Robust Keypoint Detection and Pose Estimation of Robot Manipulators with Self-Occlusions via Sim-to-Real Transfer, [[paper](https://arxiv.org/pdf/2010.08054.pdf)]
 
 **[IROS]** KOVIS: Keypoint-based Visual Servoing with Zero-Shot Sim-to-Real Transfer for Robotics Manipulation, [[paper](https://arxiv.org/pdf/2007.13960.pdf)]
 
