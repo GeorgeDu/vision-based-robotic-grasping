@@ -1245,6 +1245,8 @@ This part mainly discuss 6D object pose estimation methods, which can be categor
 
 ***2020:***
 
+**[arXiv]** REDE: End-to-end Object 6D Pose Robust Estimation Using Differentiable Outliers Elimination, [[paper](https://arxiv.org/pdf/2010.12807.pdf)]
+
 **[arXiv]** 3D Object Detection and Pose Estimation of Unseen Objects in Color Images with Local Surface Embeddings, [[paper](https://arxiv.org/pdf/2010.04075.pdf)]
 
 **[arXiv]** Robust RGB-based 6-DoF Pose Estimation without Real Pose Annotations, [[paper](https://arxiv.org/pdf/2008.08391.pdf)]
