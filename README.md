@@ -496,6 +496,8 @@ Most of this kind of methods estimate depth images from RGB images, and then con
 
 ***2020:***
 
+**[arXiv]** 3D Object Recognition By Corresponding and Quantizing Neural 3D Scene Representations, [[paper](https://arxiv.org/pdf/2010.16279.pdf)]
+
 **[ECCV]** Monocular Differentiable Rendering for Self-Supervised 3D Object Detection, [[paper](https://arxiv.org/pdf/2009.14524.pdf)]
 
 **[ECCV]** Reinforced Axial Refinement Network for Monocular 3D Object Detection, [[paper](https://arxiv.org/pdf/2008.13748.pdf)]
@@ -747,6 +749,8 @@ This kind of methods only consume the 3D point cloud data.
 This kind of methods utilize both rgb images and depth images/point clouds. There exist early fusion methods, late fusion methods, and dense fusion methods.
 
 ***2020:***
+
+**[arXiv]** Multi-View Adaptive Fusion Network for 3D Object Detection, [[paper](https://arxiv.org/pdf/2011.00652.pdf)]
 
 **[arXiv]** CLOCs: Camera-LiDAR Object Candidates Fusion for 3D Object Detection, [[paper](https://arxiv.org/pdf/2009.00784.pdf)]
 
@@ -1072,6 +1076,10 @@ This kind of methods utilize both rgb images and depth images/point clouds. Ther
 
 ***2020:***
 
+**[arXiv]** MARNet: Multi-Abstraction Refinement Network for 3D Point Cloud Analysis, [[paper](https://arxiv.org/pdf/2011.00923.pdf)]
+
+**[arXiv]** Point Transformer, [[paper](https://arxiv.org/pdf/2011.00931.pdf)]
+
 **[NeurIPS]** Rotation-Invariant Local-to-Global Representation Learning for 3D Point Cloud, [[paper](https://arxiv.org/pdf/2010.03318.pdf)]
 
 **[3DV]** RANP: Resource Aware Neuron Pruning at Initialization for 3D CNNs, [[paper](https://arxiv.org/pdf/2010.02488.pdf)]
@@ -1245,6 +1253,8 @@ This part mainly discuss 6D object pose estimation methods, which can be categor
 
 ***2020:***
 
+**[arXiv]** PyraPose: Feature Pyramids for Fast and Accurate Object Pose Estimation under Domain Shift, [[paper](https://arxiv.org/pdf/2010.16117.pdf)]
+
 **[arXiv]** REDE: End-to-end Object 6D Pose Robust Estimation Using Differentiable Outliers Elimination, [[paper](https://arxiv.org/pdf/2010.12807.pdf)]
 
 **[arXiv]** 3D Object Detection and Pose Estimation of Unseen Objects in Color Images with Local Surface Embeddings, [[paper](https://arxiv.org/pdf/2010.04075.pdf)]
@@ -1300,6 +1310,8 @@ This part mainly discuss 6D object pose estimation methods, which can be categor
 This kind of methods can be regarded as regression-based methods.
 
 ***2020:***
+
+**[arXiv]** Pose Estimation of Specular and Symmetrical Objects, [[paper](https://arxiv.org/pdf/2011.00372.pdf)]
 
 **[arXiv]** I Like to Move It: 6D Pose Estimation as an Action Decision Process, [[paper](https://arxiv.org/pdf/2009.12678.pdf)]
 
@@ -1518,6 +1530,8 @@ The partial-view point cloud will be aligned to the complete shape in order to o
 **[IROSW]** Improving the Iterative Closest Point Algorithm using Lie Algebra, [[paper](https://arxiv.org/pdf/2010.11160.pdf)]
 
 **[arXiv]** Graphite: GRAPH-Induced feaTure Extraction for Point Cloud Registration, [[paper](https://arxiv.org/pdf/2010.09079.pdf)]
+
+**[3DV]** Registration Loss Learning for Deep Probabilistic Point Set Registration, [[paper](https://arxiv.org/pdf/2011.02229.pdf)]
 
 **[3DV]** MaskNet: A Fully-Convolutional Network to Estimate Inlier Points, [[paper](https://arxiv.org/pdf/2010.09185.pdf)]
 
