@@ -1311,6 +1311,8 @@ This kind of methods can be regarded as regression-based methods.
 
 ***2020:***
 
+**[arXiv]** EfficientPose -- An efficient, accurate and scalable end-to-end 6D multi object pose estimation approach, [[paper](https://arxiv.org/pdf/2011.04307.pdf)]
+
 **[arXiv]** Pose Estimation of Specular and Symmetrical Objects, [[paper](https://arxiv.org/pdf/2011.00372.pdf)]
 
 **[arXiv]** I Like to Move It: 6D Pose Estimation as an Action Decision Process, [[paper](https://arxiv.org/pdf/2009.12678.pdf)]
@@ -1410,6 +1412,10 @@ This kind of methods can be regarded as regression-based methods.
 
 
 #### 2.1.3 Voting-based Methods
+
+***2020:***
+
+**[arXiv]** A Hybrid Approach for 6DoF Pose Estimation, [[paper](https://arxiv.org/pdf/2011.05669.pdf)]
 
 ***2019:***
 
@@ -1526,6 +1532,10 @@ The partial-view point cloud will be aligned to the complete shape in order to o
 
 
 ***2020:***
+
+**[arXiv]** Point Cloud Registration Based on Consistency Evaluation of Rigid Transformation in Parameter Space, [[paper](https://arxiv.org/pdf/2011.05014.pdf)]
+
+**[arXiv]** On Efficient and Robust Metrics for RANSAC Hypotheses and 3D Rigid Registration, [[paper](https://arxiv.org/pdf/2011.04862.pdf)]
 
 **[IROSW]** Improving the Iterative Closest Point Algorithm using Lie Algebra, [[paper](https://arxiv.org/pdf/2010.11160.pdf)]
 
@@ -1956,6 +1966,8 @@ In this situation, there exist no 3D models, an the 6-DoF grasps are estimated f
 
 ***2020:***
 
+**[CoRL]** Same Object, Different Grasps: Data and Semantic Knowledge for Task-Oriented Grasping, [[paper](https://arxiv.org/pdf/2011.06431.pdf)]
+
 **[CoRL]** A Coarse-To-Fine (C2F) Representation for End-To-End 6-DoF Grasp Detection, [[paper](https://arxiv.org/pdf/2010.10695.pdf)]
 
 **[arXiv]** Goal-Auxiliary Actor-Critic for 6D Robotic Grasping with Point Clouds, [[paper](https://arxiv.org/pdf/2010.00824.pdf)]
@@ -2294,6 +2306,8 @@ In this situation, there exist no 3D models, an the 6-DoF grasps are estimated f
 
 ***2020:***
 
+**[arXiv]** Deep Learning based Monocular Depth Prediction: Datasets, Methods and Applications, [[paper](https://arxiv.org/pdf/2011.04123.pdf)]
+
 **[IROS]** Depth Completion via Inductive Fusion of Planar LIDAR and Monocular Camera, [[paper](https://arxiv.org/pdf/2009.01875.pdf)]
 
 **[BMVC]** DESC: Domain Adaptation for Depth Estimation via Semantic Consistency, [[paper](https://arxiv.org/pdf/2009.01579.pdf)] [[code](https://github.com/alopezgit/DESC)]
@@ -2613,6 +2627,8 @@ In this situation, there exist no 3D models, an the 6-DoF grasps are estimated f
 ## 6. Dexterous Grippers
 
 ***2020:***
+
+**[CoRL]** Fit2Form: 3D Generative Model for Robot Gripper Form Design, [[paper](https://arxiv.org/pdf/2011.06498.pdf)]
 
 **[ECCV]** GRAB: A Dataset of Whole-Body Human Grasping of Objects, [[paper](https://arxiv.org/pdf/2008.11200.pdf)]
 
