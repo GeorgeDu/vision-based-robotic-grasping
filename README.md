@@ -422,6 +422,8 @@ Detailed paper lists can refer to [hoya012](https://github.com/hoya012/deep_lear
 
 ***2020:***
 
+**[arXiv]** Scaled-YOLOv4: Scaling Cross Stage Partial Network, [[paper](https://arxiv.org/pdf/2011.08036.pdf)]
+
 **[TPAMI]** AP-Loss for Accurate One-Stage Object Detection, [[paper](https://arxiv.org/pdf/2008.07294.pdf)]
 
 **[arXiv]** Point-Set Anchors for Object Detection, Instance Segmentation and Pose Estimation, [[paper](https://arxiv.org/pdf/2007.02846.pdf)]
@@ -838,6 +840,8 @@ This kind of methods utilize both rgb images and depth images/point clouds. Ther
 
 ***2020:***
 
+**[arXiv]** DCT-Mask: Discrete Cosine Transform Mask Representation for Instance Segmentation, [[paper](https://arxiv.org/pdf/2011.09876.pdf)]
+
 **[MM]** Forest R-CNN: Large-Vocabulary Long-Tailed Object Detection and Instance Segmentation, [[paper](https://arxiv.org/pdf/2008.05676.pdf)]
 
 **[arXiv]** Mask Point R-CNN, [[paper](https://arxiv.org/pdf/2008.00460.pdf)]
@@ -1076,6 +1080,8 @@ This kind of methods utilize both rgb images and depth images/point clouds. Ther
 
 ***2020:***
 
+**[arXiv]** Deep Positional and Relational Feature Learning for Rotation-Invariant Point Cloud Analysis, [[paper](https://arxiv.org/pdf/2011.09080.pdf)]
+
 **[arXiv]** MARNet: Multi-Abstraction Refinement Network for 3D Point Cloud Analysis, [[paper](https://arxiv.org/pdf/2011.00923.pdf)]
 
 **[arXiv]** Point Transformer, [[paper](https://arxiv.org/pdf/2011.00931.pdf)]
@@ -1211,6 +1217,8 @@ This part mainly discuss 6D object pose estimation methods, which can be categor
 
 ***2020:***
 
+**[arXiv]** A Method to Generate High Precision Mesh Model and RGB-D Datasetfor 6D Pose Estimation Task, [[paper](https://arxiv.org/pdf/2011.08771.pdf)]
+
 **[MM]** LodoNet: A Deep Neural Network with 2D Keypoint Matchingfor 3D LiDAR Odometry Estimation, [[paper](https://arxiv.org/pdf/2009.00164.pdf)]
 
 **[ECCV]** Solving the Blind Perspective-n-Point Problem End-To-End With Robust Differentiable Geometric Optimization, [[paper](https://arxiv.org/pdf/2007.14628.pdf)]
@@ -1310,6 +1318,8 @@ This part mainly discuss 6D object pose estimation methods, which can be categor
 This kind of methods can be regarded as regression-based methods.
 
 ***2020:***
+
+**[arXiv]** Bridging the Performance Gap Between Pose Estimation Networks Trained on Real And Synthetic Data Using Domain Randomization, [[paper](https://arxiv.org/pdf/2011.08517.pdf)]
 
 **[arXiv]** EfficientPose -- An efficient, accurate and scalable end-to-end 6D multi object pose estimation approach, [[paper](https://arxiv.org/pdf/2011.04307.pdf)]
 
@@ -1966,6 +1976,10 @@ In this situation, there exist no 3D models, an the 6-DoF grasps are estimated f
 
 ***2020:***
 
+**[arXiv]** Reactive Human-to-Robot Handovers of Arbitrary Objects, [[paper](https://arxiv.org/pdf/2011.08961.pdf)]
+
+**[arXiv]** ACRONYM: A Large-Scale Grasp Dataset Based on Simulation, [[paper](https://arxiv.org/pdf/2011.09584.pdf)]
+
 **[CoRL]** Same Object, Different Grasps: Data and Semantic Knowledge for Task-Oriented Grasping, [[paper](https://arxiv.org/pdf/2011.06431.pdf)]
 
 **[CoRL]** A Coarse-To-Fine (C2F) Representation for End-To-End 6-DoF Grasp Detection, [[paper](https://arxiv.org/pdf/2010.10695.pdf)]
@@ -2199,6 +2213,8 @@ In this situation, there exist no 3D models, an the 6-DoF grasps are estimated f
 ##### b. Shape Completion or Generation
 
 ***2020:***
+
+**[arXiv]** Diverse Plausible Shape Completions from Ambiguous Depth Images, [[paper](https://arxiv.org/pdf/2011.09390.pdf)]
 
 **[arXiv]** A Self-supervised Cascaded Refinement Network for Point Cloud Completion, [[paper](https://arxiv.org/pdf/2010.08719.pdf)]
 
