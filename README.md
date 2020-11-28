@@ -1319,6 +1319,8 @@ This kind of methods can be regarded as regression-based methods.
 
 ***2020:***
 
+**[NeurIPSW]** End-to-End Differentiable 6DoF Object Pose Estimation with Local and Global Constraints, [[paper](https://arxiv.org/pdf/2011.11078.pdf)]
+
 **[arXiv]** Bridging the Performance Gap Between Pose Estimation Networks Trained on Real And Synthetic Data Using Domain Randomization, [[paper](https://arxiv.org/pdf/2011.08517.pdf)]
 
 **[arXiv]** EfficientPose -- An efficient, accurate and scalable end-to-end 6D multi object pose estimation approach, [[paper](https://arxiv.org/pdf/2011.04307.pdf)]
@@ -1467,6 +1469,10 @@ The partial-view point cloud will be aligned to the complete shape in order to o
 
 ***2020:***
 
+**[arXiv]** SpinNet: Learning a General Surface Descriptor for 3D Point Cloud Registration, [[paper](https://arxiv.org/pdf/2011.12149.pdf)]
+
+**[arXiv]** UKPGAN: Unsupervised KeyPoint GANeration, [[paper](https://arxiv.org/pdf/2011.11974.pdf)]
+
 **[ICIP]** Distinctive 3D local deep descriptors, [[paper](https://arxiv.org/pdf/2009.00258.pdf)]
 
 **[arXiv]** 3D Correspondence Grouping with Compatibility Features, [[paper](https://arxiv.org/pdf/2007.10570.pdf)]
@@ -1542,6 +1548,12 @@ The partial-view point cloud will be aligned to the complete shape in order to o
 
 
 ***2020:***
+
+**[arXiv]** Recurrent Multi-view Alignment Network for Unsupervised Surface Registration, [[paper](https://arxiv.org/pdf/2011.12104.pdf)]
+
+**[arXiv]** 3D Registration for Self-Occluded Objects in Context, [[paper](https://arxiv.org/pdf/2011.11260.pdf)]
+
+**[arXiv]** Multi-Features Guidance Network for partial-to-partial point cloud registrationm, [[paper](https://arxiv.org/pdf/2011.12079.pdf)]
 
 **[arXiv]** Point Cloud Registration Based on Consistency Evaluation of Rigid Transformation in Parameter Space, [[paper](https://arxiv.org/pdf/2011.05014.pdf)]
 
@@ -2501,6 +2513,8 @@ In this situation, there exist no 3D models, an the 6-DoF grasps are estimated f
 ##### d. Point Cloud Denoising and Samping
 
 ***2020:***
+
+**[arXiv]** Deep Magnification-Arbitrary Upsampling over 3D Point Clouds, [[paper](https://arxiv.org/pdf/2011.12745.pdf)]
 
 **[arXiv]** CAD-PU: A Curvature-Adaptive Deep Learning Solution for Point Set Upsampling, [[paper](https://arxiv.org/pdf/2009.04660.pdf)]
 
