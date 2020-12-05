@@ -840,6 +840,8 @@ This kind of methods utilize both rgb images and depth images/point clouds. Ther
 
 ***2020:***
 
+**[arXiv]** Visual Identification of Articulated Object Parts, [[paper](https://arxiv.org/pdf/2012.00284.pdf)]
+
 **[arXiv]** DCT-Mask: Discrete Cosine Transform Mask Representation for Instance Segmentation, [[paper](https://arxiv.org/pdf/2011.09876.pdf)]
 
 **[MM]** Forest R-CNN: Large-Vocabulary Long-Tailed Object Detection and Instance Segmentation, [[paper](https://arxiv.org/pdf/2008.05676.pdf)]
@@ -1003,6 +1005,8 @@ This kind of methods utilize both rgb images and depth images/point clouds. Ther
 ##### a. Two-stage methods
 
 ***2020:***
+
+**[arXiv]** DyCo3D: Robust Instance Segmentation of 3D Point Clouds through Dynamic Convolution, [[paper](https://arxiv.org/pdf/2011.13328.pdf)]
 
 **[arXiv]** Self-Supervised Learning of Part Mobility from Point Cloud Sequence, [[paper](https://arxiv.org/pdf/2010.11735.pdf)]
 
@@ -1549,6 +1553,10 @@ The partial-view point cloud will be aligned to the complete shape in order to o
 
 ***2020:***
 
+**[IROS]** End-to-End 3D Point Cloud Learning for Registration Task Using Virtual Correspondences, [[paper](https://arxiv.org/pdf/2011.14579.pdf)]
+
+**[arXiv]** PREDATOR: Registration of 3D Point Clouds with Low Overlap, [[paper](https://arxiv.org/pdf/2011.13005.pdf)]
+
 **[arXiv]** Recurrent Multi-view Alignment Network for Unsupervised Surface Registration, [[paper](https://arxiv.org/pdf/2011.12104.pdf)]
 
 **[arXiv]** 3D Registration for Self-Occluded Objects in Context, [[paper](https://arxiv.org/pdf/2011.11260.pdf)]
@@ -1723,6 +1731,8 @@ The partial-view point cloud will be aligned to the complete shape in order to o
 
 ***2020:***
 
+**[arXiv]** Holistic 3D Human and Scene Mesh Estimation from Single View Images, [[paper](https://arxiv.org/pdf/2012.01591.pdf)]
+
 **[ECCV]** Pix2Surf: Learning Parametric 3D Surface Models of Objects from Images, [[paper](https://arxiv.org/pdf/2008.07760.pdf)]
 
 **[arXiv]** SkeletonNet: A Topology-Preserving Solution for Learning Mesh Reconstruction of Object Surfaces from RGB Images, [[paper](https://arxiv.org/pdf/2008.05742.pdf)]
@@ -1890,6 +1900,8 @@ The partial-view point cloud will be aligned to the complete shape in order to o
 ### 3.2 Estimating Oriented Rectangles
 
 ***2020:***
+
+**[arXiv]** Robotic grasp detection using a novel two-stage approach, [[paper](https://arxiv.org/pdf/2011.14123.pdf)]
 
 **[IROS]** Grasping Detection Network with Uncertainty Estimation for Confidence-Driven Semi-Supervised Domain Adaptation, [[paper](https://arxiv.org/pdf/2008.08817.pdf)]
 
@@ -2164,6 +2176,12 @@ In this situation, there exist no 3D models, an the 6-DoF grasps are estimated f
 
 #### 4.2.1 Methods of Estimating 6D Object Pose
 
+***2020:***
+
+**[arXiv]** Object-Driven Active Mapping for More Accurate Object Pose Estimation and Robotic Grasping, [[paper](https://arxiv.org/pdf/2012.01788.pdf)]
+
+**[arXiv]** Fast and Robust Bin-picking System for Densely Piled Industrial Objects, [[paper](https://arxiv.org/pdf/2012.00316.pdf)]
+
 ***2017:***
 
 **[IROS]** SegICP: Integrated Deep Semantic Segmentation and Pose Estimation, [[paper](https://arxiv.org/abs/1703.01661)]
@@ -2225,6 +2243,10 @@ In this situation, there exist no 3D models, an the 6-DoF grasps are estimated f
 ##### b. Shape Completion or Generation
 
 ***2020:***
+
+**[arXiv]** Towards Part-Based Understanding of RGB-D Scans, [[paper](https://arxiv.org/pdf/2012.02094.pdf)]
+
+**[arXiv]** Learning geometry-image representation for 3D point cloud generation, [[paper](https://arxiv.org/pdf/2011.14289.pdf)]
 
 **[arXiv]** Diverse Plausible Shape Completions from Ambiguous Depth Images, [[paper](https://arxiv.org/pdf/2011.09390.pdf)]
 
@@ -2833,6 +2855,8 @@ In this situation, there exist no 3D models, an the 6-DoF grasps are estimated f
 ### 9.1 Visual servoing
 
 ***2020:***
+
+**[arXiv]** Nothing But Geometric Constraints: A Model-Free Method for Articulated Object Pose Estimation, [[paper](https://arxiv.org/pdf/2012.00088.pdf)]
 
 **[arXiv]** Robust Keypoint Detection and Pose Estimation of Robot Manipulators with Self-Occlusions via Sim-to-Real Transfer, [[paper](https://arxiv.org/pdf/2010.08054.pdf)]
 
