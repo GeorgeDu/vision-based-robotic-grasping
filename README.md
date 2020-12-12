@@ -422,6 +422,8 @@ Detailed paper lists can refer to [hoya012](https://github.com/hoya012/deep_lear
 
 ***2020:***
 
+**[arXiv]** OneNet: Towards End-to-End One-Stage Object Detection, [[paper](https://arxiv.org/pdf/2012.05780.pdf)]
+
 **[arXiv]** Scaled-YOLOv4: Scaling Cross Stage Partial Network, [[paper](https://arxiv.org/pdf/2011.08036.pdf)]
 
 **[TPAMI]** AP-Loss for Accurate One-Stage Object Detection, [[paper](https://arxiv.org/pdf/2008.07294.pdf)]
@@ -497,6 +499,8 @@ This kind of methods can be divided into three kinds: RGB-based methods, point c
 Most of this kind of methods estimate depth images from RGB images, and then conduct 3D detection.
 
 ***2020:***
+
+**[arXiv]** Demystifying Pseudo-LiDAR for Monocular 3D Object Detection, [[paper](https://arxiv.org/pdf/2012.05796.pdf)]
 
 **[arXiv]** 3D Object Recognition By Corresponding and Quantizing Neural 3D Scene Representations, [[paper](https://arxiv.org/pdf/2010.16279.pdf)]
 
@@ -596,7 +600,17 @@ This kind of methods only consume the 3D point cloud data.
 
 
 
+***2021:***
+
+**[AAAI]** CIA-SSD: Confident IoU-Aware Single-Stage Object Detector From Point Cloud, [[paper](https://arxiv.org/pdf/2012.03015.pdf)]
+
+
+
 ***2020:***
+
+**[arXiv]** It's All Around You: Range-Guided Cylindrical Network for 3D Object Detection, [[paper](https://arxiv.org/pdf/2012.03121.pdf)]
+
+**[arXiv]** 3DIoUMatch: Leveraging IoU Prediction for Semi-Supervised 3D Object Detection, [[paper](https://arxiv.org/pdf/2012.04355.pdf)]
 
 **[3DV]** SF-UDA<sup>3D</sup>: Source-Free Unsupervised Domain Adaptation for LiDAR-Based 3D Object Detection, [[paper](https://arxiv.org/pdf/2010.08243.pdf)]
 
@@ -1323,6 +1337,8 @@ This kind of methods can be regarded as regression-based methods.
 
 ***2020:***
 
+**[arXiv]** iNeRF: Inverting Neural Radiance Fields for Pose Estimation, [[paper](https://arxiv.org/pdf/2012.05877.pdf)]
+
 **[NeurIPSW]** End-to-End Differentiable 6DoF Object Pose Estimation with Local and Global Constraints, [[paper](https://arxiv.org/pdf/2011.11078.pdf)]
 
 **[arXiv]** Bridging the Performance Gap Between Pose Estimation Networks Trained on Real And Synthetic Data Using Domain Randomization, [[paper](https://arxiv.org/pdf/2011.08517.pdf)]
@@ -1730,6 +1746,8 @@ The partial-view point cloud will be aligned to the complete shape in order to o
 #### 2.3.2 3D shape reconstruction from images
 
 ***2020:***
+
+**[arXiv]** Vid2CAD: CAD Model Alignment using Multi-View Constraints from Videos, [[paper](https://arxiv.org/pdf/2012.04641.pdf)]
 
 **[arXiv]** Holistic 3D Human and Scene Mesh Estimation from Single View Images, [[paper](https://arxiv.org/pdf/2012.01591.pdf)]
 
@@ -2244,6 +2262,8 @@ In this situation, there exist no 3D models, an the 6-DoF grasps are estimated f
 
 ***2020:***
 
+**[arXiv]** PMP-Net: Point Cloud Completion by Learning Multi-step Point Moving Paths, [[paper](https://arxiv.org/pdf/2012.03408.pdf)]
+
 **[arXiv]** Towards Part-Based Understanding of RGB-D Scans, [[paper](https://arxiv.org/pdf/2012.02094.pdf)]
 
 **[arXiv]** Learning geometry-image representation for 3D point cloud generation, [[paper](https://arxiv.org/pdf/2011.14289.pdf)]
@@ -2536,6 +2556,8 @@ In this situation, there exist no 3D models, an the 6-DoF grasps are estimated f
 
 ***2020:***
 
+**[arXiv]** SPU-Net: Self-Supervised Point Cloud Upsampling by Coarse-to-Fine Reconstruction with Self-Projection Optimization, [[paper](https://arxiv.org/pdf/2012.04439.pdf)]
+
 **[arXiv]** Deep Magnification-Arbitrary Upsampling over 3D Point Clouds, [[paper](https://arxiv.org/pdf/2011.12745.pdf)]
 
 **[arXiv]** CAD-PU: A Curvature-Adaptive Deep Learning Solution for Point Set Upsampling, [[paper](https://arxiv.org/pdf/2009.04660.pdf)]
@@ -2763,6 +2785,10 @@ In this situation, there exist no 3D models, an the 6-DoF grasps are estimated f
 ### 7.1 Simulation to Reality
 
 ***2020:***
+
+**[arXiv]** iGibson, a Simulation Environment for Interactive Tasks in Large Realistic Scenes, [[paper](https://arxiv.org/pdf/2012.02924.pdf)]
+
+**[RSS]** Perspectives on Sim2Real Transfer for Robotics: A Summary of the RSS 2020 Workshop, [[paper](https://arxiv.org/pdf/2012.03806.pdf)]
 
 **[ECCV]** AutoSimulate: (Quickly) Learning Synthetic Data Generation, [[paper](https://arxiv.org/pdf/2008.08424.pdf)]
 
