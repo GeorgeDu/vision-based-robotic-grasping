@@ -612,6 +612,8 @@ This kind of methods only consume the 3D point cloud data.
 
 **[arXiv]** 3DIoUMatch: Leveraging IoU Prediction for Semi-Supervised 3D Object Detection, [[paper](https://arxiv.org/pdf/2012.04355.pdf)]
 
+**[3DV]** PanoNet3D: Combining Semantic and Geometric Understanding for LiDARPoint Cloud Detection, [[paper](https://arxiv.org/pdf/2012.09418.pdf)]
+
 **[3DV]** SF-UDA<sup>3D</sup>: Source-Free Unsupervised Domain Adaptation for LiDAR-Based 3D Object Detection, [[paper](https://arxiv.org/pdf/2010.08243.pdf)]
 
 **[ECCVW]** Multi-Frame to Single-Frame: Knowledge Distillation for 3D Object Detection, [[paper](https://arxiv.org/pdf/2009.11859.pdf)]
@@ -1020,6 +1022,8 @@ This kind of methods utilize both rgb images and depth images/point clouds. Ther
 
 ***2020:***
 
+**[arXiv]** Exploring Data-Efficient 3D Scene Understanding with Contrastive Scene Contexts, [[paper](https://arxiv.org/pdf/2012.09165.pdf)]
+
 **[arXiv]** DyCo3D: Robust Instance Segmentation of 3D Point Clouds through Dynamic Convolution, [[paper](https://arxiv.org/pdf/2011.13328.pdf)]
 
 **[arXiv]** Self-Supervised Learning of Part Mobility from Point Cloud Sequence, [[paper](https://arxiv.org/pdf/2010.11735.pdf)]
@@ -1097,6 +1101,12 @@ This kind of methods utilize both rgb images and depth images/point clouds. Ther
 ##### c. 3D deep learning networks
 
 ***2020:***
+
+**[arXiv] **PCT: Point Cloud Transformer, [[paper](https://arxiv.org/pdf/2012.09688.pdf)]
+
+**[arXiv]** Point Transformer, [[paper](https://arxiv.org/pdf/2012.09164.pdf)]
+
+**[arXiv]** One Point is All You Need: Directional Attention Point for Feature Learning, [[paper](https://arxiv.org/pdf/2012.06257.pdf)]
 
 **[arXiv]** Deep Positional and Relational Feature Learning for Rotation-Invariant Point Cloud Analysis, [[paper](https://arxiv.org/pdf/2011.09080.pdf)]
 
@@ -2262,6 +2272,8 @@ In this situation, there exist no 3D models, an the 6-DoF grasps are estimated f
 
 ***2020:***
 
+**[arXiv]** Seeing Behind Objects for 3D Multi-Object Tracking in RGB-D Sequences, [[paper](https://arxiv.org/pdf/2012.08197.pdf)]
+
 **[arXiv]** PMP-Net: Point Cloud Completion by Learning Multi-step Point Moving Paths, [[paper](https://arxiv.org/pdf/2012.03408.pdf)]
 
 **[arXiv]** Towards Part-Based Understanding of RGB-D Scans, [[paper](https://arxiv.org/pdf/2012.02094.pdf)]
@@ -2702,6 +2714,8 @@ In this situation, there exist no 3D models, an the 6-DoF grasps are estimated f
 
 ***2020:***
 
+**[arXiv]** Multi-FinGAN: Generative Coarse-To-Fine Sampling of Multi-Finger Grasps, [[paper](https://arxiv.org/pdf/2012.09696.pdf)]
+
 **[CoRL]** Fit2Form: 3D Generative Model for Robot Gripper Form Design, [[paper](https://arxiv.org/pdf/2011.06498.pdf)]
 
 **[ECCV]** GRAB: A Dataset of Whole-Body Human Grasping of Objects, [[paper](https://arxiv.org/pdf/2008.11200.pdf)]
@@ -2983,6 +2997,8 @@ In this situation, there exist no 3D models, an the 6-DoF grasps are estimated f
 ## 11. Reinforcement Learning
 
 ***2020:***
+
+**[arXiv]** A Framework for Efficient Robotic Manipulation, [[paper](https://arxiv.org/pdf/2012.07975.pdf)]
 
 **[IROS]** Physics-Based Dexterous Manipulations with Estimated Hand Poses and Residual Reinforcement Learning, [[paper](https://arxiv.org/pdf/2008.03285.pdf)]
 
