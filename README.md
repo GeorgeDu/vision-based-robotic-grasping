@@ -602,11 +602,15 @@ This kind of methods only consume the 3D point cloud data.
 
 ***2021:***
 
+**[AAAI]** PC-RGNN: Point Cloud Completion and Graph Neural Network for 3D Object Detection, [[paper](https://arxiv.org/pdf/2012.10412.pdf)]
+
 **[AAAI]** CIA-SSD: Confident IoU-Aware Single-Stage Object Detector From Point Cloud, [[paper](https://arxiv.org/pdf/2012.03015.pdf)]
 
 
 
 ***2020:***
+
+**[arXiv]** 3D Object Detection with Pointformer, [[paper](https://arxiv.org/pdf/2012.11409.pdf)]
 
 **[arXiv]** It's All Around You: Range-Guided Cylindrical Network for 3D Object Detection, [[paper](https://arxiv.org/pdf/2012.03121.pdf)]
 
@@ -910,6 +914,8 @@ This kind of methods utilize both rgb images and depth images/point clouds. Ther
 
 ***2020:***
 
+**[arXiv]** YolactEdge: Real-time Instance Segmentation on the Edge, [[paper](https://arxiv.org/pdf/2012.12259.pdf)]
+
 **[ECCV]** SipMask: Spatial Information Preservation for Fast Image and Video Instance Segmentation, [[paper](https://arxiv.org/pdf/2007.14772.pdf)] [[code](https://github.com/JialeCao001/SipMask)]
 
 **[arXiv]** POLY-YOLO: HIGHER SPEED, MORE PRECISE DETECTION AND INSTANCE SEGMENTATION FOR YOLOV3, [[paper](https://arxiv.org/pdf/2005.13243.pdf)]
@@ -1076,6 +1082,8 @@ This kind of methods utilize both rgb images and depth images/point clouds. Ther
 
 ***2020:***
 
+**[arXiv]** SegGroup: Seg-Level Supervision for 3D Instance and Semantic Segmentation, [[paper](https://arxiv.org/pdf/2012.10217.pdf)]
+
 **[ECCV]** Self-Prediction for Joint Instance and Semantic Segmentation of Point Clouds, [[paper](https://arxiv.org/pdf/2007.13344.pdf)]
 
 **[IET]** SASO: Joint 3D Semantic-Instance Segmentation via Multi-scale Semantic Association and Salient Point Clustering Optimization, [[paper](https://arxiv.org/pdf/2006.15015.pdf)]
@@ -1102,7 +1110,11 @@ This kind of methods utilize both rgb images and depth images/point clouds. Ther
 
 ***2020:***
 
-**[arXiv] **PCT: Point Cloud Transformer, [[paper](https://arxiv.org/pdf/2012.09688.pdf)]
+**[arXiv]** P4Contrast: Contrastive Learning with Pairs of Point-Pixel Pairs for RGB-D Scene Understanding, [[paper](https://arxiv.org/pdf/2012.13089.pdf)]
+
+**[arXiv]** Hausdorff Point Convolution with Geometric Priors, [[paper](https://arxiv.org/pdf/2012.13118.pdf)]
+
+**[arXiv]** PCT: Point Cloud Transformer, [[paper](https://arxiv.org/pdf/2012.09688.pdf)]
 
 **[arXiv]** Point Transformer, [[paper](https://arxiv.org/pdf/2012.09164.pdf)]
 
@@ -1288,6 +1300,8 @@ This part mainly discuss 6D object pose estimation methods, which can be categor
 ##### b. Regress 2D projections
 
 ***2020:***
+
+**[arXiv]** Objectron: A Large Scale Dataset of Object-Centric Videos in the Wild with Pose Annotations, [[paper](https://arxiv.org/pdf/2012.09988.pdf)] [[project](https://github.com/google-research-datasets/Objectron)]
 
 **[arXiv]** PyraPose: Feature Pyramids for Fast and Accurate Object Pose Estimation under Domain Shift, [[paper](https://arxiv.org/pdf/2010.16117.pdf)]
 
@@ -1499,6 +1513,8 @@ The partial-view point cloud will be aligned to the complete shape in order to o
 
 ***2020:***
 
+**[arXiv]** Geometric robust descriptor for 3D point cloud, [[paper](https://arxiv.org/pdf/2012.12215.pdf)]
+
 **[arXiv]** SpinNet: Learning a General Surface Descriptor for 3D Point Cloud Registration, [[paper](https://arxiv.org/pdf/2011.12149.pdf)]
 
 **[arXiv]** UKPGAN: Unsupervised KeyPoint GANeration, [[paper](https://arxiv.org/pdf/2011.11974.pdf)]
@@ -1703,6 +1719,8 @@ The partial-view point cloud will be aligned to the complete shape in order to o
 
 ***2020:***
 
+**[arXiv]** 3D Point-to-Keypoint Voting Network for 6D Pose Estimation, [[paper](https://arxiv.org/pdf/2012.11938.pdf)]
+
 **[arXiv]** 3DPVNet: Patch-level 3D Hough Voting Network for 6D Pose Estimation, [[paper](https://arxiv.org/pdf/2009.06887.pdf)]
 
 **[arXiv]** MoreFusion: Multi-object Reasoning for 6D Pose Estimation from Volumetric Fusion, [[paper](https://arxiv.org/pdf/2004.04336.pdf)] [[code](https://github.com/wkentaro/morefusion)]
@@ -1756,6 +1774,8 @@ The partial-view point cloud will be aligned to the complete shape in order to o
 #### 2.3.2 3D shape reconstruction from images
 
 ***2020:***
+
+**[arXiv]** From Points to Multi-Object 3D Reconstruction, [[paper](https://arxiv.org/pdf/2012.11575.pdf)]
 
 **[arXiv]** Vid2CAD: CAD Model Alignment using Multi-View Constraints from Videos, [[paper](https://arxiv.org/pdf/2012.04641.pdf)]
 
@@ -1928,6 +1948,8 @@ The partial-view point cloud will be aligned to the complete shape in order to o
 ### 3.2 Estimating Oriented Rectangles
 
 ***2020:***
+
+**[arXiv]** Effective Deployment of CNNs for 3DoF Pose Estimation and Grasping in Industrial Settings, [[paper](https://arxiv.org/pdf/2012.13210.pdf)]
 
 **[arXiv]** Robotic grasp detection using a novel two-stage approach, [[paper](https://arxiv.org/pdf/2011.14123.pdf)]
 
