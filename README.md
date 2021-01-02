@@ -602,6 +602,8 @@ This kind of methods only consume the 3D point cloud data.
 
 ***2021:***
 
+**[AAAI]** Voxel R-CNN: Towards High Performance Voxel-based 3D Object Detection, [[paper](https://arxiv.org/pdf/2012.15712.pdf)]
+
 **[AAAI]** PC-RGNN: Point Cloud Completion and Graph Neural Network for 3D Object Detection, [[paper](https://arxiv.org/pdf/2012.10412.pdf)]
 
 **[AAAI]** CIA-SSD: Confident IoU-Aware Single-Stage Object Detector From Point Cloud, [[paper](https://arxiv.org/pdf/2012.03015.pdf)]
@@ -1027,6 +1029,8 @@ This kind of methods utilize both rgb images and depth images/point clouds. Ther
 ##### a. Two-stage methods
 
 ***2020:***
+
+**[arXiv]** FPCC-Net: Fast Point Cloud Clustering for Instance Segmentation, [[paper](https://arxiv.org/pdf/2012.14618.pdf)]
 
 **[arXiv]** Exploring Data-Efficient 3D Scene Understanding with Contrastive Scene Contexts, [[paper](https://arxiv.org/pdf/2012.09165.pdf)]
 
@@ -2175,6 +2179,8 @@ In this situation, there exist no 3D models, an the 6-DoF grasps are estimated f
 ##### c. Shape correspondence
 
 ***2020:***
+
+**[arXiv]** CorrNet3D: Unsupervised End-to-end Learning of Dense Correspondence for 3D Point Clouds, [[paper](https://arxiv.org/pdf/2012.15638.pdf)]
 
 **[arXiv]** 3D Meta Point Signature: Learning to Learn 3D Point Signature for 3D Dense Shape Correspondence, [[paper](https://arxiv.org/pdf/2010.11159.pdf)]
 
