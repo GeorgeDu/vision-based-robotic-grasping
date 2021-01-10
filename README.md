@@ -88,6 +88,8 @@ I summarize all above kinds of methods in this repository, and hope to present a
 
 ## 0. Review Papers
 
+**[Foundations and Trends in Robotics]** 2021-Semantics for Robotic Mapping, Perception and Interaction: A Survey, [[paper](https://arxiv.org/pdf/2101.00443.pdf)]
+
 **[AIRE]** 2020-Vision-based Robotic Grasp Detection From Object Localization, Object Pose Estimation To Grasp Estimation: A Review, [[paper](https://arxiv.org/abs/1905.06658)]
 
 **[arXiv]** 2020-Affordances in Robotic Tasks - A Survey, [[paper](https://arxiv.org/pdf/2004.07400.pdf)]
@@ -772,6 +774,10 @@ This kind of methods only consume the 3D point cloud data.
 
 This kind of methods utilize both rgb images and depth images/point clouds. There exist early fusion methods, late fusion methods, and dense fusion methods.
 
+***2021:***
+
+**[arXiv]** Self-Attention Based Context-Aware 3D Object Detection, [[paper](https://arxiv.org/pdf/2101.02672.pdf)]
+
 ***2020:***
 
 **[arXiv]** Multi-View Adaptive Fusion Network for 3D Object Detection, [[paper](https://arxiv.org/pdf/2011.00652.pdf)]
@@ -1112,6 +1118,10 @@ This kind of methods utilize both rgb images and depth images/point clouds. Ther
 
 ##### c. 3D deep learning networks
 
+***2021:***
+
+**[arXiv]** Self-Supervised Pretraining of 3D Features on any Point-Cloud, [[paper](https://arxiv.org/pdf/2101.02691.pdf)]
+
 ***2020:***
 
 **[arXiv]** P4Contrast: Contrastive Learning with Pairs of Point-Pixel Pairs for RGB-D Scene Understanding, [[paper](https://arxiv.org/pdf/2012.13089.pdf)]
@@ -1362,6 +1372,10 @@ This part mainly discuss 6D object pose estimation methods, which can be categor
 #### 2.1.2 Template-based Methods
 
 This kind of methods can be regarded as regression-based methods.
+
+***2021:***
+
+**[arXiv]** Spatial Attention Improves Iterative 6D Object Pose Estimation, [[paper](https://arxiv.org/pdf/2101.01659.pdf)]
 
 ***2020:***
 
