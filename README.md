@@ -104,13 +104,11 @@ I summarize all above kinds of methods in this repository, and hope to present a
 
 **[RAS]** 2012-An overview of 3D object grasp synthesis algorithms - A Survey, [[paper](https://www.sciencedirect.com/science/article/abs/pii/S0921889011001485)]
 
-
+</br>
 
 ## 1. Object Localization
 
 ### 1.1 Object Localization without Classification
-
-
 
 #### 1.1.1 2D-based Methods
 
@@ -210,7 +208,7 @@ I summarize all above kinds of methods in this repository, and hope to present a
 
 **[ECCV]** Geodesic saliency using background priors, [[paper](http://jiansun.org/papers/ECCV12_GeodesicSaliency.pdf)]
 
-
+</br>
 
 #### 1.1.2 3D-based Methods
 
@@ -222,7 +220,7 @@ I summarize all above kinds of methods in this repository, and hope to present a
 
 ***2020:***
 
-**[ECCV]** CAD-DEFORM: DEFORMABLE FITTING OF CAD MODELS TO 3D SCANS, [[paper](https://arxiv.org/pdf/2007.11965.pdf)] [[code](https://github.com/alexeybokhovkin/CAD-Deform)]
+**[ECCV]** CAD-Deform: Deformable Fitting of CAD Models to 3D Scans, [[paper](https://arxiv.org/pdf/2007.11965.pdf)] [[code](https://github.com/alexeybokhovkin/CAD-Deform)]
 
 **[arXiv]** Polylidar3D - Fast Polygon Extraction from 3D Data, [[paper](https://arxiv.org/pdf/2007.12065.pdf)]
 
@@ -249,10 +247,6 @@ I summarize all above kinds of methods in this repository, and hope to present a
 ***2005:***
 
 **[ISPRS]** Efficient hough transform for automatic detection of cylinders in point clouds, [[paper](https://www.isprs.org/proceedings/XXXVI/3-W19/papers/060.pdf)]
-
-***1981:***
-
-**[COM]** Random sample consensus: a paradigm for model fitting with applications to image analysis and automated cartography, [[paper](http://www.cs.ait.ac.th/~mdailey/cvreadings/Fischler-RANSAC.pdf)]
 
 
 
@@ -294,11 +288,7 @@ I summarize all above kinds of methods in this repository, and hope to present a
 
 **[JSIP]** Segmenting salient objects in 3d point clouds of indoor scenes using geodesic distances, [[paper](https://www.scirp.org/html/38079.html)]
 
-***2008:***
-
-**[WACV]** Segmentation of salient regions in outdoor scenes using imagery and 3-d data, [[paper](https://ieeexplore.ieee.org/abstract/document/4544014)]
-
-
+</br>
 
 ### 1.2 Object Detection
 
@@ -402,22 +392,6 @@ Detailed paper lists can refer to [hoya012](https://github.com/hoya012/deep_lear
 
 **[ICLR]** OverFeat: Integrated Recognition, Localization and Detection using Convolutional Networks, [[paper](https://arxiv.org/pdf/1312.6229.pdf)] [[code](https://github.com/sermanet/OverFeat)]
 
-***2011:***
-
-**[ICCV]** ORB: An efficient alternative to SIFT or SURF, [[paper](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.370.4395&rep=rep1&type=pdf)]
-
-***2006:***
-
-**[ECCV]** SURF: Speeded up robust features, [[paper](https://link.springer.com/chapter/10.1007/11744023_32)]
-
-***2005:***
-
-**[ICCV]** FAST: Fusing points and lines for high performance tracking, [[paper](https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.60.4715&rep=rep1&type=pdf)]
-
-***1999:***
-
-**[ICCV]** SIFT: Object Recognition from Local Scale-Invariant Features, [[paper](https://ieeexplore.ieee.org/abstract/document/790410)]
-
 
 
 ##### b. Single-stage methods
@@ -476,29 +450,17 @@ Detailed paper lists can refer to [hoya012](https://github.com/hoya012/deep_lear
 
 **[ECCV]** SSD: Single Shot MultiBox Detector, [[paper](https://arxiv.org/abs/1512.02325)] [[code](https://github.com/balancap/SSD-Tensorflow)]
 
-
-
-------
-
-***Dataset:***
-
-[PASCAL VOC](http://host.robots.ox.ac.uk/pascal/VOC/): The PASCAL Visual Object Classes (VOC) Challenge, [[paper](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.157.5766&rep=rep1&type=pdf)]
-
-[ILSVRC](http://www.image-net.org/challenges/LSVRC/): ImageNet large scale visual recognition challenge, [[paper](https://arxiv.org/pdf/1409.0575.pdf)]
-
-[Microsoft COCO](http://cocodataset.org/): Common Objects in Context, is a large-scale object detection, segmentation, and captioning dataset, [[paper](https://arxiv.org/pdf/1405.0312.pdf)]
-
-[Open Images](https://storage.googleapis.com/openimages/web/index.html): a collaborative release of ~9 million images annotated with labels spanning thousands of object categories, [[paper](https://arxiv.org/pdf/1811.00982v1.pdf)]
-
-
+</br>
 
 #### 1.2.2 3D Object Detection
 
-This kind of methods can be divided into three kinds: RGB-based methods, point cloud-based methods, and fusion methods which consume images and point cloud. Most of these works are focus on autonomous driving.
+This kind of methods can be divided into three kinds: RGB-based methods, point cloud-based methods, and fusion methods which consume images and point cloud.
 
 ##### a. RGB-based methods
 
-Most of this kind of methods estimate depth images from RGB images, and then conduct 3D detection.
+***2021:***
+
+**[arXiv]** Ellipse Regression with Predicted Uncertainties for Accurate Multi-View 3D Object Estimation, [[paper](https://arxiv.org/pdf/2101.05212.pdf)]
 
 ***2020:***
 
@@ -591,8 +553,6 @@ Most of this kind of methods estimate depth images from RGB images, and then con
 
 
 ##### b. Point cloud-based methods
-
-This kind of methods only consume the 3D point cloud data.
 
 ***Survey papers:***
 
@@ -850,6 +810,8 @@ This kind of methods utilize both rgb images and depth images/point clouds. Ther
 
 **[ECCV]** Learning Rich Features from RGB-D Images for Object Detection and Segmentation, [[paper](https://arxiv.org/pdf/1407.5736.pdf)]
 
+</br>
+
 ### 1.3 Object Instance Segmentation
 
 #### 1.3.1 2D Instance Segmentation
@@ -1028,7 +990,7 @@ This kind of methods utilize both rgb images and depth images/point clouds. Ther
 
 **[ITSC]** Multi-task Network for Panoptic Segmentation in Automated Driving, [[paper](https://ieeexplore.ieee.org/abstract/document/8917422)]
 
-
+</br>
 
 #### 1.3.2 3D Instance Segmentation
 
@@ -1176,7 +1138,7 @@ This kind of methods utilize both rgb images and depth images/point clouds. Ther
 
 ***2019:***
 
-**[arXiv]** QUATERNION EQUIVARIANT CAPSULE NETWORKS FOR 3D POINT CLOUDS, [[paper](https://arxiv.org/pdf/1912.12098.pdf)]
+**[arXiv]** Quaternion Equivariant Capsule Networks for 3D Point Clouds, [[paper](https://arxiv.org/pdf/1912.12098.pdf)]
 
 **[arXiv]** Geometry Sharing Network for 3D Point Cloud Classification and Segmentation, [[paper](https://arxiv.org/pdf/1912.10644.pdf)]
 
@@ -1239,7 +1201,7 @@ Learning, [[paper](https://arxiv.org/pdf/1803.05827.pdf)] [[code](https://github
 
 **[CVPR]** SyncSpecCNN: Synchronized Spectral CNN for 3D Shape Segmentation, [[paper](https://arxiv.org/abs/1612.00606)]
 
-
+</br>
 
 ## 2. Object Pose Estimation
 
@@ -1264,6 +1226,8 @@ This part mainly discuss 6D object pose estimation methods, which can be categor
 ***2016:***
 
 **[ECCVW]** A Summary of the 4th International Workshop on Recovering 6D Object Pose, [[paper](https://arxiv.org/abs/1810.03758)]
+
+</br>
 
 #### 2.1.1 Correspondence-based Methods
 
@@ -1367,7 +1331,7 @@ This part mainly discuss 6D object pose estimation methods, which can be categor
 
 **[ICRA]** 6-DoF Object Pose from Semantic Keypoints, [[paper](https://arxiv.org/abs/1703.04670)]
 
-
+</br>
 
 #### 2.1.2 Template-based Methods
 
@@ -1385,7 +1349,7 @@ This kind of methods can be regarded as regression-based methods.
 
 **[arXiv]** Bridging the Performance Gap Between Pose Estimation Networks Trained on Real And Synthetic Data Using Domain Randomization, [[paper](https://arxiv.org/pdf/2011.08517.pdf)]
 
-**[arXiv]** EfficientPose -- An efficient, accurate and scalable end-to-end 6D multi object pose estimation approach, [[paper](https://arxiv.org/pdf/2011.04307.pdf)]
+**[arXiv]** EfficientPose: An efficient, accurate and scalable end-to-end 6D multi object pose estimation approach, [[paper](https://arxiv.org/pdf/2011.04307.pdf)]
 
 **[arXiv]** Pose Estimation of Specular and Symmetrical Objects, [[paper](https://arxiv.org/pdf/2011.00372.pdf)]
 
@@ -1395,7 +1359,7 @@ This kind of methods can be regarded as regression-based methods.
 
 **[ECCV]** CosyPose: Consistent multi-view multi-object 6D pose estimation, [[paper](https://arxiv.org/pdf/2008.08465.pdf)]
 
-**[arXiv]** PAM:Point-wise Attention Module for 6D Object Pose Estimation, [[paper](https://arxiv.org/pdf/2008.05242.pdf)]
+**[arXiv]** PAM: Point-wise Attention Module for 6D Object Pose Estimation, [[paper](https://arxiv.org/pdf/2008.05242.pdf)]
 
 **[IROS]** PERCH 2.0 : Fast and Accurate GPU-based Perception via Search for Object Pose Estimation, [[paper](https://arxiv.org/pdf/2008.00326.pdf)] [[code](https://sbpl-cruz.github.io/perception/)]
 
@@ -1483,7 +1447,7 @@ This kind of methods can be regarded as regression-based methods.
 
 **[ACCV]** Model based training, detection and pose estimation of texture-less 3d objects in heavily cluttered scenes, [[paper](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.250.6547&rep=rep1&type=pdf)]
 
-
+</br>
 
 #### 2.1.3 Voting-based Methods
 
@@ -1507,7 +1471,7 @@ This kind of methods can be regarded as regression-based methods.
 
 **[ECCV]** Latent-class hough forests for 3d object detection and pose estimation, [[paper](https://labicvl.github.io/docs/pubs/Aly_ECCV_2014.pdf)]
 
-
+</br>
 
 ***Datasets:***
 
@@ -1521,11 +1485,13 @@ HomebrewedDB: RGB-D Dataset for 6D Pose Estimation of 3D Objects, ICCVW, 2019 [[
 
 YCB-M: A Multi-Camera RGB-D Dataset for Object Recognition and 6DoF Pose Estimation, arXiv, 2020, [[paper](https://arxiv.org/pdf/2004.11657.pdf)] [[database](https://zenodo.org/record/2579173#.XqgpkxMzbX8)]
 
-
+</br>
 
 ### 2.2 Point Cloud-based Methods
 
 The partial-view point cloud will be aligned to the complete shape in order to obtain the 6D pose. Generally, coarse registration should be conduct firstly to provide an intial alignment, and dense registration methods like ICP (Iterative Closest Point) will be conducted to obtain the final 6D pose.
+
+</br>
 
 #### 2.2.1 Correspondence-based Methods
 
@@ -1597,7 +1563,7 @@ The partial-view point cloud will be aligned to the complete shape in order to o
 
 **[ICRA]** Fast Point Feature Histograms (FPFH) for 3D registration, [[paper](https://www.cvl.iis.u-tokyo.ac.jp/class2016/2016w/papers/6.3DdataProcessing/Rusu_FPFH_ICRA2009.pdf)]
 
-
+</br>
 
 #### 2.2.2 Template-based Methods
 
@@ -1610,6 +1576,10 @@ The partial-view point cloud will be aligned to the complete shape in order to o
 **[arXiv]** Least Squares Optimization: from Theory to Practice, [[paper](https://arxiv.org/pdf/2002.11051.pdf)]
 
 
+
+***2021:***
+
+**[arXiv]** Provably Approximated ICP, [[paper](https://arxiv.org/pdf/2101.03588.pdf)]
 
 ***2020:***
 
@@ -1729,11 +1699,9 @@ The partial-view point cloud will be aligned to the complete shape in order to o
 
 **[SGP]** Super 4PCS Fast Global Pointcloud Registration via Smart Indexing, [[paper](https://geometry.cs.ucl.ac.uk/projects/2014/super4PCS/super4pcs.pdf)] [[code](https://github.com/nmellado/Super4PCS)]
 
-
+</br>
 
 #### 2.2.3 Voting-based Methods
-
-
 
 ***2020:***
 
@@ -1753,7 +1721,7 @@ The partial-view point cloud will be aligned to the complete shape in order to o
 
 **[CVPR]** Densefusion: 6d object pose estimation by iterative dense fusion, [[paper](https://arxiv.org/abs/1901.04780)] [[code](https://github.com/j96w/DenseFusion)]
 
-
+</br>
 
 ### 2.3 Category-level Methods
 
@@ -1787,7 +1755,7 @@ The partial-view point cloud will be aligned to the complete shape in order to o
 
 **[arXiv]** kPAM: KeyPoint Affordances for Category-Level Robotic Manipulation, [[paper](https://arxiv.org/abs/1903.06684)]
 
-
+</br>
 
 #### 2.3.2 3D shape reconstruction from images
 
@@ -1885,7 +1853,7 @@ The partial-view point cloud will be aligned to the complete shape in order to o
 
 **[arXiv]** Deep-Learning Assisted High-Resolution Binocular Stereo Depth Reconstruction, [[paper](https://arxiv.org/abs/1912.05012)]
 
-
+</br>
 
 #### 2.3.3 3D shape rendering
 
@@ -1913,7 +1881,7 @@ The partial-view point cloud will be aligned to the complete shape in order to o
 
 **[arXiv]** Neural Voxel Renderer: Learning an Accurate and Controllable Rendering Tool, [[paper](https://arxiv.org/abs/1912.04591)]
 
-
+</br>
 
 ## 3. 2D Planar Grasp
 
@@ -1961,7 +1929,7 @@ The partial-view point cloud will be aligned to the complete shape in order to o
 
 [Dex-Net](https://berkeleyautomation.github.io/dex-net/#dexnet_2), a synthetic dataset of 6.7 million point clouds, grasps, and robust analytic grasp metrics generated from thousands of 3D models.
 
-
+</br>
 
 ### 3.2 Estimating Oriented Rectangles
 
@@ -2053,7 +2021,7 @@ The partial-view point cloud will be aligned to the complete shape in order to o
 
 [Jacquard Dataset](https://jacquard.liris.cnrs.fr), Jacquard: A Large Scale Dataset for Robotic Grasp Detection” in *IEEE International Conference on Intelligent Robots and Systems*, 2018, [[paper](https://arxiv.org/abs/1803.11469)]
 
-
+</br>
 
 ## 4. 6DoF Grasp
 
@@ -2130,7 +2098,7 @@ In this situation, there exist no 3D models, an the 6-DoF grasps are estimated f
 
 **[RAS]** Learning grasping points with shape context, [[paper](https://www.sciencedirect.com/science/article/abs/pii/S0921889009001699)]
 
-
+</br>
 
 #### 4.1.2 Methods of Transferring Grasps
 
@@ -2240,13 +2208,15 @@ In this situation, there exist no 3D models, an the 6-DoF grasps are estimated f
 
 **[C&G]** Partial correspondence of 3D shapes using properties of the nearest-neighbor field, [[paper](http://webee.technion.ac.il/~ayellet/Ps/19-ATZ.pdf)]
 
-
+</br>
 
 ### 4.2 Methods based on Complete Shape
 
 #### 4.2.1 Methods of Estimating 6D Object Pose
 
 ***2020:***
+
+**[IROS]** Transferring Experience from Simulation to the Real World for Precise Pick-And-Place Tasks in Highly Cluttered Scenes, [[paper](https://arxiv.org/pdf/2101.04781.pdf)]
 
 **[arXiv]** Object-Driven Active Mapping for More Accurate Object Pose Estimation and Robotic Grasping, [[paper](https://arxiv.org/pdf/2012.01788.pdf)]
 
@@ -2270,7 +2240,7 @@ In this situation, there exist no 3D models, an the 6-DoF grasps are estimated f
 
 **[RAM]** Graspit! A versatile simulator for robotic grasping, [[paper](https://ieeexplore.ieee.org/abstract/document/1371616)] [[code](https://github.com/graspit-simulator/graspit)]
 
-
+</br>
 
 #### 4.2.2 Methods of Shape Completion
 
@@ -2454,7 +2424,7 @@ In this situation, there exist no 3D models, an the 6-DoF grasps are estimated f
 
 **[ECCV]** Self-Supervised Monocular Depth Estimation: Solving the Dynamic Object Problem by Semantic Guidance, [[paper](https://arxiv.org/pdf/2007.06936.pdf)]
 
-**[ECCV]** $P^2$Net: Patch-match and Plane-regularization for Unsupervised Indoor Depth Estimation, [[paper](https://arxiv.org/pdf/2007.07696.pdf)]
+**[ECCV]** P<sup>2</sup>Net: Patch-match and Plane-regularization for Unsupervised Indoor Depth Estimation, [[paper](https://arxiv.org/pdf/2007.07696.pdf)]
 
 **[arXiv]** P2D: a self-supervised method for depth estimation from polarimetry, [[paper](https://arxiv.org/pdf/2007.07567.pdf)]
 
@@ -2466,7 +2436,7 @@ In this situation, there exist no 3D models, an the 6-DoF grasps are estimated f
 
 **[arXiv]** Targeted Adversarial Perturbations for Monocular Depth Prediction, [[paper](https://arxiv.org/pdf/2006.08602.pdf)]
 
-**[arXiv]** ACED: ACCURATE AND EDGE-CONSISTENT MONOCULAR DEPTH ESTIMATION, [[paper](https://arxiv.org/pdf/2006.09243.pdf)]
+**[arXiv]** AcED: Accurate and Edge-consistent Monocular Depth Estimation, [[paper](https://arxiv.org/pdf/2006.09243.pdf)]
 
 **[arXiv]** Self-Supervised Joint Learning Framework of Depth Estimation via Implicit Cues, [[paper](https://arxiv.org/pdf/2006.09876.pdf)]
 
@@ -2538,7 +2508,7 @@ In this situation, there exist no 3D models, an the 6-DoF grasps are estimated f
 
 **[arXiv]** Predicting Sharp and Accurate Occlusion Boundaries in Monocular Depth Estimation Using Displacement Fields, [[paper](https://arxiv.org/pdf/2002.12730.pdf)]
 
-**[ICLR]** SEMANTICALLY-GUIDED REPRESENTATION LEARNING FOR SELF-SUPERVISED MONOCULAR DEPTH, [[paper](https://arxiv.org/pdf/2002.12319.pdf)]
+**[ICLR]** Semantically-Guided Representation Learning for Self-Supervised Monocular Depth, [[paper](https://arxiv.org/pdf/2002.12319.pdf)]
 
 **[arXiv]** 3D Gated Recurrent Fusion for Semantic Scene Completion, [[paper](https://arxiv.org/pdf/2002.07269.pdf)]
 
@@ -2570,7 +2540,7 @@ In this situation, there exist no 3D models, an the 6-DoF grasps are estimated f
 
 **[arXiv]** Normal Assisted Stereo Depth Estimation, [[paper](https://arxiv.org/pdf/1911.10444.pdf)]
 
-**[arXiv]** GEOMETRY-AWARE GENERATION OF ADVERSARIAL AND COOPERATIVE POINT CLOUDS, [[paper](https://arxiv.org/pdf/1912.11171.pdf)]
+**[arXiv]** Geometry-aware Generation of Adversarial and Cooperative Point Clouds, [[paper](https://arxiv.org/pdf/1912.11171.pdf)]
 
 **[arXiv]** DeepSFM: Structure From Motion Via Deep Bundle Adjustment, [[paper](https://arxiv.org/abs/1912.09697)]
 
@@ -2648,7 +2618,7 @@ In this situation, there exist no 3D models, an the 6-DoF grasps are estimated f
 
 **[CVPR]** PU-Net: Point Cloud Upsampling Network, [[paper](https://arxiv.org/abs/1801.06761)] [[code](https://github.com/yulequan/PU-Net)]
 
-
+</br>
 
 ## 5. Task-oriented Methods
 
@@ -2698,7 +2668,7 @@ In this situation, there exist no 3D models, an the 6-DoF grasps are estimated f
 
 **[arXiv]** Learning Task-Oriented Grasping from Human Activity Datasets, [[paper](https://arxiv.org/abs/1910.11669)]
 
-
+</br>
 
 ### 5.2 Grasp Affordance
 
@@ -2722,7 +2692,7 @@ In this situation, there exist no 3D models, an the 6-DoF grasps are estimated f
 
 **[arXiv]** Workspace Aware Online Grasp Planning, [[paper](https://arxiv.org/abs/1806.11402)]
 
-
+</br>
 
 ### 5.3 3D Part Segmentation
 
@@ -2750,7 +2720,7 @@ In this situation, there exist no 3D models, an the 6-DoF grasps are estimated f
 
 **[SiggraphAsia]** A Scalable Active Framework for Region Annotation in 3D Shape Collections, [[paper](https://cs.stanford.edu/~ericyi/project_page/part_annotation/)]
 
-
+</br>
 
 ## 6. Dexterous Grippers
 
@@ -2834,7 +2804,7 @@ In this situation, there exist no 3D models, an the 6-DoF grasps are estimated f
 
 **[ICRA]** High-Fidelity Grasping in Virtual Reality using a Glove-based System, [[paper](https://github.com/zzlyw/ICRA19_VRGloveSystem/blob/master/doc/ICRA19.pdf)] [[code](https://github.com/zzlyw/ICRA19_VRGloveSystem)]
 
-
+</br>
 
 ## 7. Data Generation
 
@@ -2902,7 +2872,7 @@ In this situation, there exist no 3D models, an the 6-DoF grasps are estimated f
 
 **[RSS]** Learning Task-Oriented Grasping for Tool Manipulation from Simulated Self-Supervision, [[paper](https://arxiv.org/abs/1806.09266)]
 
-
+</br>
 
 ## 8. Multi-source
 
@@ -2930,7 +2900,7 @@ In this situation, there exist no 3D models, an the 6-DoF grasps are estimated f
 
 **[arXiv]** Learning to Grasp without Seeing, [[paper](https://arxiv.org/abs/1805.04201)]
 
-
+</br>
 
 ## 9. Motion Planning
 
@@ -2972,7 +2942,7 @@ In this situation, there exist no 3D models, an the 6-DoF grasps are estimated f
 
 **[ICRA]** Robot Arm Pose Estimation through Pixel-Wise Part Classification, [[paper](https://www.is.mpg.de/uploads_file/attachment/attachment/176/2014_ICRA_brhs_small.pdf)]
 
-
+</br>
 
 ### 9.2 Path Planning
 
@@ -2994,7 +2964,7 @@ In this situation, there exist no 3D models, an the 6-DoF grasps are estimated f
 
 **[arXiv]** Parareal with a Learned Coarse Model for Robotic Manipulation, [[paper](https://arxiv.org/abs/1912.05958)]
 
-
+</br>
 
 ## 10. Imitation Learning
 
@@ -3034,7 +3004,7 @@ In this situation, there exist no 3D models, an the 6-DoF grasps are estimated f
 
 **[arXiv]** Deep Imitation Learning for Complex Manipulation Tasks from Virtual Reality Teleoperation, [[paper](https://arxiv.org/abs/1710.04615)]
 
-
+</br>
 
 ## 11. Reinforcement Learning
 
@@ -3144,7 +3114,7 @@ In this situation, there exist no 3D models, an the 6-DoF grasps are estimated f
 
 **[IJRR]** Reinforcement learning in robotics: A survey, [[paper](https://ri.cmu.edu/pub_files/2013/7/Kober_IJRR_2013.pdf)]
 
-
+</br>
 
 ## 12. Experts
 
