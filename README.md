@@ -460,6 +460,8 @@ This kind of methods can be divided into three kinds: RGB-based methods, point c
 
 ***2021:***
 
+**[arXiv]** PLUME: Efficient 3D Object Detection from Stereo Images, [[paper](https://arxiv.org/pdf/2101.06594.pdf)]
+
 **[arXiv]** Ellipse Regression with Predicted Uncertainties for Accurate Multi-View 3D Object Estimation, [[paper](https://arxiv.org/pdf/2101.05212.pdf)]
 
 ***2020:***
@@ -563,6 +565,8 @@ This kind of methods can be divided into three kinds: RGB-based methods, point c
 
 
 ***2021:***
+
+**[arXiv]** Auto4D: Learning to Label 4D Objects from Sequential Point Clouds, [[paper](https://arxiv.org/pdf/2101.06586.pdf)]
 
 **[AAAI]** Voxel R-CNN: Towards High Performance Voxel-based 3D Object Detection, [[paper](https://arxiv.org/pdf/2012.15712.pdf)]
 
@@ -1082,6 +1086,8 @@ This kind of methods utilize both rgb images and depth images/point clouds. Ther
 
 ***2021:***
 
+**[arXiv]** The Devils in the Point Clouds: Studying the Robustness of Point Cloud Convolutions, [[paper](https://arxiv.org/pdf/2101.07832.pdf)]
+
 **[arXiv]** Self-Supervised Pretraining of 3D Features on any Point-Cloud, [[paper](https://arxiv.org/pdf/2101.02691.pdf)]
 
 ***2020:***
@@ -1579,6 +1585,8 @@ The partial-view point cloud will be aligned to the complete shape in order to o
 
 ***2021:***
 
+**[arXiv]** Hybrid Trilinear and Bilinear Programming for Aligning Partially Overlapping Point Sets, [[paper](https://arxiv.org/pdf/2101.07458.pdf)]
+
 **[arXiv]** Provably Approximated ICP, [[paper](https://arxiv.org/pdf/2101.03588.pdf)]
 
 ***2020:***
@@ -1758,6 +1766,10 @@ The partial-view point cloud will be aligned to the complete shape in order to o
 </br>
 
 #### 2.3.2 3D shape reconstruction from images
+
+***2021:***
+
+**[arXiv]** Joint Learning of 3D Shape Retrieval and Deformation, [[paper](https://arxiv.org/pdf/2101.07889.pdf)]
 
 ***2020:***
 
