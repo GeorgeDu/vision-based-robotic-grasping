@@ -1899,6 +1899,10 @@ The partial-view point cloud will be aligned to the complete shape in order to o
 
 ### 3.1 Estimating Grasp Contact Points
 
+***2021:***
+
+**[arXiv]** Lightweight Convolutional Neural Network with Gaussian-based Grasping Representation for Robotic Grasping Detection, [[paper](https://arxiv.org/pdf/2101.10226.pdf)]
+
 ***2020:***
 
 **[arXiv]** S3K: Self-Supervised Semantic Keypoints for Robotic Manipulation via Multi-View Consistency, [[paper](https://arxiv.org/pdf/2009.14711.pdf)]
