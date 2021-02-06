@@ -566,6 +566,8 @@ This kind of methods can be divided into three kinds: RGB-based methods, point c
 
 ***2021:***
 
+**[arXiv]** PV-RCNN++: Point-Voxel Feature Set Abstraction With Local Vector Representation for 3D Object Detection, [[paper](https://arxiv.org/pdf/2102.00463.pdf)]
+
 **[arXiv]** Auto4D: Learning to Label 4D Objects from Sequential Point Clouds, [[paper](https://arxiv.org/pdf/2101.06586.pdf)]
 
 **[AAAI]** Voxel R-CNN: Towards High Performance Voxel-based 3D Object Detection, [[paper](https://arxiv.org/pdf/2012.15712.pdf)]
@@ -1085,6 +1087,8 @@ This kind of methods utilize both rgb images and depth images/point clouds. Ther
 ##### c. 3D deep learning networks
 
 ***2021:***
+
+**[arXiv]** Regularization Strategy for Point Cloud via Rigidly Mixed Sample, [[paper](https://arxiv.org/pdf/2102.01929.pdf)]
 
 **[arXiv]** The Devils in the Point Clouds: Studying the Robustness of Point Cloud Convolutions, [[paper](https://arxiv.org/pdf/2101.07832.pdf)]
 
@@ -1769,6 +1773,8 @@ The partial-view point cloud will be aligned to the complete shape in order to o
 
 ***2021:***
 
+**[arXiv]** Adjoint Rigid Transform Network: Self-supervised Alignment of 3D Shapes, [[paper](https://arxiv.org/pdf/2102.01161.pdf)]
+
 **[arXiv]** Joint Learning of 3D Shape Retrieval and Deformation, [[paper](https://arxiv.org/pdf/2101.07889.pdf)]
 
 ***2020:***
@@ -2181,6 +2187,8 @@ In this situation, there exist no 3D models, an the 6-DoF grasps are estimated f
 **[arXiv]** CorrNet3D: Unsupervised End-to-end Learning of Dense Correspondence for 3D Point Clouds, [[paper](https://arxiv.org/pdf/2012.15638.pdf)]
 
 **[arXiv]** 3D Meta Point Signature: Learning to Learn 3D Point Signature for 3D Dense Shape Correspondence, [[paper](https://arxiv.org/pdf/2010.11159.pdf)]
+
+**[NeurIPS]** Learning Implicit Functions for Topology-Varying Dense 3D Shape Correspondence, [[paper](https://arxiv.org/pdf/2010.12320.pdf)] [[code](https://github.com/liuf1990/Implicit_Dense_Correspondence)]
 
 **[NeurIPS]** Weakly Supervised Deep Functional Map for Shape Matching, [[paper](https://arxiv.org/pdf/2009.13339.pdf)]
 
