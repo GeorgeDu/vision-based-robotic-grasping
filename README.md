@@ -460,6 +460,8 @@ This kind of methods can be divided into three kinds: RGB-based methods, point c
 
 ***2021:***
 
+**[arXiv]** Gated3D: Monocular 3D Object Detection From Temporal Illumination Cues, [[paper](https://arxiv.org/pdf/2102.03602.pdf)]
+
 **[arXiv]** PLUME: Efficient 3D Object Detection from Stereo Images, [[paper](https://arxiv.org/pdf/2101.06594.pdf)]
 
 **[arXiv]** Ellipse Regression with Predicted Uncertainties for Accurate Multi-View 3D Object Estimation, [[paper](https://arxiv.org/pdf/2101.05212.pdf)]
@@ -565,6 +567,8 @@ This kind of methods can be divided into three kinds: RGB-based methods, point c
 
 
 ***2021:***
+
+**[arXiv]** DPointNet: A Density-Oriented PointNet for 3D Object Detection in Point Clouds, [[paper](https://arxiv.org/pdf/2102.03747.pdf)]
 
 **[arXiv]** PV-RCNN++: Point-Voxel Feature Set Abstraction With Local Vector Representation for 3D Object Detection, [[paper](https://arxiv.org/pdf/2102.00463.pdf)]
 
@@ -959,6 +963,10 @@ This kind of methods utilize both rgb images and depth images/point clouds. Ther
 
 
 ***Applications in Robotics:***
+
+***2021:***
+
+**[arXiv]** Where is my hand? Deep hand segmentation for visual self-recognition in humanoid robots, [[paper](https://arxiv.org/pdf/2102.04750.pdf)]
 
 ***2020:***
 
@@ -2306,6 +2314,10 @@ In this situation, there exist no 3D models, an the 6-DoF grasps are estimated f
 
 ##### b. Shape Completion or Generation
 
+***2021:***
+
+**[arXiv]** HyperPocket: Generative Point Cloud Completion, [[paper](https://arxiv.org/pdf/2102.05973.pdf)]
+
 ***2020:***
 
 **[arXiv]** Seeing Behind Objects for 3D Multi-Object Tracking in RGB-D Sequences, [[paper](https://arxiv.org/pdf/2012.08197.pdf)]
@@ -2969,6 +2981,10 @@ In this situation, there exist no 3D models, an the 6-DoF grasps are estimated f
 </br>
 
 ### 9.2 Path Planning
+
+***2021:***
+
+**[arXiv]** Dynamic Movement Primitives in Robotics: A Tutorial Survey, [[paper](https://arxiv.org/pdf/2102.03861.pdf)]
 
 ***2020:***
 
