@@ -892,6 +892,10 @@ This kind of methods utilize both rgb images and depth images/point clouds. Ther
 
 ##### c. One-stage methods
 
+***2021:***
+
+**[arXiv]** INSTA-YOLO: Real-Time Instance Segmentation, [[paper](https://arxiv.org/pdf/2102.06777.pdf)]
+
 ***2020:***
 
 **[arXiv]** YolactEdge: Real-time Instance Segmentation on the Edge, [[paper](https://arxiv.org/pdf/2012.12259.pdf)]
@@ -1009,6 +1013,10 @@ This kind of methods utilize both rgb images and depth images/point clouds. Ther
 #### 1.3.2 3D Instance Segmentation
 
 ##### a. Two-stage methods
+
+***2021:***
+
+**[arXiv]** EfficientLPS: Efficient LiDAR Panoptic Segmentation, [[paper](https://arxiv.org/pdf/2102.08009.pdf)]
 
 ***2020:***
 
@@ -1357,6 +1365,8 @@ This kind of methods can be regarded as regression-based methods.
 
 ***2021:***
 
+**[arXiv]** StablePose: Learning 6D Object Poses from Geometrically Stable Patches, [[paper](https://arxiv.org/pdf/2102.09334.pdf)]
+
 **[arXiv]** Spatial Attention Improves Iterative 6D Object Pose Estimation, [[paper](https://arxiv.org/pdf/2101.01659.pdf)]
 
 ***2020:***
@@ -1553,8 +1563,6 @@ The partial-view point cloud will be aligned to the complete shape in order to o
 
 ***2018:***
 
-**[arXiv]** Dense Object Nets: Learning Dense Visual Object Descriptors By and For Robotic Manipulation, [[paper](https://arxiv.org/abs/1806.08756)]
-
 **[ECCV]** 3DFeat-Net: Weakly Supervised Local 3D Features for Point Cloud Registration, [[paper](https://arxiv.org/abs/1807.09413)] [[code](https://github.com/yewzijian/3DFeatNet)]
 
 ***2017:***
@@ -1596,6 +1604,8 @@ The partial-view point cloud will be aligned to the complete shape in order to o
 
 
 ***2021:***
+
+**[arXiv]** A Parameterised Quantum Circuit Approach to Point Set Matching, [[paper](https://arxiv.org/pdf/2102.06697.pdf)]
 
 **[arXiv]** Hybrid Trilinear and Bilinear Programming for Aligning Partially Overlapping Point Sets, [[paper](https://arxiv.org/pdf/2101.07458.pdf)]
 
@@ -2134,6 +2144,10 @@ In this situation, there exist no 3D models, an the 6-DoF grasps are estimated f
 
 ##### a. Grasp transfer
 
+***2021:***
+
+**[arXiv]** Supervised Training of Dense Object Nets using Optimal Descriptors for Industrial Robotic Applications, [[paper](https://arxiv.org/pdf/2102.08096.pdf)]
+
 ***2020:***
 
 **[arXiv]** DGCM-Net: Dense Geometrical Correspondence Matching Network for Incremental Experience-based Robotic Grasping, [[paper](https://arxiv.org/pdf/2001.05279.pdf)]
@@ -2143,6 +2157,10 @@ In this situation, there exist no 3D models, an the 6-DoF grasps are estimated f
 **[arXiv]** Using Synthetic Data and Deep Networks to Recognize Primitive Shapes for Object Grasping, [[paper](https://arxiv.org/abs/1909.08508)]
 
 **[ICRA]** Transferring Grasp Configurations using Active Learning and Local Replanning, [[paper](https://arxiv.org/abs/1807.08341)]
+
+***2018:***
+
+**[arXiv]** Dense Object Nets: Learning Dense Visual Object Descriptors By and For Robotic Manipulation, [[paper](https://arxiv.org/abs/1806.08756)]
 
 ***2017:***
 
@@ -2316,6 +2334,10 @@ In this situation, there exist no 3D models, an the 6-DoF grasps are estimated f
 
 ***2021:***
 
+**[arXiv]** DeepMetaHandles: Learning Deformation Meta-Handles of 3D Meshes with Biharmonic Coordinates, [[paper](https://arxiv.org/pdf/2102.09105.pdf)]
+
+**[arXiv]** Generation for adaption: a Gan-based approach for 3D Domain Adaption in Point Cloud, [[paper](https://arxiv.org/pdf/2102.07373.pdf)]
+
 **[arXiv]** HyperPocket: Generative Point Cloud Completion, [[paper](https://arxiv.org/pdf/2102.05973.pdf)]
 
 ***2020:***
@@ -2433,6 +2455,10 @@ In this situation, there exist no 3D models, an the 6-DoF grasps are estimated f
 
 
 ##### c. Depth Completion and Estimation
+
+***2021:***
+
+**[arXiv]** LEAD: LiDAR Extender for Autonomous Driving, [[paper](https://arxiv.org/pdf/2102.07989.pdf)]
 
 ***2020:***
 
