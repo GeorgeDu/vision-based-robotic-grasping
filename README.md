@@ -1104,6 +1104,8 @@ This kind of methods utilize both rgb images and depth images/point clouds. Ther
 
 ***2021:***
 
+**[arXiv]** Attention Models for Point Clouds in Deep Learning: A Survey, [[paper](https://arxiv.org/pdf/2102.10788.pdf)]
+
 **[arXiv]** Regularization Strategy for Point Cloud via Rigidly Mixed Sample, [[paper](https://arxiv.org/pdf/2102.01929.pdf)]
 
 **[arXiv]** The Devils in the Point Clouds: Studying the Robustness of Point Cloud Convolutions, [[paper](https://arxiv.org/pdf/2101.07832.pdf)]
@@ -1365,11 +1367,15 @@ This kind of methods can be regarded as regression-based methods.
 
 ***2021:***
 
+**[arXiv]** GDR-Net: Geometry-Guided Direct Regression Network for Monocular 6D Object Pose Estimation, [[paper](https://arxiv.org/pdf/2102.12145.pdf)]
+
 **[arXiv]** StablePose: Learning 6D Object Poses from Geometrically Stable Patches, [[paper](https://arxiv.org/pdf/2102.09334.pdf)]
 
 **[arXiv]** Spatial Attention Improves Iterative 6D Object Pose Estimation, [[paper](https://arxiv.org/pdf/2101.01659.pdf)]
 
 ***2020:***
+
+**[CVPR]** PFRL: Pose-Free Reinforcement Learning for 6D Pose Estimation, [[paper](https://arxiv.org/pdf/2102.12096.pdf)]
 
 **[arXiv]** iNeRF: Inverting Neural Radiance Fields for Pose Estimation, [[paper](https://arxiv.org/pdf/2012.05877.pdf)]
 
@@ -1523,6 +1529,10 @@ The partial-view point cloud will be aligned to the complete shape in order to o
 
 #### 2.2.1 Correspondence-based Methods
 
+***2021:***
+
+**[arXiv]** PRIN/SPRIN: On Extracting Point-wise Rotation Invariant Features, [[paper](https://arxiv.org/pdf/2102.12093.pdf)]
+
 ***2020:***
 
 **[arXiv]** Geometric robust descriptor for 3D point cloud, [[paper](https://arxiv.org/pdf/2012.12215.pdf)]
@@ -1604,6 +1614,8 @@ The partial-view point cloud will be aligned to the complete shape in order to o
 
 
 ***2021:***
+
+**[arXiv]** UnsupervisedR&R: Unsupervised Point Cloud Registration via Differentiable Rendering, [[paper](https://arxiv.org/pdf/2102.11870.pdf)]
 
 **[arXiv]** A Parameterised Quantum Circuit Approach to Point Set Matching, [[paper](https://arxiv.org/pdf/2102.06697.pdf)]
 
