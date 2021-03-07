@@ -1104,6 +1104,8 @@ This kind of methods utilize both rgb images and depth images/point clouds. Ther
 
 ***2021:***
 
+**[CVPR]** PointGuard: Provably Robust 3D Point Cloud Classification, [[paper](https://arxiv.org/pdf/2103.03046.pdf)]
+
 **[arXiv]** Attention Models for Point Clouds in Deep Learning: A Survey, [[paper](https://arxiv.org/pdf/2102.10788.pdf)]
 
 **[arXiv]** Regularization Strategy for Point Cloud via Rigidly Mixed Sample, [[paper](https://arxiv.org/pdf/2102.01929.pdf)]
@@ -1261,6 +1263,10 @@ This part mainly discuss 6D object pose estimation methods, which can be categor
 
 ##### a. Match 2D feature points
 
+***2021:***
+
+**[arXiv]** P2-Net: Joint Description and Detection of Local Features for Pixel and Point Matching, [[paper](https://arxiv.org/pdf/2103.01055.pdf)]
+
 ***2020:***
 
 **[arXiv]** A Method to Generate High Precision Mesh Model and RGB-D Datasetfor 6D Pose Estimation Task, [[paper](https://arxiv.org/pdf/2011.08771.pdf)]
@@ -1366,6 +1372,8 @@ This part mainly discuss 6D object pose estimation methods, which can be categor
 This kind of methods can be regarded as regression-based methods.
 
 ***2021:***
+
+**[ICRA]** CloudAAE: Learning 6D Object Pose Regression with On-line Data Synthesis on Point Clouds, [[paper](https://arxiv.org/pdf/2103.01977.pdf)]
 
 **[arXiv]** GDR-Net: Geometry-Guided Direct Regression Network for Monocular 6D Object Pose Estimation, [[paper](https://arxiv.org/pdf/2102.12145.pdf)]
 
@@ -1605,15 +1613,17 @@ The partial-view point cloud will be aligned to the complete shape in order to o
 
 ***Survey papers:***
 
-***2020:***
+**[2021-arXiv]**  A comprehensive survey on point cloud registration, [[paper](https://arxiv.org/pdf/2103.02690.pdf)]
 
-**[arXiv]** When Deep Learning Meets Data Alignment: A Review on Deep Registration Networks (DRNs), [[paper](https://arxiv.org/pdf/2003.03167.pdf)]
+**[2020-arXiv]** When Deep Learning Meets Data Alignment: A Review on Deep Registration Networks (DRNs), [[paper](https://arxiv.org/pdf/2003.03167.pdf)]
 
-**[arXiv]** Least Squares Optimization: from Theory to Practice, [[paper](https://arxiv.org/pdf/2002.11051.pdf)]
+**[2020-arXiv]** Least Squares Optimization: from Theory to Practice, [[paper](https://arxiv.org/pdf/2002.11051.pdf)]
 
 
 
 ***2021:***
+
+**[arXiv]** OMNet: Learning Overlapping Mask for Partial-to-Partial Point Cloud Registration, [[paper](https://arxiv.org/pdf/2103.00937.pdf)]
 
 **[arXiv]** UnsupervisedR&R: Unsupervised Point Cloud Registration via Differentiable Rendering, [[paper](https://arxiv.org/pdf/2102.11870.pdf)]
 
@@ -1744,6 +1754,10 @@ The partial-view point cloud will be aligned to the complete shape in order to o
 </br>
 
 #### 2.2.3 Voting-based Methods
+
+***2021:***
+
+**[CVPR]** FFB6D: A Full Flow Bidirectional Fusion Network for 6D Pose Estimation, [[paper](https://arxiv.org/pdf/2103.02242.pdf)]
 
 ***2020:***
 
@@ -2086,6 +2100,10 @@ In this situation, there exist no 3D models, an the 6-DoF grasps are estimated f
 
 #### 4.1.1 Methods of Estimating Candidate Grasps
 
+***2021:***
+
+**[ICRA]** RGB Matters: Learning 7-DoF Grasp Poses on Monocular RGBD Images, [[paper](https://arxiv.org/pdf/2103.02184.pdf)]
+
 ***2020:***
 
 **[arXiv]** Reactive Human-to-Robot Handovers of Arbitrary Objects, [[paper](https://arxiv.org/pdf/2011.08961.pdf)]
@@ -2345,6 +2363,10 @@ In this situation, there exist no 3D models, an the 6-DoF grasps are estimated f
 ##### b. Shape Completion or Generation
 
 ***2021:***
+
+**[CVPR]** Style-based Point Generator with Adversarial Rendering for Point Cloud Completion, [[paper](https://arxiv.org/pdf/2103.02535.pdf)]
+
+**[CVPR]** Diffusion Probabilistic Models for 3D Point Cloud Generation, [[paper](https://arxiv.org/pdf/2103.01458.pdf)]
 
 **[arXiv]** DeepMetaHandles: Learning Deformation Meta-Handles of 3D Meshes with Biharmonic Coordinates, [[paper](https://arxiv.org/pdf/2102.09105.pdf)]
 
