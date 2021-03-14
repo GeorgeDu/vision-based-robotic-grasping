@@ -568,6 +568,12 @@ This kind of methods can be divided into three kinds: RGB-based methods, point c
 
 ***2021:***
 
+**[arXiv]** Offboard 3D Object Detection from Point Cloud Sequences, [[paper](https://arxiv.org/pdf/2103.05073.pdf)]
+
+**[CVPR]** ST3D: Self-training for Unsupervised Domain Adaptation on 3D Object Detection, [[paper](https://arxiv.org/pdf/2103.05346.pdf)] [[code](https://github.com/CVMI-Lab/ST3D)]
+
+**[CAD]** labelCloud: A Lightweight Domain-Independent Labeling Tool for 3D Object Detection in Point Clouds, [[paper](https://arxiv.org/pdf/2103.04970.pdf)] [[code](https://github.com/ch-sa/labelCloud)]
+
 **[arXiv]** DPointNet: A Density-Oriented PointNet for 3D Object Detection in Point Clouds, [[paper](https://arxiv.org/pdf/2102.03747.pdf)]
 
 **[arXiv]** PV-RCNN++: Point-Voxel Feature Set Abstraction With Local Vector Representation for 3D Object Detection, [[paper](https://arxiv.org/pdf/2102.00463.pdf)]
@@ -1015,6 +1021,8 @@ This kind of methods utilize both rgb images and depth images/point clouds. Ther
 ##### a. Two-stage methods
 
 ***2021:***
+
+**[arXiv]** Deep Learning based 3D Segmentation: A Survey, [[paper](https://arxiv.org/pdf/2103.05423.pdf)]
 
 **[arXiv]** EfficientLPS: Efficient LiDAR Panoptic Segmentation, [[paper](https://arxiv.org/pdf/2102.08009.pdf)]
 
@@ -1623,6 +1631,14 @@ The partial-view point cloud will be aligned to the complete shape in order to o
 
 ***2021:***
 
+**[CVPR]** Robust Point Cloud Registration Framework Based on Deep Graph Matching, [[paper](https://arxiv.org/pdf/2103.04256.pdf)] [[code](https://github.com/fukexue/RGM)]
+
+**[CVPR]** PointDSC: Robust Point Cloud Registration using Deep Spatial Consistency, [[paper](https://arxiv.org/pdf/2103.05465.pdf)] [[code](https://github.com/XuyangBai/PointDSC/)]
+
+**[arXiv]** IRON: Invariant-based Highly Robust Point Cloud Registration, [[paper](https://arxiv.org/pdf/2103.04357.pdf)]
+
+**[arXiv]**  Dynamical Pose Estimation, [[paper](https://arxiv.org/pdf/2103.06182.pdf)]
+
 **[arXiv]** OMNet: Learning Overlapping Mask for Partial-to-Partial Point Cloud Registration, [[paper](https://arxiv.org/pdf/2103.00937.pdf)]
 
 **[arXiv]** UnsupervisedR&R: Unsupervised Point Cloud Registration via Differentiable Rendering, [[paper](https://arxiv.org/pdf/2102.11870.pdf)]
@@ -1783,7 +1799,13 @@ The partial-view point cloud will be aligned to the complete shape in order to o
 
 #### 2.3.1 Category-level 6D pose estimation
 
+***2021:***
+
+**[arXiv]** DualPoseNet: Category-level 6D Object Pose and Size Estimation using Dual Pose Network with Refined Learning of Pose Consistency, [[paper](https://arxiv.org/pdf/2103.06526.pdf)]
+
 ***2020:***
+
+**[IROS]** Fully Convolutional Geometric Features for Category-level Object Alignment, [[paper](https://arxiv.org/pdf/2103.04494.pdf)]
 
 **[arXiv]** Category Level Object Pose Estimation via Neural Analysis-by-Synthesis, [[paper](https://arxiv.org/pdf/2008.08145.pdf)]
 
@@ -1816,6 +1838,8 @@ The partial-view point cloud will be aligned to the complete shape in order to o
 #### 2.3.2 3D shape reconstruction from images
 
 ***2021:***
+
+**[arXiv]** Holistic 3D Scene Understanding from a Single Image with Implicit Representation, [[paper](https://arxiv.org/pdf/2103.06422.pdf)]
 
 **[arXiv]** Adjoint Rigid Transform Network: Self-supervised Alignment of 3D Shapes, [[paper](https://arxiv.org/pdf/2102.01161.pdf)]
 
