@@ -568,6 +568,8 @@ This kind of methods can be divided into three kinds: RGB-based methods, point c
 
 ***2021:***
 
+**[arXiv]** SparsePoint: Fully End-to-End Sparse 3D Object Detector, [[paper](https://arxiv.org/pdf/2103.10042.pdf)]
+
 **[arXiv]** Offboard 3D Object Detection from Point Cloud Sequences, [[paper](https://arxiv.org/pdf/2103.05073.pdf)]
 
 **[CVPR]** ST3D: Self-training for Unsupervised Domain Adaptation on 3D Object Detection, [[paper](https://arxiv.org/pdf/2103.05346.pdf)] [[code](https://github.com/CVMI-Lab/ST3D)]
@@ -1631,6 +1633,10 @@ The partial-view point cloud will be aligned to the complete shape in order to o
 
 ***2021:***
 
+**[arXiv]** Generating Annotated Training Data for 6D Object Pose Estimation in Operational Environments with Minimal User Interaction, [[paper](https://arxiv.org/pdf/2103.09696.pdf)]
+
+**[arXiv]** R-PointHop: A Green, Accurate and Unsupervised Point Cloud Registration Method, [[paper](https://arxiv.org/pdf/2103.08129.pdf)] [[code](https://github.com/pranavkdm/R-PointHop)]
+
 **[CVPR]** Robust Point Cloud Registration Framework Based on Deep Graph Matching, [[paper](https://arxiv.org/pdf/2103.04256.pdf)] [[code](https://github.com/fukexue/RGM)]
 
 **[CVPR]** PointDSC: Robust Point Cloud Registration using Deep Spatial Consistency, [[paper](https://arxiv.org/pdf/2103.05465.pdf)] [[code](https://github.com/XuyangBai/PointDSC/)]
@@ -1801,6 +1807,8 @@ The partial-view point cloud will be aligned to the complete shape in order to o
 
 ***2021:***
 
+**[CVPR]** FS-Net: Fast Shape-based Network for Category-Level 6D Object Pose Estimation with Decoupled Rotation Mechanism, [[paper](https://arxiv.org/pdf/2103.07054.pdf)]
+
 **[arXiv]** DualPoseNet: Category-level 6D Object Pose and Size Estimation using Dual Pose Network with Refined Learning of Pose Consistency, [[paper](https://arxiv.org/pdf/2103.06526.pdf)]
 
 ***2020:***
@@ -1838,6 +1846,8 @@ The partial-view point cloud will be aligned to the complete shape in order to o
 #### 2.3.2 3D shape reconstruction from images
 
 ***2021:***
+
+**[CVPR]** Monte Carlo Scene Search for 3D Scene Understanding, [[paper](https://arxiv.org/pdf/2103.07969.pdf)]
 
 **[arXiv]** Holistic 3D Scene Understanding from a Single Image with Implicit Representation, [[paper](https://arxiv.org/pdf/2103.06422.pdf)]
 
@@ -2387,6 +2397,10 @@ In this situation, there exist no 3D models, an the 6-DoF grasps are estimated f
 ##### b. Shape Completion or Generation
 
 ***2021:***
+
+**[arXiv]** 3D Semantic Scene Completion: a Survey, [[paper](https://arxiv.org/pdf/2103.07466.pdf)]
+
+**[CVPR]** Cycle4Completion: Unpaired Point Cloud Completion using Cycle Transformation with Missing Region Coding, [[paper](https://arxiv.org/pdf/2103.07838.pdf)]
 
 **[CVPR]** Style-based Point Generator with Adversarial Rendering for Point Cloud Completion, [[paper](https://arxiv.org/pdf/2103.02535.pdf)]
 
