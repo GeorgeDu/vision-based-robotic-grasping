@@ -6,17 +6,17 @@ Just to help you __download__ the papers you want much more easily.
 
 1. __OPTIONALLY__ run `python Md2pdf.py` to change some Arxiv links into what can be downloaded directly.
  
-E.g. [README.md](README.md) could be changed into [README_pdf.md](README_pdf.md).
+    E.g. [README.md](README.md) could be changed into [README_pdf.md](README_pdf.md).
 
-Though we cannot see the differences here, it's clear in the source code of these MD files.
+    Though we cannot see the differences here, it's clear in the source code of these MD files.
 
 2. run `python download.py` to start your download process.
 
 __NOTE:__
 
-Before you use, it's better read and change the codes.
+    Before you use, it's better read and change the codes.
 
-Specifically, you should change the value of `name` in  `download.py`(line 18) into the md file you split, e.g. '6DoF Grasp.md'.
+    Specifically, you should change the value of `name` in  `download.py`(line 18) into the md file you split, e.g. '6DoF Grasp.md'.
 
 The following is [the original version](https://github.com/GeorgeDu/vision-based-robotic-grasping) of Dr. Du.
 
