@@ -4,7 +4,11 @@ Just to help you __download__ the papers you want much more easily.
 
 ## How to use?
 
-1. run `python Md2pdf.py` to change some Arxiv links into that can be downloaded directly, e.g. this [README.md](README.md) could be changed into [README_pdf.md](README_pdf.md)
+1. __OPTIONALLY__ run `python Md2pdf.py` to change some Arxiv links into what can be downloaded directly.
+ 
+E.g. [README.md](README.md) could be changed into [README_pdf.md](README_pdf.md).
+
+Though we cannot see the differences here, it's clear in the source code of these MD files.
 
 2. run `python download.py` to start your download process.
 
