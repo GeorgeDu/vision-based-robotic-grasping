@@ -1562,6 +1562,8 @@ The partial-view point cloud will be aligned to the complete shape in order to o
 
 ***2021:***
 
+**[ICRA]** 3D3L: Deep Learned 3D Keypoint Detection and Description for LiDARs, [[paper](https://arxiv.org/pdf/2103.13808.pdf)]
+
 **[arXiv]** PRIN/SPRIN: On Extracting Point-wise Rotation Invariant Features, [[paper](https://arxiv.org/pdf/2102.12093.pdf)]
 
 ***2020:***
@@ -1645,6 +1647,8 @@ The partial-view point cloud will be aligned to the complete shape in order to o
 
 
 ***2021:***
+
+**[arXiv]** 3DMNDT: 3D multi-view registration method based on the normal distributions transform, [[paper](https://arxiv.org/pdf/2103.11084.pdf)]
 
 **[arXiv]** Generating Annotated Training Data for 6D Object Pose Estimation in Operational Environments with Minimal User Interaction, [[paper](https://arxiv.org/pdf/2103.09696.pdf)]
 
@@ -2842,6 +2846,10 @@ In this situation, there exist no 3D models, an the 6-DoF grasps are estimated f
 </br>
 
 ### 5.3 3D Part Segmentation
+
+***2021：***
+
+**[arXiv]** Learning Fine-Grained Segmentation of 3D Shapes without Part Labels, [[paper](https://arxiv.org/pdf/2103.13030.pdf)]
 
 ***2020:***
 
