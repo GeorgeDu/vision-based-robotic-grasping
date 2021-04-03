@@ -581,6 +581,8 @@ This kind of methods can be divided into three kinds: RGB-based methods, point c
 
 ***2021:***
 
+**[arXiv]** Group-Free 3D Object Detection via Transformers, [[paper](https://arxiv.org/pdf/2104.00678.pdf)] [[code](https://github.com/zeliu98/Group-Free-3D)]
+
 **[arXiv]** SparsePoint: Fully End-to-End Sparse 3D Object Detector, [[paper](https://arxiv.org/pdf/2103.10042.pdf)]
 
 **[arXiv]** Offboard 3D Object Detection from Point Cloud Sequences, [[paper](https://arxiv.org/pdf/2103.05073.pdf)]
@@ -1396,6 +1398,8 @@ This kind of methods can be regarded as regression-based methods.
 
 ***2021:***
 
+**[arXiv]** RePOSE: Real-Time Iterative Rendering and Refinement for 6D Object Pose Estimation, [[paper](https://arxiv.org/pdf/2104.00633.pdf)]
+
 **[ICRA]** CloudAAE: Learning 6D Object Pose Regression with On-line Data Synthesis on Point Clouds, [[paper](https://arxiv.org/pdf/2103.01977.pdf)]
 
 **[arXiv]** GDR-Net: Geometry-Guided Direct Regression Network for Monocular 6D Object Pose Estimation, [[paper](https://arxiv.org/pdf/2102.12145.pdf)]
@@ -1647,6 +1651,12 @@ The partial-view point cloud will be aligned to the complete shape in order to o
 
 
 ***2021:***
+
+**[arXiv]** LSG-CPD: Coherent Point Drift with Local Surface Geometry for Point Cloud Registration, [[paper](https://arxiv.org/pdf/2103.15039.pdf)]
+
+**[arXiv]** 3D Point Cloud Registration with Multi-Scale Architecture and Self-supervised Fine-tuning, [[paper](https://arxiv.org/pdf/2103.14533.pdf)] [[code](https://github.com/humanpose1/MS-SVConv)]
+
+**[CVPR]** ReAgent: Point Cloud Registration using Imitation and Reinforcement Learning, [[paper](https://arxiv.org/pdf/2103.15231.pdf)] [[code](https://www.github.com/dornik/reagent)]
 
 **[arXiv]** 3DMNDT: 3D multi-view registration method based on the normal distributions transform, [[paper](https://arxiv.org/pdf/2103.11084.pdf)]
 
@@ -2152,6 +2162,8 @@ In this situation, there exist no 3D models, an the 6-DoF grasps are estimated f
 #### 4.1.1 Methods of Estimating Candidate Grasps
 
 ***2021:***
+
+**[ICRA]** Contact-GraspNet: Efficient 6-DoF Grasp Generation in Cluttered Scenes, [[paper](https://arxiv.org/pdf/2103.14127.pdf)] [[code](https://research.nvidia.com/publication/2021-03_Contact-GraspNet%3A--Efficient)]
 
 **[ICRA]** RGB Matters: Learning 7-DoF Grasp Poses on Monocular RGBD Images, [[paper](https://arxiv.org/pdf/2103.02184.pdf)]
 
@@ -2822,6 +2834,10 @@ In this situation, there exist no 3D models, an the 6-DoF grasps are estimated f
 </br>
 
 ### 5.2 Grasp Affordance
+
+***2021:***
+
+**[CVPR]** 3D AffordanceNet: A Benchmark for Visual Object Affordance Understanding, [[paper](https://arxiv.org/pdf/2103.16397.pdf)]
 
 ***2020:***
 
