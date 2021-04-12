@@ -581,6 +581,8 @@ This kind of methods can be divided into three kinds: RGB-based methods, point c
 
 ***2021:***
 
+**[CVPR]** HVPR: Hybrid Voxel-Point Representation for Single-stage 3D Object Detection, [[paper](https://arxiv.org/pdf/2104.00902.pdf)] [[code](https://cvlab.yonsei.ac.kr/projects/HVPR/)]
+
 **[arXiv]** Group-Free 3D Object Detection via Transformers, [[paper](https://arxiv.org/pdf/2104.00678.pdf)] [[code](https://github.com/zeliu98/Group-Free-3D)]
 
 **[arXiv]** SparsePoint: Fully End-to-End Sparse 3D Object Detector, [[paper](https://arxiv.org/pdf/2103.10042.pdf)]
@@ -1336,6 +1338,10 @@ This part mainly discuss 6D object pose estimation methods, which can be categor
 
 ##### b. Regress 2D projections
 
+***2021:***
+
+**[CVPR]** DSC-PoseNet: Learning 6DoF Object Pose Estimation via Dual-scale Consistency, [[paper](https://arxiv.org/pdf/2104.03658.pdf)]
+
 ***2020:***
 
 **[arXiv]** Objectron: A Large Scale Dataset of Object-Centric Videos in the Wild with Pose Annotations, [[paper](https://arxiv.org/pdf/2012.09988.pdf)] [[project](https://github.com/google-research-datasets/Objectron)]
@@ -1519,6 +1525,10 @@ This kind of methods can be regarded as regression-based methods.
 </br>
 
 #### 2.1.3 Voting-based Methods
+
+***2021:***
+
+**[arXiv]** Vote from the Center: 6 DoF Pose Estimation in RGB-D Images by Radial Keypoint Voting, [[paper](https://arxiv.org/pdf/2104.02527.pdf)]
 
 ***2020:***
 
@@ -1833,6 +1843,8 @@ The partial-view point cloud will be aligned to the complete shape in order to o
 #### 2.3.1 Category-level 6D pose estimation
 
 ***2021:***
+
+**[arXiv]** CAPTRA: CAtegory-level Pose Tracking for Rigid and Articulated Objects from Point Clouds, [[paper](https://arxiv.org/pdf/2104.03437.pdf)]
 
 **[CVPR]** FS-Net: Fast Shape-based Network for Category-Level 6D Object Pose Estimation with Decoupled Rotation Mechanism, [[paper](https://arxiv.org/pdf/2103.07054.pdf)]
 
