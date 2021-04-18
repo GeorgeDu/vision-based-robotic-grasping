@@ -473,6 +473,10 @@ This kind of methods can be divided into three kinds: RGB-based methods, point c
 
 ***2021:***
 
+**[arXiv]** Geometry-aware data augmentation for monocular 3D object detection, [[paper](https://arxiv.org/pdf/2104.05858.pdf)]
+
+**[arXiv]** OCM3D: Object-Centric Monocular 3D Object Detection, [[paper](https://arxiv.org/pdf/2104.06041.pdf)]
+
 **[arXiv]** Gated3D: Monocular 3D Object Detection From Temporal Illumination Cues, [[paper](https://arxiv.org/pdf/2102.03602.pdf)]
 
 **[arXiv]** PLUME: Efficient 3D Object Detection from Stereo Images, [[paper](https://arxiv.org/pdf/2101.06594.pdf)]
@@ -580,6 +584,8 @@ This kind of methods can be divided into three kinds: RGB-based methods, point c
 
 
 ***2021:***
+
+**[CVPR]** Back-tracing Representative Points for Voting-based 3D Object Detection in Point Clouds, [[paper](https://arxiv.org/pdf/2104.06114.pdf)]
 
 **[CVPR]** HVPR: Hybrid Voxel-Point Representation for Single-stage 3D Object Detection, [[paper](https://arxiv.org/pdf/2104.00902.pdf)] [[code](https://cvlab.yonsei.ac.kr/projects/HVPR/)]
 
@@ -771,6 +777,8 @@ This kind of methods utilize both rgb images and depth images/point clouds. Ther
 
 ***2021:***
 
+**[arXiv]** VR3Dense: Voxel Representation Learning for 3D Object Detection and Monocular Dense Depth Reconstruction, [[paper](https://arxiv.org/pdf/2104.05932.pdf)]
+
 **[arXiv]** Self-Attention Based Context-Aware 3D Object Detection, [[paper](https://arxiv.org/pdf/2101.02672.pdf)]
 
 ***2020:***
@@ -862,6 +870,10 @@ This kind of methods utilize both rgb images and depth images/point clouds. Ther
 **[arXiv]** Image Segmentation Using Deep Learning: A Survey, [[paper](https://arxiv.org/pdf/2001.05566.pdf)]
 
 ##### b. Two-stage methods
+
+***2021:***
+
+**[CVPR]** Look Closer to Segment Better: Boundary Patch Refinement for Instance Segmentation, [[paper](https://arxiv.org/pdf/2104.05239.pdf)]
 
 ***2020:***
 
@@ -1404,6 +1416,8 @@ This kind of methods can be regarded as regression-based methods.
 
 ***2021:***
 
+**[ICRA]** Investigations on Output Parameterizations of Neural Networks for Single Shot 6D Object Pose Estimation, [[paper](https://arxiv.org/pdf/2104.07528.pdf)]
+
 **[arXiv]** RePOSE: Real-Time Iterative Rendering and Refinement for 6D Object Pose Estimation, [[paper](https://arxiv.org/pdf/2104.00633.pdf)]
 
 **[ICRA]** CloudAAE: Learning 6D Object Pose Regression with On-line Data Synthesis on Point Clouds, [[paper](https://arxiv.org/pdf/2103.01977.pdf)]
@@ -1662,6 +1676,8 @@ The partial-view point cloud will be aligned to the complete shape in order to o
 
 ***2021:***
 
+**[CVPR]** RPSRNet: End-to-End Trainable Rigid Point Set Registration Network using Barnes-Hut 2<sup>D</sup>-Tree Representation, [[paper](https://arxiv.org/pdf/2104.05328.pdf)]
+
 **[arXiv]** LSG-CPD: Coherent Point Drift with Local Surface Geometry for Point Cloud Registration, [[paper](https://arxiv.org/pdf/2103.15039.pdf)]
 
 **[arXiv]** 3D Point Cloud Registration with Multi-Scale Architecture and Self-supervised Fine-tuning, [[paper](https://arxiv.org/pdf/2103.14533.pdf)] [[code](https://github.com/humanpose1/MS-SVConv)]
@@ -1885,6 +1901,8 @@ The partial-view point cloud will be aligned to the complete shape in order to o
 #### 2.3.2 3D shape reconstruction from images
 
 ***2021:***
+
+**[CVPR]** Shape and Material Capture at Home, [[paper](https://arxiv.org/pdf/2104.06397.pdf)]
 
 **[CVPR]** Monte Carlo Scene Search for 3D Scene Understanding, [[paper](https://arxiv.org/pdf/2103.07969.pdf)]
 
@@ -2439,6 +2457,8 @@ In this situation, there exist no 3D models, an the 6-DoF grasps are estimated f
 
 ***2021:***
 
+**[CVPR]** View-Guided Point Cloud Completion, [[paper](https://arxiv.org/pdf/2104.05666.pdf)]
+
 **[arXiv]** 3D Semantic Scene Completion: a Survey, [[paper](https://arxiv.org/pdf/2103.07466.pdf)]
 
 **[CVPR]** Cycle4Completion: Unpaired Point Cloud Completion using Cycle Transformation with Missing Region Coding, [[paper](https://arxiv.org/pdf/2103.07838.pdf)]
@@ -2570,6 +2590,10 @@ In this situation, there exist no 3D models, an the 6-DoF grasps are estimated f
 ##### c. Depth Completion and Estimation
 
 ***2021:***
+
+**[arXiv]** Single Image Depth Estimation: An Overview, [[paper](https://arxiv.org/pdf/2104.06456.pdf)]
+
+**[CVPR]** Depth Completion using Plane-Residual Representation, [[paper](https://arxiv.org/pdf/2104.07350.pdf)]
 
 **[arXiv]** LEAD: LiDAR Extender for Autonomous Driving, [[paper](https://arxiv.org/pdf/2102.07989.pdf)]
 
@@ -2906,6 +2930,10 @@ In this situation, there exist no 3D models, an the 6-DoF grasps are estimated f
 </br>
 
 ## 6. Dexterous Grippers
+
+***2021:***
+
+**[CVPR]** ContactOpt: Optimizing Contact to Improve Grasps, [[paper](https://arxiv.org/pdf/2104.07267.pdf)]
 
 ***2020:***
 
