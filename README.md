@@ -311,6 +311,10 @@ Detailed paper lists can refer to [hoya012](https://github.com/hoya012/deep_lear
 
 ***Survey papers:***
 
+***2021:***
+
+**[TPAMI]** Weakly Supervised Object Localization and Detection: A Survey, [[paper](https://arxiv.org/pdf/2104.07918.pdf)]
+
 ***2020:***
 
 **[arXiv]** Iterative Bounding Box Annotation for Object Detection, [[paper](https://arxiv.org/pdf/2007.00961.pdf)]
@@ -473,6 +477,12 @@ This kind of methods can be divided into three kinds: RGB-based methods, point c
 
 ***2021:***
 
+**[TPAMI]** MonoGRNet: A General Framework for Monocular 3D Object Detection, [[paper](https://arxiv.org/pdf/2104.08797.pdf)]
+
+**[arXiv]** Exploring 2D Data Augmentation for 3D Monocular Object Detection, [[paper](https://arxiv.org/pdf/2104.10786.pdf)]
+
+**[arXiv]** FCOS3D: Fully Convolutional One-Stage Monocular 3D Object Detection, [[paper](https://arxiv.org/pdf/2104.10956.pdf)]
+
 **[arXiv]** Geometry-aware data augmentation for monocular 3D object detection, [[paper](https://arxiv.org/pdf/2104.05858.pdf)]
 
 **[arXiv]** OCM3D: Object-Centric Monocular 3D Object Detection, [[paper](https://arxiv.org/pdf/2104.06041.pdf)]
@@ -584,6 +594,10 @@ This kind of methods can be divided into three kinds: RGB-based methods, point c
 
 
 ***2021:***
+
+**[CVPR]** SE-SSD: Self-Ensembling Single-Stage Object Detector From Point Cloud, [[paper](https://arxiv.org/pdf/2104.09804.pdf)]
+
+**[arXiv]** Boundary-Aware 3D Object Detection from Point Clouds, [[paper](https://arxiv.org/pdf/2104.10330.pdf)]
 
 **[CVPR]** Back-tracing Representative Points for Voting-based 3D Object Detection in Point Clouds, [[paper](https://arxiv.org/pdf/2104.06114.pdf)]
 
@@ -1676,6 +1690,10 @@ The partial-view point cloud will be aligned to the complete shape in order to o
 
 ***2021:***
 
+**[arXiv]** An Improved Discriminative Optimization for 3D Rigid Point Cloud Registration, [[paper](https://arxiv.org/pdf/2104.08854.pdf)]
+
+**[arXiv]** RANSIC: Fast and Highly Robust Estimation for Rotation Search and Point Cloud Registration using Invariant Compatibility, [[paper](https://arxiv.org/pdf/2104.09133.pdf)]
+
 **[CVPR]** RPSRNet: End-to-End Trainable Rigid Point Set Registration Network using Barnes-Hut 2<sup>D</sup>-Tree Representation, [[paper](https://arxiv.org/pdf/2104.05328.pdf)]
 
 **[arXiv]** LSG-CPD: Coherent Point Drift with Local Surface Geometry for Point Cloud Registration, [[paper](https://arxiv.org/pdf/2103.15039.pdf)]
@@ -1901,6 +1919,10 @@ The partial-view point cloud will be aligned to the complete shape in order to o
 #### 2.3.2 3D shape reconstruction from images
 
 ***2021:***
+
+**[arXiv]** Optimal Pose and Shape Estimation for Category-level 3D Object Perception, [[paper](https://arxiv.org/pdf/2104.08383.pdf)]
+
+**[arXiv]** FiG-NeRF: Figure-Ground Neural Radiance Fields for 3D Object Category Modelling, [[paper](https://arxiv.org/pdf/2104.08418.pdf)]
 
 **[CVPR]** Shape and Material Capture at Home, [[paper](https://arxiv.org/pdf/2104.06397.pdf)]
 
@@ -2456,6 +2478,10 @@ In this situation, there exist no 3D models, an the 6-DoF grasps are estimated f
 ##### b. Shape Completion or Generation
 
 ***2021:***
+
+**[arXiv]** ASFM-Net: Asymmetrical Siamese Feature Matching Network for Point Completion, [[paper](https://arxiv.org/pdf/2104.09587.pdf)]
+
+**[CVPR]** Variational Relational Point Completion Network, [[paper](https://arxiv.org/pdf/2104.10154.pdf)]
 
 **[CVPR]** View-Guided Point Cloud Completion, [[paper](https://arxiv.org/pdf/2104.05666.pdf)]
 
