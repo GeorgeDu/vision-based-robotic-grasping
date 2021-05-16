@@ -231,6 +231,10 @@ __NOTE:__
 
 **[CGF]** 2019-A survey of simple geometric primitives detection methods for captured 3d data, [[paper](https://onlinelibrary.wiley.com/doi/full/10.1111/cgf.13451)]
 
+***2021：***
+
+**[CVPR]** Cuboids Revisited: Learning Robust 3D Shape Fitting to Single RGB Images, [[paper](https://arxiv.org/pdf/2105.02047.pdf)]
+
 ***2020:***
 
 **[ECCV]** CAD-Deform: Deformable Fitting of CAD Models to 3D Scans, [[paper](https://arxiv.org/pdf/2007.11965.pdf)] [[code](https://github.com/alexeybokhovkin/CAD-Deform)]
@@ -594,6 +598,8 @@ This kind of methods can be divided into three kinds: RGB-based methods, point c
 
 
 ***2021:***
+
+**[CVPR]** 3D Spatial Recognition without Spatially Labeled 3D, [[paper](https://arxiv.org/pdf/2105.06461.pdf)]
 
 **[CVPR]** SE-SSD: Self-Ensembling Single-Stage Object Detector From Point Cloud, [[paper](https://arxiv.org/pdf/2104.09804.pdf)]
 
@@ -1604,6 +1610,8 @@ The partial-view point cloud will be aligned to the complete shape in order to o
 
 ***2021:***
 
+**[arXiv]** Pairwise Point Cloud Registration Using Graph Matching and Rotation-invariant Features, [[paper](https://arxiv.org/pdf/2105.02151.pdf)]
+
 **[ICRA]** 3D3L: Deep Learned 3D Keypoint Detection and Description for LiDARs, [[paper](https://arxiv.org/pdf/2103.13808.pdf)]
 
 **[arXiv]** PRIN/SPRIN: On Extracting Point-wise Rotation Invariant Features, [[paper](https://arxiv.org/pdf/2102.12093.pdf)]
@@ -1689,6 +1697,10 @@ The partial-view point cloud will be aligned to the complete shape in order to o
 
 
 ***2021:***
+
+**[arXiv]** Deep Weighted Consensus (DWC) Dense correspondence confidence maps for 3D shape registration, [[paper](https://arxiv.org/pdf/2105.02714.pdf)]
+
+**[arXiv]** ICOS: Efficient and Highly Robust Point Cloud Registration with Correspondences, [[paper](https://arxiv.org/pdf/2104.14763.pdf)]
 
 **[arXiv]** An Improved Discriminative Optimization for 3D Rigid Point Cloud Registration, [[paper](https://arxiv.org/pdf/2104.08854.pdf)]
 
@@ -1877,6 +1889,8 @@ The partial-view point cloud will be aligned to the complete shape in order to o
 #### 2.3.1 Category-level 6D pose estimation
 
 ***2021:***
+
+**[arXiv]** Towards Real-World Category-level Articulation Pose Estimation, [[paper](https://arxiv.org/pdf/2105.03260.pdf)]
 
 **[arXiv]** CAPTRA: CAtegory-level Pose Tracking for Rigid and Articulated Objects from Point Clouds, [[paper](https://arxiv.org/pdf/2104.03437.pdf)]
 
