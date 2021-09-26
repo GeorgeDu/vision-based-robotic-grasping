@@ -19,7 +19,7 @@ Thank [Hatim Wen](https://github.com/hatimwen) for modifying all links to the pd
 __NOTE:__
 
     Before you use, it's better read and change the codes.
-    
+
     Specifically, you should change the value of `name` in  `download.py`(line 18) into the md file you split, e.g. '6DoF Grasp.md'.
 
 
@@ -2912,6 +2912,9 @@ In this situation, there exist no 3D models, an the 6-DoF grasps are estimated f
 ### 5.2 Grasp Affordance
 
 ***2021:***
+
+**[arXiv]** CaTGrasp: Learning Category-Level Task-Relevant
+Grasping in Clutter from Simulation, [[paper](https://arxiv.org/pdf/2109.09163.pdf)] [[code](https://sites.google.com/view/catgrasp)]
 
 **[CVPR]** 3D AffordanceNet: A Benchmark for Visual Object Affordance Understanding, [[paper](https://arxiv.org/pdf/2103.16397.pdf)]
 
