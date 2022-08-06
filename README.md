@@ -2214,6 +2214,8 @@ The partial-view point cloud will be aligned to the complete shape in order to o
 
 [Jacquard Dataset](https://jacquard.liris.cnrs.fr), Jacquard: A Large Scale Dataset for Robotic Grasp Detection” in *IEEE International Conference on Intelligent Robots and Systems*, 2018, [[paper](https://arxiv.org/pdf/1803.11469.pdf)]
 
+[rc dataset](https://roboception.com/en/innovation-en/#datasets), "Automatic generation of realistic training data for learning parallel-jaw grasping from synthetic stereo images" in 20th International Conference on Advanced Robotics (ICAR), 2021, [[paper](https://elib.dlr.de/147156/1/Final%20version%20V2opt.pdf)]
+
 </br>
 
 ## 4. 6DoF Grasp
