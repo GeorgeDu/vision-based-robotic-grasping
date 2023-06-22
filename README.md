@@ -1888,6 +1888,10 @@ The partial-view point cloud will be aligned to the complete shape in order to o
 
 #### 2.3.1 Category-level 6D pose estimation
 
+***2023:***
+
+**[CVPR]** BundleSDF: Neural 6-DoF Tracking and 3D Reconstruction of Unknown Objects, [[paper](https://arxiv.org/abs/2303.14158)] [[code](https://github.com/NVlabs/BundleSDF)]
+
 ***2021:***
 
 **[IROS]** BundleTrack: 6D Pose Tracking for Novel Objects without Instance or Category-Level 3D Models, [[paper](https://arxiv.org/abs/2108.00516)] [[code](https://github.com/wenbowen123/BundleTrack)]
