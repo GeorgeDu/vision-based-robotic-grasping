@@ -1474,7 +1474,7 @@ This kind of methods can be regarded as regression-based methods.
 
 **[IROS]** Robust Ego and Object 6-DoF Motion Estimation and Tracking, [[paper](https://arxiv.org/pdf/2007.13993.pdf)]
 
-**[IROS]** se(3)-TrackNet: Data-driven 6D Pose Tracking by Calibrating Image Residuals in Synthetic Domains, [[paper](https://arxiv.org/pdf/2007.13866.pdf)]
+**[IROS]** se(3)-TrackNet: Data-driven 6D Pose Tracking by Calibrating Image Residuals in Synthetic Domains, [[paper](https://arxiv.org/pdf/2007.13866.pdf)] [[code](https://github.com/wenbowen123/iros20-6d-pose-tracking)]
 
 **[arXiv]** Learning Orientation Distributions for Object Pose Estimation, [[paper](https://arxiv.org/pdf/2007.01418.pdf)]
 
@@ -1888,7 +1888,13 @@ The partial-view point cloud will be aligned to the complete shape in order to o
 
 #### 2.3.1 Category-level 6D pose estimation
 
+***2023:***
+
+**[CVPR]** BundleSDF: Neural 6-DoF Tracking and 3D Reconstruction of Unknown Objects, [[paper](https://arxiv.org/abs/2303.14158)] [[code](https://github.com/NVlabs/BundleSDF)]
+
 ***2021:***
+
+**[IROS]** BundleTrack: 6D Pose Tracking for Novel Objects without Instance or Category-Level 3D Models, [[paper](https://arxiv.org/abs/2108.00516)] [[code](https://github.com/wenbowen123/BundleTrack)]
 
 **[arXiv]** Towards Real-World Category-level Articulation Pose Estimation, [[paper](https://arxiv.org/pdf/2105.03260.pdf)]
 
@@ -2911,10 +2917,11 @@ In this situation, there exist no 3D models, an the 6-DoF grasps are estimated f
 
 ### 5.2 Grasp Affordance
 
-***2021:***
+***2022:***
 
-**[arXiv]** CaTGrasp: Learning Category-Level Task-Relevant
-Grasping in Clutter from Simulation, [[paper](https://arxiv.org/pdf/2109.09163.pdf)] [[code](https://sites.google.com/view/catgrasp)]
+**[ICRA]** CaTGrasp: Learning Category-Level Task-Relevant Grasping in Clutter from Simulation, [[paper](https://arxiv.org/pdf/2109.09163.pdf)] [[code](https://sites.google.com/view/catgrasp)]
+
+***2021:***
 
 **[CVPR]** 3D AffordanceNet: A Benchmark for Visual Object Affordance Understanding, [[paper](https://arxiv.org/pdf/2103.16397.pdf)]
 
